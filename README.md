@@ -14,10 +14,10 @@ How to complete the language file:
 The language files follow the following structure, where the screen name is followed by a name / value pair.
 The name value pair holds the variable name followed by the translated text, for example:
 
-"Title": {
-	"var1": "translated text",
-	"var2": "translated text",
-	…
+"Title": {<br />
+	"var1": "translated text",<br />
+	"var2": "translated text",<br />
+	…<br />
 	
       
 In the above example, the member translating the file would change the value “translated text” to the appropriate word or phrase in the translated language.  once a file is completed, we would just plug it into the site thus serving the content in that language. 
