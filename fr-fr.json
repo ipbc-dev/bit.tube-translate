@@ -29,7 +29,7 @@
             "repeatPassword": "Répéter le mot de passer",
             "passwordMissmatch": "Mot de passe non correspondant",
             "saveButton": "Se souvenir de moi",
-            "checkMail": "La récupération du mot de passe vient de commencer, merci de consultez vos e-mails",
+            "checkMail": "La récupération du mot de passe vient de commencer, merci de consulter vos e-mails",
             "errorRecovery": "Erreur dans la récupération du mot de passe",
             "passwordUpdate": "Mot de passe mis à jour",
             "errorUpdate": "Erreur dans la mise à jour"
