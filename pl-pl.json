@@ -37,8 +37,8 @@
     },
 
     "Register": {
-        "title": "Zarejestrować Się",
-        "loginClasic": "Lub Zarejestrać się klasycznie",
+        "title": "Zarejestrować się",
+        "loginClasic": "Lub zarejestrować się klasycznie",
         "userName": "Nazwa Użytkownika...",
         "usernameRequired": "Nazwa Użytkownika jest wymagana",
         "usernameMinimun": "Minimalnie 4 znaki",
