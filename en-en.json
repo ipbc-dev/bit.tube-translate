@@ -168,7 +168,7 @@
             "deleteVideoPlaylistTitleConfirm": "Deleted!",
             "deleteVideoPlaylistTextConfirm": "Your file has been deleted",
             "VideoPlaylistButton": "Ok",
-            "noPlaylists": "There are not playlists"
+            "noPlaylists": "There are no playlists"
 
         },
 
@@ -191,14 +191,14 @@
             "title": "My Live streams",
             "views": "Views",
             "edit": "Edit",
-            "noLiveStreams": "There are not live streams"
+            "noLiveStreams": "There are no live streams"
         },
 
         "Subscriptions": {
             "title": "Subscriptions",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
-            "noSubscriptions": "There are not subscriptions"
+            "noSubscriptions": "There are no subscriptions"
         },
 
         "Security": {
@@ -273,7 +273,7 @@
         "videoUpdateDataNotify": "Your data has been successfully updated..",
         "videoUpdateDataNotifyError": "Error updating",
         "videoUpdateDataRequired":"Please fill in the required fields",
-        "videoRemoved": "Your video has removed",
+        "videoRemoved": "Your video has been removed",
         "videoError": "Error",
         "videoRemovedConfirmTitle": "Are you sure?",
         "videoRemovedConfirmText": "This will unpublish",
@@ -449,7 +449,7 @@
         "fee": "Fee must not be below 0.01 IPBC",
         "Anonymity": "Anonymity must be between 0 - 10",
         "transactionFaild": "Transaction failed...",
-        "noTransactions": "There are not transactions"
+        "noTransactions": "There are no transactions"
     },
 
     "Profitcalc": {
@@ -574,7 +574,7 @@
         "Publications": {
            "publication": "Publication",
             "publications": "Publications",
-            "noPublications": "There are not publications",
+            "noPublications": "There are no publications",
             "live": "Live",
             "addPlaylists": "Add to playlist",
             "newPlaylist": "New playlist",
@@ -585,7 +585,7 @@
         "LiveTv": {
             "livestream": "Livestream",
             "livestreams": "Livestreams",
-            "noStream": "There are not livestreams",
+            "noStream": "There are no livestreams",
             "live": "Live",
             "addPlaylists": "Add to playlist",
             "newPlaylist": "New playlist",
@@ -595,14 +595,14 @@
 
         "Subscriptions": {
             "subscriptions": "Subscriptions",
-            "nosubscriptions": "There are not subscriptions",
+            "nosubscriptions": "There are no subscriptions",
             "subscribe": "Subscribe",
             "unSubscribe": "Unsubscribe"
         },
 
         "MyPlaylists": {
             "myPlaylists": "MyPlaylists",
-            "noPlaylists": "There are not playlists",
+            "noPlaylists": "There are no playlists",
             "description": "Description",
             "noDescription": "No descrition provided",
             "addMyPlaylist": "Add to my Playlists",
