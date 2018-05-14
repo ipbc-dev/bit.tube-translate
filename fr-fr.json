@@ -9,16 +9,16 @@
         "usernameInvalid": "Nom d'utilisateur invalide",
         "usernamewrong": "Nom d'utilisateur ou mot de passe incorrect",
         "password": "Mot de passe",
-        "passwordRequired": " Mot de passe requis",
+        "passwordRequired": " Mot-de-passe requis",
         "remember": "Se souvenir de moi",
         "loginButton": "Se connecter",
-        "forgotPassword": "Mot de passe oublié",
+        "forgotPassword": "Mot-de-passe oublié",
         "resendActivateMail": "Renvoyer un mail d'activation",
         "error": "Erreur",
         "emailVerfied": "E-mail verifié",
 
         "RecoveryPwd": {
-            "title": "Changement de mot de passe",
+            "title": "Changement de mot-de-passe",
             "email":"Nom d'utilisateur / Adresse e-mail",
             "recover": "Récupérer",
             "backLogin": "Retourner à la page de connexion",
@@ -31,8 +31,8 @@
             "saveButton": "Se souvenir de moi",
             "checkMail": "La récupération du mot-de-passe vient de commencer, merci de consulter vos e-mails",
             "errorRecovery": "Erreur dans la récupération du mot-de-passe",
-            "passwordUpdate": "Mot-de-passe mis à jour",
-            "errorUpdate": "Erreur dans la mise à jour"
+            "passwordUpdate": "Mot-de-passe mise-à-jour",
+            "errorUpdate": "Erreur dans la mise-à-jour"
 
 
         }
@@ -51,10 +51,10 @@
         "email": "Email...",
         "emailRequired": "Email requis",
         "emailIncalid": "Email invalide",
-        "password": "Mot de passe...",
+        "password": "Mot-de-passe...",
         "passwordRequired": "Mot-de-passe requis",
         "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro, 1 caractère spécial (@$!%*#?&)",
-        "passwprdRepeatInput": "Répétez le mot de passe...",
+        "passwprdRepeatInput": "Répétez le mot-de-passe...",
         "passwordRepeat": " La répétition du mot-de-passe est requise",
         "passwordMissmatch": "Mot-de-passe non correspondant",
         "iAgree": "J'accepte",
@@ -83,7 +83,7 @@
             "saveWalletButton": "Sauvegarder mon portefeuille",
             "walletNotifySave": "Portefeuille sauvergardé.",
             "walletNotifyEmpty":"Le champ est vide.",
-            "socialTitle": "Social",
+            "socialTitle": "Communauté",
             "editProfileTitle": "Modifier le profil",
             "editProfileSubTitle": "Compléter votre profil",
             "editProfileUsername": "Nom d'utilisateur",
@@ -110,7 +110,7 @@
             "editProfileSomethingAboutYou": "Dites nous quelque-chose à propos de vous!",
             "editProfileUpdateButton": "Mettre à jour le profil",
             "editProfileCancelButton": "Fermez",
-            "editProfileNotifySave": "Profil mis à jour",
+            "editProfileNotifySave": "Profil mis-à-jour",
             "editProfileNotifyError": "Erreur dans la mise à jour",
             "editProfileChangePasswordTitle": "Changer le mot de passe",
             "editProfileOldPassword": "Ancien mot-de-passe",
@@ -257,7 +257,7 @@
     "MediaEdit": {
         "title": "Editer media",
         "snapshotButon": "Prendre un instantané",
-        "thumbnailButton": "Sélectionnez une miniature",
+        "thumbnailButton": "Sélectionner une miniature",
         "videoTitle": "Titre de la vidéo",
         "videoTitleError": "Le titre doit inclure au moins 5 caractères",
         "videoTag": "Veuillez ajouter des mots clés",
@@ -464,13 +464,13 @@
         "tradeOgreOpen": "Ouvrir TradeOgre",
         "openCrex24": "Ouvrir Crex24",
         "altex": "Altex",
-        "noAPI" : "Pas de API",
+        "noAPI" : "Pas d'API",
         "crex24": "Crex24",
 
         "tpl_title" : "Calculateur de profits",
         "tpl_market" : "Market",
         "tpl_avg_hashrate" : "Moyenne Hashrate (H/s)",
-        "tpl_avg_watchtime" : "Moyenne Durée de visionnage ( en heures )",
+        "tpl_avg_watchtime" : "Durée moyenne de visionnage ( en heures )",
         "tpl_dayly_views" : "Vues quotidiennes",
         "tpl_profit" : "Profit",
         "tpl_per_day" : "par jour",
@@ -484,15 +484,15 @@
     },
 
     "Upload": {
-        "titleUpload": "Télécharger des fichiers multimédias",
+        "titleUpload": "Télécharger des fichiers multimédia",
         "p1Upload": "Vous pouvez télécharger vos fichiers multimédia. Les fichiers vidéo résultants seront disponibles dans plusieurs formats de qualité",
         "p2Upload": "Remarque: qualité minimale 360P",
         "uploadNowButton": "Télécharger maintenant",
         "titleUploadYoutube": "Connectez-vous à YouTube",
-        "p1UploadYoutube": "Ici vous pouvez vous connecter directement à votre compte Youtube et migrer votre chaîne Youtube vers Bit.Tube en un clic ",
+        "p1UploadYoutube": "Ici vous pouvez vous connecter directement à votre compte YouTube et migrer votre chaîne YouTube vers Bit.Tube en un clic ",
         "conectYoutubeButton": "Se connecter maintenant",
         "snapshotButon": "Prendre un instantané",
-        "thumbnailButton": "Sélectionnez une miniature",
+        "thumbnailButton": "Sélectionner une miniature",
         "videoTitle": "Titre de la vidéo",
         "videoTitleError": "Le titre a besoin d'au moins 5 caractères",
         "videoTag": "S'il vous plaît ajouter des mots-clefs",
@@ -503,7 +503,7 @@
         "videoAgeVerification": "Verification de l'age",
         "videoUnpublishButton": "Annuler la publication",
         "videoUploadButton": "Télécharger",
-        "videoDiscardButton": "Jeter",
+        "videoDiscardButton": "Abandonner",
         "videoPublishButton": "Publier",
         "videoInputRequired": "champs requis",
         "videoPlaceholderEditor": "Entrez la description ici...",
@@ -519,12 +519,12 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Annuler",
         "videoAlreadyPublishedTitle": "Vidéo déjà publiée !",
-        "videoAlreadyPublishedText": "Vous pouvez modifier les information de cette vidéo dans publications dans votre profil",
+        "videoAlreadyPublishedText": "Vous pouvez modifier les informatiosn de cette vidéo dans depuis la section publications dans votre profil",
         "videoSuccessfuly": "Votre vidéo a été téléchargée avec succès, ça peut prendre un certain temps avant qu'elle ne soit vérifiée et publiée",
-        "authorizationYoutube": "En cas d'absence d'autorisation, veuillez cliquer sur AUTORISER et suivre les étapes pour donner l'autorisation afin de vérifier votre contenu youtube",
+        "authorizationYoutube": "En cas d'absence d'autorisation, veuillez cliquer sur AUTORISER et suivre les étapes pour donner l'autorisation afin de vérifier votre contenu YouTube",
         "authorizeButton": "Autoriser",
         "UnauthorizeButton": "Non autorisé",
-        "yourVideo":"Vos vidéos youtube",
+        "yourVideo":"Vos vidéos YouTube",
         "selectAll": "Tout sélectionner",
         "startImport": "Lancer l'importation",
         "videos": "Videos",
@@ -534,15 +534,15 @@
         "leavePageTitle": "Etes-vous sûr de vouloir quitter cette page ?",
         "leavePageText": "Tous vos téléchargements en attente seront perdus",
         "leavePageButton": "Oui, quitter !",
-        "needsRemove": "L'autorisation Youtube doit être supprimée",
+        "needsRemove": "L'autorisation YouTube doit être supprimée",
         "finalizeProcess": "Pour finaliser cette procédure, aller dans les préferences de votre compte Google afin de complètement supprimer l'accès",
         "bitubeIntegrate": "Intégration BitTube avec YouTube",
         "areYouSure": "Êtes-vous sûr ?",
-        "removeAccess": "Cela supprimera votre accès à votre compte Youtube!",
+        "removeAccess": "Cela supprimera votre accès à votre compte YouTube!",
         "proceed": "Oui, continuez !",
         "gotit": "J'ai compris !",
         "allYourSelected": "Toutes vos vidéos sélectionnées ont été téléchargées avec succès. Elles peuvent prendre un certain temps avant qu'elles ne soient vérifiées et publiées",
-        "textEditorPlaceholder": "Entrez un texte ici..."
+        "textEditorPlaceholder": "Entrer un texte ici..."
     },
 
     "User": {
@@ -611,7 +611,7 @@
             "addPlaylistButton": "Ajouter",
             "addPLaylistTitle":"Ajouter à...",
             "playlistEmpty": "Cette Bibliothéque est vide",
-            "yourCopyPlaylist": "Vous avez votre propre copie de cette Bibliothèques !",
+            "yourCopyPlaylist": "Vous avez votre propre copie de cette Bibliothèque !",
             "somenthingWrong": "Quelque chose s'est mal passé pendant la procédure !"
         }
 
@@ -619,7 +619,7 @@
 
     "LiveChat": {
         "title": "Live Chat",
-        "saySomething": "Dis quelquechose",
+        "saySomething": "Dis quelque chose",
         "chatUser": "Utilisateurs du Chat",
         "block": "Bloquer",
         "unblock": "Débloquer",
