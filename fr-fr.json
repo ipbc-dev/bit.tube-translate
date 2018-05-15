@@ -24,15 +24,15 @@
             "backLogin": "Retourner à la page de connexion",
             "changePwd": "Changer de mot-de-passe",
             "password": "Mot-de-passe",
-            "passwordRequired": "Mot de passe requis",
+            "passwordRequired": "Mot-de-passe requis",
             "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro, 1 caractère spécial (@$!%*#?&)",
             "repeatPassword": "Répéter le mot de passer",
             "passwordMissmatch": "Mot-de-passe non correspondant",
             "saveButton": "Se souvenir de moi",
             "checkMail": "La récupération du mot-de-passe vient de commencer, merci de consulter vos e-mails",
             "errorRecovery": "Erreur dans la récupération du mot-de-passe",
-            "passwordUpdate": "Mot-de-passe mise-à-jour",
-            "errorUpdate": "Erreur dans la mise-à-jour"
+            "passwordUpdate": "Mot-de-passe mise à jour",
+            "errorUpdate": "Erreur dans la mise à jour"
 
 
         }
@@ -205,7 +205,7 @@
             "title": "Securité",
             "authentication": "Validation à 2 étapes",
             "qr": "Scanner le QR Code",
-            "code": "code",
+            "code": "Code",
             "twoFactorEnabled": "Activée",
             "twoFactorDisabled": "Désactivée",
             "activateAuthenticationTitle": "NOTICE",
@@ -229,7 +229,7 @@
 
     "Trending": {
         "views": "Vus",
-        "likes": "J'aimes",
+        "likes": "J'aime",
         "addPlaylists": "Ajouter à la playlist",
         "newPlaylist": "Nouvelle playlist",
         "addPlaylistButton": "Ajouter",
@@ -239,7 +239,7 @@
 
     "Newcomers": {
         "views": "Vus",
-        "likes": "J'aimes",
+        "likes": "J'aime",
         "addPlaylists": "Ajouter à la playlist",
         "newPlaylist": "Nouvelle playlist",
         "addPlaylistButton": "Ajouter",
@@ -250,7 +250,7 @@
     "Live": {
         "views": "Vus",
         "likes": "J'aime",
-        "noLivestreams": "Pas de livestreams disponibles",
+        "noLivestreams": "Pas de diffusion en direct disponibles",
         "live":"Go"
     },
 
@@ -264,12 +264,12 @@
         "videoPrivacy": "Confidentialité",
         "videoCategory": "Catégorie",
         "videoLanguage": "Langue",
-        "videoAgeVerification": "Verification de l'age",
+        "videoAgeVerification": "Vérification de l'âge",
         "videoUnpublishButton": "Annuler la publication",
         "videoCancelButton": "Annuler",
         "videoUpdateButton": "Mettre à jour",
         "videoPublishButton": "Publier",
-        "videoInputRequired": "champs requis",
+        "videoInputRequired": "Champs requis",
         "videoUpdateDataNotify": "Vos données ont été mises à jour avec succès...",
         "videoUpdateDataNotifyError": "Erreur d'actualisation",
         "videoUpdateDataRequired":"Veuillez remplir les champs requis",
@@ -277,9 +277,9 @@
         "videoError": "Erreur",
         "videoRemovedConfirmTitle": "Êtes-vous sûr?",
         "videoRemovedConfirmText": "Cela annulera la publication",
-        "videoRemovedConfirmButton": "Oui, Annuler la publication!",
+        "videoRemovedConfirmButton": "Oui, annuler la publication!",
         "videoRemovedConfirmCancel": "Annuler",
-        "videoPlaceholderEditor": "Entrez la description ici..."
+        "videoPlaceholderEditor": "Entrer la description ici..."
     },
 
     "Broadcast": {
@@ -292,8 +292,8 @@
             "noKey": "Aucune clé trouvée",
             "generateNewKey": "Générer une nouvelle clé",
             "yourStreamingUrl": "Votre URL de diffusion",
-            "yourStreamingKey": "Votre Clé de diffusion",
-            "copyClipBoard": "Copier la Clé de diffusion dans le presse-papiers",
+            "yourStreamingKey": "Votre clé de diffusion",
+            "copyClipBoard": "Copier la clé de diffusion dans le presse-papiers",
             "cancel": "Annuler",
             "save": "Sauvegarder",
             "upload": "Télécharger",
@@ -303,8 +303,8 @@
             "requiredLoginTitle": "Connexion requise!",
             "requiredLoginText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
             "saved": "Vos données ont été enregistrées avec succès",
-            "savedKey":"Vos Clés personnelles a été mises à jour",
-            "copiedClipBoard": "Votre Clé de diffusion a été copiée dans le presse-papiers",
+            "savedKey":"Votre clé privée a été mise á jour.",
+            "copiedClipBoard": "Votre clé de diffusion a été copiée dans le presse-papiers",
             "copiedClipBoardTransmission": "Votre URL de transmission a été copiée dans le presse-papiers",
             "confirmDeleteTitle": "Supprimer la clé de diffusion",
             "confirmDeleteText": "¿ Êtes-vous sûr de vouloir supprimer cette clé de diffusion ?",
@@ -319,9 +319,9 @@
             "5pTutorial": "Remplissez le champ Titre de la diffusion pour la nommer. Utilisez l'éditeur de texte pour écrire une description.",
             "6pTutorial": "C'est tout ce que vous avez à faire pour configurer votre streaming, il suffit de cliquer sur ENREGISTRER.",
             "7pTutorial": "Commencez la diffusion en direct avec le logiciel de streaming OBS.",
-            "8pTutorial": "Ouvrez le logiciel OBS, allez dans Paramètres, choisissez l'onglet STREAM, changez Stream Type en custom streaming server. Collez l'URL de votre diffusion dans le champ URL, collez votre clé de diffusion en continu dans le champ Clé de diffusion. Appliquez les paramètres. Cliquez sur OK pour fermer la fenêtre.",
+            "8pTutorial": "Ouvrez le logiciel OBS, allez dans Paramètres, choisissez l'onglet STREAM, changez Stream Type en custom streaming server. Collez l'URL de votre diffusion dans le champ URL, collez votre clé de diffusion dans le champ clé de diffusion. Appliquez les paramètres. Cliquez sur OK pour fermer la fenêtre.",
             "9pTutorial": "Vous obtiendrez l'URL et la clé du streaming à partir des paramètres bit.tube, cliquez sur le symbole d'agrafe pour copier les deux..",
-            "10pTutorial": "Configurez diffusion OBS avec des scènes, des sources et tous vos paramètres préférés et commencez la diffusion en directe.",
+            "10pTutorial": "Configurez diffusion OBS avec des scènes, des sources et tous vos paramètres préférés et commencez la diffusion en direct.",
             "11pTutorial": "C'est tout ce que vous avez à faire pour commencer le streaming avec OBS sur Bit.Tube.",
             "titleStream,": "Streaming software",
             "1pTutorialStream": "Vous pouvez diffuser votre contenu sur la plate-forme Bit.Tube en utilisant un logicielle de diffusion spéciale. Le contenu est associé à une adresse de portefeuille TUBE identifiant le détenteur des droits d'auteur. Nous avons fait quelques suggestions ci-dessous, choisissez-en une et commencez!",
@@ -355,11 +355,11 @@
         "editVideo": "Modifier vidéo",
         "subscribe": "Souscrire",
         "unSubscribe": "Se désabonner",
-        "showMore": "Montre plus",
-        "showLess": "Montre moins",
+        "showMore": "Montrer plus",
+        "showLess": "Montrer moins",
         "commentButton": "Commentaire",
         "cancel": "Annuler",
-        "comments": "commentaires",
+        "comments": "Commentaires",
         "madePost": "à répondu.",
         "justNow": "Juste maintenant",
         "madeSubPost": "a fait un sous-poste.",
@@ -368,7 +368,7 @@
         "edit": "Modifier",
         "autoPlay": "Autoplay",
         "next": "Suivant",
-        "related": "lecture automatique",
+        "related": "Cecture automatique",
         "live": "En Direct",
         "playlist": "Bibliothèque",
         "loadMore": "Charger plus",
@@ -565,7 +565,7 @@
             "member": "Membre depuis",
             "description": "Description",
             "location": "Localisation",
-            "readMore": "Lire la suite",
+            "readMore": "Lire plus",
             "readLess": "Lire moins",
             "social": "Communauté"
             
@@ -585,8 +585,8 @@
         "LiveTv": {
             "livestream": "Diffusion en direct",
             "livestreams": "Diffusions en direct",
-            "noStream": "There are not livestreams",
-            "live": "Live",
+            "noStream": "Il n'y a pas de diffusion en direct",
+            "live": "En direct",
             "addPlaylists": "Ajouter à la Bibliothèque",
             "newPlaylist": "Nouvelle Bibliothèque",
             "addPlaylistButton": "Ajouter",
@@ -641,7 +641,7 @@
 
     "Result": {
         "noResult": "Aucun résultat trouvé",
-        "live": "En directe",
+        "live": "En direct",
         "addMyPlaylist": "Ajouter à ma Bibliothèque",
         "addPlaylists": "Ajouter à la Bibliothèque",
         "newPlaylist": "Nouvelle Bibliothèque",
