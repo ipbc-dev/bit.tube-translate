@@ -509,7 +509,7 @@
         "videoPlaceholderEditor": "Entrer la description ici...",
         "uploadMaintenance": "Nous sommes désolés, notre service de téléchargement est en maintenance, veuillez réessayer plus tard",
         "uploadMaintenanceButton": "J'ai compris !",
-        "uploadWaiting": "WAITING UPLOAD SLOT",
+        "uploadWaiting": "En attente d'un slot de téléchargement",
         "noWallet": "Vous n'avez pas de portefeuille",
         "noWalletText": "De cette façon, vous ne recevrez aucun revenu pour cette vidéo",
         "cancelWalletButton" : "Ok, téléchargez-le quand même",
