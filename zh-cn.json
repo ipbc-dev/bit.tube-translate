@@ -16,6 +16,7 @@
         "resendActivateMail": "重新发送激活邮件",
         "error": "错误",
         "emailVerfied": "电子邮箱已验证",
+        "resend": "Resend",
 
         "RecoveryPwd": {
             "title": "重置密码",
@@ -308,7 +309,8 @@
             "copiedClipBoardTransmission": "您的播放地址已经复制到剪切板",
             "confirmDeleteTitle": "删除直播Key",
             "confirmDeleteText": "您确定删除直播Key么 ?",
-            "confirmDeleteButton": "删除"
+            "confirmDeleteButton": "删除",
+            "textEditorPlaceholder": "Enter a text here..."
         },
         "Tutorial": {
             "title": "快速教程",
@@ -323,7 +325,7 @@
             "9pTutorial": "您将会从bit.tube设置中得到一个直播URL和直播Key，点击复制到剪切板符号复制。",
             "10pTutorial": "设置您的流媒体直播软件场景,开始您的直播。",
             "11pTutorial": "这就是您在Bit.Tube开始直播所需要做的事情。",
-            "titleStream,": "直播软件",
+            "titleStream": "直播软件",
             "1pTutorialStream": "您可以在Bit.Tub平台开始您的直播，需要使用一些特定的软件。直播内容与版权所有者的IPBC钱包地址关联，我们在此给您提供如下软件选择，您只要选择其中之一开始您的直播旅程！",
             "2pTutorialStream": "开源在线流媒体直播软件",
             "3pTutorialStream": "开源在线流媒体直播软件就是我们所了解的直播软件，一般用C语言或者C++语言编写，可以进行一系列的转码解码、场景控制等等，提供在线直播服务。",
@@ -404,7 +406,23 @@
         "agree": "我同意",
         "innapropiateVideo": "这个视频内容可能引起部分观众不适，请确认后继续观看。",
         "working": "工作中",
-        "waiting": "等待中"
+        "waiting": "等待中",
+        "tipChannel": "Tip channel",
+        "amount": "Amount",
+        "2faCode": "2FA Code",
+        "tip": "Tip",
+        "close": "Close",
+        "mediaReport": "Media report",
+        "primaryVideo": "Make primary video",
+        "abortError": "User aborted media playback",
+        "networkError": "There is a problem with your internet connection",
+        "decodeError": "This media appears to be corrupted",
+        "srcError": "This media appears to be corrupted",
+        "encryptedError": "This content is premium, please purchase",
+        "offlineStream": "Your desired stream appears be offline",
+        "popOutVideo": "Popout video",
+        "setPrimaryVideo": "Saved primary video",
+        "errorSavePrimaryVideo": "Error"
 
 
 
@@ -449,7 +467,23 @@
         "fee": "费用必须不低于0.01 IPBC",
         "Anonymity": "匿名等级必须介于0 - 10",
         "transactionFaild": "转账失败...",
-        "noTransactions": "没有任何转账信息"
+        "noTransactions": "没有任何转账信息",
+        "unlocked": "Unlocked",
+        "locked" : "Locked",
+        "saveContact": "Save Contact",
+        "closeContact": "Close",
+        "sedWallet": "Send",
+        "contactsWallet": "Contacts",
+        "keyWallet": "Key",
+        "noContactsfound": "No contacts found",
+        "keyHasbeencopied": "Your key has been copied to the clipboard",
+        "copyWalletClipboard": "Copy wallet to clipboard",
+        "addnewContact": "Add New Contact",
+        "mustContactName": "You must enter a contact name!",
+        "invalidIPB": "Invalid BitTube Address!",
+        "contactAdded": "Contact Added...",
+        "contactAddedFail": "Failed to add contact...",
+        "notEnoughBalance": "Not enough wallet balance or still locked."
     },
 
     "Profitcalc": {
@@ -542,7 +576,28 @@
         "proceed": "是的，继续!",
         "gotit": "明白!",
         "allYourSelected": "您的视频上传成功,稍后将在检查发布后呈现",
-        "textEditorPlaceholder": "请输入内容..."
+        "textEditorPlaceholder": "请输入内容...",
+        "invalidFile": "INVALID FILE ERROR",
+        "informationError": "INFORMATION ERROR",
+        "transcodingError": "TRANSCODING ERROR",
+        "syncError": "SYNCRONIZATION ERROR",
+        "pinError": "PIN ERROR",
+        "sshError": "SSH ERROR",
+        "qualityError": "The video quality is too low, it need to be at least 360p",
+        "processing": "PROCESSING ",
+        "waitingSync": "WAITING FOR SYNC",
+        "syncing": "SYNCING ",
+        "waitingPinning": "WAITING FOR PINNING",
+        "pinning": "PINNING ",
+        "done": "DONE",
+        "uploading": "UPLOADING ",
+        "initializing": "INITIALIZING",
+        "waitingQueue": "WAITING IN QUEUE ",
+        "downloading": "DOWNLOADING",
+        "waitingTranscode": "WAITING FOR TRANSCODE",
+        "internalError": "An internal error has occurred, please try again later",
+        "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
+        "job": "Job"     
     },
 
     "User": {
@@ -550,6 +605,7 @@
         "unSubscribe": "取消订阅",
         "myProfile": "我的档案",
         "playlist": "播放列表",
+        "profile": "Profile",
         "publications": "我的发布",
         "live": "我的直播",
         "subscriptions": "订阅",
@@ -748,6 +804,7 @@
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "成人"},
+            {"value": "43", "viewValue": "Animation"},
             {"value": "24", "viewValue": "文化艺术"},
             {"value": "26", "viewValue": "时尚美女"},
             {"value": "37", "viewValue": "汽车"},
@@ -796,7 +853,9 @@
         "mini": "迷你侧边栏",
         "image": "侧边栏图像",
         "night": "夜间模式",
-        "selectImage": "图像"
+        "selectImage": "图像",
+        "sidebarStyle": "sidebar style",
+        "theme": "theme"
 
     },
 	"Sidebar": {
@@ -812,7 +871,11 @@
         "login": "登录",
         "logout": "登出",
         "register": "注册",
-        "search": "搜索"
+        "search": "搜索",
+        "terms": "Terms",
+        "contact": "Contact",
+        "privacyPolicy": "Privacy Policy",
+        "copyrightPolicy": "Copyright Policy"
     },
     "Terms": {
         "termsTitle": "用户条款",
@@ -893,5 +956,31 @@
         "liabilityText4": "公司不履行或延迟其义务的责任，如果这种不履行或拖延是由于超出公司的合理控制（如劳动争议，不可抗力，战争，恐怖行为，恶意破坏，自然灾害）的情况下。申请人或遵守适用法律或官方命令）。该公司尽一切努力将此类事件的影响降到最低，并履行其不受影响的义务。”",
         "termsGoverning": "管辖法律、管辖权、承包公司",
         "GoverningText1": "服务提供商Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. 所有与免费服务有关的索赔均受西班牙法律管辖，不损害在我们提供服务的国家中适用的任何强制性法律，并在其中有惯常居所。我们提供服务的国家的法律和你的习惯居所管理所有与有偿服务有关的索赔。"
+    },
+    "Navbar":{
+        "search": "搜索",
+        "login": "登录",
+        "register": "注册",
+        "logout": "登出",
+        "homeSection": "家",
+        "trendingSection": "趋势",
+        "newcomersSection": "新访客",
+        "liveSection": "Live",
+        "uploadSection": "上传媒体",
+        "broadcastSection": "广播",
+        "walletSection": "我的钱包(Beta)",
+        "profitSection": "收益计算器",
+        "userProfile": "User Profile",
+        "searchResult": "Search results",
+        "play": "Play",
+        "terms": "Terms and Conditions",
+        "filtered": "Filtered by: ",
+        "limitResults": "Limit the results",
+        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+        },
+        "Version":{
+            "versionMissmatchTitle" : "Version outdated",
+            "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+            "versionMissmatchButton" : "OK"
     }
 }

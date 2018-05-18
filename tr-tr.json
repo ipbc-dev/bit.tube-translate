@@ -16,6 +16,7 @@
         "resendActivateMail": "Aktivasyon mailini tekrar gönder",
         "error": "Hata",
         "emailVerfied": "E-mail adresi onaylandı",
+        "resend": "Resend",
 
         "RecoveryPwd": {
             "title": "Şifre Sıfırlama",
@@ -308,7 +309,8 @@
             "copiedClipBoardTransmission": "Akış adresiniz panoya kopyalandı",
             "confirmDeleteTitle": "Yayın anahtarını sil",
             "confirmDeleteText": "Yayın anahtarını silmek istediğinizden emin misiniz ?",
-            "confirmDeleteButton": "SIL"
+            "confirmDeleteButton": "SIL",
+            "textEditorPlaceholder": "Enter a text here..."
         },
         "Tutorial": {
             "title": "Hızlı Eğitim",
@@ -404,7 +406,23 @@
         "agree": "Kabul Ediyorum",
         "innapropiateVideo": "Bu video bazı kullanıcılar için uygunsuz içerikte olabilir, Lütfen devam etmek için onay veriniz",
         "working": "Çalışıyor",
-        "waiting": "Bekliyor"
+        "waiting": "Bekliyor",
+        "tipChannel": "Tip channel",
+        "amount": "Amount",
+        "2faCode": "2FA Code",
+        "tip": "Tip",
+        "close": "Close",
+        "mediaReport": "Media report",
+        "primaryVideo": "Make primary video",
+        "abortError": "User aborted media playback",
+        "networkError": "There is a problem with your internet connection",
+        "decodeError": "This media appears to be corrupted",
+        "srcError": "This media appears to be corrupted",
+        "encryptedError": "This content is premium, please purchase",
+        "offlineStream": "Your desired stream appears be offline",
+        "popOutVideo": "Popout video",
+        "setPrimaryVideo": "Saved primary video",
+        "errorSavePrimaryVideo": "Error"
 
 
 
@@ -449,7 +467,23 @@
         "fee": "Komisyon 0.01 BITTUBE miktarından az olamaz",
         "Anonymity": "Anonimlik seviyesi 0 ile 10 arasında olmalıdır",
         "transactionFaild": "Aktarım yapılamadı...",
-        "noTransactions": "Aktarım mevcut değil"
+        "noTransactions": "Aktarım mevcut değil",
+        "unlocked": "Unlocked",
+                "locked" : "Locked",
+                "saveContact": "Save Contact",
+                "closeContact": "Close",
+                "sedWallet": "Send",
+                "contactsWallet": "Contacts",
+                "keyWallet": "Key",
+                "noContactsfound": "No contacts found",
+                "keyHasbeencopied": "Your key has been copied to the clipboard",
+                "copyWalletClipboard": "Copy wallet to clipboard",
+                "addnewContact": "Add New Contact",
+                "mustContactName": "You must enter a contact name!",
+                "invalidIPB": "Invalid BitTube Address!",
+                "contactAdded": "Contact Added...",
+                "contactAddedFail": "Failed to add contact...",
+                "notEnoughBalance": "Not enough wallet balance or still locked."
     },
 
     "Profitcalc": {
@@ -542,7 +576,28 @@
         "proceed": "Evet, devam et!",
         "gotit": "Anladım!",
         "allYourSelected": "Seçilmiş olan tüm videolarınız yüklendi, bunların kontrol edilip onaylanması bir miktar zaman alabilir",
-        "textEditorPlaceholder": "Buraya yazın..."
+        "textEditorPlaceholder": "Buraya yazın...",
+        "invalidFile": "INVALID FILE ERROR",
+        "informationError": "INFORMATION ERROR",
+        "transcodingError": "TRANSCODING ERROR",
+        "syncError": "SYNCRONIZATION ERROR",
+        "pinError": "PIN ERROR",
+        "sshError": "SSH ERROR",
+        "qualityError": "The video quality is too low, it need to be at least 360p",
+        "processing": "PROCESSING ",
+        "waitingSync": "WAITING FOR SYNC",
+        "syncing": "SYNCING ",
+        "waitingPinning": "WAITING FOR PINNING",
+        "pinning": "PINNING ",
+        "done": "DONE",
+        "uploading": "UPLOADING ",
+        "initializing": "INITIALIZING",
+        "waitingQueue": "WAITING IN QUEUE ",
+        "downloading": "DOWNLOADING",
+        "waitingTranscode": "WAITING FOR TRANSCODE",
+        "internalError": "An internal error has occurred, please try again later",
+        "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
+        "job": "Job"     
     },
 
     "User": {
@@ -550,6 +605,7 @@
         "unSubscribe": "Abonelik kaldır",
         "myProfile": "Profilim",
         "playlist": "Listelerim",
+        "profile": "Profile",
         "publications": "Yayınlarım",
         "live": "Canlı Yayınlarım",
         "subscriptions": "Abonelikler",
@@ -748,6 +804,7 @@
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Yetişkin"},
+            {"value": "43", "viewValue": "Animation"},
             {"value": "24", "viewValue": "Sanat ve Kültür"},
             {"value": "26", "viewValue": "Güzellik ve Moda"},
             {"value": "37", "viewValue": "Arabalar"},
@@ -796,7 +853,9 @@
         "mini": "Sidebar Mini",
         "image": "Sidebar Resmi",
         "night": "Gece Görünümü",
-        "selectImage": "Resimler"
+        "selectImage": "Resimler",
+        "sidebarStyle": "sidebar style",
+        "theme": "theme"
 
     },
 	"Sidebar": {
@@ -812,7 +871,11 @@
         "login": "Giriş",
         "logout": "Çıkış",
         "register": "Kayıt",
-        "search": "Ara"
+        "search": "Ara",
+        "terms": "Terms",
+        "contact": "Contact",
+        "privacyPolicy": "Privacy Policy",
+        "copyrightPolicy": "Copyright Policy"
     },
     "Terms": {
         "termsTitle": "Şartlar ve Koşullar",
@@ -892,7 +955,33 @@
         "liabilityText3": "Ne şirket ne de indirekt acentalar/ yasal temsilcileri, kar kayıpları gibi finansal kayoplara sebep olabilecek dolaysız hasarlardan sorumlu değildir.",
         "liabilityText4": " Şirket, kendi kontrolü dışında oluşabilecek koşullardan( grev, zorunlayıcı sebepler,savaş, terörist olayları, kötü niyetle verilen zarar,kazalar veya kanuni yada resmi emirlerden doğabilecek olaylar) doğabilecek olan gecikme , performans düşüklüğü gibi durumlardan dolayı sorumluluk yada yükümlülük taşımaz. Şirket bu tip olaylarda etkilenmeyen yükümlülüklerini karşılayabilmek ve etkiyi minimize etmek için çaba harcar .",
         "termsGoverning": "Yasal Kanun, Mahkemeler, Sözleşme Şirketi",
-        "GoverningText1": "Tüm hizmetler için sözleşme yapılan şirket şudur : Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, İspanya. İlgili tüm ücretsiz hizmetlerle ilgili iddialarınız ispanyol kanunları ile hükme varılır, yaşadığınız bölgede yada bu hizmetleri sunduğumuz ülkedeki uygulamadaki kanunlara sakınca içermez. Size hizmet sunduğumuz ülkedeki tüm kanunlar ücretli hizmetler ile ilgilidir.",
+        "GoverningText1": "Tüm hizmetler için sözleşme yapılan şirket şudur : Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, İspanya. İlgili tüm ücretsiz hizmetlerle ilgili iddialarınız ispanyol kanunları ile hükme varılır, yaşadığınız bölgede yada bu hizmetleri sunduğumuz ülkedeki uygulamadaki kanunlara sakınca içermez. Size hizmet sunduğumuz ülkedeki tüm kanunlar ücretli hizmetler ile ilgilidir."
 
-    }
+    },
+    "Navbar":{
+        "search": "Search",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "homeSection": "Home",
+        "trendingSection": "Trending",
+        "newcomersSection": "Newcomers",
+        "liveSection": "Live",
+        "uploadSection": "Upload Media",
+        "broadcastSection": "Broadcast",
+        "walletSection": "My Wallet (Beta)",
+        "profitSection": "Profit Calculator",
+        "userProfile": "User Profile",
+        "searchResult": "Search results",
+        "play": "Play",
+        "terms": "Terms and Conditions",
+        "filtered": "Filtered by: ",
+        "limitResults": "Limit the results",
+        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+},
+"Version":{
+        "versionMissmatchTitle" : "Version outdated",
+        "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
+}
 }
