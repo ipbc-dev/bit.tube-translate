@@ -1,5 +1,4 @@
 {
-
     "Login": {
         "title": "Login",
         "loginClasic": "Ou restez classique",
@@ -7,8 +6,8 @@
         "usernameRequired": "Nom d'utilisateur requis",
         "usernameMinimun": "Minimum de 4 caractères",
         "usernameInvalid": "Nom d'utilisateur invalide",
-        "usernamewrong": "Nom d'utilisateur ou mot de passe incorrect",
-        "password": "Mot de passe",
+        "usernamewrong": "Nom d'utilisateur ou mot-de-passe incorrect",
+        "password": "Mot-de-passe",
         "passwordRequired": " Mot-de-passe requis",
         "remember": "Se souvenir de moi",
         "loginButton": "Se connecter",
@@ -16,7 +15,7 @@
         "resendActivateMail": "Renvoyer un mail d'activation",
         "error": "Erreur",
         "emailVerfied": "E-mail verifié",
-
+        "resend": "Resend",
         "RecoveryPwd": {
             "title": "Changement de mot-de-passe",
             "email":"Nom d'utilisateur / Adresse e-mail",
@@ -26,7 +25,7 @@
             "password": "Mot-de-passe",
             "passwordRequired": "Mot-de-passe requis",
             "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro, 1 caractère spécial (@$!%*#?&)",
-            "repeatPassword": "Répéter le mot de passer",
+            "repeatPassword": "Répéter le mot-de-passer",
             "passwordMissmatch": "Mot-de-passe non correspondant",
             "saveButton": "Se souvenir de moi",
             "checkMail": "La récupération du mot-de-passe vient de commencer, merci de consulter vos e-mails",
@@ -112,7 +111,7 @@
             "editProfileCancelButton": "Fermez",
             "editProfileNotifySave": "Profil mis-à-jour",
             "editProfileNotifyError": "Erreur dans la mise à jour",
-            "editProfileChangePasswordTitle": "Changer le mot de passe",
+            "editProfileChangePasswordTitle": "Changer le mot-de-passe",
             "editProfileOldPassword": "Ancien mot-de-passe",
             "editProfileNewPassword": "Nouveau mot-de-passe",
             "editProfileNewPasswordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 nombre, 1 caractère spécial (@$!%*#?&)",
@@ -308,14 +307,15 @@
             "copiedClipBoardTransmission": "Votre URL de transmission a été copiée dans le presse-papiers",
             "confirmDeleteTitle": "Supprimer la clé de diffusion",
             "confirmDeleteText": "¿ Êtes-vous sûr de vouloir supprimer cette clé de diffusion ?",
-            "confirmDeleteButton": "Supprimer"
+            "confirmDeleteButton": "Supprimer",
+            "textEditorPlaceholder": "Enter a text here..."
         },
         "Tutorial": {
             "title": "Tutoriel rapide",
             "1pTutorial": "Pour configurer la diffusion en direct, cliquez sur le bouton \"Générer une nouvelle clé\".",
             "2pTutorial": "Vous obtiendrez votre URL et votre clé de diffusion.",
             "3pTutorial": "Ou choisissez l'une de vos clés existantes et cliquez sur le bouton \"Modifier\".",
-            "4pTutorial": "Pour configurer la miniature de votre vidéo, cliquez sur le bouton \"TÉLÉCHARGER\", choisissez un fichier multimédia et cliquez sur ouvrir",
+            "4pTutorial": "Pour configurer la miniature de votre vidéo, cliquez sur le bouton \"TÉLÉCHARGER\", choisissez un fichier multimédia et cliquez sur ouvrir.",
             "5pTutorial": "Remplissez le champ Titre de la diffusion pour la nommer. Utilisez l'éditeur de texte pour écrire une description.",
             "6pTutorial": "C'est tout ce que vous avez à faire pour configurer votre streaming, il suffit de cliquer sur ENREGISTRER.",
             "7pTutorial": "Commencez la diffusion en direct avec le logiciel de streaming OBS.",
@@ -404,7 +404,23 @@
         "agree": "je suis d'accord",
         "innapropiateVideo": "Cette vidéo peut être inappropriée pour certains utilisateurs. Veuillez confirmer pour continuer.",
         "working": "En préparation",
-        "waiting": "En attente"
+        "waiting": "En attente",
+        "tipChannel": "Tip channel",
+        "amount": "Amount",
+        "2faCode": "2FA Code",
+        "tip": "Tip",
+        "close": "Close",
+        "mediaReport": "Media report",
+        "primaryVideo": "Make primary video",
+        "abortError": "User aborted media playback",
+        "networkError": "There is a problem with your internet connection",
+        "decodeError": "This media appears to be corrupted",
+        "srcError": "This media appears to be corrupted",
+        "encryptedError": "This content is premium, please purchase",
+        "offlineStream": "Your desired stream appears be offline",
+        "popOutVideo": "Popout video",
+        "setPrimaryVideo": "Saved primary video",
+        "errorSavePrimaryVideo": "Error"
 
 
 
@@ -449,7 +465,23 @@
         "fee": "Les frais ne doivent pas être inférieurs à 0,01 TUBE",
         "Anonymity": "L'anonymat doit être compris entre 0 et 10",
         "transactionFaild": "La transaction a échoué...",
-        "noTransactions": "Il n'y a pas de transactions"
+        "noTransactions": "Il n'y a pas de transactions",
+        "unlocked": "Unlocked",
+        "locked" : "Locked",
+        "saveContact": "Save Contact",
+        "closeContact": "Close",
+        "sedWallet": "Send",
+        "contactsWallet": "Contacts",
+        "keyWallet": "Key",
+        "noContactsfound": "No contacts found",
+        "keyHasbeencopied": "Your key has been copied to the clipboard",
+        "copyWalletClipboard": "Copy wallet to clipboard",
+        "addnewContact": "Add New Contact",
+        "mustContactName": "You must enter a contact name!",
+        "invalidIPB": "Invalid BitTube Address!",
+        "contactAdded": "Contact Added...",
+        "contactAddedFail": "Failed to add contact...",
+        "notEnoughBalance": "Not enough wallet balance or still locked."
     },
 
     "Profitcalc": {
@@ -476,7 +508,7 @@
         "tpl_per_day" : "par jour",
         "tpl_per_week" : "par semaine",
         "tpl_per_month" : "par mois",
-        "tpl_per_year" : "per an",
+        "tpl_per_year" : "par an",
         "tpl_loading" : "Chargement...",
         "tpl_marketcap" : "MARKET CAP",
         "tpl_vol_usd_24h" : "VOLUME USD (24H)",
@@ -485,11 +517,11 @@
 
     "Upload": {
         "titleUpload": "Télécharger des fichiers multimédia",
-        "p1Upload": "Vous pouvez télécharger vos fichiers multimédia. Les fichiers vidéo résultants seront disponibles dans plusieurs formats de qualité",
+        "p1Upload": "Vous pouvez télécharger vos fichiers multimédia. Les fichiers vidéo résultants seront disponibles dans plusieurs formats de qualité.",
         "p2Upload": "Remarque: qualité minimale 360P",
         "uploadNowButton": "Télécharger maintenant",
         "titleUploadYoutube": "Connectez-vous à YouTube",
-        "p1UploadYoutube": "Ici vous pouvez vous connecter directement à votre compte YouTube et migrer votre chaîne YouTube vers Bit.Tube en un clic ",
+        "p1UploadYoutube": "Ici vous pouvez vous connecter directement à votre compte YouTube et migrer votre chaîne YouTube vers Bit.Tube en un clic.",
         "conectYoutubeButton": "Se connecter maintenant",
         "snapshotButon": "Prendre un instantané",
         "thumbnailButton": "Sélectionner une miniature",
@@ -542,7 +574,28 @@
         "proceed": "Oui, continuer !",
         "gotit": "J'ai compris !",
         "allYourSelected": "Toutes vos vidéos sélectionnées ont été téléchargées avec succès. Elles peuvent prendre un certain temps avant qu'elles ne soient vérifiées et publiées",
-        "textEditorPlaceholder": "Entrer un texte ici..."
+        "textEditorPlaceholder": "Entrer un texte ici...",
+        "invalidFile": "INVALID FILE ERROR",
+                "informationError": "INFORMATION ERROR",
+                "transcodingError": "TRANSCODING ERROR",
+                "syncError": "SYNCRONIZATION ERROR",
+                "pinError": "PIN ERROR",
+                "sshError": "SSH ERROR",
+                "qualityError": "The video quality is too low, it need to be at least 360p",
+                "processing": "PROCESSING ",
+                "waitingSync": "WAITING FOR SYNC",
+                "syncing": "SYNCING ",
+                "waitingPinning": "WAITING FOR PINNING",
+                "pinning": "PINNING ",
+                "done": "DONE",
+                "uploading": "UPLOADING ",
+                "initializing": "INITIALIZING",
+                "waitingQueue": "WAITING IN QUEUE ",
+                "downloading": "DOWNLOADING",
+                "waitingTranscode": "WAITING FOR TRANSCODE",
+                "internalError": "An internal error has occurred, please try again later",
+                "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
+                "job": "Job"     
     },
 
     "User": {
@@ -550,6 +603,7 @@
         "unSubscribe": "Se désabonner",
         "myProfile": "Mon profil",
         "playlist": "Bibliothèque",
+        "profile": "Profile",
         "publications": "Publications",
         "live": "Diffusion en direct",
         "subscriptions": "Abonnements",
@@ -748,6 +802,7 @@
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adulte"},
+            {"value": "43", "viewValue": "Animation"},
             {"value": "24", "viewValue": "Arts et Culture"},
             {"value": "26", "viewValue": "Beauté et Mode"},
             {"value": "37", "viewValue": "Voitures"},
@@ -796,7 +851,9 @@
         "mini": "Mini barre latérale",
         "image": "Image de la barre latérale",
         "night": "Mode Nocturne",
-        "selectImage": "Images"
+        "selectImage": "Images",
+        "sidebarStyle": "sidebar style",
+        "theme": "theme"
 
     },
 	"Sidebar": {
@@ -804,7 +861,7 @@
         "trendingSection": "Tendance",
         "newcomersSection": "Nouveau-venu",
         "liveSection": "En direct",
-        "uploadSection": "Télécharger Mmdia",
+        "uploadSection": "Télécharger Media",
         "broadcastSection": "Diffuser",
         "walletSection": "Mon portefeuille (Beta)",
         "profitSection": "Calculateur de profits",
@@ -812,7 +869,11 @@
         "login": "S'identifier",
         "logout": "Se déconnecter",
         "register": "S'enregistrer",
-        "search": "Rechercher"
+        "search": "Rechercher",
+        "terms": "Terms",
+        "contact": "Contact",
+        "privacyPolicy": "Privacy Policy",
+        "copyrightPolicy": "Copyright Policy"
     },
     "Terms": {
         "termsTitle": "Terms and conditions",
@@ -893,5 +954,31 @@
         "liabilityText4": "The company shall not be responsible or liable for the non-performance or delay of its obligations under these provisions if such non-performance or delay is due to circumstances beyond the company’s reasonable control (e.g. labor disputes, force majeure, war, terrorist acts, malicious damage, accidents or compliance with applicable law or an official order). The company makes every effort to minimize the impact of such events and to meet its unaffected obligations.",
         "termsGoverning": "Governing law, jurisdiction, contracting company",
         "GoverningText1": "For all services, the contracting company is Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. All claims relating to free services shall be governed by the laws of Spain, without prejudice to any mandatory law applicable in the country in which we offer you the services and in which you have your habitual residence. The laws of the country in which we offer you the services and where you have your habitual residence govern all claims in connection to paid services."
-    }
+    },
+    "Navbar":{
+        "search": "Search",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "homeSection": "Home",
+        "trendingSection": "Trending",
+        "newcomersSection": "Newcomers",
+        "liveSection": "Live",
+        "uploadSection": "Upload Media",
+        "broadcastSection": "Broadcast",
+        "walletSection": "My Wallet (Beta)",
+        "profitSection": "Profit Calculator",
+        "userProfile": "User Profile",
+        "searchResult": "Search results",
+        "play": "Play",
+        "terms": "Terms and Conditions",
+        "filtered": "Filtered by: ",
+        "limitResults": "Limit the results",
+        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+},
+"Version":{
+        "versionMissmatchTitle" : "Version outdated",
+        "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
+}
 }

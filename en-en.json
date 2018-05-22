@@ -15,6 +15,7 @@
                 "resendActivateMail": "Resend activation mail",
                 "error": "Error",
                 "emailVerfied": "E-mail verfied",
+                "resend": "Resend",
 
                 "RecoveryPwd": {
                 "title": "Reset password",
@@ -411,7 +412,17 @@
                 "2faCode": "2FA Code",
                 "tip": "Tip",
                 "close": "Close",
-                "mediaReport": "Media report"
+                "mediaReport": "Media report",
+                "primaryVideo": "Make primary video",
+                "abortError": "User aborted media playback",
+                "networkError": "There is a problem with your internet connection",
+                "decodeError": "This media appears to be corrupted",
+                "srcError": "This media appears to be corrupted",
+                "encryptedError": "This content is premium, please purchase",
+                "offlineStream": "Your desired stream appears be offline",
+                "popOutVideo": "Popout video",
+                "setPrimaryVideo": "Saved primary video",
+                "errorSavePrimaryVideo": "Error"
 
 
 
@@ -839,12 +850,15 @@
         },
 
         "FixedPlugin": {
-                "filters": "Sidebar Filters",
-                "background": "Sidebar Background",
+                "filters": "Sidebar Filter Color",
+                "background": "Sidebar Background Color",
                 "mini": "Sidebar Mini",
                 "image": "Sidebar Image",
                 "night": "Night Mode",
-                "selectImage": "Images"
+                "selectImage": "Choose image",
+                "sidebarStyle": "sidebar style",
+                "theme": "theme"
+                
 
         },
         "Sidebar": {
@@ -860,7 +874,12 @@
                 "login": "Login",
                 "logout": "Logout",
                 "register": "Register",
-                "search": "Search"
+                "search": "Search",
+                "terms": "Terms",
+                "contact": "Contact",
+                "privacyPolicy": "Privacy Policy",
+                "copyrightPolicy": "Copyright Policy"
+
         },
         "Terms": {
                 "termsTitle": "Terms and conditions",
@@ -959,6 +978,15 @@
                 "userProfile": "User Profile",
                 "searchResult": "Search results",
                 "play": "Play",
-                "terms": "Terms and Conditions"
+                "terms": "Terms and Conditions",
+                "filtered": "Filtered by: ",
+                "limitResults": "Limit the results",
+                "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+        },
+        "Version":{
+                "versionMissmatchTitle" : "Version outdated",
+                "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+                "versionMissmatchButton" : "OK"
         }
+
 }

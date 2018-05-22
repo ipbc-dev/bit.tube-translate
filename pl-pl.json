@@ -15,6 +15,7 @@
         "resendActivateMail": "Wyślij ponownie e-maila",
         "error": "Błąd",
         "emailVerfied": "Zweryfikowany e-mail",
+        "resend": "Resend",
 
         "RecoveryPwd": {
             "title": "Odzyskaj hasło",
@@ -308,7 +309,7 @@
             "confirmDeleteTitle": "Usuń klucz streamu",
             "confirmDeleteText": "¿ Jesteś pewien że chcesz usunąć klucz streamu ?",
             "confirmDeleteButton": "Usuń"
-	    "textEditorPlaceholder": "Tutaj wpisz tekst..."
+	          "textEditorPlaceholder": "Tutaj wpisz tekst..."
         },
         "Tutorial": {
             "title": "Szybki tutorial",
@@ -406,15 +407,22 @@
         "innapropiateVideo": "Ten film może być nieodpowiedni dla niektórych użytkowników. Potwierdź, aby kontynuować.",
         "working": "Pracuje",
         "waiting": "Czeka"
-	 "tipChannel": "Tip channel",
-         "amount": "Amount",
-          "2faCode": "2FA Code",
-          "tip": "Tip",
-          "close": "Close",
-          "mediaReport": "Media report"
-
-
-
+	      "tipChannel": "Tip channel",
+        "amount": "Amount",
+        "2faCode": "2FA Code",
+        "tip": "Tip",
+        "close": "Close",
+        "mediaReport": "Media report"
+        "primaryVideo": "Make primary video",
+        "abortError": "User aborted media playback",
+        "networkError": "There is a problem with your internet connection",
+        "decodeError": "This media appears to be corrupted",
+        "srcError": "This media appears to be corrupted",
+        "encryptedError": "This content is premium, please purchase",
+        "offlineStream": "Your desired stream appears be offline",
+        "popOutVideo": "Popout video",
+        "setPrimaryVideo": "Saved primary video",
+        "errorSavePrimaryVideo": "Error"
     },
 
     "Wallet": {
@@ -457,22 +465,22 @@
         "Anonymity": "Anonimowość musi wynosić od 0 do 10",
         "transactionFaild": "transakcja nieudana...",
         "noTransactions": "Nie ma transakcji"
-	     "unlocked": "Unlocked",
-                "locked" : "Locked",
-                "saveContact": "Save Contact",
-                "closeContact": "Close",
-                "sedWallet": "Send",
-                "contactsWallet": "Contacts",
-                "keyWallet": "Key",
-                "noContactsfound": "No contacts found",
-                "keyHasbeencopied": "Your key has been copied to the clipboard",
-                "copyWalletClipboard": "Copy wallet to clipboard",
-                "addnewContact": "Add New Contact",
-                "mustContactName": "You must enter a contact name!",
-                "invalidIPB": "Invalid BitTube Address!",
-                "contactAdded": "Contact Added...",
-                "contactAddedFail": "Failed to add contact...",
-                "notEnoughBalance": "Not enough wallet balance or still locked."
+	      "unlocked": "Unlocked",
+        "locked" : "Locked",
+        "saveContact": "Save Contact",
+        "closeContact": "Close",
+        "sedWallet": "Send",
+        "contactsWallet": "Contacts",
+        "keyWallet": "Key",
+        "noContactsfound": "No contacts found",
+        "keyHasbeencopied": "Your key has been copied to the clipboard",
+        "copyWalletClipboard": "Copy wallet to clipboard",
+        "addnewContact": "Add New Contact",
+        "mustContactName": "You must enter a contact name!",
+        "invalidIPB": "Invalid BitTube Address!",
+        "contactAdded": "Contact Added...",
+        "contactAddedFail": "Failed to add contact...",
+        "notEnoughBalance": "Not enough wallet balance or still locked."
     },
 
     "Profitcalc": {
@@ -565,7 +573,28 @@
         "proceed": "Tak, postępować!",
         "gotit": "Rozumiem!",
         "allYourSelected": "Wszystkie wybrane wideo zostały pomyślnie przesłane, może trochę potrwać, dopóki zostaną one sprawdzone i opublikowane",
-        "textEditorPlaceholder": "Wpisz tekst tutaj..."
+        "textEditorPlaceholder": "Wpisz tekst tutaj...",
+        "invalidFile": "INVALID FILE ERROR",
+        "informationError": "INFORMATION ERROR",
+        "transcodingError": "TRANSCODING ERROR",
+        "syncError": "SYNCRONIZATION ERROR",
+        "pinError": "PIN ERROR",
+        "sshError": "SSH ERROR",
+        "qualityError": "The video quality is too low, it need to be at least 360p",
+        "processing": "PROCESSING ",
+        "waitingSync": "WAITING FOR SYNC",
+        "syncing": "SYNCING ",
+        "waitingPinning": "WAITING FOR PINNING",
+        "pinning": "PINNING ",
+        "done": "DONE",
+        "uploading": "UPLOADING ",
+        "initializing": "INITIALIZING",
+        "waitingQueue": "WAITING IN QUEUE ",
+        "downloading": "DOWNLOADING",
+        "waitingTranscode": "WAITING FOR TRANSCODE",
+        "internalError": "An internal error has occurred, please try again later",
+        "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
+        "job": "Job"     
     },
 
     "User": {
@@ -573,6 +602,7 @@
         "unSubscribe": "Anuluj subskrypcję",
         "myProfile": "Mój Profil",
         "playlist": "Biblioteki",
+        "profile": "Profile",
         "publications": "Publikacje",
         "live": "Streamingy na żywo",
         "subscriptions": "Subskrypcje",
@@ -610,19 +640,17 @@
             "livestreams": "Transmisje na żywo",
             "noStream": "Nie ma transmisji na żywo",
             "live": "Na żywo",
-            "addPlaylists": Dodaj do Biblioteki",
+            "addPlaylists": "Dodaj do Biblioteki",
             "newPlaylist": "Nowa Biblioteka",
             "addPlaylistButton": "Dodaj",
             "addPLaylistTitle":"Dodaj do..."
         },
-
         "Subscriptions": {
             "subscriptions": "Subskrypcje",
             "nosubscriptions": "Nie ma Subskrypcjy",
             "subscribe": "Subskrybować",
             "unSubscribe": "Anuluj subskrypcję"
         },
-
         "MyPlaylists": {
             "myPlaylists": "Moje Biblioteki",
             "noPlaylists": "Nie ma Biblioteki",
@@ -637,9 +665,7 @@
             "yourCopyPlaylist": "Masz swoją własną kopię tej Biblioteki!",
             "somenthingWrong": "Coś poszło nie tak podczas procesu!"
         }
-
     },
-
     "LiveChat": {
         "title": "Czat na żywo",
         "saySomething": "Powiedz coś",
@@ -652,16 +678,13 @@
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "Login wymagany!",
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
     },
-
     "Result": {
         "noResult": "No results found",
         "live": "Na żywo",
@@ -678,7 +701,6 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaans"},
@@ -755,7 +777,6 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
         {"value": "1", "viewValue": "Everyone"},
@@ -767,10 +788,10 @@
         {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adult"},
+            {"value": "43", "viewValue": "Animation"},
             {"value": "24", "viewValue": "Sztuka i kultura"},
             {"value": "26", "viewValue": "Uroda i moda"},
             {"value": "37", "viewValue": "Samochody"},
@@ -812,15 +833,15 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "Filtry paska bocznego",
         "background": "Tło paska bocznego",
         "mini": "Pasek boczny Mini",
         "image": "Obraz paska bocznego",
         "night": "Tryb nocny",
-        "selectImage": "Obrazy"
-
+        "selectImage": "Obrazy",
+        "sidebarStyle": "sidebar style",
+        "theme": "theme"
     },
 	"Sidebar": {
         "homeSection": "Home",
@@ -835,7 +856,11 @@
         "login": "Login",
         "logout": "Logout",
         "register": "Zarejestrować się",
-        "search": "Szukaj"
+        "search": "Szukaj",
+        "terms": "Terms",
+        "contact": "Contact",
+        "privacyPolicy": "Privacy Policy",
+        "copyrightPolicy": "Copyright Policy"
     },
     "Terms": {
         "termsTitle": "Terms and conditions",
@@ -916,5 +941,31 @@
         "liabilityText4": "The company shall not be responsible or liable for the non-performance or delay of its obligations under these provisions if such non-performance or delay is due to circumstances beyond the company’s reasonable control (e.g. labor disputes, force majeure, war, terrorist acts, malicious damage, accidents or compliance with applicable law or an official order). The company makes every effort to minimize the impact of such events and to meet its unaffected obligations.",
         "termsGoverning": "Governing law, jurisdiction, contracting company",
         "GoverningText1": "For all services, the contracting company is Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. All claims relating to free services shall be governed by the laws of Spain, without prejudice to any mandatory law applicable in the country in which we offer you the services and in which you have your habitual residence. The laws of the country in which we offer you the services and where you have your habitual residence govern all claims in connection to paid services."
-    }
+    },
+    "Navbar":{
+        "search": "Search",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "homeSection": "Home",
+        "trendingSection": "Trending",
+        "newcomersSection": "Newcomers",
+        "liveSection": "Live",
+        "uploadSection": "Upload Media",
+        "broadcastSection": "Broadcast",
+        "walletSection": "My Wallet (Beta)",
+        "profitSection": "Profit Calculator",
+        "userProfile": "User Profile",
+        "searchResult": "Search results",
+        "play": "Play",
+        "terms": "Terms and Conditions",
+        "filtered": "Filtered by: ",
+        "limitResults": "Limit the results",
+        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+},
+"Version":{
+        "versionMissmatchTitle" : "Version outdated",
+        "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
+}
 }

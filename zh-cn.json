@@ -2,7 +2,7 @@
 
     "Login": {
         "title": "登录",
-        "loginClasic": "经典风格登录",
+        "loginClasic": "经典登录",
         "usernameEmail": "用户名 / Email地址",
         "usernameRequired": "请输入您的用户名",
         "usernameMinimun": "最小4个字符",
@@ -11,11 +11,12 @@
         "password": "密码",
         "passwordRequired": " 请输入您的密码",
         "remember": "记住我的登录",
-        "loginButton": "Let's go",
+        "loginButton": "现在登录",
         "forgotPassword": "忘记密码",
         "resendActivateMail": "重新发送激活邮件",
         "error": "错误",
         "emailVerfied": "电子邮箱已验证",
+        "resend": "重新发送",
 
         "RecoveryPwd": {
             "title": "重置密码",
@@ -40,7 +41,7 @@
 
     "Register": {
         "title": "注册用户",
-        "loginClasic": "经典风格登录",
+        "loginClasic": "经典登录",
         "userName": "用户名...",
         "usernameRequired": "请输入您的用户名",
         "usernameMinimun": "最小4个字符",
@@ -308,7 +309,8 @@
             "copiedClipBoardTransmission": "您的播放地址已经复制到剪切板",
             "confirmDeleteTitle": "删除直播Key",
             "confirmDeleteText": "您确定删除直播Key么 ?",
-            "confirmDeleteButton": "删除"
+            "confirmDeleteButton": "删除",
+            "textEditorPlaceholder": "请输入内容..."
         },
         "Tutorial": {
             "title": "快速教程",
@@ -323,7 +325,7 @@
             "9pTutorial": "您将会从bit.tube设置中得到一个直播URL和直播Key，点击复制到剪切板符号复制。",
             "10pTutorial": "设置您的流媒体直播软件场景,开始您的直播。",
             "11pTutorial": "这就是您在Bit.Tube开始直播所需要做的事情。",
-            "titleStream,": "直播软件",
+            "titleStream": "直播软件",
             "1pTutorialStream": "您可以在Bit.Tub平台开始您的直播，需要使用一些特定的软件。直播内容与版权所有者的IPBC钱包地址关联，我们在此给您提供如下软件选择，您只要选择其中之一开始您的直播旅程！",
             "2pTutorialStream": "开源在线流媒体直播软件",
             "3pTutorialStream": "开源在线流媒体直播软件就是我们所了解的直播软件，一般用C语言或者C++语言编写，可以进行一系列的转码解码、场景控制等等，提供在线直播服务。",
@@ -350,7 +352,7 @@
         "writeComment": "写评论",
         "addPlaylist": "添加播放列表",
         "embedCode": "获取嵌入代码",
-        "reportVideo": "Report video",
+        "reportVideo": "报告视频",
         "share": "分享",
         "editVideo": "编辑视频",
         "subscribe": "订阅",
@@ -400,11 +402,27 @@
         "wallet": "钱包: ",
         "CloseStats": "关闭",
         "consent": "观看视频内容以赞助作者",
-        "consent2": "当你在观看该视频的时候，您一部分闲置的电脑资源将会为视频作者贡献加密货币哈希。",
+        "consent2": "当你在观看该视频的时候，您一部分闲置的电脑资源将会为视频作者贡献加密货币哈希计算，您的贡献会激励发布者发布更好的视频内容。",
         "agree": "我同意",
-        "innapropiateVideo": "这个视频内容可能引起部分观众不适，请确认后继续观看。",
+        "innapropiateVideo": "该视频中的内容可能引起部分观众不适，请确认后继续观看。",
         "working": "工作中",
-        "waiting": "等待中"
+        "waiting": "等待中",
+        "tipChannel": "小提示频道",
+        "amount": "余额",
+        "2faCode": "二次验证码",
+        "tip": "小提示",
+        "close": "关闭",
+        "mediaReport": "视频报告",
+        "primaryVideo": "Make primary video",
+        "abortError": "用户终止了视频回放",
+        "networkError": "您的网络连接好像有问题",
+        "decodeError": "该视频好像已被更改",
+        "srcError": "该视频好像已被更改",
+        "encryptedError": "这个视频是付费的，请购买后观看",
+        "offlineStream": "您的视频流好像离线了",
+        "popOutVideo": "弹出视频",
+        "setPrimaryVideo": "Saved primary video",
+        "errorSavePrimaryVideo": "错误"
 
 
 
@@ -449,7 +467,23 @@
         "fee": "费用必须不低于0.01 IPBC",
         "Anonymity": "匿名等级必须介于0 - 10",
         "transactionFaild": "转账失败...",
-        "noTransactions": "没有任何转账信息"
+        "noTransactions": "没有任何转账信息",
+        "unlocked": "已解锁",
+        "locked" : "锁定",
+        "saveContact": "保存联系人",
+        "closeContact": "关闭",
+        "sedWallet": "发送",
+        "contactsWallet": "联系人",
+        "keyWallet": "Key",
+        "noContactsfound": "找不到联系人",
+        "keyHasbeencopied": "您的Key已经复制到剪切板",
+        "copyWalletClipboard": "您的钱包地址已经复制到剪切板",
+        "addnewContact": "增加新的联系人",
+        "mustContactName": "您必须输入联系人名!",
+        "invalidIPB": "无效的BitTube地址!",
+        "contactAdded": "联系人已添加...",
+        "contactAddedFail": "添加联系人失败...",
+        "notEnoughBalance": "没有足够的余额或者您的金额目前在锁定中"
     },
 
     "Profitcalc": {
@@ -464,7 +498,7 @@
         "tradeOgreOpen": "打开 TradeOgre",
         "openCrex24": "打开 Crex24",
         "altex": "Altex",
-        "noAPI" : "No API",
+        "noAPI" : "没有API",
         "crex24": "Crex24",
 
         "tpl_title" : "收益计算器",
@@ -542,7 +576,28 @@
         "proceed": "是的，继续!",
         "gotit": "明白!",
         "allYourSelected": "您的视频上传成功,稍后将在检查发布后呈现",
-        "textEditorPlaceholder": "请输入内容..."
+        "textEditorPlaceholder": "请输入内容...",
+        "invalidFile": "文件错误",
+        "informationError": "信息错误",
+        "transcodingError": "传输码错误",
+        "syncError": "同步错误",
+        "pinError": "PIN码错误",
+        "sshError": "SSH错误",
+        "qualityError": "视频质量太低了，请上传最少360p的视频资源",
+        "processing": "处理中 ",
+        "waitingSync": "等待同步中",
+        "syncing": "同步中 ",
+        "waitingPinning": "等待PIN码",
+        "pinning": "PIN码验证中 ",
+        "done": "完成",
+        "uploading": "上传中 ",
+        "initializing": "初始化中",
+        "waitingQueue": "队列等待中 ",
+        "downloading": "下载中",
+        "waitingTranscode": "等待传输码",
+        "internalError": "发生了一个内部错误，请稍后重试",
+        "areYouSureLose": "您确定么? 该操作将会丢失您未保存的任务!",
+        "job": "任务"     
     },
 
     "User": {
@@ -550,6 +605,7 @@
         "unSubscribe": "取消订阅",
         "myProfile": "我的档案",
         "playlist": "播放列表",
+        "profile": "Profile",
         "publications": "我的发布",
         "live": "我的直播",
         "subscriptions": "订阅",
@@ -748,6 +804,7 @@
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "成人"},
+            {"value": "43", "viewValue": "动画"},
             {"value": "24", "viewValue": "文化艺术"},
             {"value": "26", "viewValue": "时尚美女"},
             {"value": "37", "viewValue": "汽车"},
@@ -794,25 +851,31 @@
         "filters": "侧边栏过滤器",
         "background": "侧边栏背景",
         "mini": "迷你侧边栏",
-        "image": "侧边栏图像",
+        "image": "侧边栏背景",
         "night": "夜间模式",
-        "selectImage": "图像"
+        "selectImage": "背景",
+        "sidebarStyle": "侧边栏风格",
+        "theme": "主题"
 
     },
 	"Sidebar": {
-        "homeSection": "家",
+        "homeSection": "主页",
         "trendingSection": "趋势",
-        "newcomersSection": "新访客",
-        "liveSection": "Live",
-        "uploadSection": "上传媒体",
-        "broadcastSection": "广播",
+        "newcomersSection": "新发布",
+        "liveSection": "直播",
+        "uploadSection": "上传视频",
+        "broadcastSection": "开始直播",
         "walletSection": "我的钱包(Beta)",
         "profitSection": "收益计算器",
         "peers": "节点:",
         "login": "登录",
         "logout": "登出",
         "register": "注册",
-        "search": "搜索"
+        "search": "搜索",
+        "terms": "条款",
+        "contact": "联系",
+        "privacyPolicy": "隐私策略",
+        "copyrightPolicy": "版权策略"
     },
     "Terms": {
         "termsTitle": "用户条款",
@@ -893,5 +956,31 @@
         "liabilityText4": "公司不履行或延迟其义务的责任，如果这种不履行或拖延是由于超出公司的合理控制（如劳动争议，不可抗力，战争，恐怖行为，恶意破坏，自然灾害）的情况下。申请人或遵守适用法律或官方命令）。该公司尽一切努力将此类事件的影响降到最低，并履行其不受影响的义务。”",
         "termsGoverning": "管辖法律、管辖权、承包公司",
         "GoverningText1": "服务提供商Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. 所有与免费服务有关的索赔均受西班牙法律管辖，不损害在我们提供服务的国家中适用的任何强制性法律，并在其中有惯常居所。我们提供服务的国家的法律和你的习惯居所管理所有与有偿服务有关的索赔。"
+    },
+    "Navbar":{
+        "search": "搜索",
+        "login": "登录",
+        "register": "注册",
+        "logout": "退出登录",
+        "homeSection": "主页",
+        "trendingSection": "趋势",
+        "newcomersSection": "新发布",
+        "liveSection": "直播",
+        "uploadSection": "上传视频",
+        "broadcastSection": "开始直播",
+        "walletSection": "我的钱包(Beta)",
+        "profitSection": "收益计算器",
+        "userProfile": "用户档案",
+        "searchResult": "搜索结果",
+        "play": "播放",
+        "terms": "服务条款",
+        "filtered": "关键词: ",
+        "limitResults": "限制搜索结果",
+        "limitResultsMessage" : "(显示最多10条搜索结果)"
+        },
+        "Version":{
+            "versionMissmatchTitle" : "版本过期",
+            "VersionMissmatchText" : "您访问的版本好像过期了，请清空您的浏览器缓存再次访问，如果这还不能解决问题请清空您的DNS缓存试试。",
+            "versionMissmatchButton" : "确定"
     }
 }
