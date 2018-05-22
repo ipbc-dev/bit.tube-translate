@@ -1,5 +1,4 @@
 {
-
 "Login": {
         "title": "Zaloguj się",
         "loginClasic": "Lub zaloguj się klasycznie ",
@@ -309,8 +308,8 @@
             "copiedClipBoardTransmission": "Twój URL transmisji został skopiowany do schowka",
             "confirmDeleteTitle": "Usuń klucz streamu",
             "confirmDeleteText": "¿ Jesteś pewien że chcesz usunąć klucz streamu ?",
-            "confirmDeleteButton": "Usuń",
-            "textEditorPlaceholder": "Enter a text here..."
+            "confirmDeleteButton": "Usuń"
+	          "textEditorPlaceholder": "Tutaj wpisz tekst..."
         },
         "Tutorial": {
             "title": "Szybki tutorial",
@@ -337,8 +336,9 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": "Powszechnie stosowane vMix to idealne narzędzie do nadawania, zwłaszcza dla vlogerów, ale nie tylko. vMix to kompletne oprogramowanie do produkcji wideo na żywo z funkcjami, takimi jak mieszanie, przełączanie, nagrywanie i streaming w trybie na żywo z nośników SD, Full HD i 4K, w tym aparatów fotograficznych, plików wideo, dysków DVD, obrazów, programu Powerpoint i wielu innych funkcji.",
             "dowloadButton": "Pobierz"
-        }
-    },
+		
+		        }
+	      },
 
     "Play": {
         "addPlaylists": "Dodaj do Biblioteki",
@@ -406,13 +406,13 @@
         "agree": "Zgadzam się",
         "innapropiateVideo": "Ten film może być nieodpowiedni dla niektórych użytkowników. Potwierdź, aby kontynuować.",
         "working": "Pracuje",
-        "waiting": "Czeka",
-        "tipChannel": "Tip channel",
+        "waiting": "Czeka"
+	      "tipChannel": "Tip channel",
         "amount": "Amount",
         "2faCode": "2FA Code",
         "tip": "Tip",
         "close": "Close",
-        "mediaReport": "Media report",
+        "mediaReport": "Media report"
         "primaryVideo": "Make primary video",
         "abortError": "User aborted media playback",
         "networkError": "There is a problem with your internet connection",
@@ -423,9 +423,6 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
 
     "Wallet": {
@@ -467,8 +464,8 @@
         "fee": "Opłata nie może być niższa niż 0,01 TUBE",
         "Anonymity": "Anonimowość musi wynosić od 0 do 10",
         "transactionFaild": "transakcja nieudana...",
-        "noTransactions": "Nie ma transakcji",
-        "unlocked": "Unlocked",
+        "noTransactions": "Nie ma transakcji"
+	      "unlocked": "Unlocked",
         "locked" : "Locked",
         "saveContact": "Save Contact",
         "closeContact": "Close",
@@ -849,9 +846,9 @@
 	"Sidebar": {
         "homeSection": "Home",
         "trendingSection": "Trendy",
-        "newcomersSection": "nowoprzybyli",
+        "newcomersSection": "Nowoprzybyli",
         "liveSection": "Na żywo",
-        "uploadSection": "wrzuty Media",
+        "uploadSection": "Wrzuty Media",
         "broadcastSection": "Broadcast",
         "walletSection": "Mój portfel (Beta)",
         "profitSection": "Kalkulator zysków",
