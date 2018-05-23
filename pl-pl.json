@@ -423,6 +423,9 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
+	    
+	    
+	    
     },
 
     "Wallet": {
@@ -481,6 +484,9 @@
         "contactAdded": "Contact Added...",
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
+	    
+	    
+	    
     },
 
     "Profitcalc": {
@@ -497,7 +503,6 @@
         "altex": "Altex",
         "noAPI" : "No API",
         "crex24": "Crex24",
-
         "tpl_title" : "Kalkulator zysków",
         "tpl_market" : "Rynek",
         "tpl_avg_hashrate" : "Średni Hashrate (H/s)",
@@ -645,12 +650,14 @@
             "addPlaylistButton": "Dodaj",
             "addPLaylistTitle":"Dodaj do..."
         },
+	    
         "Subscriptions": {
             "subscriptions": "Subskrypcje",
             "nosubscriptions": "Nie ma Subskrypcjy",
             "subscribe": "Subskrybować",
             "unSubscribe": "Anuluj subskrypcję"
         },
+	    
         "MyPlaylists": {
             "myPlaylists": "Moje Biblioteki",
             "noPlaylists": "Nie ma Biblioteki",
@@ -664,8 +671,10 @@
             "playlistEmpty": "Ta Biblioteka jest pusta",
             "yourCopyPlaylist": "Masz swoją własną kopię tej Biblioteki!",
             "somenthingWrong": "Coś poszło nie tak podczas procesu!"
-        }
+      	}
+	    
     },
+		
     "LiveChat": {
         "title": "Czat na żywo",
         "saySomething": "Powiedz coś",
@@ -678,13 +687,16 @@
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
+	    
     },
+	
     "Playlist": {
         "loginProfileTitle": "Login wymagany!",
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
-    },
+	        },
+	
     "Result": {
         "noResult": "No results found",
         "live": "Na żywo",
@@ -701,6 +713,7 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
     },
+	
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaans"},
@@ -777,6 +790,7 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
+	
     "DataProteccion" : {
         "data_protection_array":[
         {"value": "1", "viewValue": "Everyone"},
@@ -788,6 +802,7 @@
         {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
+	
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adult"},
@@ -833,6 +848,7 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
+	
     "FixedPlugin": {
         "filters": "Filtry paska bocznego",
         "background": "Tło paska bocznego",
@@ -843,12 +859,14 @@
         "sidebarStyle": "sidebar style",
         "theme": "theme"
     },
+	
+	
 	"Sidebar": {
-        "homeSection": "Home",
+        "homeSection": "Strona główna",
         "trendingSection": "Trendy",
-        "newcomersSection": "Nowoprzybyli",
+        "newcomersSection": "Nowośći",
         "liveSection": "Na żywo",
-        "uploadSection": "Wrzuty Media",
+        "uploadSection": "Wrzuć na sieć",
         "broadcastSection": "Broadcast",
         "walletSection": "Mój portfel (Beta)",
         "profitSection": "Kalkulator zysków",
@@ -862,6 +880,7 @@
         "privacyPolicy": "Privacy Policy",
         "copyrightPolicy": "Copyright Policy"
     },
+	
     "Terms": {
         "termsTitle": "Terms and conditions",
         "termsTerms": "Terms and conditions",
@@ -943,29 +962,29 @@
         "GoverningText1": "For all services, the contracting company is Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. All claims relating to free services shall be governed by the laws of Spain, without prejudice to any mandatory law applicable in the country in which we offer you the services and in which you have your habitual residence. The laws of the country in which we offer you the services and where you have your habitual residence govern all claims in connection to paid services."
     },
     "Navbar":{
-        "search": "Search",
-        "login": "Login",
-        "register": "Register",
-        "logout": "Logout",
-        "homeSection": "Home",
-        "trendingSection": "Trending",
-        "newcomersSection": "Newcomers",
-        "liveSection": "Live",
-        "uploadSection": "Upload Media",
+        "search": "Szukaj",
+        "login": "Zaloguj się",
+        "register": "Zarejestrować się",
+        "logout": "Wyloguj",
+        "homeSection": "Strona główna",
+        "trendingSection": "Trendy",
+        "newcomersSection": "Nowośći",
+        "liveSection": "Na żywo",
+        "uploadSection": "Wrzuć na sieć",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
-        "profitSection": "Profit Calculator",
-        "userProfile": "User Profile",
-        "searchResult": "Search results",
+        "walletSection": "Mój portfel (Beta)",
+        "profitSection": "Kalkulator zysków",
+        "userProfile": "Profil użytkownika",
+        "searchResult": "Wyniki wyszukiwania",
         "play": "Play",
         "terms": "Terms and Conditions",
-        "filtered": "Filtered by: ",
-        "limitResults": "Limit the results",
-        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+        "filtered": "Filtruj według: ",
+        "limitResults": "Ogranicz wyniki",
+        "limitResultsMessage" : "(zostanie wyświetlone maksymalnie 10 wpisów na typ)"
 },
 "Version":{
-        "versionMissmatchTitle" : "Version outdated",
-        "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchTitle" : "Wersja przestarzała",
+        "VersionMissmatchText" : "Twoja wersja wydaje się być przestarzała. Proszę wyczyścić pamięć podręczną i ponownie załadować stronę. Jeśli to nie rozwiąże problemu, wyczyść pamięć podręczną dns .",
         "versionMissmatchButton" : "OK"
 }
 }
