@@ -857,11 +857,11 @@
 
     },
 	"Sidebar": {
-        "homeSection": "Home",
+        "homeSection": "Accueil",
         "trendingSection": "Tendance",
-        "newcomersSection": "Nouveau-venu",
+        "newcomersSection": "Nouveautés",
         "liveSection": "En direct",
-        "uploadSection": "Télécharger Media",
+        "uploadSection": "Mettre en ligne,
         "broadcastSection": "Diffuser",
         "walletSection": "Mon portefeuille (Beta)",
         "profitSection": "Calculateur de profits",
