@@ -527,7 +527,7 @@
         "thumbnailButton": "Sélectionner une miniature",
         "videoTitle": "Titre de la vidéo",
         "videoTitleError": "Le titre a besoin d'au moins 5 caractères",
-        "videoTag": "S'il vous plaît ajouter des mots-clés",
+        "videoTag": "Veuillez ajouter des mots-clés",
         "videoTagEnter": "Appuyez sur Entrée après chaque mots-clés",
         "videoPrivacy": "Confidentialité",
         "videoCategory": "Catégorie",
@@ -592,7 +592,7 @@
                 "initializing": "INITIALISATION",
                 "waitingQueue": "Dans la file d'attente",
                 "downloading": "TÉLÉCHARGEMENT",
-                "waitingTranscode": "WAITING FOR TRANSCODE",
+                "waitingTranscode": "EN ATTENTE DE TRANSCODAGE",
                 "internalError": "Une erreur interne s'est produite, veuillez réessayer plus tard",
                 "areYouSureLose": "Êtes-vous sûr? Vous perdrez tous vos travaux non sauvegardés !",
                 "job": "Job"     
@@ -677,7 +677,7 @@
         "chatUser": "Utilisateurs du Chat",
         "block": "Bloquer",
         "unblock": "Débloquer",
-        "blockFromChannel": "Bloquer du canal",
+        "blockFromChannel": "Bloquer sur la chaîne",
         "UnBlockFromChannel": "Débloquer de la chaîne",
         "loginProfileTitle": "Connexion requise !",
         "loginProfileText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
@@ -852,7 +852,7 @@
         "image": "Image de la barre latérale",
         "night": "Mode Nocturne",
         "selectImage": "Images",
-        "sidebarStyle": "sidebar style",
+        "sidebarStyle": "Style de barre latérale",
         "theme": "theme"
 
     },
@@ -870,10 +870,10 @@
         "logout": "Se déconnecter",
         "register": "S'enregistrer",
         "search": "Rechercher",
-        "terms": "Terms",
+        "terms": "Termes",
         "contact": "Contact",
-        "privacyPolicy": "Privacy Policy",
-        "copyrightPolicy": "Copyright Policy"
+        "privacyPolicy": "Politique de confidentialité",
+        "copyrightPolicy": "Politique des droits d'auteur"
     },
     "Terms": {
         "termsTitle": "Terms and conditions",
