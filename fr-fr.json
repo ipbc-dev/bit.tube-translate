@@ -24,7 +24,7 @@
             "changePwd": "Changer de mot-de-passe",
             "password": "Mot-de-passe",
             "passwordRequired": "Mot-de-passe requis",
-            "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro, 1 caractère spécial (@$!%*#?&)",
+            "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro",
             "repeatPassword": "Répéter le mot-de-passer",
             "passwordMissmatch": "Mot-de-passe non correspondant",
             "saveButton": "Se souvenir de moi",
@@ -52,7 +52,7 @@
         "emailIncalid": "Email invalide",
         "password": "Mot-de-passe...",
         "passwordRequired": "Mot-de-passe requis",
-        "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro, 1 caractère spécial (@$!%*#?&)",
+        "passwordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 numéro",
         "passwprdRepeatInput": "Répétez le mot-de-passe...",
         "passwordRepeat": " La répétition du mot-de-passe est requise",
         "passwordMissmatch": "Mot-de-passe non correspondant",
@@ -86,7 +86,7 @@
             "editProfileTitle": "Modifier le profil",
             "editProfileSubTitle": "Compléter votre profil",
             "editProfileUsername": "Nom d'utilisateur",
-            "editProfileUsernameMinimunCharacter": "Le nom d'utilisateur doit contenir au minimum 4 caractères",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
             "editProfileUsernamePattern": "Le nom d'utilisateur peut contenir A-Z, a-z, 0-9 et _ seulement",
             "editProfilePhone": "Téléphone portable",
             "editProfilePhoneInvalid": "Numéro de téléphone invalide",
@@ -114,7 +114,7 @@
             "editProfileChangePasswordTitle": "Changer le mot-de-passe",
             "editProfileOldPassword": "Ancien mot-de-passe",
             "editProfileNewPassword": "Nouveau mot-de-passe",
-            "editProfileNewPasswordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 nombre, 1 caractère spécial (@$!%*#?&)",
+            "editProfileNewPasswordPattern": "Minimum de 6 caractères, 1 lettre majuscule, 1 lettre minuscule, 1 nombre",
             "editProfileRepeatNewPassword": "Répétez le mot-de-passe",
             "editProfileRepeatNewPasswordRequired": "La répétition du mot-de-passe est requise",
             "editProfileRepeatNewPasswordMissmatch": "Mot-de-passe non correspondant",
@@ -136,7 +136,12 @@
             "language": "Ma langue",
             "saveLanguage": "Retenir ma langue",
             "languageSelect": "Langue",
-            "textEditorPlaceholder" : "Entrer un texte..."
+            "textEditorPlaceholder" : "Entrer un texte...",
+            "editProfilePasswordNotifySave": "Password saved successfully",
+            "purchases": "My purchases",
+            "profilePurchase": "Purchase",
+            "noPurchase": "There are no purchases",
+            "subscribers": "Subscribers"
 
         },
 
@@ -146,6 +151,7 @@
             "editPlaylistDescription": "Description",
             "editPlaylistSaveButton": "Sauvegarder",
             "editPlaylistDeleteButton": "Supprimer",
+            "editPlaylistCloseButton": "Close playlist",
             "editPlaylistEmpty": "Cette playlist est vide.",
             "newPlaylist": "Nouvelle playlist",
             "newPlaylistTitle": "Titre",
@@ -183,7 +189,9 @@
             "deletePublicationNotify": "Votre vidéo a été supprimée",
             "deletePublicationNotifyError": "Erreur",
             "videoInfoError": "Erreur lors de la récupération des informations",
-            "noUploads": "Il n'y a pas de téléchargements"
+            "noUploads": "Il n'y a pas de téléchargements",
+            "editVideo": "Edit video",
+            "makePrimaryVideo": "Set as primary video"
         },
 
         "LiveStreams": {
@@ -199,7 +207,12 @@
             "unSubscriptionsButton": "Se désabonner",
             "noSubscriptions": "Il n'y a pas d'abonnements"
         },
-
+        "Subscribers": {
+            "title": "Subscribers",
+            "subscriptionsButton": "Subscribe",
+            "unSubscriptionsButton": "Unsubscribe",
+            "noSubscriptions": "There are no subscribers"
+            },
         "Security": {
             "title": "Securité",
             "authentication": "Validation à 2 étapes",
@@ -595,8 +608,17 @@
                 "waitingTranscode": "EN ATTENTE DE TRANSCODAGE",
                 "internalError": "Une erreur interne s'est produite, veuillez réessayer plus tard",
                 "areYouSureLose": "Êtes-vous sûr? Vous perdrez tous vos travaux non sauvegardés !",
-                "job": "Job"     
-    },
+                "job": "Job",
+                "priceInTube": "Price in TUBE",
+                "priceInUsd": "Price in USD",
+                "rental": "Rental",
+                "purchase": "Purchase",
+                "lifetime": "Lifetime",
+                "rental24hrs": "24 hrs",
+                "rental48hrs": "48 hrs",
+                "rental72hrs": "72 hrs",
+                "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
+            },
 
     "User": {
         "subscribe": "Souscrire",
@@ -633,7 +655,9 @@
             "addPlaylists": "Ajouter à la Bibliothèque",
             "newPlaylist": "Nouvelle Bibliothèque",
             "addPlaylistButton": "Ajouter",
-            "addPLaylistTitle":"Ajouter à..."
+            "addPLaylistTitle":"Ajouter à...",
+            "ReadMore": "Read more",
+            "showAll": "Show all"
         },
 
         "LiveTv": {
@@ -707,7 +731,9 @@
         "loginProfileTitle": "Connexion requise !",
         "loginProfileText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
         "loginProfileConfirmButton": "Ok",
-        "loginProfileCancelButton": "Annuler"
+        "loginProfileCancelButton": "Annuler",
+        "playlistCloned": "Playlist had been added to your playlists",
+        "playlistClonedFailed": "You already cloned this playlist"
     },
 
     "Lenguages":{
@@ -828,6 +854,7 @@
             {"value": "20", "viewValue": "Nature"},
             {"value": "9", "viewValue":  "Nouvelles"},
             {"value": "29", "viewValue": "Autres"},
+            {"value": "44", "viewValue": "Performing Arts"},
             {"value": "40", "viewValue": "Animaux"},
             {"value": "28", "viewValue": "Religion"},
             {"value": "14", "viewValue": "Science"},
@@ -861,7 +888,7 @@
         "trendingSection": "Tendance",
         "newcomersSection": "Nouveautés",
         "liveSection": "En direct",
-        "uploadSection": "Mettre en ligne,
+        "uploadSection": "Mettre en ligne",
         "broadcastSection": "Diffuser",
         "walletSection": "Mon portefeuille (Beta)",
         "profitSection": "Calculateur de profits",
@@ -870,10 +897,12 @@
         "logout": "Se déconnecter",
         "register": "S'enregistrer",
         "search": "Rechercher",
-        "terms": "Termes",
+        "terms": "Terms",
         "contact": "Contact",
         "privacyPolicy": "Politique de confidentialité",
-        "copyrightPolicy": "Politique des droits d'auteur"
+        "copyrightPolicy": "Politique des droits d'auteur",
+        "miningSection": "Commencez à miner",
+        "subscriptions": "Subscriptions"
     },
     "Terms": {
         "termsTitle": "Terms and conditions",
@@ -973,12 +1002,107 @@
         "play": "Lire",
         "terms": "Termes et conditions",
         "filtered": "Filtré par: ",
+        "startMining": "Commencez à miner",
         "limitResults": "Limiter les résultats",
-        "limitResultsMessage" : "( un maximum de 10 résultats par type sera affiché )"
-},
-"Version":{
+        "limitResultsMessage" : "( un maximum de 10 résultats par type sera affiché )",
+        "category_array": [
+            { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+            { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+            { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+            { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+            { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+            { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+            { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+            { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+            { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+            { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+            { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+            { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+            { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+            { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+            { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+            { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+            { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+            { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+            { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+            { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+            { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+            { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+            { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+            { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+            { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+            { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+            { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+            { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+            { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+            { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+            { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+            { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+            { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+            { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+        ],
+        "browseCategories" : "Browse Categories",
+        "filter": "FILTER",
+        "subscriptions": "Subscriptions"
+    },
+    "Version":{
         "versionMissmatchTitle" : "Version pas à jour",
         "VersionMissmatchText" : "Votre version semble être obsolète. Veuillez vider votre cache et recharger la page. Si cela ne résout pas le problème, effacez votre cache DNS.",
         "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Commencez à miner",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit "
+
+
 }
 }

@@ -1,4 +1,5 @@
 {
+
 "Login": {
         "title": "Zaloguj się",
         "loginClasic": "Lub zaloguj się klasycznie ",
@@ -25,7 +26,7 @@
             "changePwd": "Zmień hasło",
             "password": "Hasło",
             "passwordRequired": " Hasło jest wymagane",
-            "passwordPattern": " Minimalnie: 6 znaków, 1 duża literka, 1 mała literka, 1 liczba, 1 specjalny znak (@$!%*#?&)",
+            "passwordPattern": " Minimalnie: 6 znaków, 1 duża literka, 1 mała literka, 1 liczba",
             "repeatPassword": "Powtórz hasło",
             "passwordMissmatch": "Hasła niepasują",
             "saveButton": "Zapisz",
@@ -53,7 +54,7 @@
         "emailIncalid": "E-mail jest nieprawidłowy",
         "password": "Hasło...",
         "passwordRequired": "Hasło jest wymagane",
-        "passwordPattern": "Minimalnie 6 znaków, 1 duża literka, 1 mała literka, 1 liczba, 1 specjalny znak (@$!%*#?&)",
+        "passwordPattern": "Minimalnie 6 znaków, 1 duża literka, 1 mała literka, 1 liczba",
         "passwprdRepeatInput": "Powtórz hasło...",
         "passwordRepeat": " Powtórzenie hasła jest wymagane",
         "passwordMissmatch": "Hasła niepasują", 
@@ -87,7 +88,7 @@
             "editProfileTitle": "Edytuj  profil",
             "editProfileSubTitle": "Uzupełnij swój profil",
             "editProfileUsername": "Nazwa użytkownika",
-            "editProfileUsernameMinimunCharacter": "Nazwa użytkownika musi zawierać co najmniej 4 znaki",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
             "editProfileUsernamePattern": " Nazwa Użytkownika może zawierać tylko A-Z, a-z, 0-9 i _",
             "editProfilePhone": "Telefon komórkowy",
             "editProfilePhoneInvalid": "Nieprawidłowy numer telefonu",
@@ -115,7 +116,7 @@
             "editProfileChangePasswordTitle": "Zmień hasło",
             "editProfileOldPassword": "Stare hasło",
             "editProfileNewPassword": "Nowe hasło",
-            "editProfileNewPasswordPattern": "Minimalnie 6 znaków, 1 duża literka, 1 mała literka, 1 liczba, 1 specjalny znak (@$!%*#?&)",
+            "editProfileNewPasswordPattern": "Minimalnie 6 znaków, 1 duża literka, 1 mała literka, 1 liczba",
             "editProfileRepeatNewPassword": "Powtórz hasło",
             "editProfileRepeatNewPasswordRequired": "Powtórzenie hasła jest wymagane",
             "editProfileRepeatNewPasswordMissmatch": "Hasła Niepasują",
@@ -137,7 +138,12 @@
             "language": "Mój język",
             "saveLanguage": "Zapisz język",
             "languageSelect": "Język",
-            "textEditorPlaceholder" : "Wpisz tekst..."
+            "textEditorPlaceholder" : "Wpisz tekst...",
+            "editProfilePasswordNotifySave": "Password saved successfully",
+            "purchases": "My purchases",
+            "profilePurchase": "Purchase",
+            "noPurchase": "There are no purchases",
+            "subscribers": "Subscribers"
 
         },
 
@@ -147,6 +153,7 @@
             "editPlaylistDescription": "Opis",
             "editPlaylistSaveButton": "Zapisz",
             "editPlaylistDeleteButton": "Usunąć",
+            "editPlaylistCloseButton": "Close playlist",
             "editPlaylistEmpty": "Ta biblioteka jest pusta.",
             "newPlaylist": "New Biblioteka",
             "newPlaylistTitle": "Tytuł",
@@ -184,7 +191,9 @@
             "deletePublicationNotify": "Twoje wideo zostało usunięte",
             "deletePublicationNotifyError": "Błąd",
             "videoInfoError": "Błąd podczas pobierania informacji o filmie",
-            "noUploads": "Niema wrzutow"
+            "noUploads": "Niema wrzutow",
+            "editVideo": "Edit video",
+            "makePrimaryVideo": "Set as primary video"
         },
 
         "LiveStreams": {
@@ -200,7 +209,12 @@
             "unSubscriptionsButton": "Wyrejestrowanie",
             "noSubscriptions": "Nie ma subskrypcji"
         },
-
+        "Subscribers": {
+            "title": "Subscribers",
+            "subscriptionsButton": "Subscribe",
+            "unSubscriptionsButton": "Unsubscribe",
+            "noSubscriptions": "There are no subscribers"
+            },
         "Security": {
             "title": "Bezpieczeństwo",
             "authentication": "2-czynnikowe uwierzytelnianie",
@@ -308,8 +322,8 @@
             "copiedClipBoardTransmission": "Twój URL transmisji został skopiowany do schowka",
             "confirmDeleteTitle": "Usuń klucz streamu",
             "confirmDeleteText": "¿ Jesteś pewien że chcesz usunąć klucz streamu ?",
-            "confirmDeleteButton": "Usuń"
-	          "textEditorPlaceholder": "Tutaj wpisz tekst..."
+            "confirmDeleteButton": "Usuń",
+            "textEditorPlaceholder": "Tutaj wpisz tekst..."
         },
         "Tutorial": {
             "title": "Szybki tutorial",
@@ -336,9 +350,8 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": "Powszechnie stosowane vMix to idealne narzędzie do nadawania, zwłaszcza dla vlogerów, ale nie tylko. vMix to kompletne oprogramowanie do produkcji wideo na żywo z funkcjami, takimi jak mieszanie, przełączanie, nagrywanie i streaming w trybie na żywo z nośników SD, Full HD i 4K, w tym aparatów fotograficznych, plików wideo, dysków DVD, obrazów, programu Powerpoint i wielu innych funkcji.",
             "dowloadButton": "Pobierz"
-		
-		        }
-	      },
+        }
+    },
 
     "Play": {
         "addPlaylists": "Dodaj do Biblioteki",
@@ -406,14 +419,14 @@
         "agree": "Zgadzam się",
         "innapropiateVideo": "Ten film może być nieodpowiedni dla niektórych użytkowników. Potwierdź, aby kontynuować.",
         "working": "Pracuje",
-        "waiting": "Czeka"
-	      "tipChannel": "Tip channel",
+        "waiting": "Czeka",
+        "tipChannel": "Tip channel",
         "amount": "Amount",
         "2faCode": "2FA Code",
         "tip": "Tip",
         "close": "Close",
-        "mediaReport": "Media report"
-        "primaryVideo": "Make primary video",
+        "mediaReport": "Media report",
+        "primaryVideo": "Set as primary video",
         "abortError": "User aborted media playback",
         "networkError": "There is a problem with your internet connection",
         "decodeError": "This media appears to be corrupted",
@@ -423,9 +436,9 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-	    
-	    
-	    
+
+
+
     },
 
     "Wallet": {
@@ -467,8 +480,8 @@
         "fee": "Opłata nie może być niższa niż 0,01 TUBE",
         "Anonymity": "Anonimowość musi wynosić od 0 do 10",
         "transactionFaild": "transakcja nieudana...",
-        "noTransactions": "Nie ma transakcji"
-	      "unlocked": "Unlocked",
+        "noTransactions": "Nie ma transakcji",
+        "unlocked": "Unlocked",
         "locked" : "Locked",
         "saveContact": "Save Contact",
         "closeContact": "Close",
@@ -484,9 +497,6 @@
         "contactAdded": "Contact Added...",
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
-	    
-	    
-	    
     },
 
     "Profitcalc": {
@@ -503,6 +513,7 @@
         "altex": "Altex",
         "noAPI" : "No API",
         "crex24": "Crex24",
+
         "tpl_title" : "Kalkulator zysków",
         "tpl_market" : "Rynek",
         "tpl_avg_hashrate" : "Średni Hashrate (H/s)",
@@ -599,7 +610,16 @@
         "waitingTranscode": "WAITING FOR TRANSCODE",
         "internalError": "An internal error has occurred, please try again later",
         "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
-        "job": "Job"     
+        "job": "Job",
+        "priceInTube": "Price in TUBE",
+        "priceInUsd": "Price in USD",
+        "rental": "Rental",
+        "purchase": "Purchase",
+        "lifetime": "Lifetime",
+        "rental24hrs": "24 hrs",
+        "rental48hrs": "48 hrs",
+        "rental72hrs": "72 hrs",
+        "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
     },
 
     "User": {
@@ -637,7 +657,9 @@
             "addPlaylists": "Dodaj do Biblioteki",
             "newPlaylist": "Nowa Biblioteka",
             "addPlaylistButton": "Dodaj",
-            "addPLaylistTitle":"Dodaj do..."
+            "addPLaylistTitle":"Dodaj do...",
+            "ReadMore": "Read more",
+            "showAll": "Show all"
         },
 
         "LiveTv": {
@@ -650,14 +672,12 @@
             "addPlaylistButton": "Dodaj",
             "addPLaylistTitle":"Dodaj do..."
         },
-	    
         "Subscriptions": {
             "subscriptions": "Subskrypcje",
             "nosubscriptions": "Nie ma Subskrypcjy",
             "subscribe": "Subskrybować",
             "unSubscribe": "Anuluj subskrypcję"
         },
-	    
         "MyPlaylists": {
             "myPlaylists": "Moje Biblioteki",
             "noPlaylists": "Nie ma Biblioteki",
@@ -671,10 +691,8 @@
             "playlistEmpty": "Ta Biblioteka jest pusta",
             "yourCopyPlaylist": "Masz swoją własną kopię tej Biblioteki!",
             "somenthingWrong": "Coś poszło nie tak podczas procesu!"
-      	}
-	    
+        }
     },
-		
     "LiveChat": {
         "title": "Czat na żywo",
         "saySomething": "Powiedz coś",
@@ -687,16 +705,13 @@
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
-	    
     },
-	
     "Playlist": {
         "loginProfileTitle": "Login wymagany!",
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić"
-	        },
-	
+    },
     "Result": {
         "noResult": "No results found",
         "live": "Na żywo",
@@ -711,9 +726,10 @@
         "loginProfileTitle": "Login wymagany!",
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
-        "loginProfileCancelButton": "Unieważnić"
+        "loginProfileCancelButton": "Unieważnić",
+        "playlistCloned": "Playlist had been added to your playlists",
+        "playlistClonedFailed": "You already cloned this playlist"
     },
-	
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaans"},
@@ -790,7 +806,6 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-	
     "DataProteccion" : {
         "data_protection_array":[
         {"value": "1", "viewValue": "Everyone"},
@@ -802,7 +817,6 @@
         {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
-	
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adult"},
@@ -832,6 +846,7 @@
             {"value": "20", "viewValue": "Natura"},
             {"value": "9", "viewValue":  "Wiadomośći"},
             {"value": "29", "viewValue": "Inne"},
+            {"value": "44", "viewValue": "Performing Arts"},
             {"value": "40", "viewValue": "Zwierzęta"},
             {"value": "28", "viewValue": "Religia"},
             {"value": "14", "viewValue": "Nauka"},
@@ -848,7 +863,6 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-	
     "FixedPlugin": {
         "filters": "Filtry paska bocznego",
         "background": "Tło paska bocznego",
@@ -859,8 +873,6 @@
         "sidebarStyle": "sidebar style",
         "theme": "theme"
     },
-	
-	
 	"Sidebar": {
         "homeSection": "Strona główna",
         "trendingSection": "Trendy",
@@ -878,9 +890,10 @@
         "terms": "Terms",
         "contact": "Contact",
         "privacyPolicy": "Privacy Policy",
-        "copyrightPolicy": "Copyright Policy"
+        "copyrightPolicy": "Copyright Policy",
+        "miningSection": "Start Mining",
+        "subscriptions": "Subscriptions"
     },
-	
     "Terms": {
         "termsTitle": "Terms and conditions",
         "termsTerms": "Terms and conditions",
@@ -980,11 +993,105 @@
         "terms": "Terms and Conditions",
         "filtered": "Filtruj według: ",
         "limitResults": "Ogranicz wyniki",
-        "limitResultsMessage" : "(zostanie wyświetlone maksymalnie 10 wpisów na typ)"
-},
-"Version":{
+        "limitResultsMessage" : "(zostanie wyświetlone maksymalnie 10 wpisów na typ)",
+        "category_array": [
+            { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+            { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+            { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+            { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+            { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+            { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+            { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+            { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+            { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+            { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+            { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+            { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+            { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+            { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+            { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+            { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+            { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+            { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+            { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+            { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+            { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+            { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+            { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+            { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+            { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+            { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+            { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+            { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+            { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+            { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+            { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+            { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+            { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+            { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+        ],
+        "browseCategories" : "Browse Categories",
+        "filter": "FILTER",
+        "subscriptions": "Subscriptions"
+    },
+    "Version":{
         "versionMissmatchTitle" : "Wersja przestarzała",
         "VersionMissmatchText" : "Twoja wersja wydaje się być przestarzała. Proszę wyczyścić pamięć podręczną i ponownie załadować stronę. Jeśli to nie rozwiąże problemu, wyczyść pamięć podręczną dns .",
         "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Start mining",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit "
+
+
 }
 }

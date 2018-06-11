@@ -4,7 +4,7 @@
                 "loginClasic": "Or Be Classical",
                 "usernameEmail": "Username / Email address",
                 "usernameRequired": "Username is required",
-                "usernameMinimun": "Minimum of 4 characters",
+                "usernameMinimun": "A minimum of 4 characters is required",
                 "usernameInvalid": "Invalid username",
                 "usernamewrong": "Username or password wrong",
                 "password": "Password",
@@ -14,7 +14,7 @@
                 "forgotPassword": "Forgot Password",
                 "resendActivateMail": "Resend activation mail",
                 "error": "Error",
-                "emailVerfied": "E-mail verfied",
+                "emailVerfied": "E-mail verified",
                 "resend": "Resend",
 
                 "RecoveryPwd": {
@@ -25,9 +25,9 @@
                 "changePwd": "Change password",
                 "password": "Password",
                 "passwordRequired": " Password is required",
-                "passwordPattern": " Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number, 1 special character (@$!%*#?&)",
+                "passwordPattern": " Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
                 "repeatPassword": "Repeat Password",
-                "passwordMissmatch": "Passwords missmatch",
+                "passwordMissmatch": "Passwords mismatch",
                 "saveButton": "Save",
                 "checkMail": "Password recovery started. Please check your mails",
                 "errorRecovery": "Error recovering password",
@@ -53,10 +53,10 @@
                 "emailIncalid": "Email is invalid",
                 "password": "Password...",
                 "passwordRequired": "Password is required",
-                "passwordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number, 1 special character (@$!%*#?&)",
+                "passwordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
                 "passwprdRepeatInput": "Repeat Password...",
                 "passwordRepeat": " Repeating password is required",
-                "passwordMissmatch": "Passwords missmatch",
+                "passwordMissmatch": "Passwords mismatch",
                 "iAgree": "I agree to the",
                 "termsConditions": "terms and conditions",
                 "login": "Login",
@@ -87,7 +87,7 @@
                 "editProfileTitle": "Edit profile",
                 "editProfileSubTitle": "Complete your profile",
                 "editProfileUsername": "Username",
-                "editProfileUsernameMinimunCharacter": "Username must be minimum 4 characters",
+                "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
                 "editProfileUsernamePattern": " Username can contain A-Z, a-z, 0-9 and _ only",
                 "editProfilePhone": "Mobile phone",
                 "editProfilePhoneInvalid": "Invalid phone number",
@@ -115,10 +115,10 @@
                 "editProfileChangePasswordTitle": "Change password",
                 "editProfileOldPassword": "Old password",
                 "editProfileNewPassword": "New password",
-                "editProfileNewPasswordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number, 1 special character (@$!%*#?&)",
+                "editProfileNewPasswordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
                 "editProfileRepeatNewPassword": "Repeat password",
                 "editProfileRepeatNewPasswordRequired": "Repeating password is required",
-                "editProfileRepeatNewPasswordMissmatch": "Passwords missmatch",
+                "editProfileRepeatNewPasswordMissmatch": "Passwords mismatch",
                 "editProfileUpdatePasswordButton": "Update password ",
                 "editProfilePasswordNotifyError": "Error updating",
                 "editProfilePasswordNotifyDifferent": "Error updating: the passwords are different",
@@ -137,7 +137,12 @@
                 "language": "My language",
                 "saveLanguage": "Save language",
                 "languageSelect": "Language",
-                "textEditorPlaceholder" : "Enter a text..."
+                "textEditorPlaceholder" : "Enter a text...",
+                "editProfilePasswordNotifySave": "Password saved successfully",
+                "purchases": "My purchases",
+                "profilePurchase": "Purchase",
+                "noPurchase": "There are no purchases",
+                "subscribers": "Subscribers"
 
                 },
 
@@ -147,13 +152,14 @@
                 "editPlaylistDescription": "Description",
                 "editPlaylistSaveButton": "Save",
                 "editPlaylistDeleteButton": "Delete",
+                "editPlaylistCloseButton": "Close playlist",
                 "editPlaylistEmpty": "This playlist is empty.",
                 "newPlaylist": "New playlist",
                 "newPlaylistTitle": "Title",
                 "newPlaylistDescription": "Description",
                 "newPlaylistSaveButton": "Save",
                 "deletePlaylistTitle": "Are you sure ?",
-                "deletePlaylistText": "This will delete playlist forever",
+                "deletePlaylistText": "This will delete the playlist unrecoverably",
                 "deletePlaylistConfirmButton": "Yes, delete it!",
                 "deletePlaylistCancelButton": "Cancel",
                 "deletePlaylistTitleConfirm": "Deleted!",
@@ -173,7 +179,7 @@
                 },
 
                 "Publications":{
-                "title": "My Uploads",
+                "title": "Uploads",
                 "views": "Views",
                 "edit": "Edit",
                 "delete": "Delete",
@@ -183,8 +189,10 @@
                 "deletePublicationCancelButton": "cancel",
                 "deletePublicationNotify": "Your video has been removed",
                 "deletePublicationNotifyError": "Error",
-                "videoInfoError": "Error get video Info",
-                "noUploads": "There are no uploads"
+                "videoInfoError": "Error getting video Info",
+                "noUploads": "There are no uploads",
+                "editVideo": "Edit video",
+                "makePrimaryVideo": "Set as primary video"
                 },
 
                 "LiveStreams": {
@@ -199,6 +207,13 @@
                 "subscriptionsButton": "Subscribe",
                 "unSubscriptionsButton": "Unsubscribe",
                 "noSubscriptions": "There are no subscriptions"
+                },
+
+                "Subscribers": {
+                "title": "Subscribers",
+                "subscriptionsButton": "Subscribe",
+                "unSubscriptionsButton": "Unsubscribe",
+                "noSubscriptions": "There are no subscribers"
                 },
 
                 "Security": {
@@ -318,7 +333,7 @@
                         "3pTutorial": "Or choose one of your existing keys and click on \"Edit\".",
                         "4pTutorial": "To set up the thumbnail for your video click on the \"UPLOAD\" button, choose a media file and click open",
                         "5pTutorial": "Fill in the Stream title field to name your broadcast. Use the text editor to write a description.",
-                        "6pTutorial": "This is all you have to do to set up your streaming, just click SAVE.",
+                        "6pTutorial": "This is all you have to do to set up your stream, just click SAVE.",
                         "7pTutorial": "Start live streaming with streaming software OBS.",
                         "8pTutorial": "Open OBS software, go to Settings, choose the tab STREAM, change Stream Type to custom streaming server. Paste your stream URL to URL field, Paste your streaming key to stream key field. Apply the settings. Click on OK to close the window.",
                         "9pTutorial": "You will get stream URL and streaming key from bit.tube settings, click on the clip symbol to copy both.",
@@ -386,7 +401,7 @@
                 "deleteComentConfirmTitle": "Delete comment",
                 "deleteComentConfirmText": "Are you sure that you want to delete this comment ?",
                 "deleteComentConfirmButton": "Yes",
-                "reportVideoInnapropiateContent": "Innapropiate content",
+                "reportVideoInnapropiateContent": "Inappropriate content",
                 "reportVideoCopyrightViolation": "Copyright violation",
                 "reportVideoOther": "Other",
                 "reportVideoCancel": "Cancel",
@@ -413,7 +428,7 @@
                 "tip": "Tip",
                 "close": "Close",
                 "mediaReport": "Media report",
-                "primaryVideo": "Make primary video",
+                "primaryVideo": "Set as primary video",
                 "abortError": "User aborted media playback",
                 "networkError": "There is a problem with your internet connection",
                 "decodeError": "This media appears to be corrupted",
@@ -556,7 +571,7 @@
                 "loginProfileCancelButton": "Cancel",
                 "videoAlreadyPublishedTitle": "Video already published!",
                 "videoAlreadyPublishedText": "You may edit this video information under publications in your profile",
-                "videoSuccessfuly": "Your video has been successfuly uploaded, can take a while until it is being checked and published",
+                "videoSuccessfuly": "Your video has been successfully uploaded, it could take a while until it was checked and published",
                 "authorizationYoutube": "In case of not having authorization please click AUTHORIZE and follow the steps to give authorization to check your youtube content",
                 "authorizeButton": "Authorize",
                 "UnauthorizeButton": "Unauthorize",
@@ -571,18 +586,18 @@
                 "leavePageText": "All of your pending uploads will be lost",
                 "leavePageButton": "Yes, leave!",
                 "needsRemove": "Youtube Auth needs to be Removed",
-                "finalizeProcess": "To finalize this process, please visit the Google account management site to completly remove access from",
+                "finalizeProcess": "To finalize this process, please visit the Google account management site to completely remove access from",
                 "bitubeIntegrate": "BitTube Integration with YouTube",
                 "areYouSure": "Are you sure?",
                 "removeAccess": "This will remove your access to your Youtube account!",
                 "proceed": "Yes, proceed!",
                 "gotit": "Got it!",
-                "allYourSelected": "All your selected videos has been successfuly uploaded, can take a while until they are being checked and published",
+                "allYourSelected": "All your selected videos have been successfully uploaded, it could take a while until they have been checked and published",
                 "textEditorPlaceholder": "Enter a text here...",
                 "invalidFile": "INVALID FILE ERROR",
                 "informationError": "INFORMATION ERROR",
                 "transcodingError": "TRANSCODING ERROR",
-                "syncError": "SYNCRONIZATION ERROR",
+                "syncError": "SYNCHRONIZATION ERROR",
                 "pinError": "PIN ERROR",
                 "sshError": "SSH ERROR",
                 "qualityError": "The video quality is too low, it need to be at least 360p",
@@ -599,7 +614,16 @@
                 "waitingTranscode": "WAITING FOR TRANSCODE",
                 "internalError": "An internal error has occurred, please try again later",
                 "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
-                "job": "Job"     
+                "job": "Job",
+                "priceInTube": "Price in TUBE",
+                "priceInUsd": "Price in USD",
+                "rental": "Rental",
+                "purchase": "Purchase",
+                "lifetime": "Lifetime",
+                "rental24hrs": "24 hrs",
+                "rental48hrs": "48 hrs",
+                "rental72hrs": "72 hrs",
+                "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
         },
 
         "User": {
@@ -637,7 +661,9 @@
                         "addPlaylists": "Add to playlist",
                         "newPlaylist": "New playlist",
                         "addPlaylistButton": "Add",
-                        "addPLaylistTitle":"Add to..."
+                        "addPLaylistTitle":"Add to...",
+                        "ReadMore": "Read more",
+                        "showAll": "Show all"
                 },
 
                 "LiveTv": {
@@ -662,7 +688,7 @@
                 "myPlaylists": "MyPlaylists",
                 "noPlaylists": "There are no playlists",
                 "description": "Description",
-                "noDescription": "No descrition provided",
+                "noDescription": "No description provided",
                 "addMyPlaylist": "Add to my Playlists",
                 "addPlaylists": "Add to playlist",
                 "newPlaylist": "New playlist",
@@ -670,7 +696,7 @@
                 "addPLaylistTitle":"Add to...",
                 "playlistEmpty": "This playlist is empty",
                 "yourCopyPlaylist": "You have your own copy of this playlist!",
-                "somenthingWrong": "Something went wrong during the proccess!"
+                "somenthingWrong": "Something went wrong during the process!"
                 }
 
         },
@@ -711,7 +737,9 @@
                 "loginProfileTitle": "Login required!",
                 "loginProfileText": "Please login to use this feature",
                 "loginProfileConfirmButton": "Ok",
-                "loginProfileCancelButton": "Cancel"
+                "loginProfileCancelButton": "Cancel",
+                "playlistCloned": "Playlist had been added to your playlists",
+                "playlistClonedFailed": "You already cloned this playlist"
         },
 
         "Lenguages":{
@@ -726,7 +754,7 @@
                         {"value": "CA", "viewValue": "Catalan"},
                         {"value": "KM", "viewValue": "Cambodian"},
                         {"value": "ZH", "viewValue": "Chinese (Mandarin)"},
-                        {"value": "HR", "viewValue": "Croation"},
+                        {"value": "HR", "viewValue": "Croatian"},
                         {"value": "CS", "viewValue": "Czech"},
                         {"value": "DA", "viewValue": "Danish"},
                         {"value": "NL", "viewValue": "Dutch"},
@@ -782,7 +810,7 @@
                         {"value": "BO", "viewValue": "Tibetan"},
                         {"value": "TO", "viewValue": "Tonga"},
                         {"value": "TR", "viewValue": "Turkish"},
-                        {"value": "UK", "viewValue": "Ukranian"},
+                        {"value": "UK", "viewValue": "Ukrainian"},
                         {"value": "UR", "viewValue": "Urdu"},
                         {"value": "UZ", "viewValue": "Uzbek"},
                         {"value": "VI", "viewValue": "Vietnamese"},
@@ -820,7 +848,7 @@
                 {"value": "35", "viewValue": "Finance"},
                 {"value": "36", "viewValue": "Food"},
                 {"value": "18", "viewValue": "Gadgets and Apps"},
-                {"value": "2", "viewValue":  "Gaming"},
+                {"value": "2", "viewValue":  "Gamers"},
                 {"value": "19", "viewValue": "Health"},
                 {"value": "15", "viewValue": "History"},
                 {"value": "27", "viewValue": "Hobbies and Crafts"},
@@ -832,6 +860,7 @@
                 {"value": "20", "viewValue": "Nature"},
                 {"value": "9", "viewValue":  "News"},
                 {"value": "29", "viewValue": "Others"},
+                {"value": "44", "viewValue": "Performing Arts"},
                 {"value": "40", "viewValue": "Pets"},
                 {"value": "28", "viewValue": "Religion"},
                 {"value": "14", "viewValue": "Science"},
@@ -846,6 +875,7 @@
                 {"value": "7", "viewValue":  "Vloggers"},
                 {"value": "30", "viewValue": "Webcams"},
                 {"value": "34", "viewValue": "Yousician"}
+                
                 ]
         },
 
@@ -878,7 +908,9 @@
                 "terms": "Terms",
                 "contact": "Contact",
                 "privacyPolicy": "Privacy Policy",
-                "copyrightPolicy": "Copyright Policy"
+                "copyrightPolicy": "Copyright Policy",
+                "miningSection": "Start Mining",
+                "subscriptions": "Subscriptions"
 
         },
         "Terms": {
@@ -978,15 +1010,112 @@
                 "userProfile": "User Profile",
                 "searchResult": "Search results",
                 "play": "Play",
+                "startMining": "Start mining",
                 "terms": "Terms and Conditions",
                 "filtered": "Filtered by: ",
+                "for": "for",
                 "limitResults": "Limit the results",
-                "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
+                "limitResultsMessage" : "a maximum of 10 entries per type will be displayed",
+                "category_array": [
+                        { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+                        { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+                        { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+                        { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+                        { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+                        { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+                        { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+                        { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+                        { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+                        { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+                        { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+                        { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+                        { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+                        { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+                        { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+                        { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+                        { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+                        { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+                        { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+                        { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+                        { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+                        { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+                        { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+                        { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+                        { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+                        { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+                        { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+                        { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+                        {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+                        { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+                        { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+                        { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+                        { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+                        { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+                        { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+                        { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+                        { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+                        { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+                        { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+                        { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+                        { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+                        { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+                ],
+                "browseCategories" : "Browse Categories",
+                "filter": "FILTER",
+                "subscriptions": "Subscriptions"
         },
         "Version":{
                 "versionMissmatchTitle" : "Version outdated",
-                "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+                "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
                 "versionMissmatchButton" : "OK"
+        },
+        "Mining":{
+                "download": "Download",
+                "downloadPlugin": "Download TUBE miner",
+                "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+                "mining": "Mining",
+                "startMining": "Start mining",
+                "stopMining": "Stop mining",
+                "cpuCore": "CPU Cores:",
+                "gpuCore": "GPU Core",
+                "activateGpu": "Activate GPU",
+                "hashate": "Hashrate",
+                "result": "Results",
+                "connection": "Connection",
+                "threadID": "Thread ID",
+                "totals": "Totals:",
+                "highest": "Highest",
+                "miningSince": "Mining since",
+                "resultReport": "Result Report",
+                "difficulty": "Difficulty",
+                "goodResults": "Good results",
+                "avgResult": "Avg result time",
+                "poolSide": "Pool-side hashes",
+                "top10": "Top 10 best results found",
+                "errorDetails": "Error details",
+                "errorText": "Error text",
+                "count": "Count",
+                "lastSeen": "Last Seen",
+                "connectionReport": "Connection Report",
+                "error": "Error",
+                "poolAddress": "Pool address",
+                "connectedSince": "Connected since",
+                "poolPing": "Pool ping time",
+                "networkError": "Network error log",
+                "hashrateReport": "Hashrate Report",
+                "stats": "Stats",
+                "myWallet": "My Wallet:",
+                "swalButtonConfirm": "Ok",
+                "swalTitle": "Miner offline",
+                "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+                "instructions": "Instructions",
+                "instructions1": "If this is your first time, click the download button",
+                "Instructions2": "Unpack and start bittube-miner.exe",
+                "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+                "Instructions4": "If you are an expert, visit "
+
+
+
         }
 
 }
