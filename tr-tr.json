@@ -26,7 +26,7 @@
             "changePwd": "Şifreyi değiştir",
             "password": "Şifre",
             "passwordRequired": " Şifre gereklidir",
-            "passwordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf,1 sayı ve bir özel karakter (@$!%*#?&) içermelidir",
+            "passwordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf içermelidir",
             "repeatPassword": "Şifre Yeniden",
             "passwordMissmatch": "Şifreler uyuşmuyor",
             "saveButton": "Kaydet",
@@ -54,7 +54,7 @@
         "emailIncalid": "Geçersiz e-mail adresi",
         "password": "Şifre...",
         "passwordRequired": "Şifre gereklidir",
-        "passwordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf,1 sayı ve bir özel karakter (@$!%*#?&) içermelidir",
+        "passwordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf içermelidir",
         "passwprdRepeatInput": "Şifre Tekrar...",
         "passwordRepeat": " Tekrar şifre gereklidir ",
         "passwordMissmatch": "Şifreler uyuşmıyor",
@@ -88,7 +88,7 @@
             "editProfileTitle": "Profil Güncelleme",
             "editProfileSubTitle": "Profilinizi tamamlayın",
             "editProfileUsername": "Kullanıcı Adı",
-            "editProfileUsernameMinimunCharacter": "Kullanıcı minimum 4 karakter olmalıdır",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
             "editProfileUsernamePattern": " Kullanıcı adı yanlızca şu karakterler olmalıdır: A-Z, a-z, 0-9 ve _ karakteri",
             "editProfilePhone": "Cep Telefonu",
             "editProfilePhoneInvalid": "Geçersiz cep telefonu",
@@ -116,7 +116,7 @@
             "editProfileChangePasswordTitle": "Şifre değiştir",
             "editProfileOldPassword": "Eski şifre",
             "editProfileNewPassword": "Yeni şifre",
-            "editProfileNewPasswordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf,1 sayı ve bir özel karakter (@$!%*#?&) içermelidir",
+            "editProfileNewPasswordPattern": "Minimum 6 karakter, bir büyük harf, 1 küçük harf içermelidir",
             "editProfileRepeatNewPassword": "Şifre tekrarla",
             "editProfileRepeatNewPasswordRequired": "Şifre tekrarı gereklidir",
             "editProfileRepeatNewPasswordMissmatch": "Şifreler uyuşmuyor",
@@ -138,7 +138,12 @@
             "language": "Dil",
             "saveLanguage": "Dil kaydet",
             "languageSelect": "Dil",
-            "textEditorPlaceholder" : "Lütfen yazınız..."
+            "textEditorPlaceholder" : "Lütfen yazınız...",
+            "editProfilePasswordNotifySave": "Password saved successfully",
+            "purchases": "My purchases",
+            "profilePurchase": "Purchase",
+            "noPurchase": "There are no purchases",
+            "subscribers": "Subscribers"
 
         },
 
@@ -148,6 +153,7 @@
             "editPlaylistDescription": "Açıklama",
             "editPlaylistSaveButton": "Kaydet",
             "editPlaylistDeleteButton": "Sil",
+            "editPlaylistCloseButton": "Close playlist",
             "editPlaylistEmpty": "Liste boş.",
             "newPlaylist": "Yeni liste",
             "newPlaylistTitle": "Başlık",
@@ -174,7 +180,7 @@
         },
 
         "Publications":{
-            "title": "Yüklemelerim",
+            "title": "Uploads",
             "views": "İzlenmeler",
             "edit": "Düzenle",
             "delete": "Sil",
@@ -185,7 +191,9 @@
             "deletePublicationNotify": "Video kaldırıldı",
             "deletePublicationNotifyError": "Hata",
             "videoInfoError": "Video bilgisi hatası",
-            "noUploads": "Yükleme yok"
+            "noUploads": "Yükleme yok",
+            "editVideo": "Edit video",
+            "makePrimaryVideo": "Set as primary video"
         },
 
         "LiveStreams": {
@@ -201,7 +209,12 @@
             "unSubscriptionsButton": "Aboneliği kaldır",
             "noSubscriptions": "Abonelik yok"
         },
-
+        "Subscribers": {
+            "title": "Subscribers",
+            "subscriptionsButton": "Subscribe",
+            "unSubscriptionsButton": "Unsubscribe",
+            "noSubscriptions": "There are no subscribers"
+            },
         "Security": {
             "title": "Güvenlik",
             "authentication": "2 faktörlü kimlik doğrulama",
@@ -413,7 +426,7 @@
         "tip": "Tip",
         "close": "Close",
         "mediaReport": "Media report",
-        "primaryVideo": "Make primary video",
+        "primaryVideo": "Set as primary video",
         "abortError": "User aborted media playback",
         "networkError": "There is a problem with your internet connection",
         "decodeError": "This media appears to be corrupted",
@@ -554,7 +567,7 @@
         "loginProfileCancelButton": "İptal",
         "videoAlreadyPublishedTitle": "Video zaten yayınlanmıl!",
         "videoAlreadyPublishedText": "Bu video bigilerini profilinizde yayınlarınızdan daha sonra da düzenleyebilirsiniz",
-        "videoSuccessfuly": "Videonuz başarılı bir şekilde yüklendi, kontrol edilip onaylanması bir miktar zaman alabilir",
+        "videoSuccessfuly": "Your video has been successfuly uploaded, it could take a while until it was checked and published",
         "authorizationYoutube": "Yetkilendirme olmaması durumunda lütfen 'AUTHORIZE' tuşuna basınız ve youtube içeriklerinizi yetkilendirmek için adımları takip edin",
         "authorizeButton": "Yetkilendir",
         "UnauthorizeButton": "Yetkilendirme Kaldır",
@@ -597,7 +610,16 @@
         "waitingTranscode": "WAITING FOR TRANSCODE",
         "internalError": "An internal error has occurred, please try again later",
         "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
-        "job": "Job"     
+        "job": "Job",
+        "priceInTube": "Price in TUBE",
+        "priceInUsd": "Price in USD",
+        "rental": "Rental",
+        "purchase": "Purchase",
+        "lifetime": "Lifetime",
+        "rental24hrs": "24 hrs",
+        "rental48hrs": "48 hrs",
+        "rental72hrs": "72 hrs",
+        "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
     },
 
     "User": {
@@ -635,7 +657,9 @@
             "addPlaylists": "Listeye ekle",
             "newPlaylist": "Yeni liste",
             "addPlaylistButton": "Ekle",
-            "addPLaylistTitle":"Ekle..."
+            "addPLaylistTitle":"Ekle...",
+            "ReadMore": "Read more",
+            "showAll": "Show all"
         },
 
         "LiveTv": {
@@ -709,7 +733,9 @@
         "loginProfileTitle": "Giriş gereklidir!",
         "loginProfileText": "Bu özelliği kullanmak için lütfen giriş yapınız",
         "loginProfileConfirmButton": "Tamam",
-        "loginProfileCancelButton": "İptal"
+        "loginProfileCancelButton": "İptal",
+        "playlistCloned": "Playlist had been added to your playlists",
+        "playlistClonedFailed": "You already cloned this playlist"
     },
 
     "Lenguages":{
@@ -830,6 +856,7 @@
             {"value": "20", "viewValue": "Doğa"},
             {"value": "9", "viewValue":  "Haberler"},
             {"value": "29", "viewValue": "Diğer"},
+            {"value": "44", "viewValue": "Performing Arts"},
             {"value": "40", "viewValue": "Evcil hayvanlar"},
             {"value": "28", "viewValue": "Dini"},
             {"value": "14", "viewValue": "Bilim"},
@@ -875,7 +902,9 @@
         "terms": "Terms",
         "contact": "Contact",
         "privacyPolicy": "Privacy Policy",
-        "copyrightPolicy": "Copyright Policy"
+        "copyrightPolicy": "Copyright Policy",
+        "miningSection": "Start Mining",
+        "subscriptions": "Subscriptions"
     },
     "Terms": {
         "termsTitle": "Şartlar ve Koşullar",
@@ -975,13 +1004,109 @@
         "searchResult": "Search results",
         "play": "Play",
         "terms": "Terms and Conditions",
+        "startMining": "Start mining",
         "filtered": "Filtered by: ",
+        "for": "for",
         "limitResults": "Limit the results",
-        "limitResultsMessage" : "(a maximum of 10 entries per type will be displayed)"
-},
-"Version":{
-        "versionMissmatchTitle" : "Version outdated",
-        "VersionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
-        "versionMissmatchButton" : "OK"
+        "limitResultsMessage" : "a maximum of 10 entries per type will be displayed",
+        "category_array": [
+            { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+            { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+            { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+            { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+            { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+            { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+            { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+            { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+            { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+            { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+            { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+            { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+            { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+            { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+            { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+            { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+            { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+            { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+            { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+            { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+            { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+            { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+            { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+            { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+            { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+            { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+            { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+            { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+            { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+            { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+            { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+            { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+            { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+            { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+        ],
+        "browseCategories" : "Browse Categories",
+        "filter": "FILTER",
+        "subscriptions": "Subscriptions"
+    },
+    "Version":{
+            "versionMissmatchTitle" : "Version outdated",
+            "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+            "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Start mining",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit "
+
+
 }
 }

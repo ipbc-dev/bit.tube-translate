@@ -26,7 +26,7 @@
             "changePwd": "修改密码",
             "password": "密码",
             "passwordRequired": " 请输入密码",
-            "passwordPattern": " 最小6个字符, 1个大写字母, 1个小写字母, 1个数字, 1个特殊字符 (@$!%*#?&)",
+            "passwordPattern": " 最小6个字符, 1个大写字母, 1个小写字母, 1个数字",
             "repeatPassword": "重复密码",
             "passwordMissmatch": "两次输入的密码不匹配",
             "saveButton": "保存",
@@ -54,7 +54,7 @@
         "emailIncalid": "您输入的Email是不正确的",
         "password": "密码...",
         "passwordRequired": "请输入您的密码",
-        "passwordPattern": "最小6个字符, 1个大写字母, 1个小写字母, 1个数字, 1个特殊字符 (@$!%*#?&)",
+        "passwordPattern": "最小6个字符, 1个大写字母, 1个小写字母, 1个数字",
         "passwprdRepeatInput": "重复您的密码...",
         "passwordRepeat": " 请重复输入您的密码",
         "passwordMissmatch": "两次输入的密码不匹配",
@@ -88,7 +88,7 @@
             "editProfileTitle": "编辑档案",
             "editProfileSubTitle": "请完成您的档案",
             "editProfileUsername": "用户名",
-            "editProfileUsernameMinimunCharacter": "用户名最少4个字符",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
             "editProfileUsernamePattern": " 用户名可以包含以下字符：A-Z, a-z, 0-9 和 _ ",
             "editProfilePhone": "移动电话号码",
             "editProfilePhoneInvalid": "不正确的电话号码",
@@ -116,7 +116,7 @@
             "editProfileChangePasswordTitle": "更改密码",
             "editProfileOldPassword": "旧密码",
             "editProfileNewPassword": "新密码",
-            "editProfileNewPasswordPattern": "最小6个字符, 1个大写字母, 1个小写字母, 1个数字, 1个特殊字符 (@$!%*#?&)",
+            "editProfileNewPasswordPattern": "最小6个字符, 1个大写字母, 1个小写字母, 1个数字",
             "editProfileRepeatNewPassword": "重复密码",
             "editProfileRepeatNewPasswordRequired": "请重复您输入的密码",
             "editProfileRepeatNewPasswordMissmatch": "两次输入的密码不匹配",
@@ -138,7 +138,12 @@
             "language": "我的语言",
             "saveLanguage": "保存语言",
             "languageSelect": "语言",
-            "textEditorPlaceholder" : "请输入内容..."
+            "textEditorPlaceholder" : "请输入内容...",
+            "editProfilePasswordNotifySave": "Password saved successfully",
+            "purchases": "My purchases",
+            "profilePurchase": "Purchase",
+            "noPurchase": "There are no purchases",
+            "subscribers": "Subscribers"
 
         },
 
@@ -148,6 +153,7 @@
             "editPlaylistDescription": "描述",
             "editPlaylistSaveButton": "保存",
             "editPlaylistDeleteButton": "删除",
+            "editPlaylistCloseButton": "Close playlist",
             "editPlaylistEmpty": "播放列表是空的",
             "newPlaylist": "新建播放列表",
             "newPlaylistTitle": "标题",
@@ -174,7 +180,7 @@
         },
 
         "Publications":{
-            "title": "我的上传",
+            "title": "Uploads",
             "views": "预览",
             "edit": "编辑",
             "delete": "删除",
@@ -185,7 +191,9 @@
             "deletePublicationNotify": "您的视频已经被移除",
             "deletePublicationNotifyError": "错误",
             "videoInfoError": "获取视频信息错误",
-            "noUploads": "没有您的上传"
+            "noUploads": "没有您的上传",
+            "editVideo": "Edit video",
+            "makePrimaryVideo": "Set as primary video"
         },
 
         "LiveStreams": {
@@ -201,7 +209,12 @@
             "unSubscriptionsButton": "取消订阅",
             "noSubscriptions": "没有您的订阅"
         },
-
+        "Subscribers": {
+            "title": "Subscribers",
+            "subscriptionsButton": "Subscribe",
+            "unSubscriptionsButton": "Unsubscribe",
+            "noSubscriptions": "There are no subscribers"
+            },
         "Security": {
             "title": "安全",
             "authentication": "二次验证",
@@ -413,7 +426,7 @@
         "tip": "小提示",
         "close": "关闭",
         "mediaReport": "视频报告",
-        "primaryVideo": "Make primary video",
+        "primaryVideo": "Set as primary video",
         "abortError": "用户终止了视频回放",
         "networkError": "您的网络连接好像有问题",
         "decodeError": "该视频好像已被更改",
@@ -597,7 +610,16 @@
         "waitingTranscode": "等待传输码",
         "internalError": "发生了一个内部错误，请稍后重试",
         "areYouSureLose": "您确定么? 该操作将会丢失您未保存的任务!",
-        "job": "任务"     
+        "job": "任务",
+        "priceInTube": "Price in TUBE",
+        "priceInUsd": "Price in USD",
+        "rental": "Rental",
+        "purchase": "Purchase",
+        "lifetime": "Lifetime",
+        "rental24hrs": "24 hrs",
+        "rental48hrs": "48 hrs",
+        "rental72hrs": "72 hrs",
+        "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"  
     },
 
     "User": {
@@ -635,7 +657,9 @@
             "addPlaylists": "添加播放列表",
             "newPlaylist": "新建播放列表",
             "addPlaylistButton": "添加",
-            "addPLaylistTitle":"添加至..."
+            "addPLaylistTitle":"添加至...",
+            "ReadMore": "Read more",
+            "showAll": "Show all"
         },
 
         "LiveTv": {
@@ -709,7 +733,9 @@
         "loginProfileTitle": "请登录!",
         "loginProfileText": "请登录使用该功能",
         "loginProfileConfirmButton": "确定",
-        "loginProfileCancelButton": "取消"
+        "loginProfileCancelButton": "取消",
+        "playlistCloned": "Playlist had been added to your playlists",
+        "playlistClonedFailed": "You already cloned this playlist"
     },
 
     "Lenguages":{
@@ -830,6 +856,7 @@
             {"value": "20", "viewValue": "自然"},
             {"value": "9", "viewValue":  "新闻"},
             {"value": "29", "viewValue": "其它"},
+            {"value": "44", "viewValue": "Performing Arts"},
             {"value": "40", "viewValue": "爱宠"},
             {"value": "28", "viewValue": "宗教"},
             {"value": "14", "viewValue": "科技"},
@@ -875,7 +902,9 @@
         "terms": "条款",
         "contact": "联系",
         "privacyPolicy": "隐私策略",
-        "copyrightPolicy": "版权策略"
+        "copyrightPolicy": "版权策略",
+        "miningSection": "Start Mining",
+        "subscriptions": "Subscriptions"
     },
     "Terms": {
         "termsTitle": "用户条款",
@@ -974,13 +1003,108 @@
         "searchResult": "搜索结果",
         "play": "播放",
         "terms": "服务条款",
+        "startMining": "Start mining",
         "filtered": "关键词: ",
         "limitResults": "限制搜索结果",
-        "limitResultsMessage" : "(显示最多10条搜索结果)"
+        "limitResultsMessage" : "(显示最多10条搜索结果)",
+        "category_array": [
+            { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+            { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+            { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+            { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+            { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+            { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+            { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+            { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+            { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+            { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+            { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+            { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+            { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+            { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+            { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+            { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+            { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+            { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+            { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+            { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+            { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+            { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+            { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+            { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+            { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+            { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+            { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+            { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+            { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+            { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+            { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+            { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+            { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+            { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+        ],
+        "browseCategories" : "Browse Categories",
+        "filter": "FILTER",
+        "subscriptions": "Subscriptions"
         },
         "Version":{
             "versionMissmatchTitle" : "版本过期",
             "VersionMissmatchText" : "您访问的版本好像过期了，请清空您的浏览器缓存再次访问，如果这还不能解决问题请清空您的DNS缓存试试。",
             "versionMissmatchButton" : "确定"
-    }
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Start mining",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit "
+
+
+}
 }
