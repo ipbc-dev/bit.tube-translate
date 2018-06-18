@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "Логин",
         "loginClasic": "Без социальных сетей",
         "usernameEmail": "Имя пользователя / Email",
         "usernameRequired": "Нужно указать имя пользователя",
-        "usernameMinimun": "Минимум 4 символа",
+        "usernameMinimun": "Минимум 3 символа",
         "usernameInvalid": "Некорректное имя пользователя",
         "usernamewrong": "Некорректные имя пользователя или пароль",
         "password": "Пароль",
@@ -17,7 +16,6 @@
         "error": "Ошибка",
         "emailVerfied": "E-mail подтвержден",
         "resend": "Resend",
-
         "RecoveryPwd": {
             "title": "Восстановить пароль",
             "email":"Имя пользователя / Email",
@@ -34,17 +32,14 @@
             "errorRecovery": "Ошибка при восстановлении пароля",
             "passwordUpdate": "Пароль обновлен",
             "errorUpdate": "Ошибка при обновлении"
-
-
         }
     },
-
     "Register": {
         "title": "Регистрация",
         "loginClasic": "Без социальных сетей",
         "userName": "Имя пользователя...",
         "usernameRequired": "Нужно указать имя пользователя",
-        "usernameMinimun": "Минимум 4 символа",
+        "usernameMinimun": "Минимум 3 символа",
         "firstName": "Имя...",
         "firstNameRequired": "Нужно указать имя",
         "lasName": "Фамилия...",
@@ -66,9 +61,7 @@
         "checkEmail": "Проверьте ваш почтовый ящик.",
         "error": "Ошибка"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "Мой профиль",
             "aboutMe": "Обо мне:",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "Мой плейлист",
             "editPlaylistTitle": "Название",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "Ваш файл удален",
             "VideoPlaylistButton": "Ok",
             "noPlaylists": "Плейлистов нет"
-
         },
-
         "Publications":{
             "title": "Мои загрузки",
             "views": "Просмотры",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "Мои онлайн трансляции",
             "views": "Просмотры",
             "edit": "Правка",
             "noLiveStreams": "Нет онлайн трансляций"
         },
-
         "Subscriptions": {
             "title": "Подписки",
             "subscriptionsButton": "Подписаться",
@@ -226,11 +227,8 @@
             "activateAuthenticationText": "Перед тем как продолжить, убедитесь, что QR-код успешно просканирован вашим приложением для двухфактороной авторизации!",
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Отменить"  
-        }
-       
-        
+        } 
     },
-
     "Dashboard": {
         "views": "Просмотры",
         "likes": "Понравилось",
@@ -238,9 +236,9 @@
         "newPlaylist": "Новый плейлист",
         "addPlaylistButton": "Добавить",
         "addPLaylistTitle":"Добавить в...",
-        "live":"Трансляции"
+        "live":"Трансляции",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "Просмотры",
         "likes": "Понравилось",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"Добавить в...",
         "live":"Трансляции"
     },
-
     "Newcomers": {
         "views": "Просмотры",
         "likes": "Понравилось",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"Добавить в...",
         "live":"Трансляции"
     },
-
     "Live": {
         "views": "Просмотры",
         "likes": "Понравилось",
         "noLivestreams": "Нет доступных трансляций",
         "live":"В прямом эфире"
     },
-
     "MediaEdit": {
         "title": "Редактировать видео",
         "snapshotButon": "Сделать скриншот",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "Отменить",
         "videoPlaceholderEditor": "Добавьте описание..."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "Настройки",
@@ -352,7 +346,6 @@
             "dowloadButton": "Скачать"
         }
     },
-
     "Play": {
         "addPlaylists": "Добавить в плейлист",
         "newPlaylist": "Новый плейлист",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "Введите текст...",
         "AcceptedHashesText": "Принятые хэши: ",
         "HashesText": "Хэш/сек: ",
-        "TotalHashesText": "Всего хэшей: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Статус: ",
         "localSaving": "Сохранено IPFS локально: ",
         "RTCPeers": "RTC пиры: ",
@@ -436,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "Обзор",
         "walletAdress": "Адрес кошелька",
@@ -498,7 +487,6 @@
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "Открыть Coinmarketcap",
         "exchanges": "Биржи",
@@ -513,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "Нет API",
         "crex24": "Crex24",
-
         "tpl_title" : "Калькулятор прибыли",
         "tpl_market" : "Рынок",
         "tpl_avg_hashrate" : "Средний хэшрейт (H/s)",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "Объем в USD (24ч)",
         "tpl_vol_eur_24h" : "Объем в EUR (24ч)"
     },
-
     "Upload": {
         "titleUpload": "Загрузить медиафайлы",
         "p1Upload": "Вы можете загрузить медиафайлы. Итоговое видео будет доступно в нескольких разрешениях",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "Отменить",
         "videoAlreadyPublishedTitle": "Видео уже опубликовано!",
         "videoAlreadyPublishedText": "Вы сможете отредактировать описание этого видео в разделе публикаций в личном кабинете",
-        "videoSuccessfuly": "Видео успешно загружено, но его проверка и публикация могут занять еще немного времени",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "В случае отсутствия авторизации нажмите Авторизоваться и следуйте предложенным шагам, чтобы получить доступ к вашим видео на YouTube",
         "authorizeButton": "Авторизоваться",
         "UnauthorizeButton": "Отменить авторизацию",
@@ -620,8 +606,7 @@
         "rental48hrs": "48 hrs",
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
-        },
-
+    },
     "User": {
         "subscribe": "Подписаться",
         "unSubscribe": "Отписаться",
@@ -635,7 +620,6 @@
         "loginProfileText": "Авторизуйтесь, чтобы использовать эту функцию",
         "loginProfileConfirmButton": "ОК",
         "loginProfileCancelButton": "Отмена",
-
         "Profile": {
             "title": "Обзор",
             "about": "Обо мне",
@@ -645,10 +629,8 @@
             "location": "Откуда",
             "readMore": "Подробнее",
             "readLess": "Короче",
-            "social": "Соцсети"
-            
+            "social": "Соцсети"  
         },
-
         "Publications": {
            "publication": "Publication",
             "publications": "Publications",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "Livestream",
             "livestreams": "Livestreams",
@@ -672,14 +653,12 @@
             "addPlaylistButton": "Add",
             "addPLaylistTitle":"Add to..."
         },
-
         "Subscriptions": {
             "subscriptions": "Subscriptions",
             "nosubscriptions": "There are no subscriptions",
             "subscribe": "Subscribe",
             "unSubscribe": "Unsubscribe"
         },
-
         "MyPlaylists": {
             "myPlaylists": "MyPlaylists",
             "noPlaylists": "There are no playlists",
@@ -694,9 +673,7 @@
             "yourCopyPlaylist": "You have your own copy of this playlist!",
             "somenthingWrong": "Something went wrong during the process!"
         }
-
     },
-
     "LiveChat": {
         "title": "Live Chat",
         "saySomething": "Say something",
@@ -711,14 +688,12 @@
         "loginProfileCancelButton": "Cancel"
 
     },
-
     "Playlist": {
         "loginProfileTitle": "Login required!",
         "loginProfileText": "Please login to use this feature",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancel"
     },
-
     "Result": {
         "noResult": "No results found",
         "live": "Live",
@@ -735,9 +710,9 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancel",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaans"},
@@ -814,19 +789,17 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Everyone"},
-        {"value": "2", "viewValue": "JustMe (Coming soon)"},
-        {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
-        {"value": "4", "viewValue": "Password (Coming soon)"},
-        {"value": "5", "viewValue": "IChoose (Coming soon)"},
-        {"value": "6", "viewValue": "NotList (Coming soon)"},
-        {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
+            {"value": "1", "viewValue": "Everyone"},
+            {"value": "2", "viewValue": "JustMe (Coming soon)"},
+            {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
+            {"value": "4", "viewValue": "Password (Coming soon)"},
+            {"value": "5", "viewValue": "IChoose (Coming soon)"},
+            {"value": "6", "viewValue": "NotList (Coming soon)"},
+            {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adult"},
@@ -873,7 +846,6 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "Sidebar Filter Color",
         "background": "Sidebar Background Color",
@@ -883,7 +855,6 @@
         "selectImage": "Choose image",
         "sidebarStyle": "sidebar style",
         "theme": "theme"
-
     },
 	"Sidebar": {
         "homeSection": "Home",
@@ -1055,57 +1026,79 @@
         "browseCategories" : "Browse Categories",
         "filter": "FILTER",
         "subscriptions": "Subscriptions"
-        },
-        "Version":{
-                "versionMissmatchTitle" : "Version outdated",
-                "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
-                "versionMissmatchButton" : "OK"
-        },
-        "Mining":{
-            "download": "Download",
-            "downloadPlugin": "Download TUBE miner",
-            "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
-            "mining": "Mining",
-            "startMining": "Start mining",
-            "stopMining": "Stop mining",
-            "cpuCore": "CPU Cores:",
-            "gpuCore": "GPU Core",
-            "activateGpu": "Activate GPU",
-            "hashate": "Hashrate",
-            "result": "Results",
-            "connection": "Connection",
-            "threadID": "Thread ID",
-            "totals": "Totals:",
-            "highest": "Highest",
-            "miningSince": "Mining since",
-            "resultReport": "Result Report",
-            "difficulty": "Difficulty",
-            "goodResults": "Good results",
-            "avgResult": "Avg result time",
-            "poolSide": "Pool-side hashes",
-            "top10": "Top 10 best results found",
-            "errorDetails": "Error details",
-            "errorText": "Error text",
-            "count": "Count",
-            "lastSeen": "Last Seen",
-            "connectionReport": "Connection Report",
-            "error": "Error",
-            "poolAddress": "Pool address",
-            "connectedSince": "Connected since",
-            "poolPing": "Pool ping time",
-            "networkError": "Network error log",
-            "hashrateReport": "Hashrate Report",
-            "stats": "Stats",
-            "myWallet": "My Wallet:",
-            "swalButtonConfirm": "Ok",
-            "swalTitle": "Miner offline",
-            "swalText":"We are detecting that the miner software is not running. Please start the miner.",
-            "instructions": "Instructions",
-            "instructions1": "If this is your first time, click the download button",
-            "Instructions2": "Unpack and start bittube-miner.exe",
-            "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-            "Instructions4": "If you are an expert, visit "
-
-
+    },
+    "Version":{
+        "versionMissmatchTitle" : "Version outdated",
+        "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Start mining",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
     }
 }

@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "QonoS",
         "loginClasic": "chut lulajpu'bogh ngo'",
         "usernameEmail": "SoQ pong ghap",
         "usernameRequired": "qoghDu'DajDaq pong poQlu'",
-        "usernameMinimun": "qaSlaH 4 vuDmey'e'",
+        "usernameMinimun": "qaSlaH 3 vuDmey'e'",
         "usernameInvalid": "qab qoghDu'DajDaq pong",
         "usernamewrong": "qoghDu'DajDaq pong mu'wIj QIH pagh",
         "password": "mu'wIj",
@@ -17,7 +16,6 @@
         "error": "Qagh",
         "emailVerfied": "va SoQ, 'ol",
         "resend": "Resend",
-
         "RecoveryPwd": {
             "title": "HIjmeH mu'wIj",
             "email":"qoghDu'DajDaq SoQ pong ghap va SoQ",
@@ -34,17 +32,14 @@
             "errorRecovery": "Qagh SabHa' mu'wIj",
             "passwordUpdate": "mu'wIj choH",
             "errorUpdate": "Qagh choH"
-
-
         }
     },
-
     "Register": {
         "title": "Suy qachmey",
         "loginClasic": "chut lulajpu'bogh ngo'",
         "userName": "qoghDu'DajDaq pong",
         "usernameRequired": "qoghDu'DajDaq pong poQlu'",
-        "usernameMinimun": "qaSlaH 4 vuDmey'e'",
+        "usernameMinimun": "qaSlaH 3 vuDmey'e'",
         "firstName": "wa'DIch pong",
         "firstNameRequired": "wa'DIch pong poQlu'",
         "lasName": "wa'Hu' pong",
@@ -66,9 +61,7 @@
         "checkEmail": "va SoQ 'ol",
         "error": "Qagh"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "qoghDu'DajDaq",
             "aboutMe": "vIHtaHbogh jIH",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "chu' tetlh",
             "editPlaylistTitle": "title",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "teywI' teq",
             "VideoPlaylistButton": "Qagh choH",
             "noPlaylists": "pa' 'oHbe' chu' tetlh"
-
         },
-
         "Publications":{
             "title": "Uploads",
             "views": "jIH",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "ghojmoHwI'pu'na' streams",
             "views": "jIH",
             "edit": "edit",
             "noLiveStreams": "pa' 'oHbe' ghojmoHwI'pu'na' streams"
         },
-
         "Subscriptions": {
             "title": "subscription",
             "subscriptionsButton": "subscribe",
@@ -214,7 +215,7 @@
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "Security": {
             "title": "Hung",
             "authentication": "2-factor Authentication",
@@ -226,11 +227,8 @@
             "activateAuthenticationText": "chenmoH be Authentication qr ngoq Hotlh SoH Authenticator App, qaStaHvIS ngejtaH taH SoH",
             "activateAuthenticationConfirmButton": "luq",
             "activateAuthenticationDeleteButton": "qIl"  
-        }
-       
-        
+        } 
     },
-
     "Dashboard": {
         "views": "jIH",
         "likes": "rur",
@@ -238,9 +236,9 @@
         "newPlaylist": "chu' chu' tetlh",
         "addPlaylistButton": "boq",
         "addPLaylistTitle":"chel",
-        "live":"yIn"
+        "live":"yIn",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "jIH",
         "likes": "rur",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"chel",
         "live":"yIn"
     },
-
     "Newcomers": {
         "views": "jIH",
         "likes": "rur",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"chel",
         "live":"yIn"
     },
-
     "Live": {
         "views": "jIH",
         "likes": "rur",
         "noLivestreams": "pagh livestreams lupoQ",
         "live":"yIn"
     },
-
     "MediaEdit": {
         "title": "subscription",
         "snapshotButon": "Snapshot SuD",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "qIl",
         "videoPlaceholderEditor": "description naDev 'el"
     },
-
     "Broadcast": {
         "Setings": {
             "title": "setting",
@@ -352,7 +346,6 @@
             "dowloadButton": "dowload"
         }
     },
-
     "Play": {
         "addPlaylists": "chel tetlh QujmeH",
         "newPlaylist": "chu' chu' tetlh",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "bIngDaq ghItlh leghlu' 'el",
         "AcceptedHashesText": "Hashes laj ",
         "HashesText": "hash per cha'DIch ",
-        "TotalHashesText": "total Hashes ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Dotlh ",
         "localSaving": "lutu'lu'bej ipfs Savings ",
         "RTCPeers": "rtc Peers ",
@@ -436,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "overview",
         "walletAdress": "wallet SoQ",
@@ -498,7 +487,6 @@
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "mInDu'lIj coinmarketcap",
         "exchanges": "tam",
@@ -513,7 +501,6 @@
         "altex": "altex",
         "noAPI" : "pagh api",
         "crex24": "crex24",
-
         "tpl_title" : "profit Calculator",
         "tpl_market" : "malja''e'",
         "tpl_avg_hashrate" : "hashrate h motlhbogh per cha'DIch",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "MUQ USD 24 H",
         "tpl_vol_eur_24h" : "jen"
     },
-
     "Upload": {
         "titleUpload": "media teywI' upload",
         "p1Upload": "teywI' media laH upload SoH ghot'e' video teywI' ghaH lupoQ neH formats laHlIj multiple",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "qIl",
         "videoAlreadyPublishedTitle": "video chonayta' published",
         "videoAlreadyPublishedText": "video De' bopummeH publications chaq edit tlhIH neH qoghDu'DajDaq",
-        "videoSuccessfuly": "Your video has been successfuly uploaded, it could take a while until it was checked and published",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "in case of wej authorization ghaj DubelmoHchugh click authorize 'ej authorization youtube 'a ghIH 'ol wInobqang mIw pab",
         "authorizeButton": "authorize",
         "UnauthorizeButton": "unauthorize",
@@ -621,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
     },
-
     "User": {
         "subscribe": "subscribe",
         "unSubscribe": "unsubscribe",
@@ -635,7 +620,6 @@
         "loginProfileText": "DubelmoHchugh QonoS DuH lo'",
         "loginProfileConfirmButton": "luq",
         "loginProfileCancelButton": "qIl",
-
         "Profile": {
             "title": "overview",
             "about": "umqu' ghot",
@@ -645,12 +629,10 @@
             "location": "location",
             "readMore": "latlh laD",
             "readLess": "qup laD",
-            "social": "social"
-            
+            "social": "social" 
         },
-
         "Publications": {
-           "publication": "publication",
+            "publication": "publication",
             "publications": "publication",
             "noPublications": "pa' 'oHbe' publications",
             "live": "yIn",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "livestream",
             "livestreams": "livestreams",
@@ -672,14 +653,12 @@
             "addPlaylistButton": "boq",
             "addPLaylistTitle":"chel"
         },
-
         "Subscriptions": {
             "subscriptions": "subscription",
             "nosubscriptions": "pa' 'oHbe' subscriptions",
             "subscribe": "subscribe",
             "unSubscribe": "unsubscribe"
         },
-
         "MyPlaylists": {
             "myPlaylists": "chu' tetlh",
             "noPlaylists": "pa' 'oHbe' chu' tetlh",
@@ -694,9 +673,7 @@
             "yourCopyPlaylist": "chu' tetlh copy Daghaj",
             "somenthingWrong": "vay' ghoS muj during mIw"
         }
-
     },
-
     "LiveChat": {
         "title": "jaw yIn",
         "saySomething": "vay' jatlh",
@@ -709,16 +686,13 @@
         "loginProfileText": "DubelmoHchugh QonoS DuH lo'",
         "loginProfileConfirmButton": "luq",
         "loginProfileCancelButton": "qIl"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "poQ neH QonoS",
         "loginProfileText": "DubelmoHchugh QonoS DuH lo'",
         "loginProfileConfirmButton": "luq",
         "loginProfileCancelButton": "qIl"
     },
-
     "Result": {
         "noResult": "pagh ghot'e' vItu'",
         "live": "yIn",
@@ -735,9 +709,9 @@
         "loginProfileConfirmButton": "luq",
         "loginProfileCancelButton": "qIl",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaans"},
@@ -814,19 +788,17 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Everyone"},
-        {"value": "2", "viewValue": "JustMe (Coming soon)"},
-        {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
-        {"value": "4", "viewValue": "Password (Coming soon)"},
-        {"value": "5", "viewValue": "IChoose (Coming soon)"},
-        {"value": "6", "viewValue": "NotList (Coming soon)"},
-        {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
+            {"value": "1", "viewValue": "Everyone"},
+            {"value": "2", "viewValue": "JustMe (Coming soon)"},
+            {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
+            {"value": "4", "viewValue": "Password (Coming soon)"},
+            {"value": "5", "viewValue": "IChoose (Coming soon)"},
+            {"value": "6", "viewValue": "NotList (Coming soon)"},
+            {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "nen"},
@@ -873,7 +845,6 @@
             {"value": "34", "viewValue": "yousician"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "sidebar Filters",
         "background": "sidebar patmey lulo'ta'",
@@ -883,8 +854,6 @@
         "selectImage": "ghItlhvam",
         "sidebarStyle": "sidebar style",
         "theme": "theme"
- 
-
     },
 	"Sidebar": {
         "homeSection": "juH",
@@ -1105,8 +1074,30 @@
         "instructions1": "If this is your first time, click the download button",
         "Instructions2": "Unpack and start bittube-miner.exe",
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-        "Instructions4": "If you are an expert, visit "
-
-
-}
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
+    }
 }

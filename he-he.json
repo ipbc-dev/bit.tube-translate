@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "התחברות",
         "loginClasic": "הממשק הקלאסי",
         "usernameEmail": "שם משתמש / כתובת דוא;#34&ל",
         "usernameRequired": "נדרש שם משתמש",
-        "usernameMinimun": "אורך מינימאלי של 4 תווים",
+        "usernameMinimun": "אורך מינימאלי של 3 תווים",
         "usernameInvalid": "שם משתמש לא חוקי",
         "usernamewrong": "שם משתמש או סיסמא שגויים",
         "password": "סיסמה",
@@ -17,7 +16,6 @@
         "error": "שגיאה",
         "emailVerfied": "דואר אלקטרוני מאומת",
         "resend": "Resend",
-
         "RecoveryPwd": {
             "title": "לאפס את הסיסמה",
             "email":"שם משתמש או כתובת דוא;#34&ל",
@@ -34,17 +32,14 @@
             "errorRecovery": "שגיאה בשחזור הסיסמה",
             "passwordUpdate": "הסיסמה עודכנה",
             "errorUpdate": "שגיאה בעדכון"
-
-
         }
     },
-
     "Register": {
         "title": "הירשם",
         "loginClasic": "הממשק הקלאסי",
         "userName": "שם משתמש",
         "usernameRequired": "נדרש שם משתמש",
-        "usernameMinimun": "מינימום של 4 תווים",
+        "usernameMinimun": "מינימום של 3 תווים",
         "firstName": "שם פרטי",
         "firstNameRequired": "נדרש שם פרטי",
         "lasName": "שם משפחה",
@@ -66,9 +61,7 @@
         "checkEmail": "בדוק את הדואר האלקטרוני שלך",
         "error": "שגיאה"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "הפרופיל שלי",
             "aboutMe": ":עליי",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "רשימת ההשמעה שלי",
             "editPlaylistTitle": "כותרת",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "הקובץ שלך נמחק",
             "VideoPlaylistButton": "אין פלייליסט",
             "noPlaylists": "העלאות שלי"
-
         },
-
         "Publications":{
             "title": "Uploads",
             "views": "לערוך",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "ה שיתופים שלי",
             "views": "צפיות",
             "edit": "לערוך",
             "noLiveStreams": "אין שיתוף חי    "
         },
-
         "Subscriptions": {
             "title": "מנויים",
             "subscriptionsButton": "הירשם",
@@ -227,10 +228,7 @@
             "activateAuthenticationConfirmButton": "אשר",
             "activateAuthenticationDeleteButton": "לבטל   "  
         }
-       
-        
     },
-
     "Dashboard": {
         "views": "צפיות",
         "likes": "לייקים",
@@ -238,9 +236,9 @@
         "newPlaylist": "פלייליסט חדש",
         "addPlaylistButton": "הוסיף",
         "addPLaylistTitle":"תוסיף ל..",
-        "live":"חי"
+        "live":"חי",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "צפיות",
         "likes": "לייקים",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"תוסיף ל..",
         "live":"חי"
     },
-
     "Newcomers": {
         "views": "צפיות",
         "likes": "לייקים",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"תוסיף ל..",
         "live":"חי"
     },
-
     "Live": {
         "views": "צפיות",
         "likes": "אהדות",
         "noLivestreams": "אין שיתופים זמינים",
         "live":"חי"
     },
-
     "MediaEdit": {
         "title": "ערוך מדיה",
         "snapshotButon": "צלם תמונה",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "לבטל",
         "videoPlaceholderEditor": "הזן תיאור כאן .."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "הגדרות",
@@ -352,7 +346,6 @@
             "dowloadButton": "הורדות"
         }
     },
-
     "Play": {
         "addPlaylists": "הוסף לרשימת ההשמעה",
         "newPlaylist": "פלייליסט חדש",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "קיבל גיבובים:",
         "AcceptedHashesText": "גיבובים / לשנייה:",
         "HashesText": "סך הכל:",
-        "TotalHashesText": "סטטוס:",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "מקומי IPFS החיסכון:",
         "localSaving": "RTC עמיתים",
         "RTCPeers": "חיסכון ב- RTC:",
@@ -436,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "ארנק",
         "walletAdress": "כתובת ארנק",
@@ -498,7 +487,6 @@
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "Coinmarketcap פתח את",
         "exchanges": "בורסות",
@@ -513,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "API אין ממשק ",
         "crex24": "Crex24",
-
         "tpl_title" : "מחשבון הרווח",
         "tpl_market" : "שׁוּק",
         "tpl_avg_hashrate" : "ממוצע גיבובים (שעה / שנייה)",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "נפח דולר אמריקאי ל 24 שעות",
         "tpl_vol_eur_24h" : "נפח אירו ל 24 שעות"
     },
-
     "Upload": {
         "titleUpload": "טען קובצי מדיה",
         "p1Upload": "תוכל לטעון את קובצי המדיה שלך. קבצי הווידאו שהתקבלו יהיו זמינים בפורמטים איכותיים מרובים",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "הסרטון כבר פורסם!",
         "videoAlreadyPublishedTitle": "תוכל לערוך את פרטי הווידאו האלה תחת פרסומים בפרופיל שלך",
         "videoAlreadyPublishedText": "הסרטון שלך הועלה בהצלחה, יכול להימשך זמן מה עד שיבדוק אותו ויפורסם",
-        "videoSuccessfuly": "Your video has been successfuly uploaded, it could take a while until it was checked and published",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "לאשר",
         "authorizeButton": "מורשה",
         "UnauthorizeButton": "לא מורשה",
@@ -621,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
     },
-
     "User": {
         "subscribe": "הירשם",
         "unSubscribe": "בטל רישום",
@@ -635,7 +620,6 @@
         "loginProfileText": "היכנס כדי להשתמש בתכונה זו",
         "loginProfileConfirmButton": "לאשר",
         "loginProfileCancelButton": "לבטל",
-
         "Profile": {
             "title": "סקירה כללית",
             "about": "על אודות",
@@ -645,10 +629,8 @@
             "location": "מקום",
             "readMore": "קרא עוד",
             "readLess": "תקרא פחות",
-            "social": "חברתי"
-            
+            "social": "חברתי"  
         },
-
         "Publications": {
            "publication": "פרסום",
             "publications": "פרסומים",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "שידור חי",
             "livestreams": "לשידורים החיים",
@@ -672,14 +653,12 @@
             "addPlaylistButton": "להוסיף",
             "addPLaylistTitle":"להוסיף ל"
         },
-
         "Subscriptions": {
             "subscriptions": "מנויים",
             "nosubscriptions": "אין הרשמות",
             "subscribe": "הירשם",
             "unSubscribe": "בטל רישום"
         },
-
         "MyPlaylists": {
             "myPlaylists": "הפייליסט שלי",
             "noPlaylists": "אין פלייליסטים",
@@ -694,9 +673,7 @@
             "yourCopyPlaylist": "יש לך עותק משלך של פלייליסט זה!",
             "somenthingWrong": "משהו השתבש במהלך ההתקדמות!"
         }
-
     },
-
     "LiveChat": {
         "title": "צ'אט חי",
         "saySomething": "תגיד משהו",
@@ -709,16 +686,13 @@
         "loginProfileText": "היכנס כדי להשתמש בתכונה זו",
         "loginProfileConfirmButton": "אשר",
         "loginProfileCancelButton": "לבטל"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "נדרשת התחברות!",
         "loginProfileText": "היכנס כדי להשתמש בתכונה זו",
         "loginProfileConfirmButton": "אשר",
         "loginProfileCancelButton": "לבטל"
     },
-
     "Result": {
         "noResult": "לא נמצאו תוצאות",
         "live": "לחיות",
@@ -735,9 +709,9 @@
         "loginProfileConfirmButton": "אשר",
         "loginProfileCancelButton": "לְבַטֵל",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "אפריקנס"},
@@ -814,19 +788,17 @@
             {"value": "XH", "viewValue": "חוזה"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "כל אחד"},
-        {"value": "2", "viewValue": "רק אני (בקרוב)"},
-        {"value": "3", "viewValue": "רק מה שאני עוקב (בקרוב)"},
-        {"value": "4", "viewValue": "סיסמה (בקרוב)"},
-        {"value": "5", "viewValue": "אני בוחר (בקרוב)"},
-        {"value": "6", "viewValue": "לר ברשימה (בקרוב)"},
-        {"value": "7", "viewValue": "קישור פרטי"}
+            {"value": "1", "viewValue": "כל אחד"},
+            {"value": "2", "viewValue": "רק אני (בקרוב)"},
+            {"value": "3", "viewValue": "רק מה שאני עוקב (בקרוב)"},
+            {"value": "4", "viewValue": "סיסמה (בקרוב)"},
+            {"value": "5", "viewValue": "אני בוחר (בקרוב)"},
+            {"value": "6", "viewValue": "לר ברשימה (בקרוב)"},
+            {"value": "7", "viewValue": "קישור פרטי"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "מְבוּגָר"},
@@ -873,7 +845,6 @@
             {"value": "34", "viewValue": "יוזישן"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "מסננים לסרגל הצד",
         "background": "רקע בסרגל הצד",
@@ -883,7 +854,6 @@
         "selectImage": "תמונות",
         "sidebarStyle": "sidebar style",
         "theme": "theme"
-
     },
 	"Sidebar": {
         "homeSection": "בית",
@@ -1104,9 +1074,30 @@
         "instructions1": "If this is your first time, click the download button",
         "Instructions2": "Unpack and start bittube-miner.exe",
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-        "Instructions4": "If you are an expert, visit "
-
-
-}
-
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
+    }
 }

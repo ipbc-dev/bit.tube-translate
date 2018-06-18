@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "登录",
         "loginClasic": "经典登录",
         "usernameEmail": "用户名 / Email地址",
         "usernameRequired": "请输入您的用户名",
-        "usernameMinimun": "最小4个字符",
+        "usernameMinimun": "最小3个字符",
         "usernameInvalid": "错误的用户名",
         "usernamewrong": "用户名或者密码错误",
         "password": "密码",
@@ -17,7 +16,6 @@
         "error": "错误",
         "emailVerfied": "电子邮箱已验证",
         "resend": "重新发送",
-
         "RecoveryPwd": {
             "title": "重置密码",
             "email":"用户名 / Email地址",
@@ -34,17 +32,14 @@
             "errorRecovery": "密码恢复错误",
             "passwordUpdate": "已更新您的密码",
             "errorUpdate": "更新密码错误"
-
-
         }
     },
-
     "Register": {
         "title": "注册用户",
         "loginClasic": "经典登录",
         "userName": "用户名...",
         "usernameRequired": "请输入您的用户名",
-        "usernameMinimun": "最小4个字符",
+        "usernameMinimun": "最小3个字符",
         "firstName": "姓...",
         "firstNameRequired": "请输入您的姓",
         "lasName": "名...",
@@ -66,9 +61,7 @@
         "checkEmail": "请检查您的Email",
         "error": "错误"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "我的档案",
             "aboutMe": "关于我:",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "我的播放列表",
             "editPlaylistTitle": "标题",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "您的文件已经删除",
             "VideoPlaylistButton": "确定",
             "noPlaylists": "没有我的播放列表"
-
         },
-
         "Publications":{
             "title": "Uploads",
             "views": "预览",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "我的直播",
             "views": "预览",
             "edit": "编辑",
             "noLiveStreams": "没有您的直播"
         },
-
         "Subscriptions": {
             "title": "订阅",
             "subscriptionsButton": "订阅",
@@ -214,7 +215,7 @@
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "Security": {
             "title": "安全",
             "authentication": "二次验证",
@@ -227,10 +228,7 @@
             "activateAuthenticationConfirmButton": "确定",
             "activateAuthenticationDeleteButton": "取消"  
         }
-       
-        
     },
-
     "Dashboard": {
         "views": "预览",
         "likes": "点赞",
@@ -238,9 +236,9 @@
         "newPlaylist": "新建播放列表",
         "addPlaylistButton": "添加",
         "addPLaylistTitle":"添加至...",
-        "live":"Live"
+        "live":"Live",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "预览",
         "likes": "点赞",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"添加至...",
         "live":"Live"
     },
-
     "Newcomers": {
         "views": "预览",
         "likes": "点赞",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"添加至...",
         "live":"Live"
     },
-
     "Live": {
         "views": "预览",
         "likes": "点赞",
         "noLivestreams": "没有直播",
         "live":"Live"
     },
-
     "MediaEdit": {
         "title": "编辑媒体",
         "snapshotButon": "截图",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "取消",
         "videoPlaceholderEditor": "请在此添加描述..."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "设置",
@@ -352,7 +346,6 @@
             "dowloadButton": "下载"
         }
     },
-
     "Play": {
         "addPlaylists": "添加播放列表",
         "newPlaylist": "新建播放列表",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "请输入内容...",
         "AcceptedHashesText": "已提交哈希: ",
         "HashesText": "H/s: ",
-        "TotalHashesText": "所有哈希: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "状态: ",
         "localSaving": "本地IPFS存储: ",
         "RTCPeers": "RTC节点: ",
@@ -436,11 +429,7 @@
         "popOutVideo": "弹出视频",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "错误"
-
-
-
     },
-
     "Wallet": {
         "title": "概览",
         "walletAdress": "钱包地址",
@@ -498,7 +487,6 @@
         "contactAddedFail": "添加联系人失败...",
         "notEnoughBalance": "没有足够的余额或者您的金额目前在锁定中"
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "打开 Coinmarketcap",
         "exchanges": "交易所",
@@ -513,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "没有API",
         "crex24": "Crex24",
-
         "tpl_title" : "收益计算器",
         "tpl_market" : "市场",
         "tpl_avg_hashrate" : "平均哈希(H/s)",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "USD量 (24H)",
         "tpl_vol_eur_24h" : "EUR量 (24H)"
     },
-
     "Upload": {
         "titleUpload": "上传一个媒体文件",
         "p1Upload": "您可以上传你的媒体文件，最终的视频会有多种视频质量选择提供",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "取消",
         "videoAlreadyPublishedTitle": "视频已经发布!",
         "videoAlreadyPublishedText": "您可以在我的档案中重新编辑该视频信息",
-        "videoSuccessfuly": "您的视频上传成功,稍后将在检查发布后呈现",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "为防止未授权现象，请点击授权按钮然后在接下来的步骤中给您的Youtube内容授权",
         "authorizeButton": "授权",
         "UnauthorizeButton": "未授权",
@@ -621,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"  
     },
-
     "User": {
         "subscribe": "订阅",
         "unSubscribe": "取消订阅",
@@ -635,7 +620,6 @@
         "loginProfileText": "请登录使用该功能",
         "loginProfileConfirmButton": "确定",
         "loginProfileCancelButton": "取消",
-
         "Profile": {
             "title": "概览",
             "about": "关于",
@@ -645,10 +629,8 @@
             "location": "地域",
             "readMore": "获取更多信息",
             "readLess": "获取稍许信息",
-            "social": "社交"
-            
+            "social": "社交"   
         },
-
         "Publications": {
            "publication": "我的发布",
             "publications": "我的发布",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "直播",
             "livestreams": "在线直播",
@@ -672,14 +653,12 @@
             "addPlaylistButton": "添加",
             "addPLaylistTitle":"添加至..."
         },
-
         "Subscriptions": {
             "subscriptions": "订阅",
             "nosubscriptions": "没有您的订阅",
             "subscribe": "订阅",
             "unSubscribe": "取消订阅"
         },
-
         "MyPlaylists": {
             "myPlaylists": "我的播放列表",
             "noPlaylists": "没有我的播放列表",
@@ -694,9 +673,7 @@
             "yourCopyPlaylist": "你会拥有自己的一份播放列表!",
             "somenthingWrong": "执行中出错了!"
         }
-
     },
-
     "LiveChat": {
         "title": "在线聊天",
         "saySomething": "说点什么",
@@ -709,16 +686,13 @@
         "loginProfileText": "请登录使用该功能",
         "loginProfileConfirmButton": "确定",
         "loginProfileCancelButton": "取消"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "请登录",
         "loginProfileText": "请登录使用该功能",
         "loginProfileConfirmButton": "确定",
         "loginProfileCancelButton": "取消"
     },
-
     "Result": {
         "noResult": "没有找到",
         "live": "Live",
@@ -735,9 +709,9 @@
         "loginProfileConfirmButton": "确定",
         "loginProfileCancelButton": "取消",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "南非语"},
@@ -814,19 +788,17 @@
             {"value": "XH", "viewValue": "科萨语"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "所有人"},
-        {"value": "2", "viewValue": "只有我(即将到来)"},
-        {"value": "3", "viewValue": "只有我跟随 (即将到来)"},
-        {"value": "4", "viewValue": "密码 (即将到来)"},
-        {"value": "5", "viewValue": "我选择 (即将到来)"},
-        {"value": "6", "viewValue": "不列表 (即将到来)"},
-        {"value": "7", "viewValue": "私密连接 (即将到来)"}
+            {"value": "1", "viewValue": "所有人"},
+            {"value": "2", "viewValue": "只有我(即将到来)"},
+            {"value": "3", "viewValue": "只有我跟随 (即将到来)"},
+            {"value": "4", "viewValue": "密码 (即将到来)"},
+            {"value": "5", "viewValue": "我选择 (即将到来)"},
+            {"value": "6", "viewValue": "不列表 (即将到来)"},
+            {"value": "7", "viewValue": "私密连接 (即将到来)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "成人"},
@@ -873,7 +845,6 @@
             {"value": "34", "viewValue": "吉他调音"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "侧边栏过滤器",
         "background": "侧边栏背景",
@@ -883,7 +854,6 @@
         "selectImage": "背景",
         "sidebarStyle": "侧边栏风格",
         "theme": "主题"
-
     },
 	"Sidebar": {
         "homeSection": "主页",
@@ -1054,11 +1024,11 @@
         "browseCategories" : "Browse Categories",
         "filter": "FILTER",
         "subscriptions": "Subscriptions"
-        },
-        "Version":{
-            "versionMissmatchTitle" : "版本过期",
-            "VersionMissmatchText" : "您访问的版本好像过期了，请清空您的浏览器缓存再次访问，如果这还不能解决问题请清空您的DNS缓存试试。",
-            "versionMissmatchButton" : "确定"
+    },
+    "Version":{
+        "versionMissmatchTitle" : "版本过期",
+        "VersionMissmatchText" : "您访问的版本好像过期了，请清空您的浏览器缓存再次访问，如果这还不能解决问题请清空您的DNS缓存试试。",
+        "versionMissmatchButton" : "确定"
     },
     "Mining":{
         "download": "Download",
@@ -1103,8 +1073,30 @@
         "instructions1": "If this is your first time, click the download button",
         "Instructions2": "Unpack and start bittube-miner.exe",
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-        "Instructions4": "If you are an expert, visit "
-
-
-}
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
+    }
 }
