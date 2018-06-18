@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "Giriş",
         "loginClasic": "Klasik Mod",
         "usernameEmail": "Kullanıcı Adı / E-mail Adresi",
         "usernameRequired": "Kullanıcı adı gereklidir",
-        "usernameMinimun": "Minimum 4 karakter",
+        "usernameMinimun": "Minimum 3 karakter",
         "usernameInvalid": "Geçersiz kullanıcı adı",
         "usernamewrong": "Kullanıcı adı ya da şifre yanlış",
         "password": "şifre",
@@ -17,7 +16,6 @@
         "error": "Hata",
         "emailVerfied": "E-mail adresi onaylandı",
         "resend": "Resend",
-
         "RecoveryPwd": {
             "title": "Şifre Sıfırlama",
             "email":"Kullanıcı Adı / E-mail Adresi",
@@ -34,17 +32,14 @@
             "errorRecovery": "Hatalı kurtarma şifresi",
             "passwordUpdate": "Şifre Güncellendi",
             "errorUpdate": "Güncelleme hatası"
-
-
         }
     },
-
     "Register": {
         "title": "Kayıt",
         "loginClasic": "Klasik Mod",
         "userName": "Kullanıcı Adı...",
         "usernameRequired": "Kullanıcı adı gereklidir",
-        "usernameMinimun": "Minimum 4 karakter",
+        "usernameMinimun": "Minimum 3 karakter",
         "firstName": "İsim...",
         "firstNameRequired": "İsim gereklidir",
         "lasName": "Soyisim...",
@@ -66,9 +61,7 @@
         "checkEmail": "Mailinizi kontrol edin.",
         "error": "Hata"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "Profilim",
             "aboutMe": "Hakkımda:",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "Listelerim",
             "editPlaylistTitle": "Başlık",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "Dosyanız silindi",
             "VideoPlaylistButton": "Tamam",
             "noPlaylists": "Liste mevcut değil"
-
         },
-
         "Publications":{
             "title": "Uploads",
             "views": "İzlenmeler",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "Canlı Yayınlarım",
             "views": "İzlenmeler",
             "edit": "Düzenle",
             "noLiveStreams": "Canlı yayın yok"
         },
-
         "Subscriptions": {
             "title": "Abonelikler",
             "subscriptionsButton": "Abone ol",
@@ -214,7 +215,7 @@
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "Security": {
             "title": "Güvenlik",
             "authentication": "2 faktörlü kimlik doğrulama",
@@ -227,10 +228,7 @@
             "activateAuthenticationConfirmButton": "Tamam",
             "activateAuthenticationDeleteButton": "İptal"  
         }
-       
-        
     },
-
     "Dashboard": {
         "views": "İzlemeler",
         "likes": "Beğeniler",
@@ -238,9 +236,9 @@
         "newPlaylist": "Yeni liste",
         "addPlaylistButton": "Ekle",
         "addPLaylistTitle":"Ekle...",
-        "live":"Canlı"
+        "live":"Canlı",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "İzlemeler",
         "likes": "Beğeniler",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"Add to...",
         "live":"Live"
     },
-
     "Newcomers": {
         "views": "İzlemeler",
         "likes": "Beğeniler",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"Add to...",
         "live":"Live"
     },
-
     "Live": {
         "views": "İzlemeler",
         "likes": "Beğeniler",
         "noLivestreams": "Canlı yayın yok",
         "live":"Canlı"
     },
-
     "MediaEdit": {
         "title": "Medya düzenle",
         "snapshotButon": "Ekran görüntüsü al",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "İptal",
         "videoPlaceholderEditor": "Açıklama giriniz..."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "Ayarlar",
@@ -352,7 +346,6 @@
             "dowloadButton": "İNDİR"
         }
     },
-
     "Play": {
         "addPlaylists": "Listelere ekle",
         "newPlaylist": "Yeni liste",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "Yazınız...",
         "AcceptedHashesText": "Kabul edilen hash miktarı: ",
         "HashesText": "Hash/s: ",
-        "TotalHashesText": "Toplam Hash: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Durum: ",
         "localSaving": "Lokal IPFS kazançları: ",
         "RTCPeers": "RTC eşleri: ",
@@ -436,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "Genel görürünüm",
         "walletAdress": "Cüzdan adresi",
@@ -482,23 +471,22 @@
         "transactionFaild": "Aktarım yapılamadı...",
         "noTransactions": "Aktarım mevcut değil",
         "unlocked": "Unlocked",
-                "locked" : "Locked",
-                "saveContact": "Save Contact",
-                "closeContact": "Close",
-                "sedWallet": "Send",
-                "contactsWallet": "Contacts",
-                "keyWallet": "Key",
-                "noContactsfound": "No contacts found",
-                "keyHasbeencopied": "Your key has been copied to the clipboard",
-                "copyWalletClipboard": "Copy wallet to clipboard",
-                "addnewContact": "Add New Contact",
-                "mustContactName": "You must enter a contact name!",
-                "invalidIPB": "Invalid BitTube Address!",
-                "contactAdded": "Contact Added...",
-                "contactAddedFail": "Failed to add contact...",
-                "notEnoughBalance": "Not enough wallet balance or still locked."
+        "locked" : "Locked",
+        "saveContact": "Save Contact",
+        "closeContact": "Close",
+        "sedWallet": "Send",
+        "contactsWallet": "Contacts",
+        "keyWallet": "Key",
+        "noContactsfound": "No contacts found",
+        "keyHasbeencopied": "Your key has been copied to the clipboard",
+        "copyWalletClipboard": "Copy wallet to clipboard",
+        "addnewContact": "Add New Contact",
+        "mustContactName": "You must enter a contact name!",
+        "invalidIPB": "Invalid BitTube Address!",
+        "contactAdded": "Contact Added...",
+        "contactAddedFail": "Failed to add contact...",
+        "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "Coinmarketcap'te aç",
         "exchanges": "Borsalar",
@@ -513,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "API yok",
         "crex24": "Crex24",
-
         "tpl_title" : "Kar hesaplayıcı",
         "tpl_market" : "Market",
         "tpl_avg_hashrate" : "Ortalama Hashrate (H/s)",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "HACIM USD (24H)",
         "tpl_vol_eur_24h" : "HACIM EUR (24H)"
     },
-
     "Upload": {
         "titleUpload": "Video Yükleme",
         "p1Upload": "Video dosyalarınızı yükleyebilirsiniz. Farklı çözünürlüklerde farklı formatları otomatik oluşturulacaktır.",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "İptal",
         "videoAlreadyPublishedTitle": "Video zaten yayınlanmıl!",
         "videoAlreadyPublishedText": "Bu video bigilerini profilinizde yayınlarınızdan daha sonra da düzenleyebilirsiniz",
-        "videoSuccessfuly": "Your video has been successfuly uploaded, it could take a while until it was checked and published",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "Yetkilendirme olmaması durumunda lütfen 'AUTHORIZE' tuşuna basınız ve youtube içeriklerinizi yetkilendirmek için adımları takip edin",
         "authorizeButton": "Yetkilendir",
         "UnauthorizeButton": "Yetkilendirme Kaldır",
@@ -621,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
     },
-
     "User": {
         "subscribe": "Abone ol",
         "unSubscribe": "Abonelik kaldır",
@@ -635,7 +620,6 @@
         "loginProfileText": "Bu özelliği kullanmak için lütfen giriş yapınız",
         "loginProfileConfirmButton": "Tamam",
         "loginProfileCancelButton": "İptal",
-
         "Profile": {
             "title": "Görünüm",
             "about": "Hakkında",
@@ -646,9 +630,7 @@
             "readMore": "Daha fazla",
             "readLess": "Daha az",
             "social": "Sosyal Medya"
-            
         },
-
         "Publications": {
            "publication": "Yayınlarım",
             "publications": "Yayınlarım",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "Canlı Yayınlarım",
             "livestreams": "Canlı Yayınlarım",
@@ -672,14 +653,12 @@
             "addPlaylistButton": "Ekle",
             "addPLaylistTitle":"Ekle..."
         },
-
         "Subscriptions": {
             "subscriptions": "Abonelikler",
             "nosubscriptions": "Abonelik mevcut değil",
             "subscribe": "Abone ol",
             "unSubscribe": "Abonelik kaldır"
         },
-
         "MyPlaylists": {
             "myPlaylists": "Listelerim",
             "noPlaylists": "Liste mevcut değildir",
@@ -694,9 +673,7 @@
             "yourCopyPlaylist": "Bu listenin bir kopyası sizde mevcut!",
             "somenthingWrong": "İşlemler sırasında bazı hatalar oldu!"
         }
-
     },
-
     "LiveChat": {
         "title": "Canlı sohbet",
         "saySomething": "Birşeyler söyleyin",
@@ -709,16 +686,13 @@
         "loginProfileText": "Bu özelliği kullanmak için lütfen giriş yapınız",
         "loginProfileConfirmButton": "Tamam",
         "loginProfileCancelButton": "İptal"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "Giriş gereklidir!",
         "loginProfileText": "Bu özelliği kullanmak için lütfen giriş yapınız",
         "loginProfileConfirmButton": "Tamam",
         "loginProfileCancelButton": "İptal"
     },
-
     "Result": {
         "noResult": "Kayıt bulunmadı",
         "live": "Canlı",
@@ -735,9 +709,9 @@
         "loginProfileConfirmButton": "Tamam",
         "loginProfileCancelButton": "İptal",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikaan"},
@@ -814,19 +788,17 @@
             {"value": "XH", "viewValue": "Hosa"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Herkes"},
-        {"value": "2", "viewValue": "Yanlızca Ben (Yakında)"},
-        {"value": "3", "viewValue": "Yanlıca takip ettiklerim (Yakında)"},
-        {"value": "4", "viewValue": "Şifreli (Yakında)"},
-        {"value": "5", "viewValue": "Ben seçeyim (Yakında)"},
-        {"value": "6", "viewValue": "Liste Dışı (Yakında)"},
-        {"value": "7", "viewValue": "Özel link (Yakında)"}
+            {"value": "1", "viewValue": "Herkes"},
+            {"value": "2", "viewValue": "Yanlızca Ben (Yakında)"},
+            {"value": "3", "viewValue": "Yanlıca takip ettiklerim (Yakında)"},
+            {"value": "4", "viewValue": "Şifreli (Yakında)"},
+            {"value": "5", "viewValue": "Ben seçeyim (Yakında)"},
+            {"value": "6", "viewValue": "Liste Dışı (Yakında)"},
+            {"value": "7", "viewValue": "Özel link (Yakında)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Yetişkin"},
@@ -873,7 +845,6 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "Sidebar Filtreleri",
         "background": "Sidebar arka planı",
@@ -883,7 +854,6 @@
         "selectImage": "Resimler",
         "sidebarStyle": "sidebar style",
         "theme": "theme"
-
     },
 	"Sidebar": {
         "homeSection": "Ana Sayfa",
@@ -985,7 +955,6 @@
         "liabilityText4": " Şirket, kendi kontrolü dışında oluşabilecek koşullardan( grev, zorunlayıcı sebepler,savaş, terörist olayları, kötü niyetle verilen zarar,kazalar veya kanuni yada resmi emirlerden doğabilecek olaylar) doğabilecek olan gecikme , performans düşüklüğü gibi durumlardan dolayı sorumluluk yada yükümlülük taşımaz. Şirket bu tip olaylarda etkilenmeyen yükümlülüklerini karşılayabilmek ve etkiyi minimize etmek için çaba harcar .",
         "termsGoverning": "Yasal Kanun, Mahkemeler, Sözleşme Şirketi",
         "GoverningText1": "Tüm hizmetler için sözleşme yapılan şirket şudur : Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, İspanya. İlgili tüm ücretsiz hizmetlerle ilgili iddialarınız ispanyol kanunları ile hükme varılır, yaşadığınız bölgede yada bu hizmetleri sunduğumuz ülkedeki uygulamadaki kanunlara sakınca içermez. Size hizmet sunduğumuz ülkedeki tüm kanunlar ücretli hizmetler ile ilgilidir."
-
     },
     "Navbar":{
         "search": "Search",
@@ -1058,9 +1027,9 @@
         "subscriptions": "Subscriptions"
     },
     "Version":{
-            "versionMissmatchTitle" : "Version outdated",
-            "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
-            "versionMissmatchButton" : "OK"
+        "versionMissmatchTitle" : "Version outdated",
+        "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
     },
     "Mining":{
         "download": "Download",
@@ -1105,8 +1074,30 @@
         "instructions1": "If this is your first time, click the download button",
         "Instructions2": "Unpack and start bittube-miner.exe",
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-        "Instructions4": "If you are an expert, visit "
-
-
-}
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
+    }
 }

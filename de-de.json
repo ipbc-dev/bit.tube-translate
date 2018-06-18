@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "Login",
         "loginClasic": "normale Anmeldung",
         "usernameEmail": "Benutzername / Emailadresse",
         "usernameRequired": "Benutzername ist erforderlich",
-        "usernameMinimun": "mindestens 4 Zeichen",
+        "usernameMinimun": "mindestens 3 Zeichen",
         "usernameInvalid": "ungültiger Benutzername",
         "usernamewrong": "Benutzername oder Passwort falsch",
         "password": "Passwort",
@@ -17,7 +16,6 @@
         "error": "Fehler",
         "emailVerfied": "E-mail bestätigt",
         "resend": "erneut senden",
-    
         "RecoveryPwd": {
             "title": "Passwort zurücksetzen",
             "email":"Benutzername / Emailadresse",
@@ -34,17 +32,14 @@
             "errorRecovery": "Fehler bei Passwort Wiederherstellung",
             "passwordUpdate": "Passwort aktualisiert",
             "errorUpdate": "Fehler bei Aktualisierung"
-    
-    
         }
     },
-    
     "Register": {
         "title": "Registrieren",
         "loginClasic": "normale Anmeldung",
         "userName": "Benutzername...",
         "usernameRequired": "Benutzername ist erforderlich",
-        "usernameMinimun": "mindestens 4 Zeichen",
+        "usernameMinimun": "mindestens 3 Zeichen",
         "firstName": "Vorname...",
         "firstNameRequired": "Vorname erforderlich",
         "lasName": "Familienname...",
@@ -66,9 +61,7 @@
         "checkEmail": "Emaileingang prüfen.",
         "error": "Fehler"
     },
-    
     "Profile": {
-    
         "MyProfile":{
             "title": "Mein Profil",
             "aboutMe": "Über mich:",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-    
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-    
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "Meine Playlist",
             "editPlaylistTitle": "Titel",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "Deine Datei wurde gelöscht",
             "VideoPlaylistButton": "Ok",
             "noPlaylists": "keine Playlist verfügbar"
-    
         },
-    
         "Publications":{
             "title": "Uploads",
             "views": "angesehen",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-    
         "LiveStreams": {
             "title": "Meine Livestreams",
             "views": "angesehen",
             "edit": "ändern",
             "noLiveStreams": "keine Livestreams verfügbar"
         },
-    
         "Subscriptions": {
             "title": "Abonnements",
             "subscriptionsButton": "abonieren",
@@ -215,7 +216,6 @@
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
             },
-    
         "Security": {
             "title": "Sicherheit",
             "authentication": "2-Faktor Authentifizierung",
@@ -228,10 +228,7 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Abbrechen"  
         }
-       
-        
     },
-    
     "Dashboard": {
         "views": "Views",
         "likes": "Likes",
@@ -239,9 +236,9 @@
         "newPlaylist": "neue Playlist",
         "addPlaylistButton": "Hinzufügen",
         "addPLaylistTitle":"hinzufügen zu...",
-        "live":"Live"
+        "live":"Live",
+        "ago": "ago"
     },
-    
     "Trending": {
         "views": "Views",
         "likes": "Likes",
@@ -251,7 +248,6 @@
         "addPLaylistTitle":"hinzufügen zu...",
         "live":"Live"
     },
-    
     "Newcomers": {
         "views": "Views",
         "likes": "Likes",
@@ -261,14 +257,12 @@
         "addPLaylistTitle":"hinzufügen zu...",
         "live":"Live"
     },
-    
     "Live": {
         "views": "Views",
         "likes": "Likes",
         "noLivestreams": "keine Livestreams verfügbar",
         "live":"Live"
     },
-    
     "MediaEdit": {
         "title": "Datei ändern",
         "snapshotButon": "Snapshot machen",
@@ -296,7 +290,6 @@
         "videoRemovedConfirmCancel": "Abbrechen",
         "videoPlaceholderEditor": " Beschreibung hier einfügen..."
     },
-    
     "Broadcast": {
         "Setings": {
             "title": "Einstellungen",
@@ -324,7 +317,7 @@
             "confirmDeleteTitle": "Stream Schlüssel löschen",
             "confirmDeleteText": "¿ Bist du sicher das du diesen Stream Schlüssel löschen möchtest ?",
             "confirmDeleteButton": "LÖSCHEN",
-             "textEditorPlaceholder": "hier Text eingeben..."
+            "textEditorPlaceholder": "hier Text eingeben..."
         },
         "Tutorial": {
             "title": "Schnellanleitung",
@@ -351,9 +344,8 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Weit verbreitet ist vMix das ideale Werkzeug für die Übertragung, insbesondere für Vlogger.vMix ist eine komplette Live-Videoproduktions-Softwarelösung mit Funktionen wie LIVE-Mischen, Umschalten, Aufnehmen und LIVE-Streaming von SD-, Full HD- und 4K-Videoquellen wie Kameras, Videodateien, DVDs, Bildern, Powerpoint und vielem mehr.",
             "dowloadButton": "Dowload"
-            }
+        }
     },
-    
     "Play": {
         "addPlaylists": "zur Playlist hinzufügen",
         "newPlaylist": "neue Playlist",
@@ -408,7 +400,7 @@
         "textEditorPlaceholder": "Text eingeben...",
         "AcceptedHashesText": "akzeptierte Hashes: ",
         "HashesText": "Hash/s: ",
-        "TotalHashesText": "totale Hashes: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Status: ",
         "localSaving": "Local IPFS Savings: ",
         "RTCPeers": "RTC Peers: ",
@@ -437,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "erstes Video gespeichert",
         "errorSavePrimaryVideo": "Fehler"
-    
-    
-    
     },
-    
     "Wallet": {
         "title": "Überblick",
         "walletAdress": "Wallet Adresse",
@@ -499,7 +487,6 @@
         "contactAddedFail": "Kontakt hinzufügen fehlgeschlagen...",
         "notEnoughBalance": "nicht genug Wallet Bilanz oder immernoch gesperrt."
     },
-    
     "Profitcalc": {
         "openCoinmarketcapButton": "Öffne Coinmarketcap",
         "exchanges": "Wechsel",
@@ -514,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "kein API",
         "crex24": "Crex24",
-    
         "tpl_title" : "Profit Kalkulator",
         "tpl_market" : "Markt",
         "tpl_avg_hashrate" : "Durchschnitt Hashrate (H/s)",
@@ -530,7 +516,6 @@
         "tpl_vol_usd_24h" : "Umsatz USD (24H)",
         "tpl_vol_eur_24h" : "Umsatz EUR (24H)"
     },
-    
     "Upload": {
         "titleUpload": "Hochladen",
         "p1Upload": " Hier kannst du deine Datei hochladen. Das Video steht dann in verschiedenen Qualitätsstufen zur Verfügung.",
@@ -568,7 +553,7 @@
         "loginProfileCancelButton": "Abbrechen",
         "videoAlreadyPublishedTitle": "Video bereits hochgeladen!",
         "videoAlreadyPublishedText": "Videoinformationen kannst du in deinem Profil unter Veröffenlichungen editieren",
-        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Es kann eine Weile dauern, bis es überprüft und veröffentlicht wird",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "Bei noch nicht erlaubten Zugriff bitte auf Authoriesieren klicken und den Schritten folgen um Zugriff auf Prüfung deines Youtube Inhaltes zu erhalten",
         "authorizeButton": "Authorisieren",
         "UnauthorizeButton": "Authorisierung aufheben",
@@ -622,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
     },
-    
     "User": {
         "subscribe": "Abonnieren",
         "unSubscribe": "Abmelden",
@@ -636,7 +620,6 @@
         "loginProfileText": " Bitte log dich ein um dieses feature zu nutzen",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Abbrechen",
-    
         "Profile": {
             "title": "Überblick",
             "about": "Über",
@@ -647,9 +630,7 @@
             "readMore": "mehr lesen",
             "readLess": "weniger lesen",
             "social": "Soziale Netzwerke"
-            
         },
-    
         "Publications": {
            "publication": "Veröffentlichen",
             "publications": "Veröffenlichungen",
@@ -662,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-    
         "LiveTv": {
             "livestream": "Livestream",
             "livestreams": "Livestreams",
@@ -673,20 +653,18 @@
             "addPlaylistButton": "Hinzufügen",
             "addPLaylistTitle":"Hinzufügen zu..."
         },
-    
         "Subscriptions": {
             "subscriptions": "Abonnements",
             "nosubscriptions": "keine Abonnements vorhanden",
             "subscribe": "Abonnieren",
             "unSubscribe": "Abmelden"
         },
-    
         "Subscribers": {
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "MyPlaylists": {
             "myPlaylists": "Meine Playlists",
             "noPlaylists": "keine Playlists verfügbar",
@@ -701,9 +679,7 @@
             "yourCopyPlaylist": "Du hast eine Kopie dieser Playlist!",
             "somenthingWrong": "während des Prozesses ist ein Fehler aufgetreten!"
         }
-    
     },
-    
     "LiveChat": {
         "title": "Live Chat",
         "saySomething": "Sag etwas",
@@ -716,16 +692,13 @@
         "loginProfileText": "Bitte log dich ein um dieses feature zu nutzen",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Abbrechen"
-    
     },
-    
     "Playlist": {
         "loginProfileTitle": "Login erforderlich!",
         "loginProfileText": "Bitte log dich ein um dieses feature zu nutzen",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Abbrechen"
     },
-    
     "Result": {
         "noResult": "keine Ergebnisse gefunden",
         "live": "Live",
@@ -742,9 +715,9 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Abbrechen",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-    
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Afrikanisch"},
@@ -821,19 +794,17 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-    
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Jeder"},
-        {"value": "2", "viewValue": "nur ich (demnächst)"},
-        {"value": "3", "viewValue": "nur Follower (demnächst)"},
-        {"value": "4", "viewValue": "Passwort (demnächst)"},
-        {"value": "5", "viewValue": "IChoose (demnächst)"},
-        {"value": "6", "viewValue": "NotList (demnächst)"},
-        {"value": "7", "viewValue": "Privater Link (demnächst)"}
+            {"value": "1", "viewValue": "Jeder"},
+            {"value": "2", "viewValue": "nur ich (demnächst)"},
+            {"value": "3", "viewValue": "nur Follower (demnächst)"},
+            {"value": "4", "viewValue": "Passwort (demnächst)"},
+            {"value": "5", "viewValue": "IChoose (demnächst)"},
+            {"value": "6", "viewValue": "NotList (demnächst)"},
+            {"value": "7", "viewValue": "Privater Link (demnächst)"}
         ]
     },
-    
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Erwachsene"},
@@ -880,7 +851,6 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-    
     "FixedPlugin": {
         "filters": "Randliste Filter",
         "background": "Randliste Hintergrund",
@@ -889,8 +859,7 @@
         "night": "Nachtmodus",
         "selectImage": "Fotos",
         "sidebarStyle": "sidebar style",
-         "theme": "Thema"
-    
+        "theme": "Thema"
     },
     "Sidebar": {
         "homeSection": "Home",
@@ -993,29 +962,29 @@
         "termsGoverning": "Geltendes Recht, Gerichtsstand, Vertragsunternehmen",
         "GoverningText1": "Für alle Dienstleistungen ist das Vertragsunternehmen Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España zuständig. Alle Ansprüche in Bezug auf kostenlose Dienstleistungen unterliegen den Gesetzen von Spanien, unbeschadet etwaiger zwingender Gesetze, die in dem Land gelten, in dem wir Ihnen die Dienstleistungen anbieten und in dem Sie Ihren gewöhnlichen Aufenthalt haben. Die Gesetze des Landes, in dem wir Ihnen die Dienstleistungen anbieten und wo Sie Ihren gewöhnlichen Aufenthalt haben, regeln alle Ansprüche im Zusammenhang mit bezahlten Dienstleistungen. "
     },
-        "Navbar":{
-            "search": "Suche",
-            "login": "Login",
-            "register": "Registrieren",
-            "logout": "Logout",
-            "homeSection": "Home",
-            "trendingSection": "Trends",
-            "newcomersSection": "Neu hochgeladenes",
-            "liveSection": "Live",
-            "uploadSection": "Datei hochladen",
-            "broadcastSection": "Broadcast",
-            "walletSection": "Meine Wallet (Beta)",
-            "profitSection": "Profit Kalkulator",
-            "userProfile": "Benutzerprofil",
-            "searchResult": "Suchergebnisse",
-            "play": "Abspielen",
-            "terms": "Allgemeine Geschäftsbedingungen",
-            "startMining": "Start mining",
-            "filtered": "filtern nach: ",
-            "for": "for",
-            "limitResults": "Ergebnisse eingränzen",
-            "limitResultsMessage" : "Es werden maximal 10 Einträge pro Typ angezeigt",
-            "category_array": [
+    "Navbar":{
+        "search": "Suche",
+        "login": "Login",
+        "register": "Registrieren",
+        "logout": "Logout",
+        "homeSection": "Home",
+        "trendingSection": "Trends",
+        "newcomersSection": "Neu hochgeladenes",
+        "liveSection": "Live",
+        "uploadSection": "Datei hochladen",
+        "broadcastSection": "Broadcast",
+        "walletSection": "Meine Wallet (Beta)",
+        "profitSection": "Profit Kalkulator",
+        "userProfile": "Benutzerprofil",
+        "searchResult": "Suchergebnisse",
+        "play": "Abspielen",
+        "terms": "Allgemeine Geschäftsbedingungen",
+        "startMining": "Start mining",
+        "filtered": "filtern nach: ",
+        "for": "for",
+        "limitResults": "Ergebnisse eingränzen",
+        "limitResultsMessage" : "Es werden maximal 10 Einträge pro Typ angezeigt",
+        "category_array": [
             { "value": "39", "viewValue": "Erwachsene" , "icon": "cat-adult.svg"},
             { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
             { "value": "24", "viewValue": "Kunst und Kultur" , "icon":"cat-arts-culture.svg"},
@@ -1062,55 +1031,79 @@
         "browseCategories" : "Kategorien durchsuchen",
         "filter": "FILTER",
         "subscriptions": "Subscriptions"
-        },
-        "Version":{
-            "versionMissmatchTitle" : "Version veraltet",
-            "versionMissmatchText" : "Deine Version scheint veraltet zu sein. Bitte lösche deinen Cache und lade die Seite neu. Wenn das Problem dadurch nicht gelöst wird, lösche bitte deinen DNS-Cache.",
-            "versionMissmatchButton" : "OK"
-        },
-        "Mining":{
-            "download": "Download",
-           "downloadPlugin": "TUBE miner herunterladen",
-           "textInstallPluging": "Willkommen beim BitTube Miner. Wenn du die Miner-Software bereits heruntergeladen hast, starte diese bitte, um mit dem Mining zu beginnen, andernfalls klicke bitte auf den Download-Button, um die Mining-Software herunterzuladen, starte nun die Software, um mit dem Mining zu beginnen. ",
-           "mining": "Mining",
-           "startMining": "Mining starten",
-           "stopMining": "Mining stoppen",
-           "cpuCore": "CPU Cores:",
-           "gpuCore": "GPU Core",
-           "activateGpu": "GPU aktivieren",
-           "hashate": "Hashrate",
-           "result": "Ergebnisse",
-           "connection": "Verbindung",
-           "threadID": "Thread ID",
-           "totals": "Total:",
-           "highest": "Höchste",
-           "miningSince": "Mining seit",
-           "resultReport": "Ergenbisbericht",
-           "difficulty": "Schwierigkeit",
-           "goodResults": "gute Ergebnisse",
-           "avgResult": "Avg Ergebnisszeit",
-           "poolSide": "Pool-Seiten hashes",
-           "top10": "Top 10 der besten Ergebnisse gefunden",
-           "errorDetails": "Fehler Details",
-           "errorText": "Fehler Text",
-           "count": "Anzahl",
-           "lastSeen": "zuletzt gesehen",
-           "connectionReport": "Verbindung Bericht",
-           "error": "Fehler",
-           "poolAddress": "Pool Adresse",
-           "connectedSince": "Verbunden seit",
-           "poolPing": "Pool ping Zeit",
-           "networkError": "Netzwerkfehler log",
-           "hashrateReport": "Hashrate Bericht",
-           "stats": "Statistiken",
-           "myWallet": "Meine Wallet:",
-           "swalButtonConfirm": "Ok",
-           "swalTitle": "Miner offline",
-           "swalText":"Wir haben festgestellt, dass die Miner-Software nicht läuft. Bitte starte den Miner..",
-           "instructions": "Instructions",
-           "instructions1": "If this is your first time, click the download button",
-           "Instructions2": "Unpack and start bittube-miner.exe",
-           "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-           "Instructions4": "If you are an expert, visit "
-        }
+    },
+    "Version":{
+        "versionMissmatchTitle" : "Version veraltet",
+        "versionMissmatchText" : "Deine Version scheint veraltet zu sein. Bitte lösche deinen Cache und lade die Seite neu. Wenn das Problem dadurch nicht gelöst wird, lösche bitte deinen DNS-Cache.",
+        "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "TUBE miner herunterladen",
+        "textInstallPluging": "Willkommen beim BitTube Miner. Wenn du die Miner-Software bereits heruntergeladen hast, starte diese bitte, um mit dem Mining zu beginnen, andernfalls klicke bitte auf den Download-Button, um die Mining-Software herunterzuladen, starte nun die Software, um mit dem Mining zu beginnen. ",
+        "mining": "Mining",
+        "startMining": "Mining starten",
+        "stopMining": "Mining stoppen",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "GPU aktivieren",
+        "hashate": "Hashrate",
+        "result": "Ergebnisse",
+        "connection": "Verbindung",
+        "threadID": "Thread ID",
+        "totals": "Total:",
+        "highest": "Höchste",
+        "miningSince": "Mining seit",
+        "resultReport": "Ergenbisbericht",
+        "difficulty": "Schwierigkeit",
+        "goodResults": "gute Ergebnisse",
+        "avgResult": "Avg Ergebnisszeit",
+        "poolSide": "Pool-Seiten hashes",
+        "top10": "Top 10 der besten Ergebnisse gefunden",
+        "errorDetails": "Fehler Details",
+        "errorText": "Fehler Text",
+        "count": "Anzahl",
+        "lastSeen": "zuletzt gesehen",
+        "connectionReport": "Verbindung Bericht",
+        "error": "Fehler",
+        "poolAddress": "Pool Adresse",
+        "connectedSince": "Verbunden seit",
+        "poolPing": "Pool ping Zeit",
+        "networkError": "Netzwerkfehler log",
+        "hashrateReport": "Hashrate Bericht",
+        "stats": "Statistiken",
+        "myWallet": "Meine Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"Wir haben festgestellt, dass die Miner-Software nicht läuft. Bitte starte den Miner..",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
     }
+}

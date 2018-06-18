@@ -1,11 +1,10 @@
 {
-
     "Login": {
         "title": "Inicio",
         "loginClasic": "O sea clásico",
         "usernameEmail": "Nombre de usuario / Dirección de Email",
         "usernameRequired": "El nombre de usuario es obligatorio",
-        "usernameMinimun": "Mínimo 4 caracteres",
+        "usernameMinimun": "Mínimo 3 caracteres",
         "usernameInvalid": "Nombre de usuario no válido",
         "usernamewrong": "Nombre de usuario o contraseña incorrectos",
         "password": "Contraseña",
@@ -16,7 +15,6 @@
         "resendActivateMail": "Reenviar correo de activación",
         "error": "Error",
         "emailVerfied": "Correo electrónico verificado",
-
         "RecoveryPwd": {
             "title": "Reestablecer contraseña",
             "email":"Nombre de usuario / Dirección de email",
@@ -33,17 +31,14 @@
             "errorRecovery": "Error al recuperar la contraseña",
             "passwordUpdate": "Contraseña actualizada",
             "errorUpdate": "Error al actualizar"
-
-
         }
     },
-
     "Register": {
         "title": "Registro",
         "loginClasic": "O sea clásico",
         "userName": "Nombre de usuario...",
         "usernameRequired": "El nombre de usuario es obligatorio",
-        "usernameMinimun": "Mínimo 4 caracteres",
+        "usernameMinimun": "Mínimo 3 caracteres",
         "firstName": "Nombre...",
         "firstNameRequired": "El nombre es obligatorio",
         "lasName": "Apellidos...",
@@ -65,9 +60,7 @@
         "checkEmail": "Compruebe su correo electrónico.",
         "error": "Error"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "Mi perfil",
             "aboutMe": "Sobre mí:",
@@ -142,10 +135,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "Mi playlist",
             "editPlaylistTitle": "Título",
@@ -175,9 +180,7 @@
             "deleteVideoPlaylistTextConfirm": "Su archivo ha sido eliminado",
             "VideoPlaylistButton": "Ok",
             "noPlaylists": "No hay playlists"
-
         },
-
         "Publications":{
             "title": "Uploads",
             "views": "Visualizaciones",
@@ -194,14 +197,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "Mis transmisiones en directo",
             "views": "Visualizaciones",
             "edit": "Editar",
             "noLiveStreams": "No hay transmisiones en directo"
         },
-
         "Subscriptions": {
             "title": "Suscripciones",
             "subscriptionsButton": "Suscribirse",
@@ -213,7 +214,7 @@
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "Security": {
             "title": "Seguridad",
             "authentication": "Factor-2 de autenticación",
@@ -226,10 +227,7 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Cancelar"  
         }
-       
-        
     },
-
     "Dashboard": {
         "views": "Visualizaciones",
         "likes": "Likes",
@@ -237,9 +235,9 @@
         "newPlaylist": "Nueva playlist",
         "addPlaylistButton": "Añadir",
         "addPLaylistTitle":"Añadir a...",
-        "live":"En directo"
+        "live":"En directo",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "Visualizaciones",
         "likes": "Likes",
@@ -249,7 +247,6 @@
         "addPLaylistTitle":"Añadir a...",
         "live":"En directo"
     },
-
     "Newcomers": {
         "views": "Visualizaciones",
         "likes": "Likes",
@@ -259,14 +256,12 @@
         "addPLaylistTitle":"Añadir a...",
         "live":"En directo"
     },
-
     "Live": {
         "views": "Visualizaciones",
         "likes": "Likes",
         "noLivestreams": "Transmisiones en directo no disponibles",
         "live":"En directo"
     },
-
     "MediaEdit": {
         "title": "Editar medios",
         "snapshotButon": "Capturar imagen",
@@ -294,7 +289,6 @@
         "videoRemovedConfirmCancel": "Cancelar",
         "videoPlaceholderEditor": "Introduzca aquí la descripción..."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "Ajustes",
@@ -350,7 +344,6 @@
             "dowloadButton": "Descargar"
         }
     },
-
     "Play": {
         "addPlaylists": "Añadir a la playlist",
         "newPlaylist": "Nueva playlist",
@@ -405,7 +398,7 @@
         "textEditorPlaceholder": "Introducir un texto...",
         "AcceptedHashesText": "Hashes aceptados: ",
         "HashesText": "Hash/s: ",
-        "TotalHashesText": "Total Hashes: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Estado: ",
         "localSaving": "Ahorros de IPFS local: ",
         "RTCPeers": "RTC Peers: ",
@@ -434,11 +427,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "Información general",
         "walletAdress": "Dirección de Cartera",
@@ -479,7 +468,7 @@
         "Anonymity": "El anonimato debe estar entre 0 - 10",
         "transactionFaild": "Transacción fallida...",
         "noTransactions": "No hay transacciones",
-       "unlocked": "Unlocked",
+        "unlocked": "Unlocked",
         "locked" : "Locked",
         "saveContact": "Save Contact",
         "closeContact": "Close",
@@ -496,7 +485,6 @@
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "Abrir Coinmarketcap",
         "exchanges": "Plataformas de intercambios",
@@ -526,7 +514,6 @@
         "tpl_vol_usd_24h" : "VOLUMEN USD (24H)",
         "tpl_vol_eur_24h" : "VOLUMEN EUR (24H)"
     },
-
     "Upload": {
         "titleUpload": "Cargar archivos multimedia",
         "p1Upload": "Puede cargar sus archivos multimedia. Los archivos de vídeo resultantes estarán disponibles en múltiples formatos de calidad.",
@@ -564,7 +551,7 @@
         "loginProfileCancelButton": "Cancelar",
         "videoAlreadyPublishedTitle": "¡Vídeo ya publicado!",
         "videoAlreadyPublishedText": "Puede editar este vídeo en su perfil bajo el apartado publicaciones",
-        "videoSuccessfuly": "Su vídeo se ha cargado con éxito, puede llevar un tiempo mientras se comprueba y se publica",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "En caso de no recibir autorización, por favor haga clic en AUTORIZAR y siga los pasos para dar autorización para comprobar su contenido de Youtube.",
         "authorizeButton": "Autorizar",
         "UnauthorizeButton": "No autorizar",
@@ -618,7 +605,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
     },
-
     "User": {
         "subscribe": "Suscribir",
         "unSubscribe": "Cancelar suscripción",
@@ -631,7 +617,6 @@
         "loginProfileText": "Por favor inicie sesión para usar esta función",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancelar",
-
         "Profile": {
             "title": "Información general",
             "about": "Sobre",
@@ -641,10 +626,8 @@
             "location": "Ubicación",
             "readMore": "Leer más",
             "readLess": "Leer menos",
-            "social": "Social"
-            
+            "social": "Social"  
         },
-
         "Publications": {
            "publication": "Publicación",
             "publications": "Publicaciones",
@@ -657,7 +640,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "Transmisión en directo",
             "livestreams": "Transmisiones en directo",
@@ -668,14 +650,12 @@
             "addPlaylistButton": "Añadir",
             "addPLaylistTitle":"Añadir a..."
         },
-
         "Subscriptions": {
             "subscriptions": "Suscripciones",
             "nosubscriptions": "No hay suscripciones",
             "subscribe": "Suscribirse",
             "unSubscribe": "Cancelar suscripción"
         },
-
         "MyPlaylists": {
             "myPlaylists": "Mis Playlists",
             "noPlaylists": "No hay playlists",
@@ -690,9 +670,7 @@
             "yourCopyPlaylist": "¡Usted tiene su propia copia de esta playlist!",
             "somenthingWrong": "¡Algo salió mal durante el proceso!"
         }
-
     },
-
     "LiveChat": {
         "title": "Chat en directo",
         "saySomething": "Decir algo",
@@ -705,16 +683,13 @@
         "loginProfileText": "Por favor inicie sesión para usar esta función",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancelar"
-
     },
-
     "Playlist": {
         "loginProfileTitle": "¡Es necesario iniciar sesión!",
         "loginProfileText": "Por favor inicie sesión para usar esta función",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancelar"
     },
-
     "Result": {
         "noResult": "No se encontraron resultados",
         "live": "En directo",
@@ -731,9 +706,9 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Cancelar",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
-
     "Lenguages":{
         "languages_array":[  
             {"value": "AF", "viewValue": "Africaans"},
@@ -810,19 +785,17 @@
             {"value": "XH", "viewValue": "Xhosa"}
         ]
     },
-
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Todos"},
-        {"value": "2", "viewValue": "Soloyo (Próximamente)"},
-        {"value": "3", "viewValue": "OnlyIFollow (Próximamente)"},
-        {"value": "4", "viewValue": "Contraseña (Próximamente)"},
-        {"value": "5", "viewValue": "Yoelijo (Próximamente)"},
-        {"value": "6", "viewValue": "NotList (Próximamente)"},
-        {"value": "7", "viewValue": "Linkprivado (Próximamente)"}
+            {"value": "1", "viewValue": "Todos"},
+            {"value": "2", "viewValue": "Soloyo (Próximamente)"},
+            {"value": "3", "viewValue": "OnlyIFollow (Próximamente)"},
+            {"value": "4", "viewValue": "Contraseña (Próximamente)"},
+            {"value": "5", "viewValue": "Yoelijo (Próximamente)"},
+            {"value": "6", "viewValue": "NotList (Próximamente)"},
+            {"value": "7", "viewValue": "Linkprivado (Próximamente)"}
         ]
     },
-
     "Category": {
         "category_array":[
             {"value": "39", "viewValue": "Adultos"},
@@ -868,15 +841,13 @@
             {"value": "34", "viewValue": "Yousician"}
         ]
     },
-
     "FixedPlugin": {
         "filters": "Filtros barra lateral",
         "background": "Fondo barra lateral",
         "mini": "Barra lateral mini",
-        "image": "Imágen de la barra lateral",
-        "night": "Modo nocturno",
+        "image": "Imagen de la barra lateral",
+        "night": "Modo noche",
         "selectImage": "Imágenes"
-
     },
 	"Sidebar": {
         "homeSection": "Inicio",
@@ -980,125 +951,147 @@
         "GoverningText1": "Para todos los servicios, la empresa contratante es Interplanetary Broadcast Coin SL, Calle Azucareros 34, Polígono San Jerónimo, 38312 La Orotava, Tenerife, España. Todos las reclamaciones relacionadas con servicios gratuitos se regirán por las leyes de España, sin perjuicio de las leyes obligatorias aplicables en el país en el que le ofrecemos los servicios y en los que tiene su residencia habitual. Las leyes del país en el que le ofrecemos los servicios y donde usted tiene su residencia habitual rigen todas las reclamaciones en relación con los servicios de pago."
     },
     "Navbar":{
-                "search": "Search",
-                "login": "Login",
-                "register": "Register",
-                "logout": "Logout",
-                "homeSection": "Home",
-                "trendingSection": "Trending",
-                "newcomersSection": "Newcomers",
-                "liveSection": "Live",
-                "uploadSection": "Upload Media",
-                "broadcastSection": "Broadcast",
-                "walletSection": "My Wallet (Beta)",
-                "profitSection": "Profit Calculator",
-                "userProfile": "User Profile",
-                "searchResult": "Search results",
-                "play": "Play",
-                "terms": "Terms and Conditions",
-                "startMining": "Start mining",
-                "filtered": "Filtered by: ",
-                "for": "for",
-                "limitResults": "Limit the results",
-                "limitResultsMessage" : "a maximum of 10 entries per type will be displayed",
-                "category_array": [
-                        { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
-                        { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
-                        { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
-                        { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
-                        { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
-                        { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
-                        { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
-                        { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
-                        { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
-                        { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
-                        { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
-                        { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
-                        { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
-                        { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
-                        { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
-                        { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
-                        { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
-                        { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
-                        { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-                        { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
-                        { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
-                        { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
-                        { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
-                        { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
-                        { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
-                        { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
-                        { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
-                        {"value": "44", "viewValue": "Artes escénicas", "icon": "cat-pets.svg"},
-                        { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
-                        { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
-                        { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
-                        { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-                        { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
-                        { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
-                        { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
-                        { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
-                        { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
-                        { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
-                        { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
-                        { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
-                        { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
-                        { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
-                ],
-                "browseCategories" : "Browse Categories",
-                "filter": "FILTER",
-                "subscriptions": "Subscriptions"
-        },
-        "Version":{
-            "versionMissmatchTitle" : "Version outdated",
-            "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
-            "versionMissmatchButton" : "OK"
-        },
-        "Mining":{
-            "download": "Download",
-            "downloadPlugin": "Download TUBE miner",
-            "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
-            "mining": "Mining",
-            "startMining": "Start mining",
-            "stopMining": "Stop mining",
-            "cpuCore": "CPU Cores:",
-            "gpuCore": "GPU Core",
-            "activateGpu": "Activate GPU",
-            "hashate": "Hashrate",
-            "result": "Results",
-            "connection": "Connection",
-            "threadID": "Thread ID",
-            "totals": "Totals:",
-            "highest": "Highest",
-            "miningSince": "Mining since",
-            "resultReport": "Result Report",
-            "difficulty": "Difficulty",
-            "goodResults": "Good results",
-            "avgResult": "Avg result time",
-            "poolSide": "Pool-side hashes",
-            "top10": "Top 10 best results found",
-            "errorDetails": "Error details",
-            "errorText": "Error text",
-            "count": "Count",
-            "lastSeen": "Last Seen",
-            "connectionReport": "Connection Report",
-            "error": "Error",
-            "poolAddress": "Pool address",
-            "connectedSince": "Connected since",
-            "poolPing": "Pool ping time",
-            "networkError": "Network error log",
-            "hashrateReport": "Hashrate Report",
-            "stats": "Stats",
-            "myWallet": "My Wallet:",
-            "swalButtonConfirm": "Ok",
-            "swalTitle": "Miner offline",
-            "swalText":"We are detecting that the miner software is not running. Please start the miner.",
-            "instructions": "Instructions",
-            "instructions1": "If this is your first time, click the download button",
-            "Instructions2": "Unpack and start bittube-miner.exe",
-            "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-            "Instructions4": "If you are an expert, visit "
-
-
+        "search": "Search",
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "homeSection": "Home",
+        "trendingSection": "Trending",
+        "newcomersSection": "Newcomers",
+        "liveSection": "Live",
+        "uploadSection": "Upload Media",
+        "broadcastSection": "Broadcast",
+        "walletSection": "My Wallet (Beta)",
+        "profitSection": "Profit Calculator",
+        "userProfile": "User Profile",
+        "searchResult": "Search results",
+        "play": "Play",
+        "terms": "Terms and Conditions",
+        "startMining": "Start mining",
+        "filtered": "Filtered by: ",
+        "for": "for",
+        "limitResults": "Limit the results",
+        "limitResultsMessage" : "a maximum of 10 entries per type will be displayed",
+        "category_array": [
+            { "value": "39", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "43", "viewValue": "Animations" , "icon": "cat-kids.svg"},
+            { "value": "24", "viewValue": "Arts and Culture" , "icon":"cat-arts-culture.svg"},
+            { "value": "26", "viewValue": "Beauty and Fashion" , "icon" : "cat-beauty-fashion.svg"},
+            { "value": "37", "viewValue": "Cars" , "icon" : "cat-cars.svg" },
+            { "value": "8", "viewValue": "Cinema" , "icon" : "cat-cinema.svg"},
+            { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
+            { "value": "42", "viewValue": "Comedy" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "12", "viewValue": "Economy", "icon" : "cat-economy.svg" },
+            { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
+            { "value": "22", "viewValue": "Entertainment",  "icon": "cat-entertainment.svg" },
+            { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
+            { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
+            { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
+            { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+            { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
+            { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
+            { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
+            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
+            { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
+            { "value": "25", "viewValue": "Life Style" , "icon": "cat-life-style.svg"},
+            { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
+            { "value": "5", "viewValue": "Music" , "icon": "cat-music.svg"},
+            { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
+            { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
+            { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            {"value": "44", "viewValue": "Artes escénicas", "icon": "cat-pets.svg"},
+            { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
+            { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
+            { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
+            { "value": "13", "viewValue": "Social issues" , "icon": "cat-social-issues.svg"},
+            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
+            { "value": "38", "viewValue": "Technic" , "icon": "cat-technic.svg" },
+            { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
+            { "value": "21", "viewValue": "Travel" , "icon": "cat-travel.svg"},
+            { "value": "4", "viewValue": "TV Channels" , "icon": "cat-tv.svg"},
+            { "value": "7", "viewValue": "Vloggers" , "icon": "cat-videobloggers.svg"},
+            { "value": "30", "viewValue": "Webcams", "icon": "cat-webcam.svg" },
+            { "value": "34", "viewValue": "Yousician" ,"icon" : "cat-yousician.svg"}
+        ],
+        "browseCategories" : "Browse Categories",
+        "filter": "FILTER",
+        "subscriptions": "Subscriptions"
+    },
+    "Version":{
+        "versionMissmatchTitle" : "Version outdated",
+        "versionMissmatchText" : "Your version seems to be outdated. Please clear your cache and reload the page. If this doesn't solve the problem please clear your dns cache.",
+        "versionMissmatchButton" : "OK"
+    },
+    "Mining":{
+        "download": "Download",
+        "downloadPlugin": "Download TUBE miner",
+        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
+        "mining": "Mining",
+        "startMining": "Start mining",
+        "stopMining": "Stop mining",
+        "cpuCore": "CPU Cores:",
+        "gpuCore": "GPU Core",
+        "activateGpu": "Activate GPU",
+        "hashate": "Hashrate",
+        "result": "Results",
+        "connection": "Connection",
+        "threadID": "Thread ID",
+        "totals": "Totals:",
+        "highest": "Highest",
+        "miningSince": "Mining since",
+        "resultReport": "Result Report",
+        "difficulty": "Difficulty",
+        "goodResults": "Good results",
+        "avgResult": "Avg result time",
+        "poolSide": "Pool-side hashes",
+        "top10": "Top 10 best results found",
+        "errorDetails": "Error details",
+        "errorText": "Error text",
+        "count": "Count",
+        "lastSeen": "Last Seen",
+        "connectionReport": "Connection Report",
+        "error": "Error",
+        "poolAddress": "Pool address",
+        "connectedSince": "Connected since",
+        "poolPing": "Pool ping time",
+        "networkError": "Network error log",
+        "hashrateReport": "Hashrate Report",
+        "stats": "Stats",
+        "myWallet": "My Wallet:",
+        "swalButtonConfirm": "Ok",
+        "swalTitle": "Miner offline",
+        "swalText":"We are detecting that the miner software is not running. Please start the miner.",
+        "instructions": "Instructions",
+        "instructions1": "If this is your first time, click the download button",
+        "Instructions2": "Unpack and start bittube-miner.exe",
+        "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
     }
 }

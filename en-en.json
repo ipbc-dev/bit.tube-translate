@@ -4,7 +4,7 @@
                 "loginClasic": "Or Be Classical",
                 "usernameEmail": "Username / Email address",
                 "usernameRequired": "Username is required",
-                "usernameMinimun": "A minimum of 4 characters is required",
+                "usernameMinimun": "A minimum of 3 characters is required",
                 "usernameInvalid": "Invalid username",
                 "usernamewrong": "Username or password wrong",
                 "password": "Password",
@@ -16,7 +16,6 @@
                 "error": "Error",
                 "emailVerfied": "E-mail verified",
                 "resend": "Resend",
-
                 "RecoveryPwd": {
                 "title": "Reset password",
                 "email":"Username / Email address",
@@ -33,17 +32,14 @@
                 "errorRecovery": "Error recovering password",
                 "passwordUpdate": "Password updated",
                 "errorUpdate": "Error updating"
-
-
                 }
         },
-
         "Register": {
                 "title": "Register",
                 "loginClasic": "Or Be Classical",
                 "userName": "Username...",
                 "usernameRequired": "Username is required",
-                "usernameMinimun": "Minimum of 4 characters",
+                "usernameMinimun": "Minimum of 3 characters",
                 "firstName": "First name...",
                 "firstNameRequired": "First name is required",
                 "lasName": "Last name...",
@@ -65,173 +61,174 @@
                 "checkEmail": "Check your email.",
                 "error": "Error"
         },
-
         "Profile": {
-
                 "MyProfile":{
-                "title": "My profile",
-                "aboutMe": "About me:",
-                "name": "Name:",
-                "location": "Location:",
-                "memberSince": "Member since:",
-                "description": "Description",
-                "readMore": "Read more",
-                "readLess": "Read less",
-                "editProfileButton": "Edit profile",
-                "walletTitle": "Wallet",
-                "wallet": "Wallet",
-                "saveWalletButton": "Save wallet",
-                "walletNotifySave": "Wallet saved.",
-                "walletNotifyEmpty":"Field is empty.",
-                "socialTitle": "Social",
-                "editProfileTitle": "Edit profile",
-                "editProfileSubTitle": "Complete your profile",
-                "editProfileUsername": "Username",
-                "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
-                "editProfileUsernamePattern": " Username can contain A-Z, a-z, 0-9 and _ only",
-                "editProfilePhone": "Mobile phone",
-                "editProfilePhoneInvalid": "Invalid phone number",
-                "editProfileEmail": "Email",
-                "editProfileFirstname": "First name",
-                "editProfileFirstnameRequired": "First name is required",
-                "editProfileLastname": "Last name",
-                "editProfileLastnameRequired": "Last name is required",
-                "editProfileCity": "City",
-                "editProfileInvalidCity": "Invalid city name",
-                "editProfileCountry": "Country",
-                "editProfileWebsite": "Website",
-                "editProfileInvalidWebsite": "Invalid Website URL",
-                "editProfileInvalidFacebook": "Invalid Facebook url",
-                "editProfileInvalidTwitter": "Invalid Twitter url",
-                "editProfileInvalidInstagram": "Invalid Instagram url",
-                "editProfileInvalidGoogle": "Invalid Google plus  url",
-                "editProfileInvalidTumblr": "Invalid Tumblr url",
-                "editProfileInvalidPinterest": "Invalid Pinterest url",
-                "editProfileSomethingAboutYou": "Tell us something about you...",
-                "editProfileUpdateButton": "Update Profile",
-                "editProfileCancelButton": "Cancel",
-                "editProfileNotifySave": "Profile updated",
-                "editProfileNotifyError": "Error updating",
-                "editProfileChangePasswordTitle": "Change password",
-                "editProfileOldPassword": "Old password",
-                "editProfileNewPassword": "New password",
-                "editProfileNewPasswordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
-                "editProfileRepeatNewPassword": "Repeat password",
-                "editProfileRepeatNewPasswordRequired": "Repeating password is required",
-                "editProfileRepeatNewPasswordMissmatch": "Passwords mismatch",
-                "editProfileUpdatePasswordButton": "Update password ",
-                "editProfilePasswordNotifyError": "Error updating",
-                "editProfilePasswordNotifyDifferent": "Error updating: the passwords are different",
-                "editProfilePasswordNotifyInsert": "Error updating: Insert the passwords",
-                "editProfilePasswordNotifyPasswordEqual": "Error updating: Old and new password are equals",
-                "loginProfileTitle": "Login required!",
-                "loginProfileText": "Please login to use this feature",
-                "loginProfileConfirmButton": "Ok",
-                "loginProfileCancelButton": "Cancel",
-                "myProfile": "My Profile",
-                "playlist": "Playlists",
-                "publications": "Publications",
-                "live": "Live streams",
-                "subscriptions": "Subscriptions",
-                "security": "Security",
-                "language": "My language",
-                "saveLanguage": "Save language",
-                "languageSelect": "Language",
-                "textEditorPlaceholder" : "Enter a text...",
-                "editProfilePasswordNotifySave": "Password saved successfully",
-                "purchases": "My purchases",
-                "profilePurchase": "Purchase",
-                "noPurchase": "There are no purchases",
-                "subscribers": "Subscribers"
-
+                        "title": "My profile",
+                        "aboutMe": "About me:",
+                        "name": "Name:",
+                        "location": "Location:",
+                        "memberSince": "Member since:",
+                        "description": "Description",
+                        "readMore": "Read more",
+                        "readLess": "Read less",
+                        "editProfileButton": "Edit profile",
+                        "walletTitle": "Wallet",
+                        "wallet": "Wallet",
+                        "saveWalletButton": "Save wallet",
+                        "walletNotifySave": "Wallet saved.",
+                        "walletNotifyEmpty":"Field is empty.",
+                        "socialTitle": "Social",
+                        "editProfileTitle": "Edit profile",
+                        "editProfileSubTitle": "Complete your profile",
+                        "editProfileUsername": "Username",
+                        "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+                        "editProfileUsernamePattern": " Username can contain A-Z, a-z, 0-9 and _ only",
+                        "editProfilePhone": "Mobile phone",
+                        "editProfilePhoneInvalid": "Invalid phone number",
+                        "editProfileEmail": "Email",
+                        "editProfileFirstname": "First name",
+                        "editProfileFirstnameRequired": "First name is required",
+                        "editProfileLastname": "Last name",
+                        "editProfileLastnameRequired": "Last name is required",
+                        "editProfileCity": "City",
+                        "editProfileInvalidCity": "Invalid city name",
+                        "editProfileCountry": "Country",
+                        "editProfileWebsite": "Website",
+                        "editProfileInvalidWebsite": "Invalid Website URL",
+                        "editProfileInvalidFacebook": "Invalid Facebook url",
+                        "editProfileInvalidTwitter": "Invalid Twitter url",
+                        "editProfileInvalidInstagram": "Invalid Instagram url",
+                        "editProfileInvalidGoogle": "Invalid Google plus  url",
+                        "editProfileInvalidTumblr": "Invalid Tumblr url",
+                        "editProfileInvalidPinterest": "Invalid Pinterest url",
+                        "editProfileSomethingAboutYou": "Tell us something about you...",
+                        "editProfileUpdateButton": "Update Profile",
+                        "editProfileCancelButton": "Cancel",
+                        "editProfileNotifySave": "Profile updated",
+                        "editProfileNotifyError": "Error updating",
+                        "editProfileChangePasswordTitle": "Change password",
+                        "editProfileOldPassword": "Old password",
+                        "editProfileNewPassword": "New password",
+                        "editProfileNewPasswordPattern": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
+                        "editProfileRepeatNewPassword": "Repeat password",
+                        "editProfileRepeatNewPasswordRequired": "Repeating password is required",
+                        "editProfileRepeatNewPasswordMissmatch": "Passwords mismatch",
+                        "editProfileUpdatePasswordButton": "Update password ",
+                        "editProfilePasswordNotifyError": "Error updating",
+                        "editProfilePasswordNotifyDifferent": "Error updating: the passwords are different",
+                        "editProfilePasswordNotifyInsert": "Error updating: Insert the passwords",
+                        "editProfilePasswordNotifyPasswordEqual": "Error updating: Old and new password are equals",
+                        "loginProfileTitle": "Login required!",
+                        "loginProfileText": "Please login to use this feature",
+                        "loginProfileConfirmButton": "Ok",
+                        "loginProfileCancelButton": "Cancel",
+                        "myProfile": "My Profile",
+                        "playlist": "Playlists",
+                        "publications": "Publications",
+                        "live": "Live streams",
+                        "subscriptions": "Subscriptions",
+                        "security": "Security",
+                        "language": "My language",
+                        "saveLanguage": "Save language",
+                        "languageSelect": "Language",
+                        "textEditorPlaceholder" : "Enter a text...",
+                        "editProfilePasswordNotifySave": "Password saved successfully",
+                        "purchases": "My purchases",
+                        "profilePurchase": "Purchase",
+                        "noPurchase": "There are no purchases",
+                        "subscribers": "Subscribers",
+                        "imageTooSmall":"Selected image is too small to be resized"
                 },
-
+                "MyPurchases": {
+                        "channelStay": "Channel Stay",
+                        "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+                        "channelStayText2": "When you aquiere",
+                        "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+                        "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+                        "channelStayButton": "Yes, I want Channel Stay",
+                        "channelStaySwalTitle": "Purchase channel stay",
+                        "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+                        "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+                        "channelStaySwalConfirmButton": "Yes, I want channel stay",
+                        "channelStaySwalCancelButton": "No, thank you"
+                },
                 "MyPlaylists":{
-                "title": "My playlist",
-                "editPlaylistTitle": "Title",
-                "editPlaylistDescription": "Description",
-                "editPlaylistSaveButton": "Save",
-                "editPlaylistDeleteButton": "Delete",
-                "editPlaylistCloseButton": "Close playlist",
-                "editPlaylistEmpty": "This playlist is empty.",
-                "newPlaylist": "New playlist",
-                "newPlaylistTitle": "Title",
-                "newPlaylistDescription": "Description",
-                "newPlaylistSaveButton": "Save",
-                "deletePlaylistTitle": "Are you sure ?",
-                "deletePlaylistText": "This will delete the playlist unrecoverably",
-                "deletePlaylistConfirmButton": "Yes, delete it!",
-                "deletePlaylistCancelButton": "Cancel",
-                "deletePlaylistTitleConfirm": "Deleted!",
-                "deletePlaylistTextConfirm": "Your playlist has been deleted",
-                "updatePlaylistTitle": "Updated!",
-                "updatePlaylistText": "Your playlist data has been updated",
-                "updatePlaylistName": "Error please enter the name",
-                "deleteVideoPlaylistTitle": "Are you sure ?",
-                "deleteVideoPlaylistText": "This will delete video from playlist",
-                "deleteVideoPlaylistConfirmButton": "Yes, delete it!",
-                "deleteVideoPlaylistCancelButton": "Cancel",
-                "deleteVideoPlaylistTitleConfirm": "Deleted!",
-                "deleteVideoPlaylistTextConfirm": "Your file has been deleted",
-                "VideoPlaylistButton": "Ok",
-                "noPlaylists": "There are no playlists"
-
+                        "title": "My playlist",
+                        "editPlaylistTitle": "Title",
+                        "editPlaylistDescription": "Description",
+                        "editPlaylistSaveButton": "Save",
+                        "editPlaylistDeleteButton": "Delete",
+                        "editPlaylistCloseButton": "Close playlist",
+                        "editPlaylistEmpty": "This playlist is empty.",
+                        "newPlaylist": "New playlist",
+                        "newPlaylistTitle": "Title",
+                        "newPlaylistDescription": "Description",
+                        "newPlaylistSaveButton": "Save",
+                        "deletePlaylistTitle": "Are you sure ?",
+                        "deletePlaylistText": "This will delete the playlist unrecoverably",
+                        "deletePlaylistConfirmButton": "Yes, delete it!",
+                        "deletePlaylistCancelButton": "Cancel",
+                        "deletePlaylistTitleConfirm": "Deleted!",
+                        "deletePlaylistTextConfirm": "Your playlist has been deleted",
+                        "updatePlaylistTitle": "Updated!",
+                        "updatePlaylistText": "Your playlist data has been updated",
+                        "updatePlaylistName": "Error please enter the name",
+                        "deleteVideoPlaylistTitle": "Are you sure ?",
+                        "deleteVideoPlaylistText": "This will delete video from playlist",
+                        "deleteVideoPlaylistConfirmButton": "Yes, delete it!",
+                        "deleteVideoPlaylistCancelButton": "Cancel",
+                        "deleteVideoPlaylistTitleConfirm": "Deleted!",
+                        "deleteVideoPlaylistTextConfirm": "Your file has been deleted",
+                        "VideoPlaylistButton": "Ok",
+                        "noPlaylists": "There are no playlists"
                 },
-
                 "Publications":{
-                "title": "Uploads",
-                "views": "Views",
-                "edit": "Edit",
-                "delete": "Delete",
-                "deletePublicationTitle": "Are you sure?",
-                "deletePublicationText": "This will unpublish",
-                "deletePublicationConfirmButton": "Yes, unpublish it!",
-                "deletePublicationCancelButton": "cancel",
-                "deletePublicationNotify": "Your video has been removed",
-                "deletePublicationNotifyError": "Error",
-                "videoInfoError": "Error getting video Info",
-                "noUploads": "There are no uploads",
-                "editVideo": "Edit video",
-                "makePrimaryVideo": "Set as primary video"
+                        "title": "Uploads",
+                        "views": "Views",
+                        "edit": "Edit",
+                        "delete": "Delete",
+                        "deletePublicationTitle": "Are you sure?",
+                        "deletePublicationText": "This will unpublish",
+                        "deletePublicationConfirmButton": "Yes, unpublish it!",
+                        "deletePublicationCancelButton": "cancel",
+                        "deletePublicationNotify": "Your video has been removed",
+                        "deletePublicationNotifyError": "Error",
+                        "videoInfoError": "Error getting video Info",
+                        "noUploads": "There are no uploads",
+                        "editVideo": "Edit video",
+                        "makePrimaryVideo": "Set as primary video"
                 },
-
                 "LiveStreams": {
-                "title": "My Live streams",
-                "views": "Views",
-                "edit": "Edit",
-                "noLiveStreams": "There are no live streams"
+                        "title": "My Live streams",
+                        "views": "Views",
+                        "edit": "Edit",
+                        "noLiveStreams": "There are no live streams"
                 },
-
                 "Subscriptions": {
-                "title": "Subscriptions",
-                "subscriptionsButton": "Subscribe",
-                "unSubscriptionsButton": "Unsubscribe",
-                "noSubscriptions": "There are no subscriptions"
+                        "title": "Subscriptions",
+                        "subscriptionsButton": "Subscribe",
+                        "unSubscriptionsButton": "Unsubscribe",
+                        "noSubscriptions": "There are no subscriptions"
                 },
-
                 "Subscribers": {
-                "title": "Subscribers",
-                "subscriptionsButton": "Subscribe",
-                "unSubscriptionsButton": "Unsubscribe",
-                "noSubscriptions": "There are no subscribers"
+                        "title": "Subscribers",
+                        "subscriptionsButton": "Subscribe",
+                        "unSubscriptionsButton": "Unsubscribe",
+                        "noSubscriptions": "There are no subscribers"
                 },
-
                 "Security": {
-                "title": "Security",
-                "authentication": "2-Factor Authentication",
-                "qr": "Scan QR Code",
-                "code": "code",
-                "twoFactorEnabled": "Enabled",
-                "twoFactorDisabled": "Disabled",
-                "activateAuthenticationTitle": "NOTICE",
-                "activateAuthenticationText": "Make sure you have scanned the Authentication QR Code in your Authenticator App, before you continue!",
-                "activateAuthenticationConfirmButton": "Ok",
-                "activateAuthenticationDeleteButton": "Cancel"  
-                }
-        
-                
+                        "title": "Security",
+                        "authentication": "2-Factor Authentication",
+                        "qr": "Scan QR Code",
+                        "code": "code",
+                        "twoFactorEnabled": "Enabled",
+                        "twoFactorDisabled": "Disabled",
+                        "activateAuthenticationTitle": "NOTICE",
+                        "activateAuthenticationText": "Make sure you have scanned the Authentication QR Code in your Authenticator App, before you continue!",
+                        "activateAuthenticationConfirmButton": "Ok",
+                        "activateAuthenticationDeleteButton": "Cancel"  
+                }     
         },
-
         "Dashboard": {
                 "views": "Views",
                 "likes": "Likes",
@@ -239,9 +236,9 @@
                 "newPlaylist": "New playlist",
                 "addPlaylistButton": "Add",
                 "addPLaylistTitle":"Add to...",
-                "live":"Live"
+                "live":"Live",
+                "ago": "ago"
         },
-
         "Trending": {
                 "views": "Views",
                 "likes": "Likes",
@@ -251,7 +248,6 @@
                 "addPLaylistTitle":"Add to...",
                 "live":"Live"
         },
-
         "Newcomers": {
                 "views": "Views",
                 "likes": "Likes",
@@ -261,14 +257,12 @@
                 "addPLaylistTitle":"Add to...",
                 "live":"Live"
         },
-
         "Live": {
                 "views": "Views",
                 "likes": "Likes",
                 "noLivestreams": "No livestreams available",
                 "live":"Live"
         },
-
         "MediaEdit": {
                 "title": "Edit media",
                 "snapshotButon": "Take Snapshot",
@@ -296,7 +290,6 @@
                 "videoRemovedConfirmCancel": "Cancel",
                 "videoPlaceholderEditor": "Enter description here..."
         },
-
         "Broadcast": {
                 "Setings": {
                         "title": "Settings",
@@ -351,10 +344,8 @@
                         "9pTutorialStream": "Vmix",
                         "10pTutorialStream": " Widely used, vMix is the ideal tool for broadcasting, especially for vloggers, but not only. vMix is a complete live video production software solution with features including LIVE mixing, switching, recording and LIVE streaming of SD, full HD and 4K video sources including cameras, video files, DVDs, images, Powerpoint and much much more.",
                         "dowloadButton": "Download"
-
                 }
         },
-
         "Play": {
                 "addPlaylists": "Add to playlist",
                 "newPlaylist": "New playlist",
@@ -409,7 +400,7 @@
                 "textEditorPlaceholder": "Enter a text...",
                 "AcceptedHashesText": "Accepted Hashes: ",
                 "HashesText": "Hash/s: ",
-                "TotalHashesText": "Total Hashes: ",
+                "TotalHashesText": "Airtime PoV: ",
                 "status": "Status: ",
                 "localSaving": "Local IPFS Savings: ",
                 "RTCPeers": "RTC Peers: ",
@@ -438,11 +429,7 @@
                 "popOutVideo": "Popout video",
                 "setPrimaryVideo": "Saved primary video",
                 "errorSavePrimaryVideo": "Error"
-
-
-
         },
-
         "Wallet": {
                 "title": "Overview",
                 "walletAdress": "Wallet Address",
@@ -499,11 +486,7 @@
                 "contactAdded": "Contact Added...",
                 "contactAddedFail": "Failed to add contact...",
                 "notEnoughBalance": "Not enough wallet balance or still locked."
-        
-        
-        
         },
-
         "Profitcalc": {
                 "openCoinmarketcapButton": "Open Coinmarketcap",
                 "exchanges": "Exchanges",
@@ -533,7 +516,6 @@
                 "tpl_vol_usd_24h" : "VOLUME USD (24H)",
                 "tpl_vol_eur_24h" : "VOLUME EUR (24H)"
         },
-
         "Upload": {
                 "titleUpload": "Upload media files",
                 "p1Upload": "You can upload your media files. The resulting video files will be available in multiple quality formats",
@@ -571,7 +553,7 @@
                 "loginProfileCancelButton": "Cancel",
                 "videoAlreadyPublishedTitle": "Video already published!",
                 "videoAlreadyPublishedText": "You may edit this video information under publications in your profile",
-                "videoSuccessfuly": "Your video has been successfully uploaded, it could take a while until it was checked and published",
+                "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
                 "authorizationYoutube": "In case of not having authorization please click AUTHORIZE and follow the steps to give authorization to check your youtube content",
                 "authorizeButton": "Authorize",
                 "UnauthorizeButton": "Unauthorize",
@@ -625,7 +607,6 @@
                 "rental72hrs": "72 hrs",
                 "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"
         },
-
         "User": {
                 "subscribe": "Subscribe",
                 "unSubscribe": "Unsubscribe",
@@ -639,20 +620,17 @@
                 "loginProfileText": "Please login to use this feature",
                 "loginProfileConfirmButton": "Ok",
                 "loginProfileCancelButton": "Cancel",
-
                 "Profile": {
-                "title": "Overview",
-                "about": "About",
-                "name": "Name",
-                "member": "Member since",
-                "description": "Description",
-                "location": "Location",
-                "readMore": "Read more",
-                "readLess": "Read less",
-                "social": "Social"
-                
+                        "title": "Overview",
+                        "about": "About",
+                        "name": "Name",
+                        "member": "Member since",
+                        "description": "Description",
+                        "location": "Location",
+                        "readMore": "Read more",
+                        "readLess": "Read less",
+                        "social": "Social"
                 },
-
                 "Publications": {
                         "publication": "Publication",
                         "publications": "Publications",
@@ -665,42 +643,37 @@
                         "ReadMore": "Read more",
                         "showAll": "Show all"
                 },
-
                 "LiveTv": {
-                "livestream": "Livestream",
-                "livestreams": "Livestreams",
-                "noStream": "There are no livestreams",
-                "live": "Live",
-                "addPlaylists": "Add to playlist",
-                "newPlaylist": "New playlist",
-                "addPlaylistButton": "Add",
-                "addPLaylistTitle":"Add to..."
+                        "livestream": "Livestream",
+                        "livestreams": "Livestreams",
+                        "noStream": "There are no livestreams",
+                        "live": "Live",
+                        "addPlaylists": "Add to playlist",
+                        "newPlaylist": "New playlist",
+                        "addPlaylistButton": "Add",
+                        "addPLaylistTitle":"Add to..."
                 },
-
                 "Subscriptions": {
-                "subscriptions": "Subscriptions",
-                "nosubscriptions": "There are no subscriptions",
-                "subscribe": "Subscribe",
-                "unSubscribe": "Unsubscribe"
+                        "subscriptions": "Subscriptions",
+                        "nosubscriptions": "There are no subscriptions",
+                        "subscribe": "Subscribe",
+                        "unSubscribe": "Unsubscribe"
                 },
-
                 "MyPlaylists": {
-                "myPlaylists": "MyPlaylists",
-                "noPlaylists": "There are no playlists",
-                "description": "Description",
-                "noDescription": "No description provided",
-                "addMyPlaylist": "Add to my Playlists",
-                "addPlaylists": "Add to playlist",
-                "newPlaylist": "New playlist",
-                "addPlaylistButton": "Add",
-                "addPLaylistTitle":"Add to...",
-                "playlistEmpty": "This playlist is empty",
-                "yourCopyPlaylist": "You have your own copy of this playlist!",
-                "somenthingWrong": "Something went wrong during the process!"
+                        "myPlaylists": "MyPlaylists",
+                        "noPlaylists": "There are no playlists",
+                        "description": "Description",
+                        "noDescription": "No description provided",
+                        "addMyPlaylist": "Add to my Playlists",
+                        "addPlaylists": "Add to playlist",
+                        "newPlaylist": "New playlist",
+                        "addPlaylistButton": "Add",
+                        "addPLaylistTitle":"Add to...",
+                        "playlistEmpty": "This playlist is empty",
+                        "yourCopyPlaylist": "You have your own copy of this playlist!",
+                        "somenthingWrong": "Something went wrong during the process!"
                 }
-
         },
-
         "LiveChat": {
                 "title": "Live Chat",
                 "saySomething": "Say something",
@@ -715,14 +688,12 @@
                 "loginProfileCancelButton": "Cancel"
 
         },
-
         "Playlist": {
                 "loginProfileTitle": "Login required!",
                 "loginProfileText": "Please login to use this feature",
                 "loginProfileConfirmButton": "Ok",
                 "loginProfileCancelButton": "Cancel"
         },
-
         "Result": {
                 "noResult": "No results found",
                 "live": "Live",
@@ -739,9 +710,9 @@
                 "loginProfileConfirmButton": "Ok",
                 "loginProfileCancelButton": "Cancel",
                 "playlistCloned": "Playlist had been added to your playlists",
-                "playlistClonedFailed": "You already cloned this playlist"
+                "playlistClonedFailed": "You already cloned this playlist",
+                "subscribers": "subscribers"
         },
-
         "Lenguages":{
                 "languages_array":[  
                         {"value": "AF", "viewValue": "Afrikaans"},
@@ -818,67 +789,63 @@
                         {"value": "XH", "viewValue": "Xhosa"}
                 ]
         },
-
         "DataProteccion" : {
                 "data_protection_array":[
-                {"value": "1", "viewValue": "Everyone"},
-                {"value": "2", "viewValue": "JustMe (Coming soon)"},
-                {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
-                {"value": "4", "viewValue": "Password (Coming soon)"},
-                {"value": "5", "viewValue": "IChoose (Coming soon)"},
-                {"value": "6", "viewValue": "NotList (Coming soon)"},
-                {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
+                        {"value": "1", "viewValue": "Everyone"},
+                        {"value": "2", "viewValue": "JustMe (Coming soon)"},
+                        {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
+                        {"value": "4", "viewValue": "Password (Coming soon)"},
+                        {"value": "5", "viewValue": "IChoose (Coming soon)"},
+                        {"value": "6", "viewValue": "NotList (Coming soon)"},
+                        {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
                 ]
         },
-
         "Category": {
                 "category_array":[
-                {"value": "39", "viewValue": "Adult"},
-                {"value": "43", "viewValue": "Animation"},
-                {"value": "24", "viewValue": "Arts and Culture"},
-                {"value": "26", "viewValue": "Beauty and Fashion"},
-                {"value": "37", "viewValue": "Cars"},
-                {"value": "8", "viewValue":  "Cinema"},
-                {"value": "16", "viewValue": "Coaching"},
-                {"value": "42", "viewValue": "Comedy"},
-                {"value": "41", "viewValue": "Crypto"},
-                {"value": "12", "viewValue": "Economy"},
-                {"value": "3", "viewValue":  "E-Learning"},
-                {"value": "22", "viewValue": "Entertainment"},
-                {"value": "35", "viewValue": "Finance"},
-                {"value": "36", "viewValue": "Food"},
-                {"value": "18", "viewValue": "Gadgets and Apps"},
-                {"value": "2", "viewValue":  "Gamers"},
-                {"value": "19", "viewValue": "Health"},
-                {"value": "15", "viewValue": "History"},
-                {"value": "27", "viewValue": "Hobbies and Crafts"},
-                {"value": "17", "viewValue": "IT"},
-                {"value": "23", "viewValue": "Kids"},
-                {"value": "25", "viewValue": "Life Style"},
-                {"value": "33", "viewValue": "Movies"},
-                {"value": "5", "viewValue":  "Music"},
-                {"value": "20", "viewValue": "Nature"},
-                {"value": "9", "viewValue":  "News"},
-                {"value": "29", "viewValue": "Others"},
-                {"value": "44", "viewValue": "Performing Arts"},
-                {"value": "40", "viewValue": "Pets"},
-                {"value": "28", "viewValue": "Religion"},
-                {"value": "14", "viewValue": "Science"},
-                {"value": "31", "viewValue": "Series"},
-                {"value": "13", "viewValue": "Social issues"},
-                {"value": "11", "viewValue": "Society"},
-                {"value": "6", "viewValue":  "Sports"},
-                {"value": "38", "viewValue": "Technic"},
-                {"value": "32", "viewValue": "Trailer"},
-                {"value": "21", "viewValue": "Travel"},
-                {"value": "4", "viewValue":  "TV Channels"},
-                {"value": "7", "viewValue":  "Vloggers"},
-                {"value": "30", "viewValue": "Webcams"},
-                {"value": "34", "viewValue": "Yousician"}
-                
+                        {"value": "39", "viewValue": "Adult"},
+                        {"value": "43", "viewValue": "Animation"},
+                        {"value": "24", "viewValue": "Arts and Culture"},
+                        {"value": "26", "viewValue": "Beauty and Fashion"},
+                        {"value": "37", "viewValue": "Cars"},
+                        {"value": "8", "viewValue":  "Cinema"},
+                        {"value": "16", "viewValue": "Coaching"},
+                        {"value": "42", "viewValue": "Comedy"},
+                        {"value": "41", "viewValue": "Crypto"},
+                        {"value": "12", "viewValue": "Economy"},
+                        {"value": "3", "viewValue":  "E-Learning"},
+                        {"value": "22", "viewValue": "Entertainment"},
+                        {"value": "35", "viewValue": "Finance"},
+                        {"value": "36", "viewValue": "Food"},
+                        {"value": "18", "viewValue": "Gadgets and Apps"},
+                        {"value": "2", "viewValue":  "Gamers"},
+                        {"value": "19", "viewValue": "Health"},
+                        {"value": "15", "viewValue": "History"},
+                        {"value": "27", "viewValue": "Hobbies and Crafts"},
+                        {"value": "17", "viewValue": "IT"},
+                        {"value": "23", "viewValue": "Kids"},
+                        {"value": "25", "viewValue": "Life Style"},
+                        {"value": "33", "viewValue": "Movies"},
+                        {"value": "5", "viewValue":  "Music"},
+                        {"value": "20", "viewValue": "Nature"},
+                        {"value": "9", "viewValue":  "News"},
+                        {"value": "29", "viewValue": "Others"},
+                        {"value": "44", "viewValue": "Performing Arts"},
+                        {"value": "40", "viewValue": "Pets"},
+                        {"value": "28", "viewValue": "Religion"},
+                        {"value": "14", "viewValue": "Science"},
+                        {"value": "31", "viewValue": "Series"},
+                        {"value": "13", "viewValue": "Social issues"},
+                        {"value": "11", "viewValue": "Society"},
+                        {"value": "6", "viewValue":  "Sports"},
+                        {"value": "38", "viewValue": "Technic"},
+                        {"value": "32", "viewValue": "Trailer"},
+                        {"value": "21", "viewValue": "Travel"},
+                        {"value": "4", "viewValue":  "TV Channels"},
+                        {"value": "7", "viewValue":  "Vloggers"},
+                        {"value": "30", "viewValue": "Webcams"},
+                        {"value": "34", "viewValue": "Yousician"}
                 ]
         },
-
         "FixedPlugin": {
                 "filters": "Sidebar Filter Color",
                 "background": "Sidebar Background Color",
@@ -888,8 +855,6 @@
                 "selectImage": "Choose image",
                 "sidebarStyle": "sidebar style",
                 "theme": "theme"
-                
-
         },
         "Sidebar": {
                 "homeSection": "Home",
@@ -911,7 +876,6 @@
                 "copyrightPolicy": "Copyright Policy",
                 "miningSection": "Start Mining",
                 "subscriptions": "Subscriptions"
-
         },
         "Terms": {
                 "termsTitle": "Terms and conditions",
@@ -993,7 +957,6 @@
                 "termsGoverning": "Governing law, jurisdiction, contracting company",
                 "GoverningText1": "For all services, the contracting company is Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. All claims relating to free services shall be governed by the laws of Spain, without prejudice to any mandatory law applicable in the country in which we offer you the services and in which you have your habitual residence. The laws of the country in which we offer you the services and where you have your habitual residence govern all claims in connection to paid services."
         },
-
         "Navbar":{
                 "search": "Search",
                 "login": "Login",
@@ -1112,10 +1075,30 @@
                 "instructions1": "If this is your first time, click the download button",
                 "Instructions2": "Unpack and start bittube-miner.exe",
                 "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-                "Instructions4": "If you are an expert, visit "
-
-
-
+                "Instructions4": "If you are an expert, visit ",
+                "Instructions5": "For more information, visit ",
+                "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        },
+        "PayVideo": {
+                "alreadyPurchased": "Product already purchased.",
+                "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+                "ok": "OK",
+                "lifetimePeriod": "Purchase lifetime.",
+                "rentalPeriod": "Rental",
+                "rentalHours": "hours.",
+                "currencyPrice": "Transaction currency",
+                "price": "price:",
+                "usdCurrency": "USD.",
+                "tubeCurrency": "TUBE.",
+                "payVideoPurchase": "Purchase",
+                "payVideoCancel": "Cancel",
+                "processingPurchase": "Processing purchase",
+                "convertError": "Couldn't convert to Tubes. Please try again.",
+                "insuficientFunds": "Insuficient funds",
+                "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+                "confirmButtonMyWallet": "My Wallet",
+                "purchaseError": "Purchase error",
+                "purchaseErrorText": "There was an error processing your transaction.",
+                "successTittle": "successfully"
         }
-
 }

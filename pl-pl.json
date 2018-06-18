@@ -1,11 +1,10 @@
 {
-
-"Login": {
+    "Login": {
         "title": "Zaloguj się",
         "loginClasic": "Lub zaloguj się klasycznie ",
         "usernameEmail": "Nazwa użytkownika / Adres E-mail",
         "usernameRequired": "Nazwa użytkownika jest wymagana",
-        "usernameMinimun": "Minimalnie 4 znaki",
+        "usernameMinimun": "Minimalnie 3 znaki",
         "usernameInvalid": "Nieprawidłowa Nazwa użytkownika",
         "usernamewrong": "Nieprawidłowe hasło albo Nazwa użytkownika",
         "password": "Hasło",
@@ -17,7 +16,6 @@
         "error": "Błąd",
         "emailVerfied": "Zweryfikowany e-mail",
         "resend": "Resend",
-
         "RecoveryPwd": {
             "title": "Odzyskaj hasło",
             "email": "Nazwa użytkownika / Adres e-mail",
@@ -34,17 +32,14 @@
             "errorRecovery": "Wystąpił błąd podczas odzyskiwania hasła",
             "passwordUpdate": "Hasło zaktualizowane",
             "errorUpdate": "Błąd podczas aktualizacji"
-
-
         }
     },
-
     "Register": {
         "title": "Zarejestrować się",
         "loginClasic": "Lub zarejestrować się klasycznie",
         "userName": "Nazwa użytkownika...",
         "usernameRequired": "Nazwa użytkownika jest wymagana",
-        "usernameMinimun": "Minimalnie 4 znaki",
+        "usernameMinimun": "Minimalnie 3 znaki",
         "firstName": "Imię...",
         "firstNameRequired": "Imię jest wymagane",
         "lasName": "Nazwisko...",
@@ -66,9 +61,7 @@
         "checkEmail": "sprawdż swoją skrzynkę e-mail",
         "error": "Błąd"
     },
-
     "Profile": {
-
         "MyProfile":{
             "title": "Mój Profil",
             "aboutMe": "O mnie:",
@@ -143,10 +136,22 @@
             "purchases": "My purchases",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers"
-
+            "subscribers": "Subscribers",
+            "imageTooSmall":"Selected image is too small to be resized"
         },
-
+        "MyPurchases": {
+            "channelStay": "Channel Stay",
+            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
+            "channelStayText2": "When you aquiere",
+            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
+            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
+            "channelStayButton": "Yes, I want Channel Stay",
+            "channelStaySwalTitle": "Purchase channel stay",
+            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
+            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
+            "channelStaySwalConfirmButton": "Yes, I want channel stay",
+            "channelStaySwalCancelButton": "No, thank you"
+        },
         "MyPlaylists":{
             "title": "Moja Biblioteka",
             "editPlaylistTitle": "Tytuł",
@@ -176,9 +181,7 @@
             "deleteVideoPlaylistTextConfirm": "Twój plik został usunięty!",
             "VideoPlaylistButton": "Ok",
             "noPlaylists": "Nie ma biblioteki"
-
         },
-
         "Publications":{
             "title": "Moje wrzuty",
             "views": "Wyświetlenia",
@@ -195,14 +198,12 @@
             "editVideo": "Edit video",
             "makePrimaryVideo": "Set as primary video"
         },
-
         "LiveStreams": {
             "title": "Moje Wyświetlenia na żywo",
             "views": "Wyświetlenia",
             "edit": "Edytować",
             "noLiveStreams": "Nie ma Wyświetlenia na żywo"
         },
-
         "Subscriptions": {
             "title": "Subskrypcje",
             "subscriptionsButton": "Subskrybować",
@@ -214,7 +215,7 @@
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
             "noSubscriptions": "There are no subscribers"
-            },
+        },
         "Security": {
             "title": "Bezpieczeństwo",
             "authentication": "2-czynnikowe uwierzytelnianie",
@@ -227,10 +228,7 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Unieważnić"  
         }
-       
-        
     },
-
     "Dashboard": {
         "views": "Wyświetlenia",
         "likes": "Likes",
@@ -238,9 +236,9 @@
         "newPlaylist": "Nowa Biblioteka",
         "addPlaylistButton": "Dodaj",
         "addPLaylistTitle":"Dodaj do...",
-        "live":"na żywo"
+        "live":"na żywo",
+        "ago": "ago"
     },
-
     "Trending": {
         "views": "Wyświetlenia",
         "likes": "Likes",
@@ -250,7 +248,6 @@
         "addPLaylistTitle":"Dodaj do...",
         "live":"Na żywo"
     },
-
     "Newcomers": {
         "views": "Wyświetlenia",
         "likes": "Likes",
@@ -260,14 +257,12 @@
         "addPLaylistTitle":"Dodaj do...",
         "live":"Na żywo"
     },
-
     "Live": {
         "views": "Wyświetlenia",
         "likes": "Likes",
         "noLivestreams": "Brak dostępnych transmisji na żywo",
         "live":"Na żywo"
     },
-
     "MediaEdit": {
         "title": "Edit media",
         "snapshotButon": "Weż Snapshot",
@@ -295,7 +290,6 @@
         "videoRemovedConfirmCancel": "Unieważnić",
         "videoPlaceholderEditor": "Wpisz opis tutaj..."
     },
-
     "Broadcast": {
         "Setings": {
             "title": "Ustawienia",
@@ -352,7 +346,6 @@
             "dowloadButton": "Pobierz"
         }
     },
-
     "Play": {
         "addPlaylists": "Dodaj do Biblioteki",
         "newPlaylist": "Nowa Biblioteka",
@@ -407,7 +400,7 @@
         "textEditorPlaceholder": "Wpisz tekst...",
         "AcceptedHashesText": "Zaakceptowane hashe: ",
         "HashesText": "Hash/s: ",
-        "TotalHashesText": "Total Hashów: ",
+        "TotalHashesText": "Airtime PoV: ",
         "status": "Status: ",
         "localSaving": "Lokalne zapisy IPFS: ",
         "RTCPeers": "RTC Peers: ",
@@ -436,11 +429,7 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error"
-
-
-
     },
-
     "Wallet": {
         "title": "Przegląd",
         "walletAdress": "Adres portfela",
@@ -498,7 +487,6 @@
         "contactAddedFail": "Failed to add contact...",
         "notEnoughBalance": "Not enough wallet balance or still locked."
     },
-
     "Profitcalc": {
         "openCoinmarketcapButton": "Otwórz Coinmarketcap",
         "exchanges": "Exchanges",
@@ -513,7 +501,6 @@
         "altex": "Altex",
         "noAPI" : "No API",
         "crex24": "Crex24",
-
         "tpl_title" : "Kalkulator zysków",
         "tpl_market" : "Rynek",
         "tpl_avg_hashrate" : "Średni Hashrate (H/s)",
@@ -529,7 +516,6 @@
         "tpl_vol_usd_24h" : "VOLUME USD (24H)",
         "tpl_vol_eur_24h" : "VOLUME EUR (24H)"
     },
-
     "Upload": {
         "titleUpload": "wrzuty media files",
         "p1Upload": "Możesz przesłać swoje pliki multimedialne. Powstałe pliki wideo będą dostępne w wielu jakościach",
@@ -567,7 +553,7 @@
         "loginProfileCancelButton": "Unieważnić",
         "videoAlreadyPublishedTitle": "Wideo już opublikowane!",
         "videoAlreadyPublishedText": "Możesz edytować te informacje o wideo pod publikacjami w Twoim profilu",
-        "videoSuccessfuly": "Twóje Wideo zostało pomyślnie przesłane, może trochę potrwać, dopóki zostaną one sprawdzone i opublikowane",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
         "authorizationYoutube": "W przypadku braku autoryzacji kliknij na AUTORYZOWAĆ i postępuj zgodnie z instrukcjami, aby autoryzować sprawdzanie zawartości youtube",
         "authorizeButton": "Autoryzować",
         "UnauthorizeButton": "Nieautoryzować",
@@ -621,7 +607,6 @@
         "rental72hrs": "72 hrs",
         "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
     },
-
     "User": {
         "subscribe": "Subskrybować",
         "unSubscribe": "Anuluj subskrypcję",
@@ -635,7 +620,6 @@
         "loginProfileText": "Zaloguj się, aby skorzystać z tej funkcji",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić",
-
         "Profile": {
             "title": "Przegląd",
             "about": "O mnie",
@@ -645,10 +629,8 @@
             "location": "Lokalizacja",
             "readMore": "Czytaj więcej",
             "readLess": "Mniej czytać",
-            "social": "Społeczność"
-            
+            "social": "Społeczność" 
         },
-
         "Publications": {
            "publication": "Opublikowanie",
             "publications": "Publikacje",
@@ -661,7 +643,6 @@
             "ReadMore": "Read more",
             "showAll": "Show all"
         },
-
         "LiveTv": {
             "livestream": "Transmisja na żywo",
             "livestreams": "Transmisje na żywo",
@@ -728,7 +709,8 @@
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Unieważnić",
         "playlistCloned": "Playlist had been added to your playlists",
-        "playlistClonedFailed": "You already cloned this playlist"
+        "playlistClonedFailed": "You already cloned this playlist",
+        "subscribers": "subscribers"
     },
     "Lenguages":{
         "languages_array":[  
@@ -808,13 +790,13 @@
     },
     "DataProteccion" : {
         "data_protection_array":[
-        {"value": "1", "viewValue": "Everyone"},
-        {"value": "2", "viewValue": "JustMe (Coming soon)"},
-        {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
-        {"value": "4", "viewValue": "Password (Coming soon)"},
-        {"value": "5", "viewValue": "IChoose (Coming soon)"},
-        {"value": "6", "viewValue": "NotList (Coming soon)"},
-        {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
+            {"value": "1", "viewValue": "Everyone"},
+            {"value": "2", "viewValue": "JustMe (Coming soon)"},
+            {"value": "3", "viewValue": "OnlyIFollow (Coming soon)"},
+            {"value": "4", "viewValue": "Password (Coming soon)"},
+            {"value": "5", "viewValue": "IChoose (Coming soon)"},
+            {"value": "6", "viewValue": "NotList (Coming soon)"},
+            {"value": "7", "viewValue": "PrivateLink (Coming soon)"}
         ]
     },
     "Category": {
@@ -1090,8 +1072,30 @@
         "instructions1": "If this is your first time, click the download button",
         "Instructions2": "Unpack and start bittube-miner.exe",
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
-        "Instructions4": "If you are an expert, visit "
-
-
-}
+        "Instructions4": "If you are an expert, visit ",
+        "Instructions5": "For more information, visit ",
+        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+    },
+    "PayVideo": {
+        "alreadyPurchased": "Product already purchased.",
+        "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "ok": "OK",
+        "lifetimePeriod": "Purchase lifetime.",
+        "rentalPeriod": "Rental",
+        "rentalHours": "hours.",
+        "currencyPrice": "Transaction currency",
+        "price": "price:",
+        "usdCurrency": "USD.",
+        "tubeCurrency": "TUBE.",
+        "payVideoPurchase": "Purchase",
+        "payVideoCancel": "Cancel",
+        "processingPurchase": "Processing purchase",
+        "convertError": "Couldn't convert to Tubes. Please try again.",
+        "insuficientFunds": "Insuficient funds",
+        "insuficientFundsText": "The provided wallet does not contain sufficient funds",
+        "confirmButtonMyWallet": "My Wallet",
+        "purchaseError": "Purchase error",
+        "purchaseErrorText": "There was an error processing your transaction.",
+        "successTittle": "successfully"
+    }
 }
