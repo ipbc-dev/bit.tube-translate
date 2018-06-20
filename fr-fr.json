@@ -434,7 +434,7 @@
         "title": "Aperçu",
         "walletAdress": "Adresse de Portefeuille ",
         "balance": "Solde",
-        "offlineWallet": "Portefeuille hors connexion",
+        "offlineWallet": "Portefeuille hors ligne",
         "walletMaintenance": "Le Portefeuille est en cours de maintenance",
         "walletBackSoon": "Le Portefeuille sera bientôt de retour",
         "transactions": "Transactions",
