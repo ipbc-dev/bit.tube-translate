@@ -150,7 +150,14 @@
             "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
             "channelStaySwalText2": "Purchase channel costs 5 TUBES",
             "channelStaySwalConfirmButton": "Yes, I want channel stay",
-            "channelStaySwalCancelButton": "No, thank you"
+            "channelStaySwalCancelButton": "No, thank you",
+            "perMonth": "Per month",
+            "perUse": "Per use",
+            "monthly": "Monthly",
+            "monthlyCost": "Monthly costs 1000 Tube",
+            "purchaseBuy": "Buy",
+            "purchaseCancel": "Cancel",
+            "Uses": "uses"
         },
         "MyPlaylists":{
             "title": "Мой плейлист",
@@ -428,7 +435,12 @@
         "offlineStream": "Your desired stream appears be offline",
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "Saved primary video",
-        "errorSavePrimaryVideo": "Error"
+        "errorSavePrimaryVideo": "Error",
+        "copyrightReport": "Report Copyright Violation",
+        "yesUnpublish": "Yes unpublish",
+        "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
+        "iAmTheCopyright": "Yes, I am the copyright owner",
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
     },
     "Wallet": {
         "title": "Обзор",
@@ -605,7 +617,14 @@
         "rental24hrs": "24 hrs",
         "rental48hrs": "48 hrs",
         "rental72hrs": "72 hrs",
-        "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING"     
+        "awaitTranscode":"VIDEO ACCEPTED, WAITING FOR PROCESSING",
+        "regularUploadMaintenanceText": "We are sorry, but the Upload service is temporarily undergoing maintenance.",
+        "regularUploadMaintenancetitle": "Upload under maintenance",
+        "youtubeUploadMaintenanceText": "We are sorry, but the Youtube importer service is temporarily undergoing maintenance.",
+        "youtubeUploadMaintenancetitle": "YouTube importer under maintenance",
+        "premiumContent": "Premium content",
+        "notPreviewed": "This video type can not be previewed.",
+        "selectThumbnail" : "Please, select a thumbnail before uploading."
     },
     "User": {
         "subscribe": "Подписаться",
@@ -641,7 +660,12 @@
             "addPlaylistButton": "Add",
             "addPLaylistTitle":"Add to...",
             "ReadMore": "Read more",
-            "showAll": "Show all"
+            "showAll": "Show all",
+            "sortedBy": "Sorted by",
+            "sortBy": "Sort By",
+            "sortByOldest": "Oldest",
+            "sortByRecent": "Most recent",
+            "sortByPopularity": "Popularity"
         },
         "LiveTv": {
             "livestream": "Livestream",
@@ -817,7 +841,7 @@
             {"value": "35", "viewValue": "Finance"},
             {"value": "36", "viewValue": "Food"},
             {"value": "18", "viewValue": "Gadgets and Apps"},
-            {"value": "2", "viewValue":  "Gamers"},
+            {"value": "2", "viewValue":  "Gaming"},
             {"value": "19", "viewValue": "Health"},
             {"value": "15", "viewValue": "History"},
             {"value": "27", "viewValue": "Hobbies and Crafts"},
@@ -995,7 +1019,7 @@
                 { "value": "35", "viewValue": "Finance" , "icon" : "cat-finance.svg"},
                 { "value": "36", "viewValue": "Food" , "icon" : "cat-food.svg"},
                 { "value": "18", "viewValue": "Gadgets and Apps", "icon" : "cat-gadget-apps.svg" },
-                { "value": "2", "viewValue": "Gamers" , "icon": "cat-game.svg"},
+                { "value": "2", "viewValue": "Gaming" , "icon": "cat-game.svg"},
                 { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
                 { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
                 { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
@@ -1035,7 +1059,6 @@
     "Mining":{
         "download": "Download",
         "downloadPlugin": "Download TUBE miner",
-        "textInstallPluging": "Welcome to the BitTube miner. If you have already downloaded the miner software, please start it to begin mining, otherwise please click on the download button to download the mining software, once downloaded execute it to start mining. ",
         "mining": "Mining",
         "startMining": "Start mining",
         "stopMining": "Stop mining",
