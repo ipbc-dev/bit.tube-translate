@@ -497,7 +497,11 @@
         "invalidIPB": "无效的BitTube地址!",
         "contactAdded": "联系人已添加...",
         "contactAddedFail": "添加联系人失败...",
-        "notEnoughBalance": "没有足够的余额或者您的金额目前在锁定中"
+        "notEnoughBalance": "没有足够的余额或者您的金额目前在锁定中",
+        "walletMaintenaceTitle": "Online wallet under maintenance",
+        "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
+        "walletDowload": "Download offline wallet",
+        "walletCancel": "Ok"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "打开 Coinmarketcap",
