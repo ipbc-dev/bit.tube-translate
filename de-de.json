@@ -498,7 +498,11 @@
         "invalidIPB": "ungültige BitTube Adresse!",
         "contactAdded": "Kontakt hinzugefügt...",
         "contactAddedFail": "Kontakt hinzufügen fehlgeschlagen...",
-        "notEnoughBalance": "nicht genug Wallet Bilanz oder immernoch gesperrt."
+        "notEnoughBalance": "nicht genug Wallet Bilanz oder immernoch gesperrt.",
+        "walletMaintenaceTitle": "Online wallet under maintenance",
+        "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
+        "walletDowload": "Download offline wallet",
+        "walletCancel": "Ok"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Öffne Coinmarketcap",

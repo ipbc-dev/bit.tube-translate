@@ -132,25 +132,25 @@
             "saveLanguage": "Zapisz język",
             "languageSelect": "Język",
             "textEditorPlaceholder" : "Wpisz tekst...",
-            "editProfilePasswordNotifySave": "Password saved successfully",
-            "purchases": "My purchases",
-            "profilePurchase": "Purchase",
-            "noPurchase": "There are no purchases",
-            "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "editProfilePasswordNotifySave": "Hasło zostało pomyślnie zapisane",
+           "purchases": "Moje zakupy",
+           "profilePurchase": "Zakup",
+           "noPurchase": "Brak zakupów",
+           "subscribers": "Subskrybenci",
+           "imageTooSmall":"Wybrany obraz jest zbyt mały, aby można go było zmienić"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
-            "channelStayText1": "Is the simplest way to promote your content by maintaining your visiting users within your channel.",
-            "channelStayText2": "When you aquiere",
-            "channelStayText3": "all related content shown to the visitor will be selected from your own channel.",
-            "channelStayText4": "is a monthly service for your whole channel and costs 5 TUBES per month.",
-            "channelStayButton": "Yes, I want Channel Stay",
-            "channelStaySwalTitle": "Purchase channel stay",
-            "channelStaySwalText1": "Yes, I want to keep the visiting users in my channel.",
-            "channelStaySwalText2": "Purchase channel costs 5 TUBES",
-            "channelStaySwalConfirmButton": "Yes, I want channel stay",
-            "channelStaySwalCancelButton": "No, thank you",
+            "channelStayText1": "To najprostszy sposób na promowanie swoich treści przez utrzymywanie odwiedzających użytkowników w Twoim kanale.",
+            "channelStayText2": "Kiedy zdobędziesz",
+            "channelStayText3": "wszystkie powiązane treści wyświetlane zwiedzającym będą wybierane z własnego kanału.",
+            "channelStayText4": "to miesięczna usługa dla całego kanału i kosztuje 5 TUBES miesięcznie.",
+            "channelStayButton": "Tak, chcę Channel Stay",
+            "channelStaySwalTitle": "Zakup Channel Stay",
+            "channelStaySwalText1": "Tak, chcę zachować odwiedzających użytkowników na moim kanale.",
+            "channelStaySwalText2": "Koszt zakupu Channel Stay wynosi 5 TUBE",
+            "channelStaySwalConfirmButton": "Tak, chcę Channel Stay",
+            "channelStaySwalCancelButton": "Nie, dziękuję",
             "perMonth": "Per month",
             "perUse": "Per use",
             "monthly": "Monthly",
@@ -202,8 +202,8 @@
             "deletePublicationNotifyError": "Błąd",
             "videoInfoError": "Błąd podczas pobierania informacji o filmie",
             "noUploads": "Niema wrzutow",
-            "editVideo": "Edit video",
-            "makePrimaryVideo": "Set as primary video"
+            "editVideo": "Edytuj wideo",
+            "makePrimaryVideo": "Ustaw jako główne wideo"
         },
         "LiveStreams": {
             "title": "Moje Wyświetlenia na żywo",
@@ -218,10 +218,10 @@
             "noSubscriptions": "Nie ma subskrypcji"
         },
         "Subscribers": {
-            "title": "Subscribers",
-            "subscriptionsButton": "Subscribe",
-            "unSubscriptionsButton": "Unsubscribe",
-            "noSubscriptions": "There are no subscribers"
+            "title": "subskrypcji",
+           "subscriptionsButton": "Subskrybuj",
+           "unSubscriptionsButton": "Anuluj subskrypcję",
+           "noSubscriptions": "Brak subskrybentów"
         },
         "Security": {
             "title": "Bezpieczeństwo",
@@ -244,7 +244,7 @@
         "addPlaylistButton": "Dodaj",
         "addPLaylistTitle":"Dodaj do...",
         "live":"na żywo",
-        "ago": "ago"
+        "ago": "il y a"
     },
     "Trending": {
         "views": "Wyświetlenia",
@@ -271,7 +271,7 @@
         "live":"Na żywo"
     },
     "MediaEdit": {
-        "title": "Edit media",
+        "title": "Edytować media",
         "snapshotButon": "Weż Snapshot",
         "thumbnailButton": "Wybierz Miniaturke",
         "videoTitle": "Tytuł wideo",
@@ -310,7 +310,7 @@
             "yourStreamingKey": "Twój streaming klucz",
             "copyClipBoard": "Skopiuj klucz streamu do schowka",
             "cancel": "Unieważnić",
-            "save": "Save",
+            "save": "Zapisać",
             "upload": "Wrzut",
             "error": "Błąd",
             "ok": "Ok",
@@ -421,10 +421,10 @@
         "working": "Pracuje",
         "waiting": "Czeka",
         "tipChannel": "Tip channel",
-        "amount": "Amount",
+        "amount": "Ilość",
         "2faCode": "2FA Code",
-        "tip": "Tip",
-        "close": "Close",
+        "tip": "zamknąć",
+        "close": "zamknąć",
         "mediaReport": "Media report",
         "primaryVideo": "Set as primary video",
         "abortError": "User aborted media playback",
@@ -497,7 +497,11 @@
         "invalidIPB": "Invalid BitTube Address!",
         "contactAdded": "Contact Added...",
         "contactAddedFail": "Failed to add contact...",
-        "notEnoughBalance": "Not enough wallet balance or still locked."
+        "notEnoughBalance": "Not enough wallet balance or still locked.",
+        "walletMaintenaceTitle": "Online wallet under maintenance",
+        "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
+        "walletDowload": "Download offline wallet",
+        "walletCancel": "Ok"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Otwórz Coinmarketcap",
@@ -609,10 +613,10 @@
         "internalError": "An internal error has occurred, please try again later",
         "areYouSureLose": "Are you sure? You will loose all your unsaved jobs!",
         "job": "Job",
-        "priceInTube": "Price in TUBE",
-        "priceInUsd": "Price in USD",
-        "rental": "Rental",
-        "purchase": "Purchase",
+        "priceInTube": "Cena w TUBE",
+       "priceInUsd": "Cena w USD",
+        "rental": "Wynajem",
+        "purchase": "Zakup",
         "lifetime": "Lifetime",
         "rental24hrs": "24 hrs",
         "rental48hrs": "48 hrs",
