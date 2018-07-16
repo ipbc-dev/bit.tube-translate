@@ -230,10 +230,14 @@
             "code": "Код",
             "twoFactorEnabled": "Включена",
             "twoFactorDisabled": "Отключена",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "ОБРАТИТЕ ВНИМАНИЕ",
             "activateAuthenticationText": "Перед тем как продолжить, убедитесь, что QR-код успешно просканирован вашим приложением для двухфактороной авторизации!",
             "activateAuthenticationConfirmButton": "Ok",
-            "activateAuthenticationDeleteButton": "Отменить"  
+            "activateAuthenticationDeleteButton": "Отменить",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         } 
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": "Широко используемый vMix - идеальное решение для трансляций, особенно для влогеров, но не только для них. vMix - приложение для полноценного продакшна видео, показываемого в прямом эфире. Возможности программы включают онлайн смешивание, переключение, запись и трансляцию видео в качестве SD, HD, 4K с таких источников как видеокамеры, видеофайлы, диски, изображения, презентации Powerpoint и многих других.",
             "dowloadButton": "Скачать"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "В прямом эфире",
         "playlist": "Плейлист",
         "loadMore": "Загрузить больше",
-        "seeAnswer": "Посмотреть ответ",
-        "seeAnswers": "Посмотреть ответы",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe скопирован в буфер",
         "copyClipboard": "Скопировать в буфер",
         "embedVideoTitle": "Встроить видео",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "Обзор",
@@ -561,7 +578,7 @@
         "uploadWaiting": "Ждем слот на загрузку",
         "noWallet": "У вас нет кошелька",
         "noWalletText": "Так вы не получите никакого дохода за это видео",
-        "cancelWalletButton" : "ОК, все равно загрузить",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Создать кошелек",
         "loginProfileTitle": "Нужно авторизоваться!",
         "loginProfileText": "Пожалуйста, авторизуйтесь, чтобы использовать эту функцию",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "Livestream",
@@ -1218,7 +1236,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1249,7 +1267,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1259,5 +1277,14 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }

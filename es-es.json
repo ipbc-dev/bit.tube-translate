@@ -230,10 +230,14 @@
             "code": "Código",
             "twoFactorEnabled": "Habilitar",
             "twoFactorDisabled": "Deshabilitar",
+            "nsfwEnabled": "NSFW habilitado",
+            "nsfwDisabled" : "NSFW deshabilitado",
             "activateAuthenticationTitle": "AVISO",
             "activateAuthenticationText": "¡Asegúrese de que ha escaneado el código de autenticación en su app de autenticación, antes de continuar!",
             "activateAuthenticationConfirmButton": "Ok",
-            "activateAuthenticationDeleteButton": "Cancelar"  
+            "activateAuthenticationDeleteButton": "Cancelar",
+            "nsfw": "Innapropiado para el trabajo (NSFW)",
+            "enableNsfw": "¿ Seguro que quiere habilitar el contenido NSFW (Not Safe For Work) ?"
         }
     },
     "Dashboard": {
@@ -350,6 +354,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Ampliamente utilizado, vMix es la herramienta ideal para la transmisión, especialmente para vloggers, pero no solo eso. vMix es una solución completa de software de producción de vídeo en vivo con funciones que incluyen mezcla en directo, conmutación, grabación y transmisión en directo de fuentes de vídeo 4K, SD o HD incluyendo cámaras, archivos de vídeo, DVDs, imágenes, Powerpoint y mucho mucho más.",
             "dowloadButton": "Descargar"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -386,8 +396,10 @@
         "live": "En directo",
         "playlist": "Playlist",
         "loadMore": "Cargar más",
-        "seeAnswer": "Ver respuesta",
-        "seeAnswers": "Ver respuestas",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe copiado al portapapeles",
         "copyClipboard": "Copiar al portapapeles",
         "embedVideoTitle": "Video incrustado",
@@ -439,7 +451,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "Información general",
@@ -560,7 +577,7 @@
         "uploadWaiting": "WAITING UPLOAD SLOT",
         "noWallet": "Usted no tiene una cartera",
         "noWalletText": "De esta forma, no recibirá ningún ingreso por este vídeo.",
-        "cancelWalletButton" : "Ok, cargar de todas formas",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Crear Cartera",
         "loginProfileTitle": "¡Es necesario iniciar sesión!",
         "loginProfileText": "Por favor inicie sesión para usar está función",
@@ -668,7 +685,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "Transmisión en directo",
@@ -1212,7 +1230,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1243,7 +1261,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1253,5 +1271,14 @@
         "newPublish": "Tu video ha sido subido",
         "newSubscriber": "Tienes un nuevo subscriptor",
         "newTip": "Has recibido"
+    },
+    "DateSince":{
+        "years": "años",
+        "months": "meses",
+        "days": "días",
+        "hours": "horas",
+        "minutes": "minutos",
+        "seconds": "segundos",
+        "prefix": "hace"
     }
 }

@@ -230,10 +230,14 @@
             "code": "Code",
             "twoFactorEnabled": "Activée",
             "twoFactorDisabled": "Désactivée",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "NOTICE",
             "activateAuthenticationText": "Assurez-vous d'avoir scanné le QR code d'authentification dans votre application, avant de continuer!",
             "activateAuthenticationConfirmButton": "Ok",
-            "activateAuthenticationDeleteButton": "Fermer"  
+            "activateAuthenticationDeleteButton": "Fermer",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Couramment utilisé, vMix est l'outil idéal pour la diffusion, en particulier pour les vloggers, mais pas seulement. vMix est une solution complète de production vidéo en direct avec des fonctionnalités telles que le mixage en direct, la découpe, l'enregistrement et la diffusion en direct de sources SD, Full HD et 4K incluant caméras, fichiers vidéo, DVD, images, Powerpoint et bien plus encore..",
             "dowloadButton": "Télécharger"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "En direct",
         "playlist": "Bibliothèque",
         "loadMore": "Charger plus",
-        "seeAnswer": "Voir la réponse",
-        "seeAnswers": "Voir les réponses",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe copié dans le presse-papiers",
         "copyClipboard": "Copier dans le presse-papier",
         "embedVideoTitle": "Intégrer la vidéo",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "Aperçu",
@@ -561,7 +578,7 @@
         "uploadWaiting": "En attente d'un slot de téléchargement",
         "noWallet": "Vous n'avez pas de portefeuille",
         "noWalletText": "De cette façon, vous ne recevrez aucun revenu pour cette vidéo",
-        "cancelWalletButton" : "Ok, téléchargez-le quand même",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Créer un portefeuille",
         "loginProfileTitle": "Connexion requise!",
         "loginProfileText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "Diffusion en direct",
@@ -1216,7 +1234,7 @@
         "Instructions3": "Choisissez 'expert = no' pour commencer a miner a l'adresse de votre adresse Mon Portefeuille",
         "Instructions4": "Si vous êtes un expert, visitez ",
         "Instructions5": "Pour plus d'informations, visitez ",
-        "GpuDetectedNameOf": "GPu détecté, puis le nom de celui-ci"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Produit déjà acheté.",
@@ -1247,7 +1265,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1257,5 +1275,14 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }

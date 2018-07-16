@@ -230,10 +230,14 @@
             "code": "代码",
             "twoFactorEnabled": "开启",
             "twoFactorDisabled": "禁止",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "注意",
             "activateAuthenticationText": "在此之前请确保您已经扫描了您的二维码!",
             "activateAuthenticationConfirmButton": "确定",
-            "activateAuthenticationDeleteButton": "取消"  
+            "activateAuthenticationDeleteButton": "取消",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": "拥有广泛的应用群体，vMix是一个为视频播客们提供的专业视频直播软件，支持各种视频质量，视频流媒体分享各种SD HD甚至4K高清视频或者图片PPT等。",
             "dowloadButton": "下载"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "Live",
         "playlist": "播放列表",
         "loadMore": "载入更多",
-        "seeAnswer": "查看答案",
-        "seeAnswers": "查看答案",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe已复制到剪切板",
         "copyClipboard": "复制到剪切板",
         "embedVideoTitle": "嵌入视频",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "概览",
@@ -561,7 +578,7 @@
         "uploadWaiting": "等待上传列表",
         "noWallet": "您还没有钱包",
         "noWalletText": "您将不会获取该视频播放的收益",
-        "cancelWalletButton" : "好的，继续上传",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "创建钱包",
         "loginProfileTitle": "请登录!",
         "loginProfileText": "请登录使用该功能",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "直播",
@@ -1216,7 +1234,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1247,7 +1265,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1257,5 +1275,14 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }

@@ -230,10 +230,14 @@
             "code": "קוד",
             "twoFactorEnabled": "מופעל",
             "twoFactorDisabled": "מבוטל",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "הודעה",
             "activateAuthenticationText": "ודא שנסרקת את קוד ה- קיו-אר  של אימות באפליקציית המאמת שלך, לפני שתמשיך!",
             "activateAuthenticationConfirmButton": "אשר",
-            "activateAuthenticationDeleteButton": "לבטל   "  
+            "activateAuthenticationDeleteButton": "לבטל   ",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "VMix",
             "10pTutorialStream": " בשימוש נרחב, vMix הוא כלי אידיאלי עבור שידור, במיוחד עבור וידיאו בלוג, אבל לא רק. vMix הוא שלם לשידורים החיים וידאו הייצור פתרון תוכנה עם תכונות כולל הזרמה חיה ערבוב, מיתוג, הקלטה חיה הזרמת ,  מלא ומקורות וידאו  כולל מצלמות, קבצי וידאו, תקליטורים, תמונות, Powerpoint ועוד הרבה יותר.",
             "dowloadButton": "הורדות"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "זמן אמת",
         "playlist": "רשימת השמעה",
         "loadMore": "טען עוד",
-        "seeAnswer": "ראה תשובה",
-        "seeAnswers": "ראה תשובות",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe הועתק ללוח",
         "copyClipboard": "העתק ללוח",
         "embedVideoTitle": "הטמע וידאו",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "ארנק",
@@ -561,7 +578,7 @@
         "uploadWaiting": "ממתין העלאה",
         "noWallet": "אין לך ארנק",
         "noWalletText": "בדרך זו, לא תקבל הכנסות עבור סרטון זה",
-        "cancelWalletButton" : "בסדר, העלה אותו בכל זאת",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "צור ארנק",
         "loginProfileTitle": "נדרשת התחברות!",
         "loginProfileText": "היכנס כדי להשתמש בתכונה זו",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "שידור חי",
@@ -1217,7 +1235,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1248,7 +1266,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1258,5 +1276,14 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }

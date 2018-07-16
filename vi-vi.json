@@ -230,10 +230,14 @@
             "code": "Mã",
             "twoFactorEnabled": "Bật",
             "twoFactorDisabled": "Tắt",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "THÔNG BÁO",
             "activateAuthenticationText": "Đảm bảo bạn đã quét mã QR trong Ứng dụng Xác thực của mình trước khi tiếp tục ",
             "activateAuthenticationConfirmButton": "Đồng ý",
-            "activateAuthenticationDeleteButton": "Thoát"
+            "activateAuthenticationDeleteButton": "Thoát",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": "Được sử dụng rộng rãi, vMix là công cụ lý tưởng để phát sóng, đặc biệt là cho vloggers, nhưng không chỉ có thế. vMix là một giải pháp cho phần mềm sản xuất video trực tiếp hoàn chỉnh với các tính năng bao gồm phát trực tiếp,chuyển đổi, ghi và phát trực tiếp các nguồn video SD, full HD và 4K bao gồm máy ảnh,tệp video , DVDs,hình ảnh , Powerpoint và nhiều hơn thế nữa.",
             "dowloadButton": "Tải xuống"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "Trực tiếp",
         "playlist": "Danh sách",
         "loadMore": "Tải thêm",
-        "seeAnswer": "Xem trả lời",
-        "seeAnswers": "Xem trả lời",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe được sao chép vào bộ nhớ tạm",
         "copyClipboard": "Sao chép qua bộ nhớ tạm",
         "embedVideoTitle": "Nhúng video",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "Xem qua",
@@ -561,7 +578,7 @@
         "uploadWaiting": "WAITING UPLOAD SLOT",
         "noWallet": "Bạn không có ví",
         "noWalletText": "Trong trường hợp này, Bạn sẽ không nhận được bất cứ Thu nhập nào từ video này ",
-        "cancelWalletButton" : "Vâng, Hãy cập nhật nó",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Tạo ví",
         "loginProfileTitle": "Yêu cầu đang nhập!",
         "loginProfileText": "Hãy đăng nhập để sử dụng tính năng này",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "Phát trực tiếp",
@@ -1217,7 +1235,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1248,7 +1266,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1258,6 +1276,15 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }
 
