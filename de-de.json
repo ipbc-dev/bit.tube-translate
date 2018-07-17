@@ -151,14 +151,13 @@
             "channelStaySwalText2": "Kauf des Kanals kostet 5 TUBES",
             "channelStaySwalConfirmButton": "Ja ich will, auf Kanal bleiben",
             "channelStaySwalCancelButton": "Nein danke",
-            "perMonth": "Per month",
-            "perUse": "Per use",
-            "monthly": "Monthly",
-            "monthlyCost": "Monthly costs 1000 Tube",
-            "purchaseBuy": "Buy",
-            "purchaseCancel": "Cancel",
-            "Uses": "uses"
-
+            "perMonth": "pro Monat",
+            "perUse": "pro Nutzung",
+            "monthly": "monatlich",
+            "monthlyCost": "monatliche kosten 1000 Tube",
+            "purchaseBuy": "kaufen",
+            "purchaseCancel": "Abbrechen",
+            "Uses": "nutzungen"
         },
         "MyPlaylists":{
             "title": "Meine Playlist",
@@ -166,7 +165,7 @@
             "editPlaylistDescription": "Beschreibung",
             "editPlaylistSaveButton": "Speichern",
             "editPlaylistDeleteButton": "löschen",
-            "editPlaylistCloseButton": "Close playlist",
+            "editPlaylistCloseButton": "Playlist schließen",
             "editPlaylistEmpty": "Diese Playlist ist leer.",
             "newPlaylist": "neue Playlist",
             "newPlaylistTitle": "Titel",
@@ -203,8 +202,8 @@
             "deletePublicationNotifyError": "Fehler",
             "videoInfoError": "Fehler Video Info holen",
             "noUploads": "keine Uploads verfügbar",
-            "editVideo": "Edit video",
-            "makePrimaryVideo": "Set as primary video"
+            "editVideo": "Video editieren",
+            "makePrimaryVideo": "Als primäres Video festlegen"
         },
         "LiveStreams": {
             "title": "Meine Livestreams",
@@ -219,10 +218,10 @@
             "noSubscriptions": "keine Abonnements verfügbar"
         },
         "Subscribers": {
-            "title": "Subscribers",
-            "subscriptionsButton": "Subscribe",
-            "unSubscriptionsButton": "Unsubscribe",
-            "noSubscriptions": "There are no subscribers"
+            "title": "Abonnementen",
+            "subscriptionsButton": "abonieren",
+            "unSubscriptionsButton": "abmelden",
+            "noSubscriptions": "es gibt keine Abonnementen"
             },
         "Security": {
             "title": "Sicherheit",
@@ -231,14 +230,18 @@
             "code": "Code",
             "twoFactorEnabled": "eingeschaltet",
             "twoFactorDisabled": "abgeschaltet",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "ANMERKUNG",
             "activateAuthenticationText": "Bitte stelle sicher das du den Authentifizierungs QR Code in deiner Authentifizierungs App gescannt hast, bevor du weitermachst!",
             "activateAuthenticationConfirmButton": "Ok",
-            "activateAuthenticationDeleteButton": "Abbrechen"  
+            "activateAuthenticationDeleteButton": "Abbrechen",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
-        "views": "Views",
+        "views": "Aufrufe",
         "likes": "Likes",
         "addPlaylists": "zur Playlist hinzufügen",
         "newPlaylist": "neue Playlist",
@@ -248,7 +251,7 @@
         "ago": "ago"
     },
     "Trending": {
-        "views": "Views",
+        "views": "Aufrufe",
         "likes": "Likes",
         "addPlaylists": "zur Playlist hinzufügen",
         "newPlaylist": "neue Playlist",
@@ -257,7 +260,7 @@
         "live":"Live"
     },
     "Newcomers": {
-        "views": "Views",
+        "views": "Aufrufe",
         "likes": "Likes",
         "addPlaylists": "zur Playlist hinzufügen",
         "newPlaylist": "neue Playlist",
@@ -266,7 +269,7 @@
         "live":"Live"
     },
     "Live": {
-        "views": "Views",
+        "views": "Aufrufe",
         "likes": "Likes",
         "noLivestreams": "keine Livestreams verfügbar",
         "live":"Live"
@@ -352,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Weit verbreitet ist vMix das ideale Werkzeug für die Übertragung, insbesondere für Vlogger.vMix ist eine komplette Live-Videoproduktions-Softwarelösung mit Funktionen wie LIVE-Mischen, Umschalten, Aufnehmen und LIVE-Streaming von SD-, Full HD- und 4K-Videoquellen wie Kameras, Videodateien, DVDs, Bildern, Powerpoint und vielem mehr.",
             "dowloadButton": "Dowload"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -359,8 +368,8 @@
         "newPlaylist": "neue Playlist",
         "addPlaylistButton": "Hinzufügen",
         "addPLaylistTitle":"Hinzufügen...",
-        "views": "views",
-        "viewers": "viewers",
+        "views": "Aufrufe",
+        "viewers": "Zuschauer",
         "donate": "Spenden",
         "likes": "Likes",
         "writeComment": "Kommentieren",
@@ -388,8 +397,10 @@
         "live": "Live",
         "playlist": "Playlist",
         "loadMore": "mehr laden",
-        "seeAnswer": "Antwort sehen",
-        "seeAnswers": "Antworten sehen",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe zu Clipboard kopiert",
         "copyClipboard": "zu Clipboard kopieren",
         "embedVideoTitle": "einbettetes Video",
@@ -437,11 +448,17 @@
         "popOutVideo": "Popout video",
         "setPrimaryVideo": "erstes Video gespeichert",
         "errorSavePrimaryVideo": "Fehler",
-        "copyrightReport": "Report Copyright Violation",
-        "yesUnpublish": "Yes unpublish",
-        "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
-        "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "copyrightReport": "Urheberrechtsverletzung melden",
+        "yesUnpublish": "Ja, nicht veröffentlichen",
+        "copyrigthTextSwal": "Dieses Video wird markiert und unveröffentlicht, um einer weiteren Überprüfung unterzogen zu werden. Bist du dir sicher, dass du weitermachen willst?",
+        "iAmTheCopyright": "Ja, ich bin der Urheberrechtsinhaber",
+        "iAmRepresentCopyright":"Ja, ich bin der Urheberrechtsinhaber",
+        "liveUnpublished": "Livestream nicht veröffentlichen",
+        "liveUnpublishedError": "Fehler beim Aufheben der Livestream-Veröffentlichung",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
+
     },
     "Wallet": {
         "title": "Überblick",
@@ -483,8 +500,8 @@
         "Anonymity": "Anonymität muss zwischen 0 - 10 sein",
         "transactionFaild": "Transaktion fehlgeschlagen...",
         "noTransactions": "keine Transaktionen verfügbar",
-        "unlocked": "Unlocked",
-        "locked" : "Locked",
+        "unlocked": "Entsperrt",
+        "locked" : "Gesperrt",
         "saveContact": "Kontakt speichern",
         "closeContact": "Schließen",
         "sedWallet": "Senden",
@@ -499,9 +516,9 @@
         "contactAdded": "Kontakt hinzugefügt...",
         "contactAddedFail": "Kontakt hinzufügen fehlgeschlagen...",
         "notEnoughBalance": "nicht genug Wallet Bilanz oder immernoch gesperrt.",
-        "walletMaintenaceTitle": "Online wallet under maintenance",
-        "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
-        "walletDowload": "Download offline wallet",
+        "walletMaintenaceTitle": "Online-Wallet unter Wartung",
+        "walletMaintenaceText": "Die Online-Wallet wird gewartet. Bitte versuchen Sie es später erneut",
+        "walletDowload": "Offline Wallet herunterladen",
         "walletCancel": "Ok"
     },
     "Profitcalc": {
@@ -562,7 +579,7 @@
         "uploadWaiting": "WAITING UPLOAD SLOT",
         "noWallet": "Du hast keine Wallet",
         "noWalletText": "So kannst du keinen Einkünfte mit deinen Videos erzielen",
-        "cancelWalletButton" : "Ok, trotzdem hochladen",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Wallet erstellen",
         "loginProfileTitle": "Login erforderlich!",
         "loginProfileText": "Bitte log dich ein um dieses feature zu nutzen",
@@ -570,7 +587,7 @@
         "loginProfileCancelButton": "Abbrechen",
         "videoAlreadyPublishedTitle": "Video bereits hochgeladen!",
         "videoAlreadyPublishedText": "Videoinformationen kannst du in deinem Profil unter Veröffenlichungen editieren",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Du erhältst eine E-Mail, sobald dein Video veröffentlicht wurde.",
         "authorizationYoutube": "Bei noch nicht erlaubten Zugriff bitte auf Authoriesieren klicken und den Schritten folgen um Zugriff auf Prüfung deines Youtube Inhaltes zu erhalten",
         "authorizeButton": "Authorisieren",
         "UnauthorizeButton": "Authorisierung aufheben",
@@ -606,10 +623,10 @@
         "waitingPinning": "Warten auf PINNING",
         "pinning": "PINNING ",
         "done": "Fertig",
-        "uploading": "UPLOADING ",
+        "uploading": "HOCHLADEN ",
         "initializing": "INITIALISIERUNG",
         "waitingQueue": "in der Warteschleife ",
-        "downloading": "DOWNLOADING",
+        "downloading": "HERUNTERLADEN",
         "waitingTranscode": "WARTEN AUF TRANSCODE",
         "internalError": "Ein interner Fehler ist aufgetreten. Bitte versuche es später erneut",
         "areYouSureLose": "Bist du sicher?  Alle nicht gespeicherten Jobs gehen dann verloren!",
@@ -623,14 +640,14 @@
         "rental48hrs": "48 STD",
         "rental72hrs": "72 STD",
         "awaitTranscode":"VIDEO AKZEPTIERT, WARTET AUF VERARBEITUNG",
-        "regularUploadMaintenanceText": "We are sorry, but the Upload service is temporarily undergoing maintenance.",
-        "regularUploadMaintenancetitle": "Upload under maintenance",
-        "youtubeUploadMaintenanceText": "We are sorry, but the Youtube importer service is temporarily undergoing maintenance.",
-        "youtubeUploadMaintenancetitle": "YouTube importer under maintenance",
-        "premiumContent": "Premium content",
-        "notPreviewed": "This video type can not be previewed.",
-        "selectThumbnail" : "Please, select a thumbnail before uploading.",
-        "videoSubcategory": "Subcategory"
+        "regularUploadMaintenanceText": "Es tut uns leid, aber der Upload-Dienst wird vorübergehend gewartet.",
+        "regularUploadMaintenancetitle": "Hochladen unter Wartung",
+        "youtubeUploadMaintenanceText": "Es tut uns leid, aber der Youtube-Importer-Service wird vorübergehend gewartet.",
+        "youtubeUploadMaintenancetitle": "YouTube-Importer unter Wartung",
+        "premiumContent": "Premium Inhalt",
+        "notPreviewed": "Dieser Videotyp kann nicht in der Vorschau angezeigt werden.",
+        "selectThumbnail" : "Bitte wähle vor dem Hochladen ein Thumbnail aus.",
+        "videoSubcategory": "Unterkategorie"
     },
     "User": {
         "subscribe": "Abonnieren",
@@ -667,11 +684,12 @@
             "addPLaylistTitle":"Hinzufügen zu...",
             "ReadMore": "mehr lesen",
             "showAll": "alle zeigen",
-            "sortedBy": "Sorted by",
-            "sortBy": "Sort By",
-            "sortByOldest": "Oldest",
-            "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortedBy": "sortiert nach",
+            "sortBy": "sortieren nach",
+            "sortByOldest": "Älteste",
+            "sortByRecent": "Neueste",
+            "sortByPopularity": "Beliebtheit",
+            "sortByRelevance" : "Relevanz"
         },
         "LiveTv": {
             "livestream": "Livestream",
@@ -837,7 +855,7 @@
     },
     "Category": {
         "category_array":[
-            {"value": "45", "viewValue": "Adult (non porn)"},
+            {"value": "45", "viewValue": "Erwachsene (kein Porno)"},
             {"value": "43", "viewValue": "Animation"},
             {"value": "24", "viewValue": "Kunst und Kultur"},
             {"value": "26", "viewValue": "Schönheit und Mode"},
@@ -845,7 +863,7 @@
             {"value": "8", "viewValue":  "Kino"},
             {"value": "16", "viewValue": "Coaching"},
             {"value": "42", "viewValue": "Komedie"},
-            {"value": "41", "viewValue": "Crypto"},
+            {"value": "41", "viewValue": "Krypto"},
             {"value": "12", "viewValue": "Wirtschaft"},
             {"value": "3", "viewValue":  "E-Learning"},
             {"value": "22", "viewValue": "Unterhaltung"},
@@ -934,10 +952,10 @@
             { "value": "3950", "viewValue": "Virtual Reality" , "icon":"cat-adult.svg"}
         ],
         "category_array_adult": [
-            { "value": "4501", "viewValue": "Blood Content" , "icon":"cat-adult.svg"},
+            { "value": "4501", "viewValue": "blutiger Inhalt" , "icon":"cat-adult.svg"},
             { "value": "4504", "viewValue": "NSFW" , "icon":"cat-adult.svg"},
-            { "value": "4503", "viewValue": "Others" , "icon":"cat-adult.svg"},
-            { "value": "4502", "viewValue": "Violent Content" , "icon":"cat-adult.svg"}
+            { "value": "4503", "viewValue": "andere" , "icon":"cat-adult.svg"},
+            { "value": "4502", "viewValue": "gewalttätiger Inhalt" , "icon":"cat-adult.svg"}
         ]
     },
     "FixedPlugin": {
@@ -947,7 +965,7 @@
         "image": "Randliste Foto",
         "night": "Nachtmodus",
         "selectImage": "Fotos",
-        "sidebarStyle": "sidebar style",
+        "sidebarStyle": "Randliste style",
         "theme": "Thema"
     },
     "Sidebar": {
@@ -968,9 +986,9 @@
         "contact": "Kontakte",
         "privacyPolicy": "Datenschutz-Bestimmungen",
         "copyrightPolicy": "Urheberrechtspolitik",
-        "miningSection": "Start Mining",
-        "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "miningSection": "Minen starten",
+        "subscriptions": "Abonnements",
+        "categories": "Kategorien"
     },
     "Terms": {
         "termsTitle": "Allgemeine Geschäftsbedingungen",
@@ -1069,13 +1087,13 @@
         "searchResult": "Suchergebnisse",
         "play": "Abspielen",
         "terms": "Allgemeine Geschäftsbedingungen",
-        "startMining": "Start mining",
+        "startMining": "Minen starten",
         "filtered": "filtern nach: ",
-        "for": "for",
+        "for": "für",
         "limitResults": "Ergebnisse eingränzen",
         "limitResultsMessage" : "Es werden maximal 10 Einträge pro Typ angezeigt",
         "category_array": [
-            { "value": "45", "viewValue": "Adult" , "icon": "cat-adult.svg"},
+            { "value": "45", "viewValue": "Erwachsene" , "icon": "cat-adult.svg"},
             { "value": "43", "viewValue": "Animation" , "icon": "cat-kids.svg"},
             { "value": "24", "viewValue": "Kunst und Kultur" , "icon":"cat-arts-culture.svg"},
             { "value": "26", "viewValue": "Schönheit und Mode" , "icon" : "cat-beauty-fashion.svg"},
@@ -1083,7 +1101,7 @@
             { "value": "8", "viewValue": "Kino" , "icon" : "cat-cinema.svg"},
             { "value": "16", "viewValue": "Coaching", "icon" : "cat-couching.svg" },
             { "value": "42", "viewValue": "Komedie" , "icon" : "cat-economy.svg"},
-            { "value": "41", "viewValue": "Crypto" , "icon" : "cat-economy.svg"},
+            { "value": "41", "viewValue": "Krypto" , "icon" : "cat-economy.svg"},
             { "value": "12", "viewValue": "Wirtschaft", "icon" : "cat-economy.svg" },
             { "value": "3", "viewValue": "E-Learning", "icon": "cat-elearning.svg" },
             { "value": "22", "viewValue": "Unterhaltung",  "icon": "cat-entertainment.svg" },
@@ -1104,12 +1122,12 @@
             {"value": "44", "viewValue": "Darstellende Künste", "icon": "cat-pets.svg"},
             { "value": "29", "viewValue": "Andere" , "icon": "cat-others.svg"},
             { "value": "40", "viewValue": "Tiere" , "icon": "cat-pets.svg"},
-            { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
+            { "value": "39", "viewValue": "Porno" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Wissenschaft" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Serien" , "icon": "cat-series.svg"},
             { "value": "13", "viewValue": "soziale Themen" , "icon": "cat-social-issues.svg"},
-            { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
+            { "value": "11", "viewValue": "Gesellschaft" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sport" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technik" , "icon": "cat-technic.svg" },
             { "value": "32", "viewValue": "Trailer" , "icon": "cat-trailer.svg"},
@@ -1172,8 +1190,8 @@
             { "value": "3950", "viewValue": "Virtual Reality" , "icon":"cat-adult.svg"}
         ],
         "browseCategories" : "Kategorien durchsuchen",
-        "filter": "CLEAR FILTER",
-        "subscriptions": "Subscriptions"
+        "filter": "FILTER LÖSCHEN",
+        "subscriptions": "Abonnements"
     },
     "Version":{
         "versionMissmatchTitle" : "Version veraltet",
@@ -1181,11 +1199,11 @@
         "versionMissmatchButton" : "OK"
     },
     "Mining":{
-        "download": "Download",
+        "download": "herunterladen",
         "downloadPlugin": "TUBE miner herunterladen",
-        "mining": "Mining",
-        "startMining": "Mining starten",
-        "stopMining": "Mining stoppen",
+        "mining": "Minen",
+        "startMining": "Minen starten",
+        "stopMining": "Minen stoppen",
         "cpuCore": "CPU Cores:",
         "gpuCore": "GPU Core",
         "activateGpu": "GPU aktivieren",
@@ -1195,7 +1213,7 @@
         "threadID": "Thread ID",
         "totals": "Total:",
         "highest": "Höchste",
-        "miningSince": "Mining seit",
+        "miningSince": "Minen seit",
         "resultReport": "Ergenbisbericht",
         "difficulty": "Schwierigkeit",
         "goodResults": "gute Ergebnisse",
@@ -1224,7 +1242,7 @@
         "Instructions3": "Wählen \"Experte = Nein\", um mit der Mining-Funktion für deine Meine Wallet-Adresse zu beginnen",
         "Instructions4": "Wenn du ein Experte bist, besuche ",
         "Instructions5": "Für weitere Informationen besuche ",
-        "GpuDetectedNameOf": "GPu erkannt und der Name davon"
+        "GpuDetectedNameOf": "GPu Erkannt - "
     },
     "PayVideo": {
         "alreadyPurchased": "Produkt bereits gekauft.",
@@ -1249,21 +1267,30 @@
         "successTittle": "Erfolgreich"
     },
     "Consent": {
-        "contentWarning": "Adult Content Warning",
-        "consentText1": "You are about to enter a website that may contain content of an adult nature. These pages are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please do not continue. The following terms and conditions apply to this site. Entering the site via the link below will constitute your agreement to the following terms and conditions:",
-        "over18": "I am 18 years of age or older",
-        "consentAccept": "I accept all resposibility for my own actions; and",
-        "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
-        "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
-        "consentAcceptButton": "Ok, I am old enough",
-        "consentCancelButton": "No, take me to Bit.Tube"
+        "contentWarning": "Warnung Erwachseneninhalt",
+        "consentText1": "Du bist dabei, eine Website einzugeben, die möglicherweise Inhalte für Erwachsene enthält. Diese Seiten sind nur für Erwachsene gedacht und können Bilder und Materialien enthalten, die für manche Zuschauer anstößig sind. Wenn du unter 18 Jahre alt bist, wenn dich solches Material beleidigt oder wenn es illegal ist, solches Material in deiner Community zu sehen, fahre bitte nicht fort. Die folgenden Allgemeinen Geschäftsbedingungen gelten für diese Website. Wenn du über den untenstehenden Link auf die Website zugreifst, erklärst du dich mit den folgenden Bedingungen einverstanden:",
+        "over18": "Ich bin 18 Jahre alt oder älter",
+        "consentAccept": "Ich übernehme alle Verantwortung für meine eigenen Handlungen; und",
+        "consentTerms": "Ich stimme zu, dass ich rechtlich an diese Allgemeinen Geschäftsbedingungen gebunden bin",
+        "obsenePictures": "Diese Seite kann Nacktszenen und / oder obszöne Bilder enthalten.",
+        "consentText2": "Es liegt nicht in unserem Interesse jemaden zu beleidigen, wenn du unter 18 bist oder dich durch diese Seite beleidigt fühlst, öffne sie nicht.",
+        "consentAcceptButton": "Ok, ich bin alt genug",
+        "consentCancelButton": "Nein, leite mich zu Bit.Tube"
     },
     "Notification": {
-        "newComment": "You have received a new comment",
-        "newLike": "You have received a new like",
-        "newPublish": "Your new video has been uploaded",
-        "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newComment": "Du hast einen neuen Kommentar erhalten",
+        "newLike": "Du hast ein neues Like erhalten",
+        "newPublish": "Dein neues Video wurde hochgeladen",
+        "newSubscriber": "Du hast einen neuen Abonnenten",
+        "newTip": "Du hast erhalten"
+    },
+    "DateSince":{
+        "years": "Jahren",
+        "months": "Monaten",
+        "days": "Tagen",
+        "hours": "Stunden",
+        "minutes": "Minuten",
+        "seconds": "Sekunden",
+        "prefix": "vor"
     }
 }

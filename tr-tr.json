@@ -230,10 +230,14 @@
             "code": "kod",
             "twoFactorEnabled": "Etkin",
             "twoFactorDisabled": "Etkin değil",
+            "nsfwEnabled": "NSFW enabled",
+            "nsfwDisabled" : "NSFW disabled",
             "activateAuthenticationTitle": "UYARI",
             "activateAuthenticationText": "Devam etmeden önce yetkilendirme (authenticator) uygulaası ile QR kod okuttuğunuzdan emin olun!",
             "activateAuthenticationConfirmButton": "Tamam",
-            "activateAuthenticationDeleteButton": "İptal"  
+            "activateAuthenticationDeleteButton": "İptal",
+            "nsfw": "Not safe for work (NSFW)",
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
         }
     },
     "Dashboard": {
@@ -351,6 +355,12 @@
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Geniş bir kitle tarafından kullanılır, vMix yayın için ideal bir araçtır, özellikle vloggerlar için, ancak yanlızca bununla sınırlı değiln. vMix canlı yayınlarınızı anlık kombine etme, değiştirme kayıt etme özelliklerine sahiptir, kamera, video dosyaları, DVD ler, resimler, Powerpoint sunumları ve bir çok formatta  SD, full HD and 4K video kaynaklarınızı işleyebilir.",
             "dowloadButton": "İNDİR"
+        },
+        "CreateKey":{
+                "noWallet": "You don't have a wallet",
+                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
+                "cancelWalletButton" : "Cancel",
+                "createWalletButton": "Create Wallet"
         }
     },
     "Play": {
@@ -387,8 +397,10 @@
         "live": "Canlı",
         "playlist": "Liste",
         "loadMore": "Daha fazla getir",
-        "seeAnswer": "Cevabı gör",
-        "seeAnswers": "Cevapları gör",
+        "seeAnswer": "See reply",
+        "seeAnswers": "See replies",
+        "hideAnswer": "Hide reply",
+        "hideAnswers": "Hide replies",
         "copyClipboardIframe": "Iframe panoya kopyalandı",
         "copyClipboard": "Panoya kopyala",
         "embedVideoTitle": "Gömülü(Embed) Video",
@@ -440,7 +452,12 @@
         "yesUnpublish": "Yes unpublish",
         "copyrigthTextSwal": "This video will be flagged and unpublished to undergo further review. Are you sure you want to continue?",
         "iAmTheCopyright": "Yes, I am the copyright owner",
-        "iAmRepresentCopyright":"Yes, I represent the copyright owner"
+        "iAmRepresentCopyright":"Yes, I represent the copyright owner",
+        "liveUnpublished": "Livestream unpublished",
+        "liveUnpublishedError": "Livestream unpublish error",
+        "reply": "Reply",
+        "delete": "Delete",
+        "writeReply": "Write a reply"
     },
     "Wallet": {
         "title": "Genel görürünüm",
@@ -561,7 +578,7 @@
         "uploadWaiting": "YÜKLEME YERİ BEKLENİYOR",
         "noWallet": "Cüzdanınız yok",
         "noWalletText": "bu şekilde, yayın geliri elde edemezsiniz",
-        "cancelWalletButton" : "Tamam, yine de yükle",
+        "cancelWalletButton" : "Cancel",
         "createWalletButton": "Cüzdan oluştur",
         "loginProfileTitle": "Giriş gereklidir!",
         "loginProfileText": "Lütfen bu özelliği kullanmak için giriş yapın",
@@ -670,7 +687,8 @@
             "sortBy": "Sort By",
             "sortByOldest": "Oldest",
             "sortByRecent": "Most recent",
-            "sortByPopularity": "Popularity"
+            "sortByPopularity": "Popularity",
+            "sortByRelevance" : "Relevance"
         },
         "LiveTv": {
             "livestream": "Canlı Yayınlarım",
@@ -1217,7 +1235,7 @@
         "Instructions3": "Choose 'expert = no' to start mining to your My Wallet address",
         "Instructions4": "If you are an expert, visit ",
         "Instructions5": "For more information, visit ",
-        "GpuDetectedNameOf": "GPu Detected and then the name of it"
+        "GpuDetectedNameOf": "GPu Detected - "
     },
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
@@ -1248,7 +1266,7 @@
         "consentAccept": "I accept all resposibility for my own actions; and",
         "consentTerms": "I agree that I am legally bound to these Terms and Conditions",
         "obsenePictures": "This site may contain nudity and/or obscene pictures.",
-        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please go elsewhere",
+        "consentText2": "is not our intention to offend, so if you are under 18 years of age, or feel that you may be offended by this site, please don't enter",
         "consentAcceptButton": "Ok, I am old enough",
         "consentCancelButton": "No, take me to Bit.Tube"
     },
@@ -1258,5 +1276,14 @@
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received"
+    },
+    "DateSince":{
+        "years": "years ago",
+        "months": "months ago",
+        "days": "days ago",
+        "hours": "hours ago",
+        "minutes": "minutes ago",
+        "seconds": "seconds ago",
+        "prefix": ""
     }
 }
