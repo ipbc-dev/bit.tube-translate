@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "הזן טקסט ..  ",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "רשימת ההשמעה שלי",
+            "title": "My playlists",
             "editPlaylistTitle": "כותרת",
             "editPlaylistDescription": "תיאור",
             "editPlaylistSaveButton": "לשמור",
@@ -190,6 +191,7 @@
             "noPlaylists": "העלאות שלי"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "לערוך",
             "edit": "למחוק",
@@ -212,12 +214,14 @@
             "noLiveStreams": "אין שיתוף חי    "
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "מנויים",
             "subscriptionsButton": "הירשם",
             "unSubscriptionsButton": "בטל רישום",
             "noSubscriptions": "אין מנוי    "
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -384,6 +388,7 @@
         "showLess": "הראה פחות",
         "commentButton": "תגובה",
         "cancel": "לבטל",
+        "singularComments": "comment",
         "comments": "הערות",
         "madePost": "כתב פוסט.",
         "justNow": "זֶה עתה",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "ארנק",
@@ -480,8 +488,8 @@
         "addContact": "הוסף איש קשר",
         "sendtoAddress" : "שלח לכתובת",
         "receiverAddress" : "כתובת המקלט",
-        "ipbcAmount" : "סכום IPBC",
-        "feeIPBC" : "עמלה (IPBC)",
+        "ipbcAmount" : "סכום Tube",
+        "feeIPBC" : "עמלה (Tube)",
         "anonymityLevel" : "רמת אנונימיות",
         "2FACode": "2 קוד קוד",
         "send": "לשלוח",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "מנויים",
+            "subscription": "subscription",
             "nosubscriptions": "אין הרשמות",
             "subscribe": "הירשם",
             "unSubscribe": "בטל רישום"
@@ -1074,7 +1083,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "userProfile": "User Profile",
         "searchResult": "Search results",

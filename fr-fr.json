@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "Entrer un texte...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "Mes achats",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Achat",
             "noPurchase": "Il n'y a pas d'achats",
             "subscribers": "Abonnés",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "Ma Bibliothèque",
+            "title": "My playlists",
             "editPlaylistTitle": "Titre",
             "editPlaylistDescription": "Description",
             "editPlaylistSaveButton": "Sauvegarder",
@@ -190,6 +191,7 @@
             "noPlaylists": "Il n'y a pas de playlist"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Mes téléchargements",
             "views": "Vus",
             "edit": "Modifier",
@@ -212,12 +214,14 @@
             "noLiveStreams": "Il n'y a pas de live streams"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Abonnements",
             "subscriptionsButton": "S'abonner",
             "unSubscriptionsButton": "Se désabonner",
             "noSubscriptions": "Il n'y a pas d'abonnements"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": " Abonnés",
            "subscriptionsButton": "Souscrire",
            "unSubscriptionsButton": "Se désabonner",
@@ -384,6 +388,7 @@
         "showLess": "Montrer moins",
         "commentButton": "Commentaire",
         "cancel": "Annuler",
+        "singularComments": "comment",
         "comments": "Commentaires",
         "madePost": "a répondu.",
         "justNow": "Juste maintenant",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "Aperçu",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Abonnements",
+            "subscription": "Abonnement",
             "nosubscriptions": "Il n'y a pas d'abonnements",
             "subscribe": "Souscrire",
             "unSubscribe": "Se désabonner"
@@ -968,7 +977,7 @@
         "liveSection": "En direct",
         "uploadSection": "Mettre en ligne",
         "broadcastSection": "Diffuser",
-        "walletSection": "Mon portefeuille (Beta)",
+        "walletSection": "Mon portefeuille",
         "profitSection": "Calculateur de profits",
         "peers": "Peers:",
         "login": "S'identifier",
@@ -1074,7 +1083,7 @@
         "liveSection": "En direct",
         "uploadSection": "Mettre en ligne",
         "broadcastSection": "Diffuser",
-        "walletSection": "Mon portefeuille (Beta)",
+        "walletSection": "Mon portefeuille",
         "profitSection": "Calculateur de profits",
         "userProfile": "Profil de l'utilisateur",
         "searchResult": "Résultats de la recherche",

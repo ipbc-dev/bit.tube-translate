@@ -134,7 +134,8 @@
             "textEditorPlaceholder" : "Introduzca un texto...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
-            "profilePurchase": "Purchase",
+            "singularProfilePurchase": "Purchase",
+            "profilePurchase": "Purchases",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
             "imageTooSmall":"Selected image is too small to be resized"
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "Mi playlist",
+            "title": "Mis playlists",
             "editPlaylistTitle": "Título",
             "editPlaylistDescription": "Descripción",
             "editPlaylistSaveButton": "Guardar",
@@ -190,6 +191,7 @@
             "noPlaylists": "No hay playlists"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "Visualizaciones",
             "edit": "Editar",
@@ -212,12 +214,14 @@
             "noLiveStreams": "No hay transmisiones en directo"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Suscripciones",
             "subscriptionsButton": "Suscribirse",
             "unSubscriptionsButton": "Cancelar suscripción",
             "noSubscriptions": "No hay suscripciones"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -383,6 +387,7 @@
         "showLess": "Mostrar menos",
         "commentButton": "Comentar",
         "cancel": "Cancelar",
+        "singularComments": "comment",
         "comments": "Comentarios",
         "madePost": "hizo un post.",
         "justNow": "Ahora mismo",
@@ -456,7 +461,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Reportar este video",
+        "ok": "ok",
+        "errorHash": "No se puede encontrar el video seleccionado"
     },
     "Wallet": {
         "title": "Información general",
@@ -479,8 +487,8 @@
         "addContact": "Añadir contacto",
         "sendtoAddress" : "Enviar a la dirección",
         "receiverAddress" : "Dirección del receptor",
-        "ipbcAmount" : "Importe IPBC",
-        "feeIPBC" : "Cuota (IPBC)",
+        "ipbcAmount" : "Importe Tube",
+        "feeIPBC" : "Cuota (Tube)",
         "anonymityLevel" : "Nivel de anonimato",
         "2FACode": "Código 2FA",
         "send": "Enviar",
@@ -700,6 +708,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Suscripciones",
+            "subscription": "Suscripcion",
             "nosubscriptions": "No hay suscripciones",
             "subscribe": "Suscribirse",
             "unSubscribe": "Cancelar suscripción"
@@ -963,7 +972,7 @@
         "liveSection": "En Directo",
         "uploadSection": "Cargar archivos multimedia ",
         "broadcastSection": "Retransmitir",
-        "walletSection": "Mi Cartera (Beta)",
+        "walletSection": "Mi Cartera",
         "profitSection": "Calculadora de beneficios",
         "peers": "Peers:",
         "login": "Iniciar sesión",
@@ -1069,7 +1078,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "userProfile": "User Profile",
         "searchResult": "Search results",

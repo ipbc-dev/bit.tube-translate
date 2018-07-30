@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "Nhấn để viết...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "Danh sách của tôi",
+            "title": "My playlists",
             "editPlaylistTitle": "Tiêu đề",
             "editPlaylistDescription": "Mô tả",
             "editPlaylistSaveButton": "Lưu",
@@ -190,6 +191,7 @@
             "noPlaylists": "Không có danh sách nào"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Cập nhật của tôi",
             "views": "Lượt xem",
             "edit": "Chỉnh sửa",
@@ -212,12 +214,14 @@
             "noLiveStreams": "Không có lượt phát trực tiếp nào"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Sự đăng kí",
             "subscriptionsButton": "Đăng kí",
             "unSubscriptionsButton": "Bỏ đăng kí",
             "noSubscriptions": "Không có lượt đăng kí nào"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -384,6 +388,7 @@
         "showLess": "Hiển thị yhu gọn",
         "commentButton": "Bình luận",
         "cancel": "Thoát",
+        "singularComments": "comment",
         "comments": "Bình luận",
         "madePost": "Tạo một bài viết.",
         "justNow": "Vừa xong",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "Xem qua",
@@ -480,8 +488,8 @@
         "addContact": "Thêm liên hệ",
         "sendtoAddress" : "Gửi đến địa chỉ",
         "receiverAddress" : "Địa chỉ người nhận",
-        "ipbcAmount" : "Số lượng IPBC ",
-        "feeIPBC" : "Phí (IPBC)",
+        "ipbcAmount" : "Số lượng Tube ",
+        "feeIPBC" : "Phí (Tube)",
         "anonymityLevel" : "Mức độ ẩn danh",
         "2FACode": "Mã xác định 2 yếu tố",
         "send": "Gửi",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Lượt đăng kí",
+            "subscription": "subscription",
             "nosubscriptions": "Không có lượt đăng kí nào",
             "subscribe": "Đăng kí",
             "unSubscribe": "Bỏ đăng kí"
@@ -968,7 +977,7 @@
         "liveSection": "Trực tiếp",
         "uploadSection": "Cập nhật truyền thông",
         "broadcastSection": "Phát sóng",
-        "walletSection": "Ví của tôi (Beta)",
+        "walletSection": "Ví của tôi",
         "profitSection": "Công cụ tính lợi nhuận",
         "peers": "Peers:",
         "login": "Đăng nhập",
@@ -1074,7 +1083,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "userProfile": "User Profile",
         "searchResult": "Search results",

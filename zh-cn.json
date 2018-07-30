@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "请输入内容...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "我的播放列表",
+            "title": "My playlists",
             "editPlaylistTitle": "标题",
             "editPlaylistDescription": "描述",
             "editPlaylistSaveButton": "保存",
@@ -190,6 +191,7 @@
             "noPlaylists": "没有我的播放列表"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "预览",
             "edit": "编辑",
@@ -212,12 +214,14 @@
             "noLiveStreams": "没有您的直播"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "订阅",
             "subscriptionsButton": "订阅",
             "unSubscriptionsButton": "取消订阅",
             "noSubscriptions": "没有您的订阅"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -384,6 +388,7 @@
         "showLess": "获取稍许信息",
         "commentButton": "评论",
         "cancel": "取消",
+        "singularComments": "comment",
         "comments": "评论",
         "madePost": "发表帖子",
         "justNow": "刚刚",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "概览",
@@ -480,8 +488,8 @@
         "addContact": "添加联系人",
         "sendtoAddress" : "发送到一个地址",
         "receiverAddress" : "接收者地址",
-        "ipbcAmount" : "IPBC 总额",
-        "feeIPBC" : "费用(IPBC)",
+        "ipbcAmount" : "Tube 总额",
+        "feeIPBC" : "费用(Tube)",
         "anonymityLevel" : "匿名等级",
         "2FACode": "二次验证码",
         "send": "发送",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "订阅",
+            "subscription": "subscription",
             "nosubscriptions": "没有您的订阅",
             "subscribe": "订阅",
             "unSubscribe": "取消订阅"
@@ -968,7 +977,7 @@
         "liveSection": "直播",
         "uploadSection": "上传视频",
         "broadcastSection": "开始直播",
-        "walletSection": "我的钱包(Beta)",
+        "walletSection": "我的钱包",
         "profitSection": "收益计算器",
         "peers": "节点:",
         "login": "登录",
@@ -1074,7 +1083,7 @@
         "liveSection": "直播",
         "uploadSection": "上传视频",
         "broadcastSection": "开始直播",
-        "walletSection": "我的钱包(Beta)",
+        "walletSection": "我的钱包",
         "profitSection": "收益计算器",
         "userProfile": "用户档案",
         "searchResult": "搜索结果",

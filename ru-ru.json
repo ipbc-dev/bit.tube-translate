@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "Введите текст...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "Мой плейлист",
+            "title": "My playlists",
             "editPlaylistTitle": "Название",
             "editPlaylistDescription": "Описание",
             "editPlaylistSaveButton": "Сохранить",
@@ -190,6 +191,7 @@
             "noPlaylists": "Плейлистов нет"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Мои загрузки",
             "views": "Просмотры",
             "edit": "Правка",
@@ -212,12 +214,14 @@
             "noLiveStreams": "Нет онлайн трансляций"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Подписки",
             "subscriptionsButton": "Подписаться",
             "unSubscriptionsButton": "Отписаться",
             "noSubscriptions": "Нет подписок"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -384,6 +388,7 @@
         "showLess": "Показать меньше",
         "commentButton": "Комментарий",
         "cancel": "Отменить",
+        "singularComments": "comment",
         "comments": "Комментарии",
         "madePost": "оставил сообщение.",
         "justNow": "Только что",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "Обзор",
@@ -480,8 +488,8 @@
         "addContact": "Добавить контакт",
         "sendtoAddress" : "Отправить на адрес",
         "receiverAddress" : "Адрес получателя",
-        "ipbcAmount" : "Количество IPBC",
-        "feeIPBC" : "Комиссия (IPBC)",
+        "ipbcAmount" : "Количество Tube",
+        "feeIPBC" : "Комиссия (Tube)",
         "anonymityLevel" : "Уровень анонимности",
         "2FACode": "Код двухфакторной авторизации",
         "send": "Отправить",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Subscriptions",
+            "subscription": "Subscription",
             "nosubscriptions": "There are no subscriptions",
             "subscribe": "Subscribe",
             "unSubscribe": "Unsubscribe"
@@ -969,7 +978,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "peers": "Peers:",
         "login": "Login",
@@ -1075,7 +1084,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "userProfile": "User Profile",
         "searchResult": "Search results",

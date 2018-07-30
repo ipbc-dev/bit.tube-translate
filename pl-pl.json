@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "Wpisz tekst...",
             "editProfilePasswordNotifySave": "Hasło zostało pomyślnie zapisane",
            "purchases": "Moje zakupy",
+           "singularProfilePurchase": "Purchase",
            "profilePurchase": "Zakup",
            "noPurchase": "Brak zakupów",
            "subscribers": "Subskrybenci",
@@ -160,7 +161,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "Moja Biblioteka",
+            "title": "My playlists",
             "editPlaylistTitle": "Tytuł",
             "editPlaylistDescription": "Opis",
             "editPlaylistSaveButton": "Zapisz",
@@ -190,6 +191,7 @@
             "noPlaylists": "Nie ma biblioteki"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Moje wrzuty",
             "views": "Wyświetlenia",
             "edit": "Edytować",
@@ -212,12 +214,14 @@
             "noLiveStreams": "Nie ma Wyświetlenia na żywo"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Subskrypcje",
             "subscriptionsButton": "Subskrybować",
             "unSubscriptionsButton": "Wyrejestrowanie",
             "noSubscriptions": "Nie ma subskrypcji"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "subskrypcji",
            "subscriptionsButton": "Subskrybuj",
            "unSubscriptionsButton": "Anuluj subskrypcję",
@@ -384,6 +388,7 @@
         "showLess": "Pokaż mniej",
         "commentButton": "Komentarz",
         "cancel": "Unieważnić",
+        "singularComments": "comment",
         "comments": "Komentarze",
         "madePost": "Odpowiedział.",
         "justNow": "Teraz",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
     },
     "Wallet": {
         "title": "Przegląd",
@@ -702,6 +710,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Subskrypcje",
+            "subscription": "Subskrypcje",
             "nosubscriptions": "Nie ma Subskrypcjy",
             "subscribe": "Subskrybować",
             "unSubscribe": "Anuluj subskrypcję"
@@ -968,7 +977,7 @@
         "liveSection": "Na żywo",
         "uploadSection": "Wrzuć na sieć",
         "broadcastSection": "Broadcast",
-        "walletSection": "Mój portfel (Beta)",
+        "walletSection": "Mój portfel",
         "profitSection": "Kalkulator zysków",
         "peers": "Peers:",
         "login": "Login",
@@ -1074,7 +1083,7 @@
         "liveSection": "Na żywo",
         "uploadSection": "Wrzuć na sieć",
         "broadcastSection": "Broadcast",
-        "walletSection": "Mój portfel (Beta)",
+        "walletSection": "Mój portfel",
         "profitSection": "Kalkulator zysków",
         "userProfile": "Profil użytkownika",
         "searchResult": "Wyniki wyszukiwania",

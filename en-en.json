@@ -134,7 +134,8 @@
                         "textEditorPlaceholder" : "Enter a text...",
                         "editProfilePasswordNotifySave": "Password saved successfully",
                         "purchases": "My purchases",
-                        "profilePurchase": "Purchase",
+                        "singularProfilePurchase": "Purchase",
+                        "profilePurchase": "Purchases",
                         "noPurchase": "There are no purchases",
                         "subscribers": "Subscribers",
                         "imageTooSmall":"Selected image is too small to be resized"
@@ -160,7 +161,7 @@
                         "Uses": "uses"
                 },
                 "MyPlaylists":{
-                        "title": "My playlist",
+                        "title": "My playlists",
                         "editPlaylistTitle": "Title",
                         "editPlaylistDescription": "Description",
                         "editPlaylistSaveButton": "Save",
@@ -190,6 +191,7 @@
                         "noPlaylists": "There are no playlists"
                 },
                 "Publications":{
+                        "singularTitle": "Upload",
                         "title": "Uploads",
                         "views": "Views",
                         "edit": "Edit",
@@ -212,12 +214,14 @@
                         "noLiveStreams": "There are no live streams"
                 },
                 "Subscriptions": {
+                        "singularTitle": "Subscription",
                         "title": "Subscriptions",
                         "subscriptionsButton": "Subscribe",
                         "unSubscriptionsButton": "Unsubscribe",
                         "noSubscriptions": "There are no subscriptions"
                 },
                 "Subscribers": {
+                        "singularTitle": "Subscriber",
                         "title": "Subscribers",
                         "subscriptionsButton": "Subscribe",
                         "unSubscriptionsButton": "Unsubscribe",
@@ -385,6 +389,7 @@
                 "showLess": "Show less",
                 "commentButton": "Comment",
                 "cancel": "Cancel",
+                "singularComments": "comment",
                 "comments": "Comments",
                 "madePost": "made a post.",
                 "justNow": "Just now",
@@ -458,7 +463,10 @@
                 "liveUnpublishedError": "Livestream unpublish error",
                 "reply": "Reply",
                 "delete": "Delete",
-                "writeReply": "Write a reply"
+                "writeReply": "Write a reply",
+                "reportThisVideo": "Report this video",
+                "ok": "ok",
+                "errorHash": "Can not find the selected video"
         },
         "Wallet": {
                 "title": "Overview",
@@ -481,8 +489,8 @@
                 "addContact": "Add Contact",
                 "sendtoAddress" : "Send to Address",
                 "receiverAddress" : "Receiver Address",
-                "ipbcAmount" : "BitTube Amount",
-                "feeIPBC" : "Fee (BitTube)",
+                "ipbcAmount" : "Tube Amount",
+                "feeIPBC" : "Fee (Tube)",
                 "anonymityLevel" : "Anonymity Level",
                 "2FACode": "2FA Code",
                 "send": "Send",
@@ -704,6 +712,7 @@
                 },
                 "Subscriptions": {
                         "subscriptions": "Subscriptions",
+                        "subscription": "Subscription",
                         "nosubscriptions": "There are no subscriptions",
                         "subscribe": "Subscribe",
                         "unSubscribe": "Unsubscribe"
@@ -971,7 +980,7 @@
                 "liveSection": "Live",
                 "uploadSection": "Upload Media",
                 "broadcastSection": "Broadcast",
-                "walletSection": "My Wallet (Beta)",
+                "walletSection": "My Wallet",
                 "profitSection": "Profit Calculator",
                 "peers": "Peers:",
                 "login": "Login",
@@ -1077,7 +1086,7 @@
                 "liveSection": "Live",
                 "uploadSection": "Upload Media",
                 "broadcastSection": "Broadcast",
-                "walletSection": "My Wallet (Beta)",
+                "walletSection": "My Wallet",
                 "profitSection": "Profit Calculator",
                 "userProfile": "User Profile",
                 "searchResult": "Search results",

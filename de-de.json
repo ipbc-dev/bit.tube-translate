@@ -134,6 +134,7 @@
             "textEditorPlaceholder" : "gib einen Text ein...",
             "editProfilePasswordNotifySave": "Passwort erfolgreich gespeichert",
             "purchases": "Meine Einkäufe",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Einkäufe",
             "noPurchase": "keine Einkäufe vorhanden",
             "subscribers": "Abonnenten",
@@ -160,7 +161,7 @@
             "Uses": "nutzungen"
         },
         "MyPlaylists":{
-            "title": "Meine Playlist",
+            "title": "My playlists",
             "editPlaylistTitle": "Titel",
             "editPlaylistDescription": "Beschreibung",
             "editPlaylistSaveButton": "Speichern",
@@ -190,6 +191,7 @@
             "noPlaylists": "keine Playlist verfügbar"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "angesehen",
             "edit": "ändern",
@@ -212,12 +214,14 @@
             "noLiveStreams": "keine Livestreams verfügbar"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Abonnements",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "Abonnement abmelden",
             "noSubscriptions": "keine Abonnements verfügbar"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Abonnementen",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "abmelden",
@@ -384,6 +388,7 @@
         "showLess": "weniger zeigen",
         "commentButton": "Kommentar",
         "cancel": "Abbrechen",
+        "singularComments": "comment",
         "comments": "Kommentare",
         "madePost": "Beitrag schreiben.",
         "justNow": "Jetzt",
@@ -457,7 +462,10 @@
         "liveUnpublishedError": "Fehler beim Aufheben der Livestream-Veröffentlichung",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video"
 
     },
     "Wallet": {
@@ -481,8 +489,8 @@
         "addContact": "Kontakt hinzufügen",
         "sendtoAddress" : "senden an Adresse",
         "receiverAddress" : "Empfängeradresse",
-        "ipbcAmount" : "IPBC Betrag",
-        "feeIPBC" : "Gebühr (IPBC)",
+        "ipbcAmount" : "Tube Betrag",
+        "feeIPBC" : "Gebühr (Tube)",
         "anonymityLevel" : "Anonymitätsstufe",
         "2FACode": "2FA Code",
         "send": "senden",
@@ -703,6 +711,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Abonnements",
+            "subscription": "Abonnement",
             "nosubscriptions": "keine Abonnements vorhanden",
             "subscribe": "Abonnieren",
             "unSubscribe": "Abmelden"
@@ -975,7 +984,7 @@
         "liveSection": "Live",
         "uploadSection": "Datei hochladen",
         "broadcastSection": "Broadcast",
-        "walletSection": "Meine Wallet (Beta)",
+        "walletSection": "Meine Wallet",
         "profitSection": "Profit Kalkulator",
         "peers": "Peers:",
         "login": "Login",
@@ -1081,7 +1090,7 @@
         "liveSection": "Live",
         "uploadSection": "Datei hochladen",
         "broadcastSection": "Broadcast",
-        "walletSection": "Meine Wallet (Beta)",
+        "walletSection": "Meine Wallet",
         "profitSection": "Profit Kalkulator",
         "userProfile": "Benutzerprofil",
         "searchResult": "Suchergebnisse",
