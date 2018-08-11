@@ -1281,12 +1281,12 @@
         "newTip": "Vous avez reçu"
     },
     "DateSince":{
-        "years": "years ago",
-        "months": "months ago",
-        "days": "days ago",
-        "hours": "hours ago",
-        "minutes": "minutes ago",
-        "seconds": "seconds ago",
-        "prefix": ""
+        "years": "ans",
+        "months": "mois",
+        "days": "jours",
+        "hours": "heures",
+        "minutes": "minutes",
+        "seconds": "secondes",
+        "prefix": "il y'a "
     }
 }
