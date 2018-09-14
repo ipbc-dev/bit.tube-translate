@@ -81,7 +81,7 @@
             "editProfileTitle": "Редактировать профиль",
             "editProfileSubTitle": "Заполните информацию о себе",
             "editProfileUsername": "Имя пользователя",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
             "editProfileUsernamePattern": " В имени пользователя можно использовать только латиницу (A-Z, a-z), цифры 0-9 и символ _",
             "editProfilePhone": "Номер мобильного телефона",
             "editProfilePhoneInvalid": "Некорректный номер телефона",
@@ -138,7 +138,8 @@
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -241,7 +242,9 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Отменить",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         } 
     },
     "Dashboard": {
@@ -252,7 +255,11 @@
         "addPlaylistButton": "Добавить",
         "addPLaylistTitle":"Добавить в...",
         "live":"Трансляции",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "Просмотры",
@@ -303,7 +310,10 @@
         "videoRemovedConfirmText": "Это действие отменит публикацию",
         "videoRemovedConfirmButton": "Да, скрыть видео!",
         "videoRemovedConfirmCancel": "Отменить",
-        "videoPlaceholderEditor": "Добавьте описание..."
+        "videoPlaceholderEditor": "Добавьте описание...",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -451,6 +461,7 @@
         "encryptedError": "This content is premium, please purchase",
         "offlineStream": "Your desired stream appears be offline",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error",
         "copyrightReport": "Report Copyright Violation",
@@ -465,7 +476,8 @@
         "writeReply": "Write a reply",
         "reportThisVideo": "Report this video",
         "ok": "ok",
-        "errorHash": "Can not find the selected video"
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "Обзор",
@@ -526,7 +538,9 @@
         "walletMaintenaceTitle": "Online wallet under maintenance",
         "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
         "walletDowload": "Download offline wallet",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Открыть Coinmarketcap",
@@ -560,7 +574,7 @@
     "Upload": {
         "titleUpload": "Загрузить медиафайлы",
         "p1Upload": "Вы можете загрузить медиафайлы. Итоговое видео будет доступно в нескольких разрешениях",
-        "p2Upload": "Обратите внимание: минимальное разрешение - 360P",
+        "p2Upload": "Обратите внимание: минимальное разрешение - 360P, duration less than 3 hours, size less than 5 GB",
         "uploadNowButton": "Загрузить",
         "titleUploadYoutube": "Подключить к YouTube",
         "p1UploadYoutube": "Здесь вы можете подключиться к своему YouTube-аккаунту напрямую и в один клик перенести все видео на Bit.Tube",
@@ -594,7 +608,7 @@
         "loginProfileCancelButton": "Отменить",
         "videoAlreadyPublishedTitle": "Видео уже опубликовано!",
         "videoAlreadyPublishedText": "Вы сможете отредактировать описание этого видео в разделе публикаций в личном кабинете",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
         "authorizationYoutube": "В случае отсутствия авторизации нажмите Авторизоваться и следуйте предложенным шагам, чтобы получить доступ к вашим видео на YouTube",
         "authorizeButton": "Авторизоваться",
         "UnauthorizeButton": "Отменить авторизацию",
@@ -678,7 +692,10 @@
             "location": "Откуда",
             "readMore": "Подробнее",
             "readLess": "Короче",
-            "social": "Соцсети"  
+            "social": "Соцсети",
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
            "publication": "Publication",
@@ -887,11 +904,11 @@
             {"value": "29", "viewValue": "Others"},
             {"value": "44", "viewValue": "Performing Arts"},
             {"value": "40", "viewValue": "Pets"},
+            {"value": "13", "viewValue": "Politics"},
             {"value": "39", "viewValue": "Porn"},
             {"value": "28", "viewValue": "Religion"},
             {"value": "14", "viewValue": "Science"},
             {"value": "31", "viewValue": "Series"},
-            {"value": "13", "viewValue": "Politics"},
             {"value": "11", "viewValue": "Society"},
             {"value": "6", "viewValue":  "Sports"},
             {"value": "38", "viewValue": "Technology"},
@@ -991,7 +1008,20 @@
         "copyrightPolicy": "Copyright Policy",
         "miningSection": "Start Mining",
         "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "Terms and conditions",
@@ -1125,11 +1155,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1250,6 +1280,8 @@
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
         "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Purchase lifetime.",
         "rentalPeriod": "Rental",
@@ -1285,7 +1317,8 @@
         "newLike": "You have received a new like",
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newTip": "You have received",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "years ago",

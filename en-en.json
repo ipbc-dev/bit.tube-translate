@@ -81,7 +81,7 @@
                         "editProfileTitle": "Edit profile",
                         "editProfileSubTitle": "Complete your profile",
                         "editProfileUsername": "Username",
-                        "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+                        "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
                         "editProfileUsernamePattern": " Username can contain A-Z, a-z, 0-9 and _ only",
                         "editProfilePhone": "Mobile phone",
                         "editProfilePhoneInvalid": "Invalid phone number",
@@ -138,7 +138,8 @@
                         "profilePurchase": "Purchases",
                         "noPurchase": "There are no purchases",
                         "subscribers": "Subscribers",
-                        "imageTooSmall":"Selected image is too small to be resized"
+                        "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+                        "requiredFields": "Required fields"
                 },
                 "MyPurchases": {
                         "channelStay": "Channel Stay",
@@ -241,7 +242,9 @@
                         "activateAuthenticationConfirmButton": "Ok",
                         "activateAuthenticationDeleteButton": "Cancel",
                         "nsfw": "Not safe for work (NSFW)" ,
-                        "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+                        "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+                        "settings": "Settings",
+                        "membership": "Membership"
                 }     
         },
         "Dashboard": {
@@ -252,7 +255,11 @@
                 "addPlaylistButton": "Add",
                 "addPLaylistTitle":"Add to...",
                 "live":"Live",
-                "ago": "ago"
+                "ago": "ago",
+                "recomended":" Recommended",
+                "newest": "Newest",
+                "trending": "Trending",
+                "viewAll": "View all"
         },
         "Trending": {
                 "views": "Views",
@@ -303,7 +310,10 @@
                 "videoRemovedConfirmText": "This will unpublish",
                 "videoRemovedConfirmButton": "Yes, unpublish it!",
                 "videoRemovedConfirmCancel": "Cancel",
-                "videoPlaceholderEditor": "Enter description here..."
+                "videoPlaceholderEditor": "Enter description here...",
+                "uploadingImage": "Uploading image",
+                "imageUploaded": "Image uploaded",
+                "protectedContent": "Protected Content"
         },
         "Broadcast": {
                 "Setings": {
@@ -330,7 +340,7 @@
                         "copiedClipBoard": "Your streaming key has been copied to the clipboard",
                         "copiedClipBoardTransmission": "Your transmission URL has been copied to the clipboard",
                         "confirmDeleteTitle": "Delete Stream key",
-                        "confirmDeleteText": "¿ Are you sure that you want to delete this stream key ?",
+                        "confirmDeleteText": "Are you sure that you want to delete this stream key ?",
                         "confirmDeleteButton": "DELETE",
                         "textEditorPlaceholder": "Enter a text here..."
                 },
@@ -452,6 +462,7 @@
                 "encryptedError": "This content is premium, please purchase",
                 "offlineStream": "Your desired stream appears be offline",
                 "popOutVideo": "Popout video",
+                "cinemaMode": "Cinema mode",
                 "setPrimaryVideo": "Saved primary video",
                 "errorSavePrimaryVideo": "Error",
                 "copyrightReport": "Report Copyright Violation",
@@ -466,7 +477,8 @@
                 "writeReply": "Write a reply",
                 "reportThisVideo": "Report this video",
                 "ok": "ok",
-                "errorHash": "Can not find the selected video"
+                "errorHash": "Can not find the selected video",
+                "totalAirtimeText": "PoV:"
         },
         "Wallet": {
                 "title": "Overview",
@@ -527,7 +539,9 @@
                 "walletMaintenaceTitle": "Online wallet under maintenance",
                 "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
                 "walletDowload": "Download offline wallet",
-                "walletCancel": "Ok"
+                "walletCancel": "Ok",
+                "copySpendKey": "Copy spend key to clipboard",
+                "copyViewKey": "Copy view key to clipboard"
 
         },
         "Profitcalc": {
@@ -562,7 +576,7 @@
         "Upload": {
                 "titleUpload": "Upload media files",
                 "p1Upload": "You can upload your media files. The resulting video files will be available in multiple quality formats",
-                "p2Upload": "Note: Minimum quality 360P",
+                "p2Upload": "Note: Minimum quality 360P, duration less than 3 hours, size less than 5 GB",
                 "uploadNowButton": "Upload Now",
                 "titleUploadYoutube": "Connect to youtube",
                 "p1UploadYoutube": "Here you can connect directly to your Youtube Account and migrate with just a click your Youtube Channel to Bit.Tube",
@@ -596,7 +610,7 @@
                 "loginProfileCancelButton": "Cancel",
                 "videoAlreadyPublishedTitle": "Video already published!",
                 "videoAlreadyPublishedText": "You may edit this video information under publications in your profile",
-                "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+                "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
                 "authorizationYoutube": "In case of not having authorization please click AUTHORIZE and follow the steps to give authorization to check your youtube content",
                 "authorizeButton": "Authorize",
                 "UnauthorizeButton": "Unauthorize",
@@ -680,7 +694,10 @@
                         "location": "Location",
                         "readMore": "Read more",
                         "readLess": "Read less",
-                        "social": "Social"
+                        "social": "Social",
+                        "newest": "newest",
+                        "popular": "popular",
+                        "oldest": "oldest"
                 },
                 "Publications": {
                         "publication": "Publication",
@@ -889,11 +906,11 @@
                         {"value": "29", "viewValue": "Others"},
                         {"value": "44", "viewValue": "Performing Arts"},
                         {"value": "40", "viewValue": "Pets"},
+                        {"value": "13", "viewValue": "Politics"},
                         {"value": "39", "viewValue": "Porn"},
                         {"value": "28", "viewValue": "Religion"},
                         {"value": "14", "viewValue": "Science"},
                         {"value": "31", "viewValue": "Series"},
-                        {"value": "13", "viewValue": "Politics"},
                         {"value": "11", "viewValue": "Society"},
                         {"value": "6", "viewValue":  "Sports"},
                         {"value": "38", "viewValue": "Technology"},
@@ -929,7 +946,7 @@
                         { "value": "3922", "viewValue": "Gay" , "icon":"cat-adult.svg"},
                         { "value": "3923", "viewValue": "Handjob" , "icon":"cat-adult.svg"},
                         { "value": "3924", "viewValue": "Interracial" , "icon":"cat-adult.svg"},
-                        { "value": "3925", "viewValue": "Lesbian" , "icon":"cat-adult.svg"},
+                        { "value": "3925", "viewValue": "Lesbian111" , "icon":"cat-adult.svg"},
                         { "value": "3926", "viewValue": "Latina" , "icon":"cat-adult.svg"},
                         { "value": "3927", "viewValue": "MILF" , "icon": "cat-adult.svg"},
                         { "value": "3928", "viewValue": "Massage" , "icon":"cat-adult.svg"},
@@ -993,7 +1010,20 @@
                 "copyrightPolicy": "Copyright Policy",
                 "miningSection": "Start Mining",
                 "subscriptions": "Subscriptions",
-                "categories": "Categories"
+                "categories": "Categories",
+                "block": "Blocks - Want",
+                "airtimeID": "AirTime ID",
+                "airtimeStats": "AirTime Statistics",
+                "airtimeRecorded": "Recorded",
+                "airtimeUnprocessed": "Unprocessed",
+                "airtimeConfirmed": "Confirmed",
+                "airtimeRejected": "Rejected",
+                "airtimePendingEvents": "Pending Events",
+                "airtimeUnsubmitted": "Unsubmitted",
+                "airtimeLastPayment": "Last Payment",
+                "airtimePaidBalance": "Paid Balance",
+                "airtimeUnpaidBalance": "Unpaid Balance",
+                "sidebarVersion": "Version"
         },
         "Terms": {
                 "termsTitle": "Terms and conditions",
@@ -1127,11 +1157,11 @@
                         { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
                         { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
                         {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+                        { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
                         { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
                         { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
                         { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
                         { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-                        { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
                         { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
                         { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
                         { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1252,6 +1282,8 @@
         "PayVideo": {
                 "alreadyPurchased": "Product already purchased.",
                 "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+                "walletNotAvailable": "Wallet not available",
+                "walletNotAvailableText1": "Wallet is not available, please try it later.",
                 "ok": "OK",
                 "lifetimePeriod": "Purchase lifetime.",
                 "rentalPeriod": "Rental",
@@ -1287,7 +1319,8 @@
                 "newLike": "You have received a new like",
                 "newPublish": "Your new video has been uploaded",
                 "newSubscriber": "You have a new subscriber",
-                "newTip": "You have received"
+                "newTip": "You have received",
+                "errorProcessing": "Error processing:"
         },
         "DateSince":{
                 "years": "years ago",

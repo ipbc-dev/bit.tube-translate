@@ -81,7 +81,7 @@
             "editProfileTitle": "Profil ändern",
             "editProfileSubTitle": "Profil vervollständigen",
             "editProfileUsername": "Benutzername",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
             "editProfileUsernamePattern": " erlaubte Zeichen für Benutzername A-Z, a-z, 0-9 and _ ",
             "editProfilePhone": "Mobil Nummer",
             "editProfilePhoneInvalid": "ungültige Telefonnummer",
@@ -138,7 +138,8 @@
             "profilePurchase": "Einkäufe",
             "noPurchase": "keine Einkäufe vorhanden",
             "subscribers": "Abonnenten",
-            "imageTooSmall":"Das ausgewählte Bild ist zu klein, um die Größe zu ändern"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "auf Kanal bleiben",
@@ -241,7 +242,9 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Abbrechen",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         }
     },
     "Dashboard": {
@@ -252,7 +255,11 @@
         "addPlaylistButton": "Hinzufügen",
         "addPLaylistTitle":"hinzufügen zu...",
         "live":"Live",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Neusten",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "Aufrufe",
@@ -303,7 +310,10 @@
         "videoRemovedConfirmText": "Möchtest du entfernen?",
         "videoRemovedConfirmButton": "Ja, entfernen!",
         "videoRemovedConfirmCancel": "Abbrechen",
-        "videoPlaceholderEditor": " Beschreibung hier einfügen..."
+        "videoPlaceholderEditor": " Beschreibung hier einfügen...",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Geschützter Inhalt"
     },
     "Broadcast": {
         "Setings": {
@@ -451,6 +461,7 @@
         "encryptedError": "Dieser Inhalt ist als Premium eingetragen, bitte kaufen um anzusehen",
         "offlineStream": "Ihr gewünschter Stream wird offline angezeigt",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "erstes Video gespeichert",
         "errorSavePrimaryVideo": "Fehler",
         "copyrightReport": "Urheberrechtsverletzung melden",
@@ -465,7 +476,8 @@
         "writeReply": "Write a reply",
         "reportThisVideo": "Report this video",
         "ok": "ok",
-        "errorHash": "Can not find the selected video"
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
 
     },
     "Wallet": {
@@ -527,7 +539,10 @@
         "walletMaintenaceTitle": "Online-Wallet unter Wartung",
         "walletMaintenaceText": "Die Online-Wallet wird gewartet. Bitte versuchen Sie es später erneut",
         "walletDowload": "Offline Wallet herunterladen",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
+
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Öffne Coinmarketcap",
@@ -561,7 +576,7 @@
     "Upload": {
         "titleUpload": "Hochladen",
         "p1Upload": " Hier kannst du deine Datei hochladen. Das Video steht dann in verschiedenen Qualitätsstufen zur Verfügung.",
-        "p2Upload": "Anmerkung: Mindestqualität 360P",
+        "p2Upload": "Anmerkung: Mindestqualität 360P, maximal 3 Stunden, maximal 5 GB",
         "uploadNowButton": "Jetzt hochladen",
         "titleUploadYoutube": "Verbinden zu Youtube",
         "p1UploadYoutube": "Hier kannst du dich direkt mit deinem Youtube Account verbinden und deinen Youtube Kanal mit nur einem Klick zu Bit.Tube portieren",
@@ -595,7 +610,7 @@
         "loginProfileCancelButton": "Abbrechen",
         "videoAlreadyPublishedTitle": "Video bereits hochgeladen!",
         "videoAlreadyPublishedText": "Videoinformationen kannst du in deinem Profil unter Veröffenlichungen editieren",
-        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Du erhältst eine E-Mail, sobald dein Video veröffentlicht wurde.",
+        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Du erhältst eine Notifikation, sobald dein Video veröffentlicht wurde.",
         "authorizationYoutube": "Bei noch nicht erlaubten Zugriff bitte auf Authoriesieren klicken und den Schritten folgen um Zugriff auf Prüfung deines Youtube Inhaltes zu erhalten",
         "authorizeButton": "Authorisieren",
         "UnauthorizeButton": "Authorisierung aufheben",
@@ -679,7 +694,10 @@
             "location": "Ort",
             "readMore": "mehr lesen",
             "readLess": "weniger lesen",
-            "social": "Soziale Netzwerke"
+            "social": "Soziale Netzwerke",
+            "newest": "neusten",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
            "publication": "Veröffentlichen",
@@ -989,7 +1007,7 @@
         "peers": "Peers:",
         "login": "Login",
         "logout": "Logout",
-        "register": "Registreiren",
+        "register": "Registrieren",
         "search": "Suchen",
         "terms": "Bedingungen",
         "contact": "Kontakte",
@@ -997,7 +1015,20 @@
         "copyrightPolicy": "Urheberrechtspolitik",
         "miningSection": "Minen starten",
         "subscriptions": "Abonnements",
-        "categories": "Kategorien"
+        "categories": "Kategorien",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "Allgemeine Geschäftsbedingungen",
@@ -1246,7 +1277,7 @@
         "swalTitle": "Miner offline",
         "swalText":"Wir haben festgestellt, dass die Miner-Software nicht läuft. Bitte starte den Miner..",
         "instructions": "Anleitung",
-        "instructions1": "Wenn dies das erste Mal ist, klicken auf den Download-Button",
+        "instructions1": "Wenn dies das erste Mal ist, klicke auf den Download-Button",
         "Instructions2": "Entpacke und starte bittube-miner.exe",
         "Instructions3": "Wählen \"Experte = Nein\", um mit der Mining-Funktion für deine Meine Wallet-Adresse zu beginnen",
         "Instructions4": "Wenn du ein Experte bist, besuche ",
@@ -1256,6 +1287,8 @@
     "PayVideo": {
         "alreadyPurchased": "Produkt bereits gekauft.",
         "alreayPurchasedText": "Du hast dieses Produkt bereits gekauft, aber die Zahlung ist noch nicht angekommen.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Lebensdauer kaufen.",
         "rentalPeriod": "mieten",
@@ -1291,7 +1324,8 @@
         "newLike": "Du hast ein neues Like erhalten",
         "newPublish": "Dein neues Video wurde hochgeladen",
         "newSubscriber": "Du hast einen neuen Abonnenten",
-        "newTip": "Du hast erhalten"
+        "newTip": "Du hast erhalten",
+        "errorProcessing": "Prozess error:"
     },
     "DateSince":{
         "years": "Jahren",

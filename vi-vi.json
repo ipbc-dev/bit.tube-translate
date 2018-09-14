@@ -81,7 +81,7 @@
             "editProfileTitle": "Sửa lại tiểu sử",
             "editProfileSubTitle": "Hoàn thành tiểu sử của bạn",
             "editProfileUsername": "Tên đăng nhập",
-            "editProfileUsernameMinimunCharacter": "Tên đăng nhập phải chưa tối thiểu 4 kí tự",
+            "editProfileUsernameMinimunCharacter": "Tên đăng nhập phải chưa tối thiểu 3 kí tự",
             "editProfileUsernamePattern": " Tên đăng nhập có thể chứa A-Z, a-z, 0-9 và chỉ có _ ",
             "editProfilePhone": "Số điện thoại",
             "editProfilePhoneInvalid": "Số điện thoại không tồn tại",
@@ -138,7 +138,8 @@
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -241,7 +242,9 @@
             "activateAuthenticationConfirmButton": "Đồng ý",
             "activateAuthenticationDeleteButton": "Thoát",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         }
     },
     "Dashboard": {
@@ -252,7 +255,11 @@
         "addPlaylistButton": "Thêm",
         "addPLaylistTitle":"Thêm vào...",
         "live":"Trực tiếp",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "Lượt xem",
@@ -303,7 +310,10 @@
         "videoRemovedConfirmText": "Nó sẽ không được công bố",
         "videoRemovedConfirmButton": "Vâng, không công bố nó!",
         "videoRemovedConfirmCancel": "Thoát",
-        "videoPlaceholderEditor": "Nhập mô tả tại đây..."
+        "videoPlaceholderEditor": "Nhập mô tả tại đây...",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -451,6 +461,7 @@
         "encryptedError": "This content is premium, please purchase",
         "offlineStream": "Your desired stream appears be offline",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error",
         "copyrightReport": "Report Copyright Violation",
@@ -465,7 +476,8 @@
         "writeReply": "Write a reply",
         "reportThisVideo": "Report this video",
         "ok": "ok",
-        "errorHash": "Can not find the selected video"
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "Xem qua",
@@ -526,7 +538,9 @@
         "walletMaintenaceTitle": "Online wallet under maintenance",
         "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
         "walletDowload": "Download offline wallet",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Mở Coinmarketcap",
@@ -560,7 +574,7 @@
     "Upload": {
         "titleUpload": "Cập nhật tệp media ",
         "p1Upload": "Bạn có thể tải lên các tập tin media của bạn. Các tệp video kết quả sẽ có sẵn ở nhiều định dạng chất lượng",
-        "p2Upload": "Ghi chú: Chất lượng tối thiểu 360P",
+        "p2Upload": "Ghi chú: Chất lượng tối thiểu 360P, duration less than 3 hours, size less than 5 GB",
         "uploadNowButton": "Cập nhật ngay",
         "titleUploadYoutube": "Kết nối với youtube",
         "p1UploadYoutube": "Ở đây bạn có thể kết nối trực tiếp với tài khoản Youtube của bạn và di chuyển chỉ với một cú nhấp chuột vào kênh Youtube của bạn đến Bit.Tube",
@@ -594,7 +608,7 @@
         "loginProfileCancelButton": "Thoát",
         "videoAlreadyPublishedTitle": "Video đã được tạo!",
         "videoAlreadyPublishedText": " Bạn có thể chỉnh sửa thông tin video này trong các ấn phẩm trong hồ sơ của bạn",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
         "authorizationYoutube": " Trong trường hợp không được phép, vui lòng nhấp vào AUTHORIZE và làm theo các bước để cấp quyền kiểm tra nội dung youtube của bạn ",
         "authorizeButton": "Được phép",
         "UnauthorizeButton": "Trái phép",
@@ -678,7 +692,10 @@
             "location": "Địa chỉ",
             "readMore": "Đọc tiếp",
             "readLess": "Thu gọn",
-            "social": "Social"
+            "social": "Social",
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
             "publication": "Chế độ công khai",
@@ -990,7 +1007,20 @@
         "copyrightPolicy": "Copyright Policy",
         "miningSection": "Start Mining",
         "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "Điều khoản và Điều kiện",
@@ -1124,11 +1154,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1249,6 +1279,8 @@
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
         "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Purchase lifetime.",
         "rentalPeriod": "Rental",
@@ -1284,7 +1316,8 @@
         "newLike": "You have received a new like",
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newTip": "You have received",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "years ago",

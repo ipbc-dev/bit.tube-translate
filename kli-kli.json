@@ -81,7 +81,7 @@
             "editProfileTitle": "qoghDu'DajDaq edit",
             "editProfileSubTitle": "qoghDu'DajDaq naQ",
             "editProfileUsername": "qoghDu'DajDaq pong",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
             "editProfileUsernamePattern": "a-z,-z, 0-9 'ej _ neH laH Sev qoghDu'DajDaq pong",
             "editProfilePhone": "mobile phone",
             "editProfilePhoneInvalid": "qab phone mI'",
@@ -138,7 +138,8 @@
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -241,7 +242,9 @@
             "activateAuthenticationConfirmButton": "luq",
             "activateAuthenticationDeleteButton": "qIl",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         } 
     },
     "Dashboard": {
@@ -252,7 +255,11 @@
         "addPlaylistButton": "boq",
         "addPLaylistTitle":"chel",
         "live":"yIn",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "jIH",
@@ -303,7 +310,10 @@
         "videoRemovedConfirmText": "unpublish",
         "videoRemovedConfirmButton": "HIja', 'oH unpublish",
         "videoRemovedConfirmCancel": "qIl",
-        "videoPlaceholderEditor": "description naDev 'el"
+        "videoPlaceholderEditor": "description naDev 'el",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -451,6 +461,7 @@
         "encryptedError": "This content is premium, please purchase",
         "offlineStream": "Your desired stream appears be offline",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error",
         "copyrightReport": "Report Copyright Violation",
@@ -465,7 +476,8 @@
         "writeReply": "Write a reply",
         "reportThisVideo": "Report this video",
         "ok": "ok",
-        "errorHash": "Can not find the selected video"
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "overview",
@@ -526,7 +538,9 @@
         "walletMaintenaceTitle": "Online wallet under maintenance",
         "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
         "walletDowload": "Download offline wallet",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "mInDu'lIj coinmarketcap",
@@ -560,7 +574,7 @@
     "Upload": {
         "titleUpload": "media teywI' upload",
         "p1Upload": "teywI' media laH upload SoH ghot'e' video teywI' ghaH lupoQ neH formats laHlIj multiple",
-        "p2Upload": "Minimum laHlIj 360 p note",
+        "p2Upload": "Minimum laHlIj 360 p note, duration less than 3 hours, size less than 5 GB",
         "uploadNowButton": "DaH upload",
         "titleUploadYoutube": "rar youtube",
         "p1UploadYoutube": "naDev laH rar SoH Hoch wo' youtube qoghDu'DajDaq 'ej migrate je neH click youtube Channel bittube",
@@ -594,7 +608,7 @@
         "loginProfileCancelButton": "qIl",
         "videoAlreadyPublishedTitle": "video chonayta' published",
         "videoAlreadyPublishedText": "video De' bopummeH publications chaq edit tlhIH neH qoghDu'DajDaq",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
         "authorizationYoutube": "in case of wej authorization ghaj DubelmoHchugh click authorize 'ej authorization youtube 'a ghIH 'ol wInobqang mIw pab",
         "authorizeButton": "authorize",
         "UnauthorizeButton": "unauthorize",
@@ -678,7 +692,10 @@
             "location": "location",
             "readMore": "latlh laD",
             "readLess": "qup laD",
-            "social": "social" 
+            "social": "social",
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
             "publication": "publication",
@@ -990,7 +1007,20 @@
         "copyrightPolicy": "Copyright Policy",
         "miningSection": "Start Mining",
         "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "wabmey je 'ej",
@@ -1124,11 +1154,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1197,6 +1227,8 @@
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
         "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Purchase lifetime.",
         "rentalPeriod": "Rental",
@@ -1232,7 +1264,8 @@
         "newLike": "You have received a new like",
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newTip": "You have received",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "years ago",
