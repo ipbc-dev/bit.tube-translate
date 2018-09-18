@@ -134,10 +134,12 @@
             "textEditorPlaceholder" : "Entrer un texte...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "Mes achats",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Achat",
             "noPurchase": "Il n'y a pas d'achats",
             "subscribers": "Abonnés",
-            "imageTooSmall":"L'image sélectionnée est trop petite pour être redimensionnée"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -151,13 +153,13 @@
            "channelStaySwalText2": "L'achat de Channel Stay coûte 5 TUBES",
             "channelStaySwalConfirmButton": "Oui, je veux Channel Stay",
            "channelStaySwalCancelButton": "Non, merci",
-            "perMonth": "Par mois",
-            "perUse": "Par utilisation",
-            "monthly": "mensuellement",
-            "monthlyCost": "Frais mensuels 1000 Tube",
-            "purchaseBuy": "Acheter",
-            "purchaseCancel": "Annuler",
-            "Uses": "utilisations"
+           "perMonth": "Par mois",
+           "perUse": "Par utilisation",
+           "monthly": "mensuellement",
+           "monthlyCost": "Frais mensuels 1000 Tube",
+           "purchaseBuy": "Acheter",
+           "purchaseCancel": "Annuler",
+           "Uses": "utilisations"
         },
         "MyPlaylists":{
             "title": "Ma Bibliothèque",
@@ -190,6 +192,7 @@
             "noPlaylists": "Il n'y a pas de bibliothèque"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Mes téléchargements",
             "views": "Vus",
             "edit": "Modifier",
@@ -212,12 +215,14 @@
             "noLiveStreams": "Il n'y a pas de live streams"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "Abonnements",
             "subscriptionsButton": "S'abonner",
             "unSubscriptionsButton": "Se désabonner",
             "noSubscriptions": "Il n'y a pas d'abonnements"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": " Abonnés",
            "subscriptionsButton": "Souscrire",
            "unSubscriptionsButton": "Se désabonner",
@@ -237,7 +242,9 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Fermer",
             "nsfw": "\"Not safe for work (NSFW)\" fait référence au contenu sensible ou considéré comme offensant",
-            "enableNsfw": "Êtes-vous sûr de vouloir activer le contenu NSFW (Not Safe For Work) ?"
+            "enableNsfw": "Êtes-vous sûr de vouloir activer le contenu NSFW (Not Safe For Work) ?",
+            "settings": "Settings",
+            "membership": "Membership"
         }
     },
     "Dashboard": {
@@ -248,7 +255,11 @@
         "addPlaylistButton": "Ajouter",
         "addPLaylistTitle":"Ajouter à...",
         "live":"Go",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "Vus",
@@ -299,7 +310,10 @@
         "videoRemovedConfirmText": "Cela annulera la publication",
         "videoRemovedConfirmButton": "Oui, annuler la publication!",
         "videoRemovedConfirmCancel": "Annuler",
-        "videoPlaceholderEditor": "Entrer la description ici..."
+        "videoPlaceholderEditor": "Entrer la description ici...",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -357,12 +371,11 @@
             "dowloadButton": "Télécharger"
         },
         "CreateKey":{
-                "noWallet": "Vous n'avez pas de portefeuille",
-                "noWalletText": "De cette façon, vous ne recevrez aucun revenu pour cette diffusion.",
-                "cancelWalletButton" : "Annuler",
-                "createWalletButton": "Créer un portefeuille"
+            "noWallet": "Vous n'avez pas de portefeuille",
+            "noWalletText": "De cette façon, vous ne recevrez aucun revenu pour cette diffusion.",
+            "cancelWalletButton" : "Annuler",
+            "createWalletButton": "Créer un portefeuille"
         }
-	    
     },
     "Play": {
         "addPlaylists": "Ajouter à la Bibliothèque",
@@ -385,6 +398,7 @@
         "showLess": "Montrer moins",
         "commentButton": "Commentaire",
         "cancel": "Annuler",
+        "singularComments": "comment",
         "comments": "Commentaires",
         "madePost": "a répondu.",
         "justNow": "Juste maintenant",
@@ -447,6 +461,7 @@
         "encryptedError": "Ce contenu est premium, Veuillez l'acheter",
         "offlineStream": "La diffusion de votre choix semble être hors ligne",
         "popOutVideo": "Ouvrir dans une nouvelle fenetre",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Vidéo principale enregistrée",
         "errorSavePrimaryVideo": "Erreur",
         "copyrightReport": "Signaler une violation des droits d'auteur",
@@ -458,7 +473,11 @@
         "liveUnpublishedError": "Erreur dans l'annulation de la publication de la diffusion en direct",
         "reply": "Répondre",
         "delete": "Effacer",
-        "writeReply": "Écrire une réponse"
+        "writeReply": "Écrire une réponse",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "Aperçu",
@@ -488,9 +507,9 @@
         "send": "Envoyer",
         "cancel": "Annuler",
         "walletKeys": "Clés du portefeuille",
-        "spendKey": "\"Spend Key\" ou Clé de dépense",
-        "viewKey": "\"View Key\" ou Clé de visionnage",
-        "privatekey" : "\"Private key\" ou Clé de visionnage",
+        "spendKey": "Spend Key",
+        "viewKey": "View Key",
+        "privatekey" : "Private key",
         "errorRemoveContact": "Veuillez sélectionner un contact à supprimer!",
         "removeContact": "Contact supprimé...",
         "failedRemoveContact": "Échec de la suppression du contact...",
@@ -519,8 +538,9 @@
         "walletMaintenaceTitle": "Portefeuille en ligne est en maintenance",
         "walletMaintenaceText": "Le portefeuille en ligne est en cours de maintenance, veuillez réessayer plus tard",
         "walletDowload": "Télécharger le portefeuille hors ligne",
-        "walletCancel": "Ok"
-	    
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Ouvrir Coinmarketcap",
@@ -554,7 +574,7 @@
     "Upload": {
         "titleUpload": "Télécharger des fichiers multimédia",
         "p1Upload": "Vous pouvez télécharger vos fichiers multimédia. Les fichiers vidéo résultants seront disponibles dans plusieurs formats de qualité.",
-        "p2Upload": "Remarque: qualité minimale 360P",
+        "p2Upload": "Remarque: qualité minimale 360P, maximum 3 heures, maximum 5 Go",
         "uploadNowButton": "Télécharger maintenant",
         "titleUploadYoutube": "Connectez-vous à YouTube",
         "p1UploadYoutube": "Ici vous pouvez vous connecter directement à votre compte YouTube et migrer votre chaîne YouTube vers Bit.Tube en un clic.",
@@ -672,7 +692,10 @@
             "location": "Localisation",
             "readMore": "Lire plus",
             "readLess": "Lire moins",
-            "social": "Communauté" 
+            "social": "Communauté" ,
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
             "publication": "Publication",
@@ -704,6 +727,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Abonnements",
+            "subscription": "Abonnement",
             "nosubscriptions": "Il n'y a pas d'abonnements",
             "subscribe": "Souscrire",
             "unSubscribe": "Se désabonner"
@@ -735,7 +759,6 @@
         "loginProfileText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Annuler"
-	    
     },
     "Playlist": {
         "loginProfileTitle": "Connexion requise !",
@@ -879,12 +902,12 @@
             {"value": "9", "viewValue":  "Nouvelles"},
             {"value": "29", "viewValue": "Autres"},
             {"value": "44", "viewValue": "Performing Arts"},
+            {"value": "13", "viewValue": "Politics"},
             {"value": "39", "viewValue": "Porn"},
             {"value": "40", "viewValue": "Animaux"},
             {"value": "28", "viewValue": "Religion"},
             {"value": "14", "viewValue": "Science"},
             {"value": "31", "viewValue": "Series"},
-            {"value": "13", "viewValue": "Politics"},
             {"value": "11", "viewValue": "Société"},
             {"value": "6", "viewValue":  "Sports"},
             {"value": "38", "viewValue": "Technique"},
@@ -984,7 +1007,20 @@
         "copyrightPolicy": "Politique des droits d'auteur",
         "miningSection": "Commencez à miner",
         "subscriptions": "Abonnements",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "Les conditions générales d'utilisation",
@@ -1117,11 +1153,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1195,8 +1231,7 @@
     },
     "Mining":{
         "download": "Télécharger",
-        "downloadPlugin": "Télécharger TUBE-miner
-",
+        "downloadPlugin": "Télécharger TUBE-miner",
         "mining": "Mining",
         "startMining": "Commencez à miner",
         "stopMining": "Arrêter de miner",
@@ -1243,6 +1278,8 @@
     "PayVideo": {
         "alreadyPurchased": "Produit déjà acheté.",
         "alreayPurchasedText": "Vous avez déjà acheté ce produit mais le paiement n'est pas encore arrivé.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "durée de vie de l'achat.",
        "rentalPeriod": "Location",
@@ -1278,7 +1315,8 @@
         "newLike": "Vous avez reçu un nouveau J'aime",
         "newPublish": "Votre nouvelle vidéo a été téléchargée",
         "newSubscriber": "Vous avez un nouvel abonné",
-        "newTip": "Vous avez reçu"
+        "newTip": "Vous avez reçu",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "ans",

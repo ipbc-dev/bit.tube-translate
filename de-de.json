@@ -81,8 +81,8 @@
             "editProfileTitle": "Profil ändern",
             "editProfileSubTitle": "Profil vervollständigen",
             "editProfileUsername": "Benutzername",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
-            "editProfileUsernamePattern": " erlaubte Zeichen für Benutzername A-Z, a-z, 0-9 and _ ",
+            "editProfileUsernameMinimunCharacter": "Der Benutzername muss mindestens 3 Zeichen enthalten, ohne Leerzeichen oder Sonderzeichen",
+            "editProfileUsernamePattern": " erlaubte Zeichen für Benutzername A-Z, a-z, 0-9 und _ ",
             "editProfilePhone": "Mobil Nummer",
             "editProfilePhoneInvalid": "ungültige Telefonnummer",
             "editProfileEmail": "Email",
@@ -134,14 +134,16 @@
             "textEditorPlaceholder" : "gib einen Text ein...",
             "editProfilePasswordNotifySave": "Passwort erfolgreich gespeichert",
             "purchases": "Meine Einkäufe",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Einkäufe",
             "noPurchase": "keine Einkäufe vorhanden",
             "subscribers": "Abonnenten",
-            "imageTooSmall":"Das ausgewählte Bild ist zu klein, um die Größe zu ändern"
+            "imageTooSmall":"Das ausgewählte Bild ist zu klein und könnte zu unerwünschten Ergebnissen führen. Für ein optimales Ergebnis wird empfohlen, ein größeres Bild auszuwählen.Wenn du das ausgewählte Bild beibehalten möchtest, klicken auf (+), um die Größe zu ändern.",
+            "requiredFields": "Pflichtfelder"
         },
         "MyPurchases": {
             "channelStay": "auf Kanal bleiben",
-            "channelStayText1": "Ist der einfachste Weg, um deinen Content zu bewerben, indem du deine Besucher in deinem Kanal lässt.",
+            "channelStayText1": "Ist der einfachste Weg, um deinen Inhalt zu bewerben, indem du deine Besucher in deinem Kanal lässt.",
             "channelStayText2": "Wenn Sie erwerben",
             "channelStayText3": "Alle zugehörigen Inhalte, die dem Besucher angezeigt werden, werden von Ihrem eigenen Kanal ausgewählt.",
             "channelStayText4": "ist ein monatlicher Service für deinen gesamten Kanal und kostet 5 TUBES pro Monat.",
@@ -160,7 +162,7 @@
             "Uses": "nutzungen"
         },
         "MyPlaylists":{
-            "title": "Meine Playlist",
+            "title": "Meine Playlists",
             "editPlaylistTitle": "Titel",
             "editPlaylistDescription": "Beschreibung",
             "editPlaylistSaveButton": "Speichern",
@@ -190,6 +192,7 @@
             "noPlaylists": "keine Playlist verfügbar"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "angesehen",
             "edit": "ändern",
@@ -212,12 +215,14 @@
             "noLiveStreams": "keine Livestreams verfügbar"
         },
         "Subscriptions": {
+            "singularTitle": "Abonnement",
             "title": "Abonnements",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "Abonnement abmelden",
             "noSubscriptions": "keine Abonnements verfügbar"
         },
         "Subscribers": {
+            "singularTitle": "Abonnent",
             "title": "Abonnementen",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "abmelden",
@@ -230,14 +235,16 @@
             "code": "Code",
             "twoFactorEnabled": "eingeschaltet",
             "twoFactorDisabled": "abgeschaltet",
-            "nsfwEnabled": "NSFW enabled",
-            "nsfwDisabled" : "NSFW disabled",
+            "nsfwEnabled": "NSFW aktiviert",
+            "nsfwDisabled" : "NSFW deaktiv",
             "activateAuthenticationTitle": "ANMERKUNG",
             "activateAuthenticationText": "Bitte stelle sicher das du den Authentifizierungs QR Code in deiner Authentifizierungs App gescannt hast, bevor du weitermachst!",
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Abbrechen",
-            "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "nsfw": "Nicht sicher für die Arbeit (NSFW)",
+            "enableNsfw": "Bist du sicher, dass du NSFW-Inhalte (nicht sicher für die Arbeit) aktivieren möchten??",
+            "settings": "Einstellungen",
+            "membership": "Mitgliedschaft"
         }
     },
     "Dashboard": {
@@ -248,7 +255,11 @@
         "addPlaylistButton": "Hinzufügen",
         "addPLaylistTitle":"hinzufügen zu...",
         "live":"Live",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Empfohlen",
+        "newest": "Neusten",
+        "trending": "Trendig",
+        "viewAll": "alle sehen"
     },
     "Trending": {
         "views": "Aufrufe",
@@ -299,7 +310,10 @@
         "videoRemovedConfirmText": "Möchtest du entfernen?",
         "videoRemovedConfirmButton": "Ja, entfernen!",
         "videoRemovedConfirmCancel": "Abbrechen",
-        "videoPlaceholderEditor": " Beschreibung hier einfügen..."
+        "videoPlaceholderEditor": " Beschreibung hier einfügen...",
+        "uploadingImage": "Foto hochladen",
+        "imageUploaded": "Foto hochgeladen",
+        "protectedContent": "Geschützter Inhalt"
     },
     "Broadcast": {
         "Setings": {
@@ -354,13 +368,13 @@
             "8pTutorialStream": "Die einfachste Art, mit dem Streaming oder der Aufzeichnung von PC- oder Konsolenspielen zu beginnen. Nutze XSplit Gamecaster, um dein Gameplay zu teilen. Klicke einfach darauf, um deine speziellen Gaming-Momente zu streamen und aufzuzeichnen.Wähle auch XSplit Broadcaster als Alternative für das Streaming.",
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Weit verbreitet ist vMix das ideale Werkzeug für die Übertragung, insbesondere für Vlogger.vMix ist eine komplette Live-Videoproduktions-Softwarelösung mit Funktionen wie LIVE-Mischen, Umschalten, Aufnehmen und LIVE-Streaming von SD-, Full HD- und 4K-Videoquellen wie Kameras, Videodateien, DVDs, Bildern, Powerpoint und vielem mehr.",
-            "dowloadButton": "Dowload"
+            "dowloadButton": "herunterladen"
         },
         "CreateKey":{
-                "noWallet": "You don't have a wallet",
-                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
-                "cancelWalletButton" : "Cancel",
-                "createWalletButton": "Create Wallet"
+            "noWallet": "Du hast keine Wallet",
+            "noWalletText": "Auf diese Weise erhälst du keine Einnahmen für deinen Broadcast",
+            "cancelWalletButton" : "Abbrechen",
+            "createWalletButton": "Wallet kreieren"
         }
     },
     "Play": {
@@ -384,6 +398,7 @@
         "showLess": "weniger zeigen",
         "commentButton": "Kommentar",
         "cancel": "Abbrechen",
+        "singularComments": "Kommentar",
         "comments": "Kommentare",
         "madePost": "Beitrag schreiben.",
         "justNow": "Jetzt",
@@ -397,10 +412,10 @@
         "live": "Live",
         "playlist": "Playlist",
         "loadMore": "mehr laden",
-        "seeAnswer": "See reply",
-        "seeAnswers": "See replies",
-        "hideAnswer": "Hide reply",
-        "hideAnswers": "Hide replies",
+        "seeAnswer": "Antwort sehen",
+        "seeAnswers": "Antworten sehen",
+        "hideAnswer": "Antwort verbergen",
+        "hideAnswers": "Antworten verbergen",
         "copyClipboardIframe": "Iframe zu Clipboard kopiert",
         "copyClipboard": "zu Clipboard kopieren",
         "embedVideoTitle": "einbettetes Video",
@@ -446,6 +461,7 @@
         "encryptedError": "Dieser Inhalt ist als Premium eingetragen, bitte kaufen um anzusehen",
         "offlineStream": "Ihr gewünschter Stream wird offline angezeigt",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Kinomodus",
         "setPrimaryVideo": "erstes Video gespeichert",
         "errorSavePrimaryVideo": "Fehler",
         "copyrightReport": "Urheberrechtsverletzung melden",
@@ -455,9 +471,13 @@
         "iAmRepresentCopyright":"Ja, ich bin der Urheberrechtsinhaber",
         "liveUnpublished": "Livestream nicht veröffentlichen",
         "liveUnpublishedError": "Fehler beim Aufheben der Livestream-Veröffentlichung",
-        "reply": "Reply",
-        "delete": "Delete",
-        "writeReply": "Write a reply"
+        "reply": "Antworten",
+        "delete": "löschen",
+        "writeReply": "Antwort schreiben",
+        "reportThisVideo": "Video melden",
+        "ok": "ok",
+        "errorHash": "Das ausgewählte Video kann nicht gefunden werden",
+        "totalAirtimeText": "PoV:"
 
     },
     "Wallet": {
@@ -481,8 +501,8 @@
         "addContact": "Kontakt hinzufügen",
         "sendtoAddress" : "senden an Adresse",
         "receiverAddress" : "Empfängeradresse",
-        "ipbcAmount" : "IPBC Betrag",
-        "feeIPBC" : "Gebühr (IPBC)",
+        "ipbcAmount" : "Tube Betrag",
+        "feeIPBC" : "Gebühr (Tube)",
         "anonymityLevel" : "Anonymitätsstufe",
         "2FACode": "2FA Code",
         "send": "senden",
@@ -519,7 +539,10 @@
         "walletMaintenaceTitle": "Online-Wallet unter Wartung",
         "walletMaintenaceText": "Die Online-Wallet wird gewartet. Bitte versuchen Sie es später erneut",
         "walletDowload": "Offline Wallet herunterladen",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "spend key zu clipboard kopieren",
+        "copyViewKey": "view key zu clipboard kopieren"
+
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Öffne Coinmarketcap",
@@ -553,7 +576,7 @@
     "Upload": {
         "titleUpload": "Hochladen",
         "p1Upload": " Hier kannst du deine Datei hochladen. Das Video steht dann in verschiedenen Qualitätsstufen zur Verfügung.",
-        "p2Upload": "Anmerkung: Mindestqualität 360P",
+        "p2Upload": "Anmerkung: Mindestqualität 360P, maximal 3 Stunden, maximal 5 GB",
         "uploadNowButton": "Jetzt hochladen",
         "titleUploadYoutube": "Verbinden zu Youtube",
         "p1UploadYoutube": "Hier kannst du dich direkt mit deinem Youtube Account verbinden und deinen Youtube Kanal mit nur einem Klick zu Bit.Tube portieren",
@@ -587,7 +610,7 @@
         "loginProfileCancelButton": "Abbrechen",
         "videoAlreadyPublishedTitle": "Video bereits hochgeladen!",
         "videoAlreadyPublishedText": "Videoinformationen kannst du in deinem Profil unter Veröffenlichungen editieren",
-        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Du erhältst eine E-Mail, sobald dein Video veröffentlicht wurde.",
+        "videoSuccessfuly": "Dein Video wurde erfolgreich hochgeladen. Du erhältst eine Notifikation, sobald dein Video veröffentlicht wurde.",
         "authorizationYoutube": "Bei noch nicht erlaubten Zugriff bitte auf Authoriesieren klicken und den Schritten folgen um Zugriff auf Prüfung deines Youtube Inhaltes zu erhalten",
         "authorizeButton": "Authorisieren",
         "UnauthorizeButton": "Authorisierung aufheben",
@@ -671,7 +694,10 @@
             "location": "Ort",
             "readMore": "mehr lesen",
             "readLess": "weniger lesen",
-            "social": "Soziale Netzwerke"
+            "social": "Soziale Netzwerke",
+            "newest": "neusten",
+            "popular": "populär",
+            "oldest": "älteste"
         },
         "Publications": {
            "publication": "Veröffentlichen",
@@ -703,6 +729,7 @@
         },
         "Subscriptions": {
             "subscriptions": "Abonnements",
+            "subscription": "Abonnement",
             "nosubscriptions": "keine Abonnements vorhanden",
             "subscribe": "Abonnieren",
             "unSubscribe": "Abmelden"
@@ -975,12 +1002,12 @@
         "liveSection": "Live",
         "uploadSection": "Datei hochladen",
         "broadcastSection": "Broadcast",
-        "walletSection": "Meine Wallet (Beta)",
+        "walletSection": "Meine Wallet",
         "profitSection": "Profit Kalkulator",
         "peers": "Peers:",
         "login": "Login",
         "logout": "Logout",
-        "register": "Registreiren",
+        "register": "Registrieren",
         "search": "Suchen",
         "terms": "Bedingungen",
         "contact": "Kontakte",
@@ -988,7 +1015,20 @@
         "copyrightPolicy": "Urheberrechtspolitik",
         "miningSection": "Minen starten",
         "subscriptions": "Abonnements",
-        "categories": "Kategorien"
+        "categories": "Kategorien",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Verzeichnet",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Bestätigt",
+        "airtimeRejected": "Abgelehnt",
+        "airtimePendingEvents": "Ausstehende Ereignisse",
+        "airtimeUnsubmitted": "noch nicht verarbeitet",
+        "airtimeLastPayment": "letzte Zahlung",
+        "airtimePaidBalance": "Bezahltes Guthaben",
+        "airtimeUnpaidBalance": "Ausstehende Zahlung",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "Allgemeine Geschäftsbedingungen",
@@ -1081,7 +1121,7 @@
         "liveSection": "Live",
         "uploadSection": "Datei hochladen",
         "broadcastSection": "Broadcast",
-        "walletSection": "Meine Wallet (Beta)",
+        "walletSection": "Meine Wallet",
         "profitSection": "Profit Kalkulator",
         "userProfile": "Benutzerprofil",
         "searchResult": "Suchergebnisse",
@@ -1237,7 +1277,7 @@
         "swalTitle": "Miner offline",
         "swalText":"Wir haben festgestellt, dass die Miner-Software nicht läuft. Bitte starte den Miner..",
         "instructions": "Anleitung",
-        "instructions1": "Wenn dies das erste Mal ist, klicken auf den Download-Button",
+        "instructions1": "Wenn dies das erste Mal ist, klicke auf den Download-Button",
         "Instructions2": "Entpacke und starte bittube-miner.exe",
         "Instructions3": "Wählen \"Experte = Nein\", um mit der Mining-Funktion für deine Meine Wallet-Adresse zu beginnen",
         "Instructions4": "Wenn du ein Experte bist, besuche ",
@@ -1247,6 +1287,8 @@
     "PayVideo": {
         "alreadyPurchased": "Produkt bereits gekauft.",
         "alreayPurchasedText": "Du hast dieses Produkt bereits gekauft, aber die Zahlung ist noch nicht angekommen.",
+        "walletNotAvailable": "Wallet nicht verfügbar",
+        "walletNotAvailableText1": "Wallet ist nicht verfügbar, bitte versuche es später nochmal.",
         "ok": "OK",
         "lifetimePeriod": "Lebensdauer kaufen.",
         "rentalPeriod": "mieten",
@@ -1282,7 +1324,8 @@
         "newLike": "Du hast ein neues Like erhalten",
         "newPublish": "Dein neues Video wurde hochgeladen",
         "newSubscriber": "Du hast einen neuen Abonnenten",
-        "newTip": "Du hast erhalten"
+        "newTip": "Du hast erhalten",
+        "errorProcessing": "Prozess error:"
     },
     "DateSince":{
         "years": "Jahren",

@@ -81,7 +81,7 @@
             "editProfileTitle": "ערוך פרופיל",
             "editProfileSubTitle": "תשלים את הפרופיל שלך",
             "editProfileUsername": "שם משתמש",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
             "editProfileUsernamePattern": " שם המשתמש יכול להכיל A-Z, a-z, 0-9 ו- _ בלבד",
             "editProfilePhone": "טלפון נייד",
             "editProfilePhoneInvalid": "מספר טלפון לא תקין",
@@ -134,10 +134,12 @@
             "textEditorPlaceholder" : "הזן טקסט ..  ",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -160,7 +162,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "רשימת ההשמעה שלי",
+            "title": "My playlists",
             "editPlaylistTitle": "כותרת",
             "editPlaylistDescription": "תיאור",
             "editPlaylistSaveButton": "לשמור",
@@ -190,6 +192,7 @@
             "noPlaylists": "העלאות שלי"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "לערוך",
             "edit": "למחוק",
@@ -212,12 +215,14 @@
             "noLiveStreams": "אין שיתוף חי    "
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "מנויים",
             "subscriptionsButton": "הירשם",
             "unSubscriptionsButton": "בטל רישום",
             "noSubscriptions": "אין מנוי    "
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -237,7 +242,9 @@
             "activateAuthenticationConfirmButton": "אשר",
             "activateAuthenticationDeleteButton": "לבטל   ",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         }
     },
     "Dashboard": {
@@ -248,7 +255,11 @@
         "addPlaylistButton": "הוסיף",
         "addPLaylistTitle":"תוסיף ל..",
         "live":"חי",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "צפיות",
@@ -299,7 +310,10 @@
         "videoRemovedConfirmText": "פעולה זו לא תפורסם",
         "videoRemovedConfirmButton": "כן, לבטל את הפרסום!",
         "videoRemovedConfirmCancel": "לבטל",
-        "videoPlaceholderEditor": "הזן תיאור כאן .."
+        "videoPlaceholderEditor": "הזן תיאור כאן ..",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -384,6 +398,7 @@
         "showLess": "הראה פחות",
         "commentButton": "תגובה",
         "cancel": "לבטל",
+        "singularComments": "comment",
         "comments": "הערות",
         "madePost": "כתב פוסט.",
         "justNow": "זֶה עתה",
@@ -446,6 +461,7 @@
         "encryptedError": "This content is premium, please purchase",
         "offlineStream": "Your desired stream appears be offline",
         "popOutVideo": "Popout video",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "Error",
         "copyrightReport": "Report Copyright Violation",
@@ -457,7 +473,11 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "ארנק",
@@ -480,8 +500,8 @@
         "addContact": "הוסף איש קשר",
         "sendtoAddress" : "שלח לכתובת",
         "receiverAddress" : "כתובת המקלט",
-        "ipbcAmount" : "סכום IPBC",
-        "feeIPBC" : "עמלה (IPBC)",
+        "ipbcAmount" : "סכום Tube",
+        "feeIPBC" : "עמלה (Tube)",
         "anonymityLevel" : "רמת אנונימיות",
         "2FACode": "2 קוד קוד",
         "send": "לשלוח",
@@ -518,7 +538,9 @@
         "walletMaintenaceTitle": "Online wallet under maintenance",
         "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
         "walletDowload": "Download offline wallet",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "Coinmarketcap פתח את",
@@ -552,7 +574,7 @@
     "Upload": {
         "titleUpload": "טען קובצי מדיה",
         "p1Upload": "תוכל לטעון את קובצי המדיה שלך. קבצי הווידאו שהתקבלו יהיו זמינים בפורמטים איכותיים מרובים",
-        "p2Upload": "הערה: איכות מינימלית 360 פיקסלים",
+        "p2Upload": "הערה: איכות מינימלית 360 פיקסלים, duration less than 3 hours, size less than 5 GB",
         "uploadNowButton": "העלה עכשיו",
         "titleUploadYoutube": "התחבר ל- יוטיוב",
         "p1UploadYoutube": "כאן תוכל להתחבר ישירות לחשבון יוטיוב שלך ​​ולהעביר אותו בלחיצה אחת על ערוץ יוטיוב שלך ​​ל- ביט טיוב",
@@ -586,7 +608,7 @@
         "loginProfileCancelButton": "הסרטון כבר פורסם!",
         "videoAlreadyPublishedTitle": "תוכל לערוך את פרטי הווידאו האלה תחת פרסומים בפרופיל שלך",
         "videoAlreadyPublishedText": "הסרטון שלך הועלה בהצלחה, יכול להימשך זמן מה עד שיבדוק אותו ויפורסם",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
         "authorizationYoutube": "לאשר",
         "authorizeButton": "מורשה",
         "UnauthorizeButton": "לא מורשה",
@@ -670,7 +692,10 @@
             "location": "מקום",
             "readMore": "קרא עוד",
             "readLess": "תקרא פחות",
-            "social": "חברתי"  
+            "social": "חברתי",
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest"
         },
         "Publications": {
            "publication": "פרסום",
@@ -702,6 +727,7 @@
         },
         "Subscriptions": {
             "subscriptions": "מנויים",
+            "subscription": "subscription",
             "nosubscriptions": "אין הרשמות",
             "subscribe": "הירשם",
             "unSubscribe": "בטל רישום"
@@ -981,7 +1007,20 @@
         "copyrightPolicy": "Copyright Policy",
         "miningSection": "Start Mining",
         "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "תנאים",
@@ -1074,7 +1113,7 @@
         "liveSection": "Live",
         "uploadSection": "Upload Media",
         "broadcastSection": "Broadcast",
-        "walletSection": "My Wallet (Beta)",
+        "walletSection": "My Wallet",
         "profitSection": "Profit Calculator",
         "userProfile": "User Profile",
         "searchResult": "Search results",
@@ -1115,11 +1154,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1240,6 +1279,8 @@
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
         "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Purchase lifetime.",
         "rentalPeriod": "Rental",
@@ -1275,7 +1316,8 @@
         "newLike": "You have received a new like",
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newTip": "You have received",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "years ago",

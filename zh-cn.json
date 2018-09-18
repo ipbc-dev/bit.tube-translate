@@ -81,7 +81,7 @@
             "editProfileTitle": "编辑档案",
             "editProfileSubTitle": "请完成您的档案",
             "editProfileUsername": "用户名",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 4 characters, without spaces or special characters",
+            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
             "editProfileUsernamePattern": " 用户名可以包含以下字符：A-Z, a-z, 0-9 和 _ ",
             "editProfilePhone": "移动电话号码",
             "editProfilePhoneInvalid": "不正确的电话号码",
@@ -134,10 +134,12 @@
             "textEditorPlaceholder" : "请输入内容...",
             "editProfilePasswordNotifySave": "Password saved successfully",
             "purchases": "My purchases",
+            "singularProfilePurchase": "Purchase",
             "profilePurchase": "Purchase",
             "noPurchase": "There are no purchases",
             "subscribers": "Subscribers",
-            "imageTooSmall":"Selected image is too small to be resized"
+            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
+            "requiredFields": "Required fields"
         },
         "MyPurchases": {
             "channelStay": "Channel Stay",
@@ -160,7 +162,7 @@
             "Uses": "uses"
         },
         "MyPlaylists":{
-            "title": "我的播放列表",
+            "title": "My playlists",
             "editPlaylistTitle": "标题",
             "editPlaylistDescription": "描述",
             "editPlaylistSaveButton": "保存",
@@ -190,6 +192,7 @@
             "noPlaylists": "没有我的播放列表"
         },
         "Publications":{
+            "singularTitle": "Upload",
             "title": "Uploads",
             "views": "预览",
             "edit": "编辑",
@@ -212,12 +215,14 @@
             "noLiveStreams": "没有您的直播"
         },
         "Subscriptions": {
+            "singularTitle": "Subscription",
             "title": "订阅",
             "subscriptionsButton": "订阅",
             "unSubscriptionsButton": "取消订阅",
             "noSubscriptions": "没有您的订阅"
         },
         "Subscribers": {
+            "singularTitle": "Subscriber",
             "title": "Subscribers",
             "subscriptionsButton": "Subscribe",
             "unSubscriptionsButton": "Unsubscribe",
@@ -237,7 +242,9 @@
             "activateAuthenticationConfirmButton": "确定",
             "activateAuthenticationDeleteButton": "取消",
             "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?"
+            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
+            "settings": "Settings",
+            "membership": "Membership"
         }
     },
     "Dashboard": {
@@ -248,7 +255,11 @@
         "addPlaylistButton": "添加",
         "addPLaylistTitle":"添加至...",
         "live":"Live",
-        "ago": "ago"
+        "ago": "ago",
+        "recomended":"Recommended",
+        "newest": "Newest",
+        "trending": "Trending",
+        "viewAll": "View all"
     },
     "Trending": {
         "views": "预览",
@@ -299,7 +310,10 @@
         "videoRemovedConfirmText": "这将会取消您的发布",
         "videoRemovedConfirmButton": "是的，取消发布!",
         "videoRemovedConfirmCancel": "取消",
-        "videoPlaceholderEditor": "请在此添加描述..."
+        "videoPlaceholderEditor": "请在此添加描述...",
+        "uploadingImage": "Uploading image",
+        "imageUploaded": "Image uploaded",
+        "protectedContent": "Protected Content"
     },
     "Broadcast": {
         "Setings": {
@@ -384,6 +398,7 @@
         "showLess": "获取稍许信息",
         "commentButton": "评论",
         "cancel": "取消",
+        "singularComments": "comment",
         "comments": "评论",
         "madePost": "发表帖子",
         "justNow": "刚刚",
@@ -446,6 +461,7 @@
         "encryptedError": "这个视频是付费的，请购买后观看",
         "offlineStream": "您的视频流好像离线了",
         "popOutVideo": "弹出视频",
+        "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
         "errorSavePrimaryVideo": "错误",
         "copyrightReport": "Report Copyright Violation",
@@ -457,7 +473,11 @@
         "liveUnpublishedError": "Livestream unpublish error",
         "reply": "Reply",
         "delete": "Delete",
-        "writeReply": "Write a reply"
+        "writeReply": "Write a reply",
+        "reportThisVideo": "Report this video",
+        "ok": "ok",
+        "errorHash": "Can not find the selected video",
+        "totalAirtimeText": "PoV:"
     },
     "Wallet": {
         "title": "概览",
@@ -480,8 +500,8 @@
         "addContact": "添加联系人",
         "sendtoAddress" : "发送到一个地址",
         "receiverAddress" : "接收者地址",
-        "ipbcAmount" : "IPBC 总额",
-        "feeIPBC" : "费用(IPBC)",
+        "ipbcAmount" : "Tube 总额",
+        "feeIPBC" : "费用(Tube)",
         "anonymityLevel" : "匿名等级",
         "2FACode": "二次验证码",
         "send": "发送",
@@ -518,7 +538,9 @@
         "walletMaintenaceTitle": "Online wallet under maintenance",
         "walletMaintenaceText": "The online wallet is undergoing maintenace, please try again later",
         "walletDowload": "Download offline wallet",
-        "walletCancel": "Ok"
+        "walletCancel": "Ok",
+        "copySpendKey": "Copy spend key to clipboard",
+        "copyViewKey": "Copy view key to clipboard"
     },
     "Profitcalc": {
         "openCoinmarketcapButton": "打开 Coinmarketcap",
@@ -552,7 +574,7 @@
     "Upload": {
         "titleUpload": "上传一个媒体文件",
         "p1Upload": "您可以上传你的媒体文件，最终的视频会有多种视频质量选择提供",
-        "p2Upload": "提示: 最低视频质量360P",
+        "p2Upload": "提示: 最低视频质量360P, duration less than 3 hours, size less than 5 GB",
         "uploadNowButton": "现在上传",
         "titleUploadYoutube": "连接到Youtube",
         "p1UploadYoutube": "这里你可以直接连接到你的Youtube账户，轻松一个点击即可将你的Youtube频道导入到Bit.Tube",
@@ -586,7 +608,7 @@
         "loginProfileCancelButton": "取消",
         "videoAlreadyPublishedTitle": "视频已经发布!",
         "videoAlreadyPublishedText": "您可以在我的档案中重新编辑该视频信息",
-        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive an e-mail once your video has been published.",
+        "videoSuccessfuly": "Your video has been successfully uploaded, you will receive a notification once your video has been published.",
         "authorizationYoutube": "为防止未授权现象，请点击授权按钮然后在接下来的步骤中给您的Youtube内容授权",
         "authorizeButton": "授权",
         "UnauthorizeButton": "未授权",
@@ -670,7 +692,10 @@
             "location": "地域",
             "readMore": "获取更多信息",
             "readLess": "获取稍许信息",
-            "social": "社交"   
+            "social": "社交",
+            "newest": "newest",
+            "popular": "popular",
+            "oldest": "oldest" 
         },
         "Publications": {
            "publication": "我的发布",
@@ -702,6 +727,7 @@
         },
         "Subscriptions": {
             "subscriptions": "订阅",
+            "subscription": "subscription",
             "nosubscriptions": "没有您的订阅",
             "subscribe": "订阅",
             "unSubscribe": "取消订阅"
@@ -968,7 +994,7 @@
         "liveSection": "直播",
         "uploadSection": "上传视频",
         "broadcastSection": "开始直播",
-        "walletSection": "我的钱包(Beta)",
+        "walletSection": "我的钱包",
         "profitSection": "收益计算器",
         "peers": "节点:",
         "login": "登录",
@@ -981,7 +1007,20 @@
         "copyrightPolicy": "版权策略",
         "miningSection": "Start Mining",
         "subscriptions": "Subscriptions",
-        "categories": "Categories"
+        "categories": "Categories",
+        "block": "Blocks - Want",
+        "airtimeID": "AirTime ID",
+        "airtimeStats": "AirTime Statistics",
+        "airtimeRecorded": "Recorded",
+        "airtimeUnprocessed": "Unprocessed",
+        "airtimeConfirmed": "Confirmed",
+        "airtimeRejected": "Rejected",
+        "airtimePendingEvents": "Pending Events",
+        "airtimeUnsubmitted": "Unsubmitted",
+        "airtimeLastPayment": "Last Payment",
+        "airtimePaidBalance": "Paid Balance",
+        "airtimeUnpaidBalance": "Unpaid Balance",
+        "sidebarVersion": "Version"
     },
     "Terms": {
         "termsTitle": "用户条款",
@@ -1074,7 +1113,7 @@
         "liveSection": "直播",
         "uploadSection": "上传视频",
         "broadcastSection": "开始直播",
-        "walletSection": "我的钱包(Beta)",
+        "walletSection": "我的钱包",
         "profitSection": "收益计算器",
         "userProfile": "用户档案",
         "searchResult": "搜索结果",
@@ -1114,11 +1153,11 @@
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
+            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Science" , "icon": "cat-science.svg"},
             { "value": "31", "viewValue": "Series" , "icon": "cat-series.svg"},
-            { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "11", "viewValue": "Society" , "icon": "cat-society.svg"},
             { "value": "6", "viewValue": "Sports" , "icon": "cat-sport.svg"},
             { "value": "38", "viewValue": "Technology" , "icon": "cat-technic.svg" },
@@ -1239,6 +1278,8 @@
     "PayVideo": {
         "alreadyPurchased": "Product already purchased.",
         "alreayPurchasedText": "You already purchased this product but the payment hasn't arrived now.",
+        "walletNotAvailable": "Wallet not available",
+        "walletNotAvailableText1": "Wallet is not available, please try it later.",
         "ok": "OK",
         "lifetimePeriod": "Purchase lifetime.",
         "rentalPeriod": "Rental",
@@ -1274,7 +1315,8 @@
         "newLike": "You have received a new like",
         "newPublish": "Your new video has been uploaded",
         "newSubscriber": "You have a new subscriber",
-        "newTip": "You have received"
+        "newTip": "You have received",
+        "errorProcessing": "Error processing:"
     },
     "DateSince":{
         "years": "years ago",
