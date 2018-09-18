@@ -376,7 +376,6 @@
             "cancelWalletButton" : "Annuler",
             "createWalletButton": "Créer un portefeuille"
         }
-	    
     },
     "Play": {
         "addPlaylists": "Ajouter à la Bibliothèque",
@@ -508,9 +507,9 @@
         "send": "Envoyer",
         "cancel": "Annuler",
         "walletKeys": "Clés du portefeuille",
-        "spendKey": "\"Spend Key\" ou Clé de dépense",
-        "viewKey": "\"View Key\" ou Clé de visionnage",
-        "privatekey" : "\"Private key\" ou Clé de visionnage",
+        "spendKey": "Spend Key",
+        "viewKey": "View Key",
+        "privatekey" : "Private key",
         "errorRemoveContact": "Veuillez sélectionner un contact à supprimer!",
         "removeContact": "Contact supprimé...",
         "failedRemoveContact": "Échec de la suppression du contact...",
@@ -760,7 +759,6 @@
         "loginProfileText": "Veuillez vous connecter pour utiliser cette fonctionnalité",
         "loginProfileConfirmButton": "Ok",
         "loginProfileCancelButton": "Annuler"
-	    
     },
     "Playlist": {
         "loginProfileTitle": "Connexion requise !",

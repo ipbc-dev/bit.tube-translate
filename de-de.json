@@ -81,8 +81,8 @@
             "editProfileTitle": "Profil ändern",
             "editProfileSubTitle": "Profil vervollständigen",
             "editProfileUsername": "Benutzername",
-            "editProfileUsernameMinimunCharacter": "The user name must contain a minimum of 3 characters, without spaces or special characters",
-            "editProfileUsernamePattern": " erlaubte Zeichen für Benutzername A-Z, a-z, 0-9 and _ ",
+            "editProfileUsernameMinimunCharacter": "Der Benutzername muss mindestens 3 Zeichen enthalten, ohne Leerzeichen oder Sonderzeichen",
+            "editProfileUsernamePattern": " erlaubte Zeichen für Benutzername A-Z, a-z, 0-9 und _ ",
             "editProfilePhone": "Mobil Nummer",
             "editProfilePhoneInvalid": "ungültige Telefonnummer",
             "editProfileEmail": "Email",
@@ -138,12 +138,12 @@
             "profilePurchase": "Einkäufe",
             "noPurchase": "keine Einkäufe vorhanden",
             "subscribers": "Abonnenten",
-            "imageTooSmall":"The selected image is too small and could produce undesired results. For optimal result it is recommended that you chose a larger image.if you want to keep the selected image, click on (+) button to resize it.",
-            "requiredFields": "Required fields"
+            "imageTooSmall":"Das ausgewählte Bild ist zu klein und könnte zu unerwünschten Ergebnissen führen. Für ein optimales Ergebnis wird empfohlen, ein größeres Bild auszuwählen.Wenn du das ausgewählte Bild beibehalten möchtest, klicken auf (+), um die Größe zu ändern.",
+            "requiredFields": "Pflichtfelder"
         },
         "MyPurchases": {
             "channelStay": "auf Kanal bleiben",
-            "channelStayText1": "Ist der einfachste Weg, um deinen Content zu bewerben, indem du deine Besucher in deinem Kanal lässt.",
+            "channelStayText1": "Ist der einfachste Weg, um deinen Inhalt zu bewerben, indem du deine Besucher in deinem Kanal lässt.",
             "channelStayText2": "Wenn Sie erwerben",
             "channelStayText3": "Alle zugehörigen Inhalte, die dem Besucher angezeigt werden, werden von Ihrem eigenen Kanal ausgewählt.",
             "channelStayText4": "ist ein monatlicher Service für deinen gesamten Kanal und kostet 5 TUBES pro Monat.",
@@ -162,7 +162,7 @@
             "Uses": "nutzungen"
         },
         "MyPlaylists":{
-            "title": "My playlists",
+            "title": "Meine Playlists",
             "editPlaylistTitle": "Titel",
             "editPlaylistDescription": "Beschreibung",
             "editPlaylistSaveButton": "Speichern",
@@ -215,14 +215,14 @@
             "noLiveStreams": "keine Livestreams verfügbar"
         },
         "Subscriptions": {
-            "singularTitle": "Subscription",
+            "singularTitle": "Abonnement",
             "title": "Abonnements",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "Abonnement abmelden",
             "noSubscriptions": "keine Abonnements verfügbar"
         },
         "Subscribers": {
-            "singularTitle": "Subscriber",
+            "singularTitle": "Abonnent",
             "title": "Abonnementen",
             "subscriptionsButton": "abonieren",
             "unSubscriptionsButton": "abmelden",
@@ -235,16 +235,16 @@
             "code": "Code",
             "twoFactorEnabled": "eingeschaltet",
             "twoFactorDisabled": "abgeschaltet",
-            "nsfwEnabled": "NSFW enabled",
-            "nsfwDisabled" : "NSFW disabled",
+            "nsfwEnabled": "NSFW aktiviert",
+            "nsfwDisabled" : "NSFW deaktiv",
             "activateAuthenticationTitle": "ANMERKUNG",
             "activateAuthenticationText": "Bitte stelle sicher das du den Authentifizierungs QR Code in deiner Authentifizierungs App gescannt hast, bevor du weitermachst!",
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Abbrechen",
-            "nsfw": "Not safe for work (NSFW)",
-            "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
-            "settings": "Settings",
-            "membership": "Membership"
+            "nsfw": "Nicht sicher für die Arbeit (NSFW)",
+            "enableNsfw": "Bist du sicher, dass du NSFW-Inhalte (nicht sicher für die Arbeit) aktivieren möchten??",
+            "settings": "Einstellungen",
+            "membership": "Mitgliedschaft"
         }
     },
     "Dashboard": {
@@ -256,10 +256,10 @@
         "addPLaylistTitle":"hinzufügen zu...",
         "live":"Live",
         "ago": "ago",
-        "recomended":"Recommended",
+        "recomended":"Empfohlen",
         "newest": "Neusten",
-        "trending": "Trending",
-        "viewAll": "View all"
+        "trending": "Trendig",
+        "viewAll": "alle sehen"
     },
     "Trending": {
         "views": "Aufrufe",
@@ -311,8 +311,8 @@
         "videoRemovedConfirmButton": "Ja, entfernen!",
         "videoRemovedConfirmCancel": "Abbrechen",
         "videoPlaceholderEditor": " Beschreibung hier einfügen...",
-        "uploadingImage": "Uploading image",
-        "imageUploaded": "Image uploaded",
+        "uploadingImage": "Foto hochladen",
+        "imageUploaded": "Foto hochgeladen",
         "protectedContent": "Geschützter Inhalt"
     },
     "Broadcast": {
@@ -368,13 +368,13 @@
             "8pTutorialStream": "Die einfachste Art, mit dem Streaming oder der Aufzeichnung von PC- oder Konsolenspielen zu beginnen. Nutze XSplit Gamecaster, um dein Gameplay zu teilen. Klicke einfach darauf, um deine speziellen Gaming-Momente zu streamen und aufzuzeichnen.Wähle auch XSplit Broadcaster als Alternative für das Streaming.",
             "9pTutorialStream": "Vmix",
             "10pTutorialStream": " Weit verbreitet ist vMix das ideale Werkzeug für die Übertragung, insbesondere für Vlogger.vMix ist eine komplette Live-Videoproduktions-Softwarelösung mit Funktionen wie LIVE-Mischen, Umschalten, Aufnehmen und LIVE-Streaming von SD-, Full HD- und 4K-Videoquellen wie Kameras, Videodateien, DVDs, Bildern, Powerpoint und vielem mehr.",
-            "dowloadButton": "Dowload"
+            "dowloadButton": "herunterladen"
         },
         "CreateKey":{
-                "noWallet": "You don't have a wallet",
-                "noWalletText": "In this way, you will not receive any revenue for this broadcast",
-                "cancelWalletButton" : "Cancel",
-                "createWalletButton": "Create Wallet"
+            "noWallet": "Du hast keine Wallet",
+            "noWalletText": "Auf diese Weise erhälst du keine Einnahmen für deinen Broadcast",
+            "cancelWalletButton" : "Abbrechen",
+            "createWalletButton": "Wallet kreieren"
         }
     },
     "Play": {
@@ -398,7 +398,7 @@
         "showLess": "weniger zeigen",
         "commentButton": "Kommentar",
         "cancel": "Abbrechen",
-        "singularComments": "comment",
+        "singularComments": "Kommentar",
         "comments": "Kommentare",
         "madePost": "Beitrag schreiben.",
         "justNow": "Jetzt",
@@ -412,10 +412,10 @@
         "live": "Live",
         "playlist": "Playlist",
         "loadMore": "mehr laden",
-        "seeAnswer": "See reply",
-        "seeAnswers": "See replies",
-        "hideAnswer": "Hide reply",
-        "hideAnswers": "Hide replies",
+        "seeAnswer": "Antwort sehen",
+        "seeAnswers": "Antworten sehen",
+        "hideAnswer": "Antwort verbergen",
+        "hideAnswers": "Antworten verbergen",
         "copyClipboardIframe": "Iframe zu Clipboard kopiert",
         "copyClipboard": "zu Clipboard kopieren",
         "embedVideoTitle": "einbettetes Video",
@@ -461,7 +461,7 @@
         "encryptedError": "Dieser Inhalt ist als Premium eingetragen, bitte kaufen um anzusehen",
         "offlineStream": "Ihr gewünschter Stream wird offline angezeigt",
         "popOutVideo": "Popout video",
-        "cinemaMode": "Cinema mode",
+        "cinemaMode": "Kinomodus",
         "setPrimaryVideo": "erstes Video gespeichert",
         "errorSavePrimaryVideo": "Fehler",
         "copyrightReport": "Urheberrechtsverletzung melden",
@@ -471,12 +471,12 @@
         "iAmRepresentCopyright":"Ja, ich bin der Urheberrechtsinhaber",
         "liveUnpublished": "Livestream nicht veröffentlichen",
         "liveUnpublishedError": "Fehler beim Aufheben der Livestream-Veröffentlichung",
-        "reply": "Reply",
-        "delete": "Delete",
-        "writeReply": "Write a reply",
-        "reportThisVideo": "Report this video",
+        "reply": "Antworten",
+        "delete": "löschen",
+        "writeReply": "Antwort schreiben",
+        "reportThisVideo": "Video melden",
         "ok": "ok",
-        "errorHash": "Can not find the selected video",
+        "errorHash": "Das ausgewählte Video kann nicht gefunden werden",
         "totalAirtimeText": "PoV:"
 
     },
@@ -540,8 +540,8 @@
         "walletMaintenaceText": "Die Online-Wallet wird gewartet. Bitte versuchen Sie es später erneut",
         "walletDowload": "Offline Wallet herunterladen",
         "walletCancel": "Ok",
-        "copySpendKey": "Copy spend key to clipboard",
-        "copyViewKey": "Copy view key to clipboard"
+        "copySpendKey": "spend key zu clipboard kopieren",
+        "copyViewKey": "view key zu clipboard kopieren"
 
     },
     "Profitcalc": {
@@ -696,8 +696,8 @@
             "readLess": "weniger lesen",
             "social": "Soziale Netzwerke",
             "newest": "neusten",
-            "popular": "popular",
-            "oldest": "oldest"
+            "popular": "populär",
+            "oldest": "älteste"
         },
         "Publications": {
            "publication": "Veröffentlichen",
@@ -1019,15 +1019,15 @@
         "block": "Blocks - Want",
         "airtimeID": "AirTime ID",
         "airtimeStats": "AirTime Statistics",
-        "airtimeRecorded": "Recorded",
+        "airtimeRecorded": "Verzeichnet",
         "airtimeUnprocessed": "Unprocessed",
-        "airtimeConfirmed": "Confirmed",
-        "airtimeRejected": "Rejected",
-        "airtimePendingEvents": "Pending Events",
-        "airtimeUnsubmitted": "Unsubmitted",
-        "airtimeLastPayment": "Last Payment",
-        "airtimePaidBalance": "Paid Balance",
-        "airtimeUnpaidBalance": "Unpaid Balance",
+        "airtimeConfirmed": "Bestätigt",
+        "airtimeRejected": "Abgelehnt",
+        "airtimePendingEvents": "Ausstehende Ereignisse",
+        "airtimeUnsubmitted": "noch nicht verarbeitet",
+        "airtimeLastPayment": "letzte Zahlung",
+        "airtimePaidBalance": "Bezahltes Guthaben",
+        "airtimeUnpaidBalance": "Ausstehende Zahlung",
         "sidebarVersion": "Version"
     },
     "Terms": {
@@ -1287,8 +1287,8 @@
     "PayVideo": {
         "alreadyPurchased": "Produkt bereits gekauft.",
         "alreayPurchasedText": "Du hast dieses Produkt bereits gekauft, aber die Zahlung ist noch nicht angekommen.",
-        "walletNotAvailable": "Wallet not available",
-        "walletNotAvailableText1": "Wallet is not available, please try it later.",
+        "walletNotAvailable": "Wallet nicht verfügbar",
+        "walletNotAvailableText1": "Wallet ist nicht verfügbar, bitte versuche es später nochmal.",
         "ok": "OK",
         "lifetimePeriod": "Lebensdauer kaufen.",
         "rentalPeriod": "mieten",
