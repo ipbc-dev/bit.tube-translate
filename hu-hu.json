@@ -134,10 +134,12 @@
                         "textEditorPlaceholder" : "Kezdj el gépelni...",
                         "editProfilePasswordNotifySave": "Jelszó sikeresen elmentve",
                         "purchases": "Vásárlások",
+                        "singularProfilePurchase": "Purchase",
                         "profilePurchase": "Vásárlás",
                         "noPurchase": "Nincsenek vásárlások",
                         "subscribers": "Feliratkozók",
-                        "imageTooSmall":"A választott kép túl kicsi az átméretezéshez"
+                        "imageTooSmall":"A választott kép túl kicsi az átméretezéshez",
+                        "requiredFields": "Required fields"
                 },
                 "MyPurchases": {
                         "channelStay": "Channel Stay",
@@ -190,6 +192,7 @@
                         "noPlaylists": "Nincsenek lejátszási listák"
                 },
                 "Publications":{
+                        "singularTitle": "Upload",
                         "title": "Feltöltés",
                         "views": "megtekintés",
                         "edit": "Szerkesztés",
@@ -212,12 +215,14 @@
                         "noLiveStreams": "Nincsenek élő közvetítések"
                 },
                 "Subscriptions": {
+                        "singularTitle": "Subscription",
                         "title": "Feliratkozások",
                         "subscriptionsButton": "Feliratkozás",
                         "unSubscriptionsButton": "Leiratkozás",
                         "noSubscriptions": "Nincsenek feliratkozások"
                 },
                 "Subscribers": {
+                        "singularTitle": "Subscriber",
                         "title": "Feliratkozók",
                         "subscriptionsButton": "Feliratkozás",
                         "unSubscriptionsButton": "Leiratkozás",
@@ -237,7 +242,10 @@
                         "activateAuthenticationConfirmButton": "OK",
                         "activateAuthenticationDeleteButton": "Mégse",
                         "nsfw": "Korlátozott mód (NSFW)",
-                        "enableNsfw": "Biztosan engedélyezni szeretnéd a korlátozott (NSFW) tartalmakat?"
+                        "enableNsfw": "Biztosan engedélyezni szeretnéd a korlátozott (NSFW) tartalmakat?",
+                        "settings": "Settings",
+                        "membership": "Membership",
+                        "advertMessage": "It's very important that you save this recovery key in case you lose access to the Authenticator App:"
                 }
         },
         "Dashboard": {
@@ -248,7 +256,11 @@
                 "addPlaylistButton": "Hozzáadás",
                 "addPLaylistTitle": "Hozzáadás...",
                 "live": "Élő",
-                "ago": "ezelőtt"
+                "ago": "ezelőtt",
+                "recomended":" Recommended",
+                "newest": "Newest",
+                "trending": "Trending",
+                "viewAll": "View all"
         },
         "Trending": {
                 "views": "megtekintés",
@@ -299,7 +311,10 @@
                 "videoRemovedConfirmText": "Ez visszavonja a közzétételt",
                 "videoRemovedConfirmButton": "Igen, visszavonás!",
                 "videoRemovedConfirmCancel": "Mégse",
-                "videoPlaceholderEditor": "Adj meg leírást..."
+                "videoPlaceholderEditor": "Adj meg leírást...",
+                "uploadingImage": "Uploading image",
+                "imageUploaded": "Image uploaded",
+                "protectedContent": "Protected Content"
         },
         "Broadcast": {
                 "Setings": {
@@ -385,6 +400,7 @@
                 "showLess": "Kevesebb",
                 "commentButton": "Megjegyzés",
                 "cancel": "Mégse",
+                "singularComments": "comment",
                 "comments": "megjegyzés",
                 "madePost": "megjegyzést írt.",
                 "justNow": "Épp most",
@@ -447,6 +463,7 @@
                 "encryptedError": "Ez egy prémiumtartalom. Kérlek, vásárold meg.",
                 "offlineStream": "A választott élő adás offline-nak tűnik",
                 "popOutVideo": "Új ablakban",
+                "cinemaMode": "Cinema mode",
                 "setPrimaryVideo": "Elsődleges videó beállítva",
                 "errorSavePrimaryVideo": "Hiba",
                 "copyrightReport": "Szerzőijog-sértés bejelentése",
@@ -458,7 +475,11 @@
                 "liveUnpublishedError": "Élő adás visszavonási hiba",
                 "reply": "Válasz",
                 "delete": "Törlés",
-                "writeReply": "Válasz írása"
+                "writeReply": "Válasz írása",
+                "reportThisVideo": "Report this video",
+                "ok": "ok",
+                "errorHash": "Can not find the selected video",
+                "totalAirtimeText": "PoV:"
         },
         "Wallet": {
                 "title": "Áttekintés",
@@ -519,7 +540,9 @@
                 "walletMaintenaceTitle": "Az online tárca karbantartás alatt van",
                 "walletMaintenaceText": "Az online tárca karbantartás alatt van, próbáld újra később",
                 "walletDowload": "Offline tárca letöltése",
-                "walletCancel": "OK"
+                "walletCancel": "OK",
+                "copySpendKey": "Copy spend key to clipboard",
+                "copyViewKey": "Copy view key to clipboard"
 
         },
         "Profitcalc": {
@@ -672,7 +695,10 @@
                         "location": "Hely",
                         "readMore": "Több",
                         "readLess": "Kevesebb",
-                        "social": "Közösség"
+                        "social": "Közösség",
+                        "newest": "newest",
+                        "popular": "popular",
+                        "oldest": "oldest"
                 },
                 "Publications": {
                         "publication": "Publikáció",
@@ -706,7 +732,8 @@
                         "subscriptions": "Feliratkozások",
                         "nosubscriptions": "Nincsenek feliratkozások",
                         "subscribe": "Feliratkozás",
-                        "unSubscribe": "Leiratkozás"
+                        "unSubscribe": "Leiratkozás",
+                        "unSubscribe": "Unsubscribe"
                 },
                 "MyPlaylists": {
                         "myPlaylists": "Lejátszási listáim",
@@ -984,7 +1011,20 @@
                 "copyrightPolicy": "Szerzői jog",
                 "miningSection": "Bányászás",
                 "subscriptions": "Feliratkozások",
-                "categories": "Kategóriák"
+                "categories": "Kategóriák",
+                "block": "Blocks - Want",
+                "airtimeID": "AirTime ID",
+                "airtimeStats": "AirTime Statistics",
+                "airtimeRecorded": "Recorded",
+                "airtimeUnprocessed": "Unprocessed",
+                "airtimeConfirmed": "Confirmed",
+                "airtimeRejected": "Rejected",
+                "airtimePendingEvents": "Pending Events",
+                "airtimeUnsubmitted": "Unsubmitted",
+                "airtimeLastPayment": "Last Payment",
+                "airtimePaidBalance": "Paid Balance",
+                "airtimeUnpaidBalance": "Unpaid Balance",
+                "sidebarVersion": "Version"
         },
         "Terms": {
                 "termsTitle": "Terms and conditions",
@@ -1243,6 +1283,8 @@
         "PayVideo": {
                 "alreadyPurchased": "A termék már megvásárolva.",
                 "alreayPurchasedText": "Már megvásároltad ezt a terméket, de a fizetés még nem teljesült.",
+                "walletNotAvailable": "Wallet not available",
+                "walletNotAvailableText1": "Wallet is not available, please try it later.",
                 "ok": "OK",
                 "lifetimePeriod": "Megvásárlás örökre.",
                 "rentalPeriod": "Bérlés",
@@ -1275,10 +1317,12 @@
         },
         "Notification": {
                 "newComment": "Új megjegyzés érkezett",
-                "newLike": "Új like-ot kaptál",
+                "newLike": "You have received a new like from ",
                 "newPublish": "A videód feltöltésre került",
                 "newSubscriber": "Új feliratkozód van",
-                "newTip": "Borravalót kaptál"
+                "newTip": "Borravalót kaptál",
+                "errorProcessing": "Error processing:",
+                "userPublish": "has uploade a new video"
         },
         "DateSince":{
                 "years": "éve",

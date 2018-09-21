@@ -244,7 +244,8 @@
             "nsfw": "Nicht sicher für die Arbeit (NSFW)",
             "enableNsfw": "Bist du sicher, dass du NSFW-Inhalte (nicht sicher für die Arbeit) aktivieren möchten??",
             "settings": "Einstellungen",
-            "membership": "Mitgliedschaft"
+            "membership": "Mitgliedschaft",
+            "advertMessage": "Es ist sehr wichtig, diesen Wiederherstellungsschlüssel zu speichern, für den Fall dass du den Zugriff auf die Authentifizierungs App verlierst:"
         }
     },
     "Dashboard": {
@@ -1321,11 +1322,12 @@
     },
     "Notification": {
         "newComment": "Du hast einen neuen Kommentar erhalten",
-        "newLike": "Du hast ein neues Like erhalten",
+        "newLike": "Du hast ein neues \"Gefällt mir\" von",
         "newPublish": "Dein neues Video wurde hochgeladen",
         "newSubscriber": "Du hast einen neuen Abonnenten",
         "newTip": "Du hast erhalten",
-        "errorProcessing": "Prozess error:"
+        "errorProcessing": "Prozess error:",
+        "userPublish": "has uploaded a new video"
     },
     "DateSince":{
         "years": "Jahren",
