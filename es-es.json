@@ -244,7 +244,8 @@
             "nsfw": "Innapropiado para el trabajo (NSFW)",
             "enableNsfw": "¿ Seguro que quiere habilitar el contenido NSFW (Not Safe For Work) ?",
             "settings": "Settings",
-            "membership": "Membership"
+            "membership": "Membership",
+            "advertMessage": "It's very important that you save this recovery key in case you lose access to the Authenticator App:"
         }
     },
     "Dashboard": {
@@ -1308,11 +1309,12 @@
     },
     "Notification": {
         "newComment": "Tienes un nuevo comentario",
-        "newLike": "Tienes un nuevo me gusta",
+        "newLike": "Tienes un nuevo me gusta de ",
         "newPublish": "Tu video ha sido subido",
         "newSubscriber": "Tienes un nuevo subscriptor",
         "newTip": "Has recibido",
-        "errorProcessing": "Error processing:"
+        "errorProcessing": "Error processing:",
+        "userPublish": "has uploaded a new video"
     },
     "DateSince":{
         "years": "años",

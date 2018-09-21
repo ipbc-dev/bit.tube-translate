@@ -13,9 +13,9 @@
                 "loginButton": "Let's go",
                 "forgotPassword": "Forgot Password",
                 "resendActivateMail": "Resend activation mail",
+                "resend": "Resend",
                 "error": "Error",
                 "emailVerfied": "E-mail verified",
-                "resend": "Resend",
                 "RecoveryPwd": {
                 "title": "Reset password",
                 "email":"Username / Email address",
@@ -244,7 +244,8 @@
                         "nsfw": "Not safe for work (NSFW)" ,
                         "enableNsfw": "Are you sure that you want to enable NSFW (Not Safe For Work) content?",
                         "settings": "Settings",
-                        "membership": "Membership"
+                        "membership": "Membership",
+                        "advertMessage": "It's very important that you save this recovery key in case you lose access to the Authenticator App:"
                 }     
         },
         "Dashboard": {
@@ -376,7 +377,6 @@
                         "cancelWalletButton" : "Cancel",
                         "createWalletButton": "Create Wallet"
                 }
-
         },
         "Play": {
                 "addPlaylists": "Add to playlist",
@@ -1316,11 +1316,12 @@
         },
         "Notification": {
                 "newComment": "You have received a new comment",
-                "newLike": "You have received a new like",
+                "newLike": "You have received a new like from ",
                 "newPublish": "Your new video has been uploaded",
                 "newSubscriber": "You have a new subscriber",
                 "newTip": "You have received",
-                "errorProcessing": "Error processing:"
+                "errorProcessing": "Error processing:",
+                "userPublish": "has uploaded a new video"
         },
         "DateSince":{
                 "years": "years ago",
