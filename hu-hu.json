@@ -46,6 +46,7 @@
                 "lasNameRequired": "Vezetéknevet kötelező megadni",
                 "email": "E-mail cím...",
                 "emailRequired": "E-mail címet kötelező megadni",
+                "emailMismatch": "Email mismatch",
                 "emailIncalid": "Érvénytelen e-mail cím",
                 "password": "Jelszó...",
                 "passwordRequired": "Jelszót kötelező megadni",
@@ -59,7 +60,8 @@
                 "getStart": "Mehet!",
                 "hackTools": "Hacker észlelve. Kérlek, viselkedj jól, tölts ki minden mezőt és fogadd el a felhasználási feltételeket.",
                 "checkEmail": "Nézd meg az e-mailjeidet.",
-                "error": "Hiba"
+                "error": "Hiba",
+                "repeatEmail": "Repeat Email..."
         },
         "Profile": {
                 "MyProfile":{
@@ -343,7 +345,8 @@
                         "confirmDeleteTitle": "Élő adás kulcsának törlése",
                         "confirmDeleteText": "Biztosan törölni szeretnéd ezt a kulcsot?",
                         "confirmDeleteButton": "TÖRLÉS",
-                        "textEditorPlaceholder": "Ide írj szöveget..."
+                        "textEditorPlaceholder": "Ide írj szöveget...",
+                        "showhidden": "Show / Hide key "
                 },
                 "Tutorial": {
                         "title": "Gyorstalpaló",
@@ -732,8 +735,7 @@
                         "subscriptions": "Feliratkozások",
                         "nosubscriptions": "Nincsenek feliratkozások",
                         "subscribe": "Feliratkozás",
-                        "unSubscribe": "Leiratkozás",
-                        "unSubscribe": "Unsubscribe"
+                        "unSubscribe": "Leiratkozás"
                 },
                 "MyPlaylists": {
                         "myPlaylists": "Lejátszási listáim",
@@ -1322,7 +1324,9 @@
                 "newSubscriber": "Új feliratkozód van",
                 "newTip": "Borravalót kaptál",
                 "errorProcessing": "Error processing:",
-                "userPublish": "has uploade a new video"
+                "userPublish": "New video uploaded from",
+                "activatedNotify": "Notifications are activated",
+                "disabledNotify": "Notifications are disabled"
         },
         "DateSince":{
                 "years": "éve",

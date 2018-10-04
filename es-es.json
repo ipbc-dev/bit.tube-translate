@@ -46,6 +46,7 @@
         "lasNameRequired": "Los apellidos son obligatorios",
         "email": "Email...",
         "emailRequired": "El email es obligatorio",
+        "emailMismatch": "Email mismatch",
         "emailIncalid": "Email no válido",
         "password": "Contraseña...",
         "passwordRequired": "La contraseña es obligatoria",
@@ -59,7 +60,8 @@
         "getStart": "Empezar",
         "hackTools": "Uso de software malicioso detectado. Por favor rellene todos los campos y acepte los Términos y Condiciones de Servicio.",
         "checkEmail": "Compruebe su correo electrónico.",
-        "error": "Error"
+        "error": "Error",
+        "repeatEmail": "Repetir email..."
     },
     "Profile": {
         "MyProfile":{
@@ -342,7 +344,8 @@
             "copiedClipBoardTransmission": "Su URL de transmisión ha sido copiada al portapapeles",
             "confirmDeleteTitle": "Eliminar clave de emisión",
             "confirmDeleteText": "¿Está seguro que quiere eliminar esta clave de emisión?",
-            "confirmDeleteButton": "ELIMINAR"
+            "confirmDeleteButton": "ELIMINAR",
+            "showhidden": "Show / Hide key "
         },
         "Tutorial": {
             "title": "Tutorial rápido",
@@ -459,7 +462,7 @@
         "decodeError": "This media appears to be corrupted",
         "srcError": "This media appears to be corrupted",
         "encryptedError": "This content is premium, please purchase",
-        "offlineStream": "Your desired stream appears be offline",
+        "offlineStream": "Your desired stream appears to be offline",
         "popOutVideo": "Popout video",
         "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
@@ -891,7 +894,6 @@
             {"value": "19", "viewValue": "Salud"},
             {"value": "15", "viewValue": "Historia"},
             {"value": "27", "viewValue": "Hobbies y Manualidades"},
-            {"value": "17", "viewValue": "TI"},
             {"value": "23", "viewValue": "Niños"},
             {"value": "25", "viewValue": "Lifestyle"},
             {"value": "33", "viewValue": "Películas"},
@@ -902,6 +904,7 @@
             {"value": "44", "viewValue": "Artes escénicas"},
             {"value": "40", "viewValue": "Mascotas"},
             {"value": "28", "viewValue": "Religion"},
+            {"value": "17", "viewValue": "PC Software/Hardware"},
             {"value": "39", "viewValue": "Porno"},
             {"value": "14", "viewValue": "Ciencia"},
             {"value": "31", "viewValue": "Series"},
@@ -1140,7 +1143,6 @@
             { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
             { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
             { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
             { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
             { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
             { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
@@ -1150,6 +1152,7 @@
             { "value": "29", "viewValue": "Otros" , "icon": "cat-others.svg"},
             {"value": "44", "viewValue": "Artes escénicas", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Mascotas" , "icon": "cat-pets.svg"},
+            { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
             { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
             { "value": "39", "viewValue": "Porn" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
@@ -1314,7 +1317,9 @@
         "newSubscriber": "Tienes un nuevo subscriptor",
         "newTip": "Has recibido",
         "errorProcessing": "Error processing:",
-        "userPublish": "has uploaded a new video"
+        "userPublish": "New video uploaded from",
+        "activatedNotify": "Notifications are activated",
+        "disabledNotify": "Notifications are disabled"
     },
     "DateSince":{
         "years": "años",

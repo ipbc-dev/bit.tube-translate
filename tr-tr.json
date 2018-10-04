@@ -46,6 +46,7 @@
         "lasNameRequired": "Soyisim gereklidir",
         "email": "E-mail...",
         "emailRequired": "E-mail gereklidir",
+        "emailMismatch": "Email mismatch",
         "emailIncalid": "Geçersiz e-mail adresi",
         "password": "Şifre...",
         "passwordRequired": "Şifre gereklidir",
@@ -59,7 +60,8 @@
         "getStart": "Başlayın",
         "hackTools": "Developer tools hacker tespit edildi, lütfen TOS kabul edin.",
         "checkEmail": "Mailinizi kontrol edin.",
-        "error": "Hata"
+        "error": "Hata",
+        "repeatEmail": "Repeat Email..."
     },
     "Profile": {
         "MyProfile":{
@@ -343,7 +345,8 @@
             "confirmDeleteTitle": "Yayın anahtarını sil",
             "confirmDeleteText": "Yayın anahtarını silmek istediğinizden emin misiniz ?",
             "confirmDeleteButton": "SIL",
-            "textEditorPlaceholder": "Enter a text here..."
+            "textEditorPlaceholder": "Enter a text here...",
+            "showhidden": "Show / Hide key "
         },
         "Tutorial": {
             "title": "Hızlı Eğitim",
@@ -460,7 +463,7 @@
         "decodeError": "This media appears to be corrupted",
         "srcError": "This media appears to be corrupted",
         "encryptedError": "This content is premium, please purchase",
-        "offlineStream": "Your desired stream appears be offline",
+        "offlineStream": "Your desired stream appears to be offline",
         "popOutVideo": "Popout video",
         "cinemaMode": "Cinema mode",
         "setPrimaryVideo": "Saved primary video",
@@ -1145,7 +1148,6 @@
             { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
             { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
             { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
             { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
             { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
             { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
@@ -1153,6 +1155,7 @@
             { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
             { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
             { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
@@ -1315,11 +1318,13 @@
     "Notification": {
         "newComment": "You have received a new comment",
         "newLike": "You have received a new like from",
-        "newPublish": "Your new video has been uploaded",
+        "newPublish": "Your new video has been published",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received",
         "errorProcessing": "Error processing:",
-        "userPublish": "has uploade a new video"
+        "userPublish": "New video uploaded from",
+        "activatedNotify": "Notifications are activated",
+        "disabledNotify": "Notifications are disabled"
     },
     "DateSince":{
         "years": "years ago",

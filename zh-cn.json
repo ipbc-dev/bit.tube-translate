@@ -46,6 +46,7 @@
         "lasNameRequired": "请输入您的名",
         "email": "Email...",
         "emailRequired": "请输入您的Email地址",
+        "emailMismatch": "Email mismatch",
         "emailIncalid": "您输入的Email是不正确的",
         "password": "密码...",
         "passwordRequired": "请输入您的密码",
@@ -59,7 +60,8 @@
         "getStart": "开始旅程",
         "hackTools": "Hacker操作已检测，请遵守网站条款。",
         "checkEmail": "请检查您的Email",
-        "error": "错误"
+        "error": "错误",
+        "repeatEmail": "Repeat Email..."
     },
     "Profile": {
         "MyProfile":{
@@ -343,7 +345,8 @@
             "confirmDeleteTitle": "删除直播Key",
             "confirmDeleteText": "您确定删除直播Key么 ?",
             "confirmDeleteButton": "删除",
-            "textEditorPlaceholder": "请输入内容..."
+            "textEditorPlaceholder": "请输入内容...",
+            "showhidden": "Show / Hide key "
         },
         "Tutorial": {
             "title": "快速教程",
@@ -894,7 +897,6 @@
             {"value": "19", "viewValue": "健康"},
             {"value": "15", "viewValue": "历史"},
             {"value": "27", "viewValue": "工艺和爱好"},
-            {"value": "17", "viewValue": "IT"},
             {"value": "23", "viewValue": "儿童"},
             {"value": "25", "viewValue": "生活方式"},
             {"value": "33", "viewValue": "电影"},
@@ -902,6 +904,7 @@
             {"value": "20", "viewValue": "自然"},
             {"value": "9", "viewValue":  "新闻"},
             {"value": "29", "viewValue": "其它"},
+            {"value": "17", "viewValue": "PC Software/Hardware"},
             {"value": "44", "viewValue": "Performing Arts"},
             {"value": "39", "viewValue": "Porn"},
             {"value": "40", "viewValue": "爱宠"},
@@ -1144,7 +1147,6 @@
             { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
             { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
             { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
             { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
             { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
             { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
@@ -1152,6 +1154,7 @@
             { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
             { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
             { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
@@ -1314,11 +1317,13 @@
     "Notification": {
         "newComment": "You have received a new comment",
         "newLike": "You have received a new like from",
-        "newPublish": "Your new video has been uploaded",
+        "newPublish": "Your new video has been published",
         "newSubscriber": "You have a new subscriber",
         "newTip": "You have received",
         "errorProcessing": "Error processing:",
-        "userPublish": "has uploade a new video"
+        "userPublish": "New video uploaded from",
+        "activatedNotify": "Notifications are activated",
+        "disabledNotify": "Notifications are disabled"
     },
     "DateSince":{
         "years": "years ago",
