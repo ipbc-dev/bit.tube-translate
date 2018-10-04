@@ -46,6 +46,7 @@
                 "lasNameRequired": "Last name is required",
                 "email": "Email...",
                 "emailRequired": "Email is required",
+                "emailMismatch": "Email mismatch",
                 "emailIncalid": "Email is invalid",
                 "password": "Password...",
                 "passwordRequired": "Password is required",
@@ -59,7 +60,8 @@
                 "getStart": "Get Started",
                 "hackTools": "Developer tools hacker detected. Please be nice and fill out every field and accept the TOS.",
                 "checkEmail": "Check your email.",
-                "error": "Error"
+                "error": "Error",
+                "repeatEmail": "Repeat Email..."
         },
         "Profile": {
                 "MyProfile":{
@@ -343,7 +345,8 @@
                         "confirmDeleteTitle": "Delete Stream key",
                         "confirmDeleteText": "Are you sure that you want to delete this stream key ?",
                         "confirmDeleteButton": "DELETE",
-                        "textEditorPlaceholder": "Enter a text here..."
+                        "textEditorPlaceholder": "Enter a text here...",
+                        "showhidden": "Show / Hide key "
                 },
                 "Tutorial": {
                         "title": "Quick tutorial",
@@ -460,7 +463,7 @@
                 "decodeError": "This media appears to be corrupted",
                 "srcError": "This media appears to be corrupted",
                 "encryptedError": "This content is premium, please purchase",
-                "offlineStream": "Your desired stream appears be offline",
+                "offlineStream": "Your desired stream appears to be offline",
                 "popOutVideo": "Popout video",
                 "cinemaMode": "Cinema mode",
                 "setPrimaryVideo": "Saved primary video",
@@ -896,7 +899,6 @@
                         {"value": "19", "viewValue": "Health"},
                         {"value": "15", "viewValue": "History"},
                         {"value": "27", "viewValue": "Hobbies and Crafts"},
-                        {"value": "17", "viewValue": "IT"},
                         {"value": "23", "viewValue": "Kids"},
                         {"value": "25", "viewValue": "Lifestyle"},
                         {"value": "33", "viewValue": "Movies"},
@@ -904,6 +906,7 @@
                         {"value": "20", "viewValue": "Nature"},
                         {"value": "9", "viewValue":  "News"},
                         {"value": "29", "viewValue": "Others"},
+                        {"value": "17", "viewValue": "PC Software/Hardware"},
                         {"value": "44", "viewValue": "Performing Arts"},
                         {"value": "40", "viewValue": "Pets"},
                         {"value": "13", "viewValue": "Politics"},
@@ -1147,7 +1150,6 @@
                         { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
                         { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
                         { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-                        { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
                         { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
                         { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
                         { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
@@ -1155,6 +1157,7 @@
                         { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
                         { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
                         { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+                        { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
                         { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
                         {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
                         { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
@@ -1317,11 +1320,13 @@
         "Notification": {
                 "newComment": "You have received a new comment",
                 "newLike": "You have received a new like from ",
-                "newPublish": "Your new video has been uploaded",
+                "newPublish": "Your new video has been published",
                 "newSubscriber": "You have a new subscriber",
                 "newTip": "You have received",
                 "errorProcessing": "Error processing:",
-                "userPublish": "has uploaded a new video"
+                "userPublish": "New video uploaded from",
+                "activatedNotify": "Notifications are activated",
+                "disabledNotify": "Notifications are disabled"
         },
         "DateSince":{
                 "years": "years ago",

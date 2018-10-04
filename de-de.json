@@ -46,6 +46,7 @@
         "lasNameRequired": "Familienname erforderlich",
         "email": "Email...",
         "emailRequired": "Email erforderlich",
+        "emailMismatch": "Email mismatch",
         "emailIncalid": "Email ist ungültig",
         "password": "Passwort...",
         "passwordRequired": "Passwort erforderlich",
@@ -59,7 +60,8 @@
         "getStart": "Starten",
         "hackTools": "Developer-Tools Hacker erkannt. Bitte fülle alle Felder aus und akzeptiere unsere AGBs.",
         "checkEmail": "Emaileingang prüfen.",
-        "error": "Fehler"
+        "error": "Fehler",
+        "repeatEmail": "Email wiederholen..."
     },
     "Profile": {
         "MyProfile":{
@@ -169,7 +171,7 @@
             "editPlaylistDeleteButton": "löschen",
             "editPlaylistCloseButton": "Playlist schließen",
             "editPlaylistEmpty": "Diese Playlist ist leer.",
-            "newPlaylist": "neue Playlist",
+            "newPlaylist": "Neue Playlist",
             "newPlaylistTitle": "Titel",
             "newPlaylistDescription": "Beschreibung",
             "newPlaylistSaveButton": "Speichern",
@@ -242,7 +244,7 @@
             "activateAuthenticationConfirmButton": "Ok",
             "activateAuthenticationDeleteButton": "Abbrechen",
             "nsfw": "Nicht sicher für die Arbeit (NSFW)",
-            "enableNsfw": "Bist du sicher, dass du NSFW-Inhalte (nicht sicher für die Arbeit) aktivieren möchten??",
+            "enableNsfw": "Bist du sicher, dass du NSFW-Inhalte (nicht sicher für die Arbeit) aktivieren möchten?",
             "settings": "Einstellungen",
             "membership": "Mitgliedschaft",
             "advertMessage": "Es ist sehr wichtig, diesen Wiederherstellungsschlüssel zu speichern, für den Fall dass du den Zugriff auf die Authentifizierungs App verlierst:"
@@ -343,7 +345,8 @@
             "confirmDeleteTitle": "Stream Schlüssel löschen",
             "confirmDeleteText": "¿ Bist du sicher das du diesen Stream Schlüssel löschen möchtest ?",
             "confirmDeleteButton": "LÖSCHEN",
-            "textEditorPlaceholder": "hier Text eingeben..."
+            "textEditorPlaceholder": "hier Text eingeben...",
+            "showhidden": "Show / Hide key "
         },
         "Tutorial": {
             "title": "Schnellanleitung",
@@ -902,7 +905,6 @@
             {"value": "19", "viewValue": "Gesundheit"},
             {"value": "15", "viewValue": "Geschichte"},
             {"value": "27", "viewValue": "Hobbies and Handwerk"},
-            {"value": "17", "viewValue": "IT"},
             {"value": "23", "viewValue": "Kinder"},
             {"value": "25", "viewValue": "Lifestyle"},
             {"value": "33", "viewValue": "Filme"},
@@ -912,6 +914,7 @@
             {"value": "29", "viewValue": "Andere"},
             {"value": "44", "viewValue": "Darstellende Künste"},
             {"value": "40", "viewValue": "Tiere"},
+            {"value": "17", "viewValue": "PC Software/Hardware"},
             {"value": "39", "viewValue": "Porn"},
             {"value": "28", "viewValue": "Religion"},
             {"value": "14", "viewValue": "Wissenschaft"},
@@ -1153,7 +1156,6 @@
             { "value": "19", "viewValue": "Gesundheit" , "icon": "cat-health.svg"},
             { "value": "15", "viewValue": "Geschichte" , "icon": "cat-history.svg"},
             { "value": "27", "viewValue": "Hobbies und Handwerk" , "icon": "cat-hobbies-crafts.svg"},
-            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
             { "value": "23", "viewValue": "Kinder" , "icon": "cat-kids.svg"},
             { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
             { "value": "33", "viewValue": "Filme", "icon": "cat-movies.svg" },
@@ -1163,6 +1165,7 @@
             {"value": "44", "viewValue": "Darstellende Künste", "icon": "cat-pets.svg"},
             { "value": "29", "viewValue": "Andere" , "icon": "cat-others.svg"},
             { "value": "40", "viewValue": "Tiere" , "icon": "cat-pets.svg"},
+            { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
             { "value": "39", "viewValue": "Porno" , "icon": "cat-adult.svg"},
             { "value": "28", "viewValue": "Religion" , "icon": "cat-religion.svg"},
             { "value": "14", "viewValue": "Wissenschaft" , "icon": "cat-science.svg"},
@@ -1327,7 +1330,9 @@
         "newSubscriber": "Du hast einen neuen Abonnenten",
         "newTip": "Du hast erhalten",
         "errorProcessing": "Prozess error:",
-        "userPublish": "has uploaded a new video"
+        "userPublish": "New video uploaded from",
+        "activatedNotify": "Notifications are activated",
+        "disabledNotify": "Notifications are disabled"
     },
     "DateSince":{
         "years": "Jahren",

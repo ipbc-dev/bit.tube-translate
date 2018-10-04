@@ -46,6 +46,7 @@
         "lasNameRequired": "Nom de famille requis",
         "email": "Email...",
         "emailRequired": "Email requis",
+        "emailMismatch": "Email mismatch",
         "emailIncalid": "Email invalide",
         "password": "Mot-de-passe...",
         "passwordRequired": "Mot-de-passe requis",
@@ -59,7 +60,8 @@
         "getStart": "C'est parti",
         "hackTools": "Outils pirate détecté. Soyez sympa, acceptez les différents champs et les règles du jeu.",
         "checkEmail": "Consulter vos e-mails",
-        "error": "Erreur"
+        "error": "Erreur",
+        "repeatEmail": "Repeat Email..."
     },
     "Profile": {
         "MyProfile":{
@@ -343,7 +345,8 @@
             "confirmDeleteTitle": "Supprimer la clé de diffusion",
             "confirmDeleteText": "¿ Êtes-vous sûr de vouloir supprimer cette clé de diffusion ?",
             "confirmDeleteButton": "Supprimer",
-            "textEditorPlaceholder": "Entrer un texte ici..."
+            "textEditorPlaceholder": "Entrer un texte ici...",
+            "showhidden": "Show / Hide key "
         },
         "Tutorial": {
             "title": "Tutoriel rapide",
@@ -894,7 +897,6 @@
             {"value": "19", "viewValue": "Santé"},
             {"value": "15", "viewValue": "Histoire"},
             {"value": "27", "viewValue": "Loisirs et Artisanat"},
-            {"value": "17", "viewValue": "IT"},
             {"value": "23", "viewValue": "Kids"},
             {"value": "25", "viewValue": "Lifestyle"},
             {"value": "33", "viewValue": "Films"},
@@ -902,6 +904,7 @@
             {"value": "20", "viewValue": "Nature"},
             {"value": "9", "viewValue":  "Nouvelles"},
             {"value": "29", "viewValue": "Autres"},
+            {"value": "17", "viewValue": "PC Software/Hardware"},
             {"value": "44", "viewValue": "Performing Arts"},
             {"value": "13", "viewValue": "Politics"},
             {"value": "39", "viewValue": "Porn"},
@@ -1144,7 +1147,6 @@
             { "value": "19", "viewValue": "Health" , "icon": "cat-health.svg"},
             { "value": "15", "viewValue": "History" , "icon": "cat-history.svg"},
             { "value": "27", "viewValue": "Hobbies and Crafts" , "icon": "cat-hobbies-crafts.svg"},
-            { "value": "17", "viewValue": "IT" , "icon": "cat-IT.svg"},
             { "value": "23", "viewValue": "Kids" , "icon": "cat-kids.svg"},
             { "value": "25", "viewValue": "Lifestyle" , "icon": "cat-life-style.svg"},
             { "value": "33", "viewValue": "Movies", "icon": "cat-movies.svg" },
@@ -1152,6 +1154,7 @@
             { "value": "20", "viewValue": "Nature", "icon": "cat-nature.svg" },
             { "value": "9", "viewValue": "News" , "icon": "cat-news.svg"},
             { "value": "29", "viewValue": "Others" , "icon": "cat-others.svg"},
+            { "value": "17", "viewValue": "PC Software/Hardware" , "icon": "cat-IT.svg"},
             {"value": "44", "viewValue": "Performing Arts", "icon": "cat-pets.svg"},
             { "value": "40", "viewValue": "Pets" , "icon": "cat-pets.svg"},
             { "value": "13", "viewValue": "Politics" , "icon": "cat-social-issues.svg"},
@@ -1318,7 +1321,9 @@
         "newSubscriber": "Vous avez un nouvel abonné",
         "newTip": "Vous avez reçu",
         "errorProcessing": "Error processing:",
-        "userPublish": "has uploade a new video"
+        "userPublish": "New video uploaded from",
+        "activatedNotify": "Notifications are activated",
+        "disabledNotify": "Notifications are disabled"
     },
     "DateSince":{
         "years": "ans",
