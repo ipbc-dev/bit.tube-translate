@@ -248,7 +248,7 @@
                         "settings": "Settings",
                         "membership": "Membership",
                         "advertMessage": "It's very important that you save this recovery key in case you lose access to the Authenticator App:"
-                }     
+                }
         },
         "Dashboard": {
                 "views": "Views",
@@ -792,11 +792,12 @@
                 "subscribers": "subscribers"
         },
         "Lenguages":{
-                "languages_array":[  
+                "languages_array":[
                         {"value": "AF", "viewValue": "Afrikaans"},
                         {"value": "SQ", "viewValue": "Albanian"},
                         {"value": "AR", "viewValue": "Arabic"},
                         {"value": "HY", "viewValue": "Armenian"},
+                        {"value": "AZ", "viewValue": "Azerbaijan"},
                         {"value": "EU", "viewValue": "Basque"},
                         {"value": "BN", "viewValue": "Bengali"},
                         {"value": "BG", "viewValue": "Bulgarian"},

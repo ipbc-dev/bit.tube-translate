@@ -795,6 +795,7 @@
             {"value": "SQ", "viewValue": "Albanian"},
             {"value": "AR", "viewValue": "Arabic"},
             {"value": "HY", "viewValue": "Armenian"},
+            {"value": "AZ", "viewValue": "Azerbaijan"},
             {"value": "EU", "viewValue": "Basque"},
             {"value": "BN", "viewValue": "Bengali"},
             {"value": "BG", "viewValue": "Bulgarian"},
