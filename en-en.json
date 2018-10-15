@@ -545,7 +545,6 @@
                 "walletCancel": "Ok",
                 "copySpendKey": "Copy spend key to clipboard",
                 "copyViewKey": "Copy view key to clipboard"
-
         },
         "Profitcalc": {
                 "openCoinmarketcapButton": "Open Coinmarketcap",
@@ -950,7 +949,7 @@
                         { "value": "3922", "viewValue": "Gay" , "icon":"cat-adult.svg"},
                         { "value": "3923", "viewValue": "Handjob" , "icon":"cat-adult.svg"},
                         { "value": "3924", "viewValue": "Interracial" , "icon":"cat-adult.svg"},
-                        { "value": "3925", "viewValue": "Lesbian111" , "icon":"cat-adult.svg"},
+                        { "value": "3925", "viewValue": "Lesbian" , "icon":"cat-adult.svg"},
                         { "value": "3926", "viewValue": "Latina" , "icon":"cat-adult.svg"},
                         { "value": "3927", "viewValue": "MILF" , "icon": "cat-adult.svg"},
                         { "value": "3928", "viewValue": "Massage" , "icon":"cat-adult.svg"},
