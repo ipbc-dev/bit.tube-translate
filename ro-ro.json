@@ -46,6 +46,7 @@
                 "lasNameRequired": "Prenumele este obligatoriu",
                 "email": "Adresă email...",
                 "emailRequired": "Adresa email este oblibatorie",
+                "emailMismatch": "Email mismatch",
                 "emailIncalid": "Adresa email este invalidă",
                 "password": "Parolă...",
                 "passwordRequired": "Parola este obligatorie",
@@ -59,7 +60,8 @@
                 "getStart": "Pornește",
                 "hackTools": "Unelte hacker detectate. Vă rugăm fiți înțelegători și completați fiecare câmp și acceptați termenii și condițiile.",
                 "checkEmail": "Verificați contul de email.",
-                "error": "Eroare"
+                "error": "Eroare",
+                "repeatEmail": "Repeat Email..."
         },
         "Profile": {
                 "MyProfile":{
@@ -343,7 +345,8 @@
                         "confirmDeleteTitle": "Șterge cheie transmisie",
                         "confirmDeleteText": "Sunteți sigur că doriți să ștergeți această cheie de transmisie?",
                         "confirmDeleteButton": "ȘTERGE",
-                        "textEditorPlaceholder": "Introduceți un text aici..."
+                        "textEditorPlaceholder": "Introduceți un text aici...",
+                        "showhidden": "Show / Hide key "
                 },
                 "Tutorial": {
                         "title": "Tutorial rapid",
@@ -788,11 +791,12 @@
                 "subscribers": "abonați"
         },
         "Lenguages":{
-                "languages_array":[  
+                "languages_array":[
                         {"value": "AF", "viewValue": "Afrikaans"},
                         {"value": "SQ", "viewValue": "Albanian"},
                         {"value": "AR", "viewValue": "Arabic"},
                         {"value": "HY", "viewValue": "Armenian"},
+                        {"value": "AZ", "viewValue": "Azerbaijan"},
                         {"value": "EU", "viewValue": "Basque"},
                         {"value": "BN", "viewValue": "Bengali"},
                         {"value": "BG", "viewValue": "Bulgarian"},
@@ -895,7 +899,7 @@
                         {"value": "19", "viewValue": "Sănătate"},
                         {"value": "15", "viewValue": "Istorie"},
                         {"value": "27", "viewValue": "Hobiuri și Arte"},
-                        {"value": "17", "viewValue": "IT"},
+                        {"value": "17", "viewValue": "PC Software/Hardware"},
                         {"value": "23", "viewValue": "Copii"},
                         {"value": "25", "viewValue": "Lifestyle"},
                         {"value": "33", "viewValue": "Filme"},
@@ -1027,7 +1031,7 @@
         "Terms": {
                 "termsTitle": "Termeni și condiții",
                 "termsTerms": "Termeni și condiții",
-                "termsText": "Acești termeni și condiții se aplică utilizării oricăruia din serviciile, produsele și / sau siturilor web ale Bit.Tube (menționate mai departe ca și "compania") și serviciile listate aici. Oferindu-vă abilitatea de a vă abona, a utiliza și / sau a ordona, compania vă prezintă următorul contract. Sunteți de acord cu termenii prin crearea unui cont de client, folosind serviciile sau continuând să folosiți serviciile după ce o schimbare a fost făcută și comunicată către dumneavoastră. Deoarece compania nu salvează o copie pentru dumneavoastră, ar trebui să citiți, printați, și păstrați o copie a acestor termeni în arhivele dumneavoastră.",
+                "termsText": "Acești termeni și condiții se aplică utilizării oricăruia din serviciile, produsele și / sau siturilor web ale Bit.Tube (menționate mai departe ca și 'compania') și serviciile listate aici. Oferindu-vă abilitatea de a vă abona, a utiliza și / sau a ordona, compania vă prezintă următorul contract. Sunteți de acord cu termenii prin crearea unui cont de client, folosind serviciile sau continuând să folosiți serviciile după ce o schimbare a fost făcută și comunicată către dumneavoastră. Deoarece compania nu salvează o copie pentru dumneavoastră, ar trebui să citiți, printați, și păstrați o copie a acestor termeni în arhivele dumneavoastră.",
                 "termsPolicy": "Politică Date Private",
                 "policyText": "Intimitatea dumneavoastră este importantă pentru noi. Vă rugăm citiți politica datelor private care descrie ce tipuri de informații colecționăm despre dumneavoastră și dispozitivele dumneavoastră, și cum folosim informațiile dumneavoastră. Politica datelor private stipulează deasemenea cum compania folosește conținutul dumneavoastră, în special postările sau feedbackul pe care îl oferiți companiei prin servicii, fișiere, poze, documente, audio, lucrări digitale și clipuri video, cât și comentarii pe care le publicați, salvați sau distribuiți prin servicii.",
                 "termsConduct": "Cod de conduită",
@@ -1101,7 +1105,6 @@
                 "liabilityText2": "Excluderea răspunderii pentru obligații esențiale sub contract este responsabilitatea companiei.",
                 "liabilityText3": "Nici compania nici agenții indirecți și / sau reprezentanții legali ai acesteia sunt răspunzători pentru pagube indirecte, inclusiv pierderi financiare precum profituri pierdute.",
                 "liabilityText4": "Compania nu va fi trasă la răspundere sau răspunzătoare pentru non-performanța sau întârzierea obligațiilor sub aceste provizii dacă această non-performanță sau întârziere se datorează unor circumstanțe dincolo de controlul rezonabil al companiei (e.x. dispute de muncă, forță majoră, război, acte teroriste, pagube cauzate cu rea intenție, accidente sau conformarea cu legile în vigoare sau un ordin oficial). Compania face fiecare efort pentru a minimiza impactul unor astfel de evenimente și pentru a-și întruni obligațiile neafectate.",
-                "termsGoverning": "Governing law, jurisdiction, contracting company",
                 "termsGoverning": "Lege guvernamentală, competență, companie contractuală",
                 "GoverningText1": "Pentru toate serviciile, compania contractuală este Interplanetary Broadcast Coin SL, Calle Azucareros 34, Poligono San Jeronimo, 38312 La Orotava, Tenerife, España. Toate creanțele referitoare la serviciile gratuite vor fi guvernate de legile Spaniei, fără a aduce prejdiciu oricărei legi aplicabile în țara în care vă oferim serviciile și unde aveți reședința. Legile țării în care vă oferim serviciile și unde aveți reședința guvernează toate creanțele ce țin de servicii plătite."
         },
@@ -1147,7 +1150,7 @@
                         {"value": "19", "viewValue": "Sănătate"},
                         {"value": "15", "viewValue": "Istorie"},
                         {"value": "27", "viewValue": "Hobiuri și Arte"},
-                        {"value": "17", "viewValue": "IT"},
+                        {"value": "17", "viewValue": "PC Software/Hardware"},
                         {"value": "23", "viewValue": "Copii"},
                         {"value": "25", "viewValue": "Lifestyle"},
                         {"value": "33", "viewValue": "Filme"},
@@ -1321,7 +1324,9 @@
                 "newSubscriber": "Aveți un abonat nou",
                 "newTip": "Ați primit",
                 "errorProcessing": "Eroare procesare:",
-                "userPublish": "a încărcat un nou clip video"
+                "userPublish": "a încărcat un nou clip video",
+                "activatedNotify": "Notifications are activated",
+                "disabledNotify": "Notifications are disabled"
         },
         "DateSince":{
                 "years": "ani",

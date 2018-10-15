@@ -545,7 +545,6 @@
                 "walletCancel": "Ok",
                 "copySpendKey": "Copia spend key negli appunti",
                 "copyViewKey": "Copia view key negli appunti"
-
         },
         "Profitcalc": {
                 "openCoinmarketcapButton": "Apri Coinmarketcap",
@@ -797,6 +796,7 @@
                         {"value": "SQ", "viewValue": "Albanian"},
                         {"value": "AR", "viewValue": "Arabic"},
                         {"value": "HY", "viewValue": "Armenian"},
+                        {"value": "AZ", "viewValue": "Azerbaijan"},
                         {"value": "EU", "viewValue": "Basque"},
                         {"value": "BN", "viewValue": "Bengali"},
                         {"value": "BG", "viewValue": "Bulgarian"},
