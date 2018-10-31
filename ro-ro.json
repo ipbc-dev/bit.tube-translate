@@ -46,7 +46,7 @@
                 "lasNameRequired": "Prenumele este obligatoriu",
                 "email": "Adresă email...",
                 "emailRequired": "Adresa email este oblibatorie",
-                "emailMismatch": "Email mismatch",
+                "emailMismatch": "Adresa email nu se potrivește",
                 "emailIncalid": "Adresa email este invalidă",
                 "password": "Parolă...",
                 "passwordRequired": "Parola este obligatorie",
@@ -61,7 +61,7 @@
                 "hackTools": "Unelte hacker detectate. Vă rugăm fiți înțelegători și completați fiecare câmp și acceptați termenii și condițiile.",
                 "checkEmail": "Verificați contul de email.",
                 "error": "Eroare",
-                "repeatEmail": "Repeat Email..."
+                "repeatEmail": "Repetați Email..."
         },
         "Profile": {
                 "MyProfile":{
@@ -346,7 +346,7 @@
                         "confirmDeleteText": "Sunteți sigur că doriți să ștergeți această cheie de transmisie?",
                         "confirmDeleteButton": "ȘTERGE",
                         "textEditorPlaceholder": "Introduceți un text aici...",
-                        "showhidden": "Show / Hide key "
+                        "showhidden": "Arată / Ascunde cheia "
                 },
                 "Tutorial": {
                         "title": "Tutorial rapid",
@@ -899,7 +899,7 @@
                         {"value": "19", "viewValue": "Sănătate"},
                         {"value": "15", "viewValue": "Istorie"},
                         {"value": "27", "viewValue": "Hobiuri și Arte"},
-                        {"value": "17", "viewValue": "PC Software/Hardware"},
+                        {"value": "17", "viewValue": "Software / Hardware PC"},
                         {"value": "23", "viewValue": "Copii"},
                         {"value": "25", "viewValue": "Lifestyle"},
                         {"value": "33", "viewValue": "Filme"},
@@ -1150,7 +1150,7 @@
                         {"value": "19", "viewValue": "Sănătate"},
                         {"value": "15", "viewValue": "Istorie"},
                         {"value": "27", "viewValue": "Hobiuri și Arte"},
-                        {"value": "17", "viewValue": "PC Software/Hardware"},
+                        {"value": "17", "viewValue": "Software / Hardware PC"},
                         {"value": "23", "viewValue": "Copii"},
                         {"value": "25", "viewValue": "Lifestyle"},
                         {"value": "33", "viewValue": "Filme"},
@@ -1325,8 +1325,8 @@
                 "newTip": "Ați primit",
                 "errorProcessing": "Eroare procesare:",
                 "userPublish": "a încărcat un nou clip video",
-                "activatedNotify": "Notifications are activated",
-                "disabledNotify": "Notifications are disabled"
+                "activatedNotify": "Notificările sunt activate",
+                "disabledNotify": "Notificările sunt dezactivate"
         },
         "DateSince":{
                 "years": "ani",
