@@ -1024,7 +1024,7 @@
                 "airtimePendingEvents": "Eventi in sospeso",
                 "airtimeUnsubmitted": "Non spediti",
                 "airtimeLastPayment": "Ultimo pagamento",
-                "airtimePaidBalance": "Quantità",
+                "airtimePaidBalance": "Pagati",
                 "airtimeUnpaidBalance": "In sospeso",
                 "sidebarVersion": "Versione"
         },
